@@ -1,0 +1,495 @@
+ALSO BY DAN HEATH
+Upstream: The Quest to Solve Problems Before They Happen
+RES
+How to Change What's
+ALSO BY CHIP AND DAN HEATH
+Made to Stick: Why Some Ideas Survive and Others Die
+Switch: How to Change Things When Change Is Hard
+Decisive: How to Make Better Choices in Life and Work
+The Power of Moments: Why Certain Experiences
+Have Extraordinary Impact
+Dan He
+AVID READER
+New York
+Amsterdam/Antwerp London20
+RESET
+Recommendations (find live links at danheath.com/reset-links):
+(Note from Dan Heath: Here's a quick explanation of these "Recommenda-
+tions" sections that follow each chapter. These are not sources per se-the
+endnotes are at the back of the book. Rather, the Recommendations offer
+tips about places to explore beyond the book. Sometimes the links give extra
+color to the points made in the text; sometimes they're the original sources
+cited, when I think those sources are worth a deeper dive; sometimes they're
+interesting tangents. The "links" are underlined below but please know that I
+am not an insane person who thinks you can poke your finger at them to visit
+a website. The idea here is that you should visit the website danheath.com/
+reset-links and there you'll find this exact paragraph below, except that the
+links will be clickable. Happy hunting!)
+In this talk, which I highly recommend, the engineer and innovator Tom Chi
+describes how he fights against guess-a-thons and gets his teams working in
+the medium of reality. To see what it's like for a principal to step into the real-
+ity of a student, watch the PBS NewsHour segment I mention in the chapter.
+You'll see Assistant Principal Karen Ritter run sprints, battle back-to-back sec-
+tions of Algebra, and write an essay alongside her ninth-grade shadowee,
+Alan Garcia. If you'd like to take a deeper look at the illusion of explanatory
+depth research, head here for the academic article. (And to see that video
+of teenagers struggling to explain toilets, go here.) If you're curious about
+the swashbuckling world of turnaround specialists, start with James Shein's
+Reversing the Slide. Shein's book is both sharp and irreverent, making for an
+engaging read. Or, take a listen to my conversation with the turnaround con-
+sultant Jeff Vogelsang, whom I interviewed on my podcast, What li's like to
+Be ... He's the guy quoted in this chapter saying that when you interview
+frontline people, they'll "puke out" everything that was relevant. For more on
+"going to the gemba" — the inspiration for MIT professor Nelson Repenning's
+"go and see the work" advice-check out The Toyota Way. I's a great sum-
+mary of the Toyota Production System-much beloved by operations gurus. In
+this article and this talk, Repenning details how you can increase the visibility
+of the work you and your team are doing. This is especially important for
+knowledge work, Repenning points out, where feedback is naturally far less
+visible than in manufacturing.
+2
+CONSIDER THE
+OF THE GO
+>> You can Find Leverage Points
+alternate pathways to your ultimCONSIDER THE
+OF THE GO
+On July 15, 2022, Ryan Davidsen bought
+Ram 1500. To celebrate, he planned to take
+next weekend.
+Then, a few days after he drove it off th
+down began.
+The dealership texted him on July 20 a
+O to 10 on the "overall buying experience.'
+On July 21, Brittany—a customer care :
+asking, "Is there anything that we could t
+next day, a Friday, she sent another email,
+we have made your experience more pleasa
+undeterred by his nonresponse, she sent a
+just one thing that we would like to know. H
+ing experience have been better?"
+That same Monday, another person fron24
+RESETI
+texted him to see whether he needed anything. And his salesperson
+texted, too:
+Hi Ryan how you doing, how's
+the truck?
+levastating. Gott fred ti
+Ohnoo l'm sorry abatit that
+So you received the survey the
+other day to your emaili can yau.
+fil bout for me please it's really
+important to me. if you need help
+with itlet me know
+(You get the sense that if a loved one died, the salesperson would
+send flowers and a survey.)
+On Wednesday, the dealership texted him again, stating "our
+team would really appreciate your positive responses."
+Davidsen could sympathize with the dealership's desire for feed-
+back, because at the time he was in charge of customer experience
+for a health care software firm. He, too, had to keep tabs on cus-
+tomer satisfaction. He could relate.
+So, he took the time to fill out the survey. Gave some high scores,
+some low, reflecting his experience. He left thoughtful comments
+so the dealership could understand his ratings. He also replied to
+Brittany, who'd been desperate for that "one thing" that would have
+improved his experience.
+He wrote, "I liked the people I worked with-my salesperson
+and my finance specialist. They were easy to work with and made it
+CONSIDER TH
+an enjoyable experience." Then he elaborat
+gone better:
+Things I didn't like was the experience of
+ditional items that get added to the final
+I then have to negotiate out or negotiate
+back-and-forth as everyone had to chec
+while I wait. I hated that.
+Still, he concluded on a positive note: "
+and intend to stick with this dealership f
+asking."
+He never heard from Brittany again.
+Within hours of submitting his survey,
+him again: "Hey Ryan did I do anything wr
+Davidsen wrote back, "Not at all-had noth
+say about you. I hope they let you read it." I
+"I understand that but every single score m
+Since then, Davidsen said, the dealershi
+on the bed cover he bought with his truck."
+don't have a bed cover and every text and
+unanswered, which leaves me feeling it is 'p
+helpful survey I sent," he said.
+2.
+Let's lift our view of Davidsen's horror sto
+Because this is a story of change gone wron,
+The leaders at Stellantis (the multinatic
+Chrysler, Jeep, and Ram) were surely not26
+RESET
+stories like this one. No doubt their original intent was pretty re-
+spectable: We want to create a great car-buying experience for our cus-
+tomers! That mission is big, long-term, and somewhat diffuse. What
+kind of shorter-term goal might serve that long-term mission?
+Boosting customer-satisfaction scores.
+And my guess is that the team at the dealership where Davidsen
+bought his truck did, in fact, make progress toward that short-term
+goal. Probably their customer-satisfaction scores were outstanding!
+But their success was due not to their passion for improving the
+customer experience but rather to their prowess at browbeating
+customers into providing falsely inflated scores. That's a sad kind
+of excellence.*
+If you were a senior brand leader at Ram, you'd surely want to
+sniff out this discrepancy. How could you do it? By going and secing
+the work. The problems that Ryan Davidsen experienced were not
+subtle at all. (I mean, his salesperson responded to his text about
+having his brand-new truck's windows bashed in by saying, Aw man,
+bunmes, but anyhoo, about that survey ... ) But to spot problems—
+even obvious ones— you do have to look.
+All it would have taken, to surface silly antics like the dealer-
+ship's, was a single in-person visit perhaps by someone posing as
+* And for even sadder excellence: When Davidsen was still in the process of
+buying his truck, the sales rep brought over a FRAMED version of the survey
+that Davidsen would eventually be asked to fill out. The sales rep walked him
+through every question on it and told him what the "right" answer to each
+question should be! On the question "How would you rate your sales con-
+sultant overall?" he instructed Davidsen to give him a 10 out of 10. (The sales
+rep also thoughtfully gave Davidsen a laminated take-home copy of the sur-
+vey, with right answers filled in, for further study and reflection.) All of these
+maneuvers provide a killer illustration of Goodhart's Law: "When a measure
+becomes a target, it ceases to be a good measure."
+CONSIDER TH
+a potential customer. That visit would have
+ership's actual behavior was making a moc
+that point, surely the leaders would have rea
+numbers, but they're the wrong numbers.
+You should embrace the same discipline
+forts: Before you strain yourself to budge a
+ing: Are you targeting the right boulder?
+You don't want to fall into the dealersh
+chasing a goal and triumphantly making 1
+sures, only to discover (whoops) that it was
+One simple way to avoid that misalignment-
+tent with the real mission- is to ask a simple
+What's the goal of the goal?
+The British advertising guru Rory Suth
+ample of this idea in action. In 2007, Eurost
+ing the rail route from London to Paris, :
+from 2 hours 35 minutes to 2 hours 15 mint
+was roughly $6 billion, and the goal of the
+speed up the route. Mission accomplished.
+the goal?
+If the goal, ultimately, was to make thing
+gers, was that investment well spent? Suthe
+0.01% of this money, you could have put Wi
+wouldn't have reduced the duration of the j
+improved its enjoyment and its usefulness
+2011 speech. "For maybe 10% of the mon
+all of the world's top male and female supe
+down the train handing out free Château
+sengers. You'd still have five billion pound:
+would ask for the trains to be slowed down.
+We can get so fixated on a goal that we28
+RESET
+And when we lock into a particular goal too quickly, we blind our-
+selves to alternate routes forward that might have been better and
+easier.
+In early 2023, I studied a group of people as they set New Year's
+resolutions and began to work toward them. Marisa Lavars, an Aus-
+tralian mother of two, had initially declared this as her goal: "I'd
+like to get fit, or fitter: To be able to go about my daily activities
+without being breathless and to lose a bit of weight so I can fit into
+my pre-COVID clothes."
+Lavars had significant health challenges. She was struggling with
+heart problems triggered by COVID, and as if that weren't enough,
+she had recently been diagnosed with breast cancer. Her reference
+to being "breathless" was no exaggeration: Everyday activities like
+showering could exhaust her. Her heart rate sometimes spiked to
+180 even when she was lying down.
+After Lavars submitted her resolution to get fitter, the survey
+prompted her to consider why that goal was important to her. (In
+other words, what was the goal of her goal?) Here's what Lavars
+wrote: "Absolutely my kids. I want to be the best Mum I can be for
+them and part of that is being healthy, but it also means modeling
+for them living my best life."
+Then, the survey asked her: What are 10 different ways you
+could achieve or approach that aspiration, other than by following
+your initial resolution? Suddenly, her answers changed dramati-
+cally. Here is what she wrote about her alternate pathways:
+→ "Things have been pretty serious for us this past year. I could find
+some ways to bring back some fun into our lives as fun at times has
+been in short supply."
+→ "We used to have some pretty locked-in routines in the evening,
+where things stopped and we did some reading, writing, and
+CONSIDER THE
+maths and then I would read to them. This ho
+back or hasn't occurred at all. This would be i
+doin
+→ "I would like to bring back music into our live
+Lavars realized, immediately, that these
+closer to "success" than the fitness-oriented g
+sense of light-heartedness through going thro
+wrote. "It feels more connected to the why."
+Within a few months, she had dreamed up
+she could create moments with her twin sev
+spite her poor health. She'd bought some rock
+randa. They would sit outside and rock and w
+play. She bought the Harry Potter 6,000-piec
+been opening one bag of the kit each week.
+She had also started a tradition of playing
+her worst-lying on the couch with an ice pac
+heart rate down-she could still participate. S
+gonna roll the dice?" She'd tease, "Did you cl
+"Even if I'm vomiting, I'll still be playi
+game." She laughed. "It just feels really doable
+kids too-they're just so much more settled b
+mum is still mum."
+She looks back with amusement on her i
+had been thinking, "I have to get fit, because
+time with the kids... I look back now and g
+actually done that, or I would have felt bad ab
+By reconsidering her first goal-and conte
+"goal of the goal" —she was able to ensure
+made amounted to something meaningful for her30
+RESET
+3.
+Another tool for exploring the "goal of the goal" is a technique that
+comes from the discipline of solutions-focused therapy. It's called
+the "Miracle Question." The therapist says the following:
+Imagine that in the middle of the night tonight, as you are
+sleeping, a miracle happens ... the problem you are stressed
+about has been solved. Poof! Gone. But the miracle happened
+when you were sleeping, so when you first wake up, you have
+no way of knowing it happened.
+What are the first things you notice, as you start your day,
+that reveal to you that the miracle happened?
+A therapist named Linda Metcalf asked the Miracle Question to
+a couple, Elaine and Felix, whose marriage was on the rocks. Here
+were their answers:
+ELAINE: When we were first married, we were best friends. In
+our miracle we would be best friends again. We would be
+doing things we did then-dancing, hiking, talking, talking,
+and more talking.
+FELIX: The kids would be better behaved and we would share
+the responsibility for the kids more equally. Sometimes I
+think I have to do everything. In the miracle, she wouldn't
+get on the phone with her sisters at night and we would
+help the kids with their schoolwork together.
+ELAINE: We wouldn't be so resentful and distrusting. Instead
+we would sit down and plan together for a change, like we
+used to.
+FELIx: I think she's wonderful and I want her to want me
+CONSIDER THE
+again. In the miracle, she would look up
+when I came home and be glad to see me
+Think of the magic of this question. Feli
+therapy because their marriage was in trouble
+tional situation: big and thorny and depressir
+the Miracle Question, listen to how they talk
+and plan together." "She would look up from
+home." It's a wonderfully tangible vision.
+Having answered the question, they now l
+As the therapist Metcalf said, "[Elaine] ner
+glancing up at him when he came in at night
+He had no idea that she still would like to go
+to." Those are Leverage Points! Small things
+difference.*
+The Miracle Question is not just for ther
+it can surface disagreements about your dire
+maybe your boss yammers constantly abou
+centric" organization. But nobody has quite
+ing of what that means.
+So ask the Miracle Question to the tear
+tomorrow and we've transformed into a custom
+What are the first things we notice?
+*Note that the Miracle Question is not the same ‹
+genie: "In my miracle, l'd win the lottery and my l
+George Clooney and my kids would be kind." The q
+ity but not magic. It's only the third part of that "wi
+kind"-where the question could realistically provi
+would you notice, behaviorally, if you woke up an
+"kind"? Do you sometimes see those behaviors alre
+Are there things that *you* do that seem to elicit tho32
+RESET
+I have used this question myself in organizational-change work-
+shops, and the question can be transformative. But be warned: It
+usually requires some persistence. Usually, people hem and haw a
+bit and then leap to how they'd be feeling. "I'd be so happy. I'd feel
+so relieved." That's a good start. But keep redirecting them to the
+visible signs of the miracle. What did you notice that clued you in that
+something great had happened?
+When you steer the conversation toward observations, you en-
+sure that it's tangible enough to flush out any hidden disagreement.
+One person says: "Well, after the Customer-Centric Miracle hap-
+pens, hmmm... I'd get to work and I'd bump into a group that
+was leaving HQ to spend time at a customer site, to get to know
+the customer's problems better." Another chimes in: "Oh, I wasn't
+thinking about it that way-I was thinking that it was more about
+cutting internal projects that weren't directly connected to the cus-
+tomer."
+Now you have something useful to argue about! Because in
+the absence of this debate-about the true meaning of customer-
+centricity-you and your colleagues would be unwittingly working
+at cross-purposes.
+The power of the Miracle Question is in the way it sharpens and
+narrows your view of success. A miracle has happened, and your mar-
+riage is fixed: How do you know it? Because your wife looked up from her
+book when you walked in.
+Notice that this is essentially the reciprocal of the "goal of the
+goal" question, which compels us to broaden out-starting with a
+goal and then widening the view to ask what its true intent was.
+"What's the goal of the goal?" helps us see the destination and
+why it's important. (A Leverage Point must be something worth
+doing.)
+The Miracle Question helps us identify the first productive
+CONSIDER TH
+steps toward that destination. (A Leverag
+thing doable.)
+Broaden and narrow. The two prompts t
+fying tandem, a yin and yang of finding our
+Picking the wrong boulder-and thus the wi
+is a recipe for failure. I spoke with one CEC
+of the last three companies he had run, he ha
+teams focused on the right boulder. (Interes
+the team's previous focus had been on somet
+businesses or acquisitions-and this CEO
+the health of the core business.)
+Achieving clarity on the way forward is
+tory. It is transformative. It can mean the di
+and unstuck.
+A group of federal government leaders
+formation several years ago when they rethe
+gram that served people with disabilities, in
+context: Anyone with a "total permanent di
+law, have their federal student loans discha
+veterans didn't take advantage of the prog
+pointment to many government leaders,
+Make it easy for veterans to apply for the be
+What was holding back participation in
+extent it was knowledge: Many simply didn
+gible for forgiveness. Others got derailed b
+plication process.
+The stakes were high: Some of these
+ally in default-potentially having their s34
+RESET
+payments garnished to make loan payments. The government was
+reaching into their pockets to claim money for loans that they
+shouldn't have owed!
+So what could be done? In 2016, a team at the Department of
+Education (ED) thought: Rather than make the borrowers responsible
+for discovering this benefit, let's proactively tell then about it!
+They hatched a plan that led them to compare the databases at
+several agencies, including the ED and the Department of Veter-
+ans Affairs (VA). The ED database could tell you: Who has student
+loans? The VA database could tell you: Which veterans are perma-
+nently disabled? Anyone who matched both databases was eligible
+for a loan discharge.
+By mid-2018, the VA and ED had identified around 50,000 vet-
+erans who qualified for forgiveness. (Thousands of them were in
+default on those loans-they-didn't-really-owe.) Letters were sent to
+all of them, informing them that they were eligible for forgiveness
+and specifying how to claim it. So far, so good.
+Ah, but then came another problem. The notification sent to
+veterans came under the letterhead of a private organization: the
+student loan servicer: The letter directed people to file their appli-
+cations at a URL called "disabilitydischarge.com" Tò some recipi-
+ents, it smelled a little fishy. Uh, why isn't this coming from the VA?
+Why isn't it a gov address? Is this story going to end with someone ab-
+sconding to Cabo San Lucas with the remainder of my checking account?
+As one government insider told me, "Veterans just wouldn't do
+it. They were scared. I mean, it was every red flag you could pos-
+sibly imagine."
+In this situation, how could you encourage veterans to file their
+applications for forgiveness? Well, maybe send a less suspicious let-
+ter. Or set up a gov website. Maybe some tweaks would ease the
+veterans' concerns.
+CONSIDER THE
+But in 2019, the agency leaders stopped t
+ken process and took a hard look at the goal
+What's our goal? Tò help veterans apply fo
+they've earned.
+And what's the goal of the goal? To improve
+What are alternate pathways for achieving th
+ing them apply for forgiveness? Um, well, why
+the whole application process? Why do the
+We can figure out who they are! Let's tell
+FORGIVE THEIR LOANS. And then afte
+them know it's done.*
+"There was a recognition that the letters c
+and there was a big push to make this automa
+the Department of Education said. "It wouk
+rowers but it could also be good for us-it
+of processing a bunch of applications, sendi
+they need to be corrected. Could this be a wi
+It was a radically simple idea, but it was
+ment. Just getting permission from different
+to compare databases— essential for forgivi
+blizzard of paperwork that had taken month
+through.
+The ripple effects of this policy shift hav
+found: Tens of thousands of disabled veter
+again, had been in "default" -had their finar
+One disabled navy veteran saw her loan I
+*Why did they need an "okay" first? There was o
+Forgiven loans might be treated as income, meaning
+income tax bill for the forgiven loan. That's why the
+automatically.36 RESET
+$72,000 to ... zero. "I felt immense relief," she told a reporter. "I
+mean, I cried about it. I ugly cried about it."
+The program was so successful, in fact, that it has since been
+expanded to other situations where people have earned (but not
+claimed) loan forgiveness. And that's often the way Leverage Points
+are uncovered. Someone comes up with a better way of doing
+things, and you think, Aha! I can do that, too!
+But, as we'll see next, it doesn't always have to be someone else
+whom you learn from. The secrets of success might be right there,
+in your own team, hidden in plain sight.
+snelsweceor radesbsobenoseainde tereeet teetee eeeeee eeee eeee
+CONSIDER TH
+Whirlwind review: Chapter 2, Consider th
+1. The second way to identify Leverage Points is
+skeptical look at the goals you're pursuing.
+2. Often organizations set numerical targets as go
+hitting these targets while ufterly failing at your
+a. The dealership altracted great scores for
+only because they were browbeating custor
+regardless of their actual experience!
+3. To avoid that misalignment of goals and missio
+the goal of the goal? And are there alternate
+there more easily or quickly than the original g
+a. Marisa Lavars, a mother struggling with heai
+set her New Year's resolution to get fitter. Bi
+of the goal, she saw clearly: She wanted to
+kids more often and more playfully.
+4. You can achieve more clarity about the "goal
+Miracle Question.
+a. The Miracle Question, in short: "A miracle
+fixed your critical problem. What are the fi
+you wake up, that reveal the miracle has ha
+b. The married couple Elaine and Felix used the
+tify little things that could change: "She wor
+when I came home."
+5. "What's the goal of the goal?" helps you see th
+important. (A Leverage Point must be something
+Question helps you identify the first productive
+fion. (A Leverage Point must be something doab
+6. Achieving clarity on where you're really header
+a. The Depariment of Education changed its str
+ier to apply for loan forgiveness" to proacti
+As a result, tens of thousands of people were38
+RESET
+Recommendations (find live links at danheath.com/ reset-links):
+If you need help picking the right boulder-i.e., knowing what to focus on
+in your work--then l'd recommend the thoughtful and practical Bulletproof
+Problem Solving by Charles Conn and Robert McLean. Rory Sutherland of-
+fers an insightful take on potential solutions we overlook because we don't
+think deep enough about the psychological goals of what we're building.
+His Eurostar example, mentioned briefly in this chapter, comes around minute
+six. Linda Metcalf literally wrote the book on the Miracle Question, a step-
+by-step guide lo seeing your way quickly through confounding situations to
+meaningful and lasting change. Its primary focus is on personal relationships,
+but it also includes some advice on how to build more effective connections
+within the workplace. If the truck-buying story inspired you to think more care-
+fully about how to set the right goals, check out this paper called Goals Gone
+Wild (and an accompanying Q & A). When goals go wrong, they can go
+very wrong.
+3
+STUDY THE BRIG
+>> You can Find Leverage
+analyzing your own be

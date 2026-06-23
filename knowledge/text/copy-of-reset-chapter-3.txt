@@ -1,0 +1,529 @@
+ALSO BY DAN HEATH
+Upstream: The Quest to Solve Problems Before They Happen
+RES
+How to Change What's
+ALSO BY CHIP AND DAN HEATH
+Made to Stick: Why Some Ideas Survive and Others Die
+Switch: How to Change Things When Change Is Hard
+Decisive: How to Make Better Choices in Life and Work
+The Power of Moments: Why Certain Experiences
+Have Extraordinary Impact
+Dan He
+AVID READER
+New York
+Amsterdam/Antwerp London38
+RESET
+Recommendations (find live links at danheath.com/reset-links):
+If you need help picking the right boulder-i.e., knowing what to focus on
+in your work-then I'd recommend the thoughtful and practical Bulletproof
+Problem Solving by Charles Conn and Robert McLean. Rory Sutherland of-
+fers an insightful take on potential solutions we overlook because we don't
+think deep enough about the psychological goals of what we're building.
+His Eurostar example, mentioned briefly in this chapter, comes around minute
+six. Linda Metcalf literally wrote the book on the Miracle Question, a step-
+by-step guide to seeing your way quickly through confounding situations to
+meaningful and lasting change. Its primary focus is on personal relationships,
+but it also includes some advice on how to build more effective connections
+within the workplace. If the truck-buying story inspired you to think more care-
+fully about how to set the right goals, check out this paper called Goals Gone
+Wild (and an accompanying Q & A). When goals go wrong, they can go
+very wrong.
+3
+STUDY THE BRIGI
+>> You can Find Leverage
+analyzing your own besSTUDY THE BRIG
+In 1926, US military leaders were desig
+for the first time. The bodies of hundre
+measured, and the average of those r
+designs for the size and shape of the ses
+windshield.
+For decades, that standard design endu
+time for an update. Gilbert S. Daniels, a 23
+part of the core redesign team. This time,
+4,000 pilots, studying 140 separate dim
+Crotch height. Span from eye to ear.
+The idea was that with more precise s
+gonomic cockpit could be created, which v
+performance and fewer crashes. Or so it w
+skeptical. Were the "average" dimensions
+ation? How many pilots were average?
+Daniels combed through the data. H42
+RESET
+dimensions in particular-including height and sleeve length-that
+were thought to be critical for designing cockpits. For each dimen-
+sion, he computed the average. For height, it was 5'9". Then he
+broadened the average to include everyone who was in the middle
+30% of the distribution. So, with height, the 30% middle range
+included all pilots between 5'7" and 5'11".
+Daniels asked himself, how many pilots were in the middle
+range on all 10 dimensions?
+Here's what Daniels found, according to Todd Rose, who tells
+the story in his fascinating book The End of Average:
+... even Daniels was stunned when he tabulated the actual
+number.
+Zero.
+Out of 4,063 pilots, not a single airman fit within the av-
+erage range on all ten dimensions. One pilot might have a
+longer-than-average arm length, but a shorter-than-average
+leg length. Another pilot might have a big chest but small hips.
+Even more astonishing, Daniels discovered that if you picked
+out just three of the ten dimensions of size-say, neck circum-
+ference, thigh circumference, and wrist circumference-less
+than 3.5 percent of pilots would be average sized on all three
+dimensions. Daniels's findings were clear and incontrovertible.
+There was no such thing as an average pilot. If you've designed a
+cockpit to fit the average pilot, you've actually designed it to
+fit no one.
+The air force's leaders, to their credit, took this finding seri-
+ously. They abandoned the idea of tailoring the cockpit to an
+STL
+"average pilot." Instead, they asked airp
+create an adjustable environment; one th
+pilots whose measurements spanned almo
+possibilities: from the 5th to the 95th per
+sion.
+The manufacturers squawked. Such cust
+expensive! Too slow! Eventually, though, th
+ness leaders do when confronted with losin
+ders: They caved. And they figured it out.
+Suddenly, everything could be tweaked.
+Adjustable seats. Adjustable helmet straps. /
+the individual pilot. As a result, pilot perf
+years afterward.
+Like the air force, you need to rebel against
+oversee their organizations using averages a
+enue is an aggregation. Profit margin is an a
+Score is an average.
+Averages are great for monitoring but ter
+erages can tell us: Something's wrong. But th
+what's wrong, or how to fix it.
+To Find a Leverage Point, we must pi
+Disaggregate our rolled-up numbers. Diser
+people and products and customers that toge
+ganizations.
+What we're looking for, in this chapter, is
+cific: Within the context of your goal, when I
+best? Let's call those unusually positive dat:44
+RESET
+spots," a term my brother Chip and I used in our book Switch.* In
+the context of employee engagement, your bright spots would be
+your most engaged employees. In the context of corporate train-
+ing, your bright spots would be the most effective or highly rated
+events. In the context of your own efforts to cut back on sweets,
+your bright spots would be the days you managed to avoid eating a
+brownie in the afternoon.
+Bright spots make great Leverage Points because you know
+they're possible. If you've done something once, you can probably
+do it again.
+But bright spots are typically buried in averages, so they are not
+self-evident. You've got to excavate them. That was Ken Davis's
+mission when, in 2009, he was asked to handle a crisis: a plunge in
+customer retention caused by the Great Recession. Davis worked
+at Gartner, the public research and consulting firm, and one of the
+company's key businesses involved selling market research sub-
+scriptions to corporate clients. In the aftermath of the economic
+crisis, as clients looked for places to trim expenses, costly research
+subscriptions looked like a tempting place to start.
+For a subscription business, retention is the single most impor-
+tant measure of health. Do your customers want to keep buying what
+you're selling? And Gartner's customers were increasingly saying
+"no." By the middle of 2009, the wallet retention rate had dropped
+*Switch focuses on behavior change, while this book is aimed more at
+the systems level (operations and strategy). But they're definitely birds of a
+feather! The most direct intersection between the two books is the focus on
+"bright spots." There's a full chapter on ihe topic in Switch, too, with all dif-
+ferent material (don't miss the story of child malnutrition in Vietnam) and a
+greater emphasis on the psychology of why we obsess more about problems
+than about successes. If you like this book, you're likely to like Switch, too. And
+if you don't like it, it's definitely Chip's fault.
+STUD
+to about 84%. Meaning: For every $100 in
+had sold in 2008, they were averaging $84 in
+The people in charge of retention at Gart
+partners," and Davis's first move, after takin
+to go and see the work. As he learned more ab
+and their work, he was struck by the disjunct
+activities. The #1 goal of the group was to n
+much of their time was spent doing ancillai
+orders, collaborating with salespeople on s
+more.
+"A big part of my initial work was 'clearir
+tractions," said Davis. "We needed to focus
+economic driver and literally drop everything
+this theme later in chapter 8, Do less AND m
+In the next stage of his work, he dug in
+who had renewed and clients who had churi
+quickly: Those clients who regularly used th
+more likely to renew.
+Obvious, perhaps. But the next insight wa
+came from untangling averages.
+Let's start with the graph below. The bai
+number of client partners who achieved differ
+40-
+20
+100+
+90-49
+80-89 70-79-60-6950-5
+RETENTION46
+RESET
+The vast majority of client partners (namely, everyone below 100%)
+were losing money, relative to the previous year:
+Despite the (abundant) bad news contained in the chart, Davis's
+attention was drawn to the far left of the graph:
+40
+30
+20
+10
+*
+100+
+90-99-80-89
+20-29
+RETENTION %
+This was extraordinary: There were 17 client partners who had
+100% or better wallet retention. (To go over 100% would mean that
+the accounts they managed spent more money this year than last
+year-a sign of a healthy business.) This was outstanding perfor-
+mance in the face of a recession. What were these high-performing
+client partners doing that was different from all the others?
+Ken Davis launched a study of his team's bright spots. He be-
+lieved that there must be differences in behavior underlying their
+differences in performance. Davis and his colleagues started asking
+the client partners some basic questions about how they managed
+their day: How do you set up your calendar? How do you plan your
+week? How do you take notes? How do you prepare for a call? And
+so on.
+Using these conversations, Davis and his team assembled a laun-
+dry list of common practices. Once these common practices had
+been compiled, Davis surveyed each client partner about their own
+STUDY
+behavior. Here's a list of practices that your collea
+YOU use?
+Armed with those survey results, Davis
+the question: What are my A performers do
+my F performers? As an example, consider ti
+"follow-up process": getting back to clients y
+information that they requested on a call.
+Here's the percentage of A and F performer
+that practice:
+Follow-up process
+73°
+What do these numbers tell us? In a nutshe
+a follow-up process is not what distinguishe
+from the bottom, because both groups follow
+numbers.
+By contrast, check out this finding:
+Defined daily process
+That's a huge gap. Almost all the As used
+cess" and only a third of the Es did. And wi
+"defined daily process"? It's basically thought
+One example from an A performer: "I reach48
+RESET
+a week. I use Monday as a call-out day and prioritize my call-outs
+based on renewal dates."*
+As a result of this bright-spots work, Davis unlocked the second
+big insight: Client partners had demonstrated radically different
+success rates at getting their clients to use their subscriptions, which was
+the single biggest factor in determining whether they ultimately
+renewed.
+So a behavior like "defined daily process" (I) allowed the client
+partner to make more client calls, and those calls (2) encouraged
+clients to use their subscriptions more, which (3) boosted their odds
+of renewing. That was the logic of success.
+In all, a set of nine specific behaviors seemed to separate the
+top performers from the worst. By studying the bright spots, Davis
+had uncovered a credible explanation for the difference in perfor-
+mance.
+So his next move was to get his full team to push harder on those
+Leverage Points. The bright-spot partners trained the whole team
+on what they were doing. Here's how I set up my calendar: Here's how
+I keep tabs on what my clients' business priorities are.
+As a result, the B, C, D, and F client partners started getting
+better. It wasn't mysterious what was driving better performance,
+it was an identifiable set of behaviors, and the client partners could
+practice and master them.
+*Notice there's a natural link between finding bright spots and then going
+and seeing the work. You identify a bright spot in the data, then you go study
+it. The reason the latter is so important is that bright spots (in this case, great cli-
+ent partners) don't always know why they are bright spots. They're just doing
+what seems right to them (just as the underperformers are doing what seems
+right to them, too). It takes observation to identify the practices that are making
+them excel.
+STUI
+The results of this work were stunning. 7
+began, Gartner had its best-ever level of ret
+Then, in the second year, the retention n
+And again in the third year and the fourth. F
+retention number kept hitting greater and g
+Every year, they ran the same game p
+bright spots from the year prior, identified ti
+and spread those practices to the full tean
+the whole team to achieve the level of perfo
+spots had achieved the previous year.
+A rough estimate is that Gartner's reven
+$100 million as a result of this relentless fo
+averages. Pretty astonishing results from j
+people at their best.
+3.
+By studying bright spots, we can identify
+allow us to succeed. And if we understand t
+can replicate them, allowing our success to
+lyze bright spots on any level: bright spots i
+spots in a team, bright spots among differe
+*The success was mostly but not exclusively due to
+example, there was the matter of the extreme unc
+attitude was: If you're willing to learn, we want ›
+were a few people who weren't willing to try. Davi
+balked at the idea of trying to increase her numbe
+think of herself as someone who served clients. Sh
+"strategic planner." As Davis told me,
+"If you wan
+to change the people... or change the people." TI
+had to find another job.50
+RESET
+organization, or even bright spots across different organizations
+doing similar kinds of work.
+Kate Hurley adopted that last approach in her quest to improve
+animal shelters. Hurley was a veterinarian and the first person in
+the world to do a residency in the new field of shelter medicine,
+which is devoted to studying shelters as a "system" with multiple
+goals: Keeping animals healthy. Reducing euthanasia. Ensuring the
+health of the animal population within the community.
+In one of her first consulting assignments, Hurley and a fel-
+low shelter-medicine expert named Julie Levy worked with the
+city shelter in Jacksonville, Florida. The shelter was dangerously
+overpopulated. Only 1 cat in 10 was leaving the shelter alive—
+the remainder were either euthanized or died from diseases that
+spread like wildfire through the overcrowded facility. "It was spi-
+raling downward," said the shelter director, Ebenezer Gujjarla-
+pudi. "We were running out of room. There was disease and rats.
+We were having to kill a lot of small kittens because they were
+getting sick."
+The shelter workers were unhappy, ground down by the relent-
+less cycle of euthanasia. Keep in mind: These are animal people!
+In a cruel irony, their jobs demanded that they put down animals.
+"You start getting angry," Gujjarlapudi said. "Or you begin to lose
+hope."
+Hurley empathized with them: In her days as an animal con-
+trol officer, she'd had to handle the euthanasia, too. It was one of
+the experiences that had sparked her interest in shelter medicine
+reassessing shelters from a systems perspective.
+In the midst of this Jacksonville dystopia emerged an idea so big
+and so effective that it would come to transform the world of shel-
+ters. The idea came from Gujjarlapudi, the person who had hired
+Hurley and Levy to consult. He was actually new to shelters: As
+STU
+head of another city department, he'd rec
+overseeing animal care and control in Jacks
+what he didn't know. But that ignorance we
+nius.
+To understand his idea, we first have to 1
+of TNR: trap, neuter, return. As Hurley exp
+you've got some cats living in your alley. Yo
+ing a million babies. You don't want the m
+on your car. In most communities, there's a
+can trap the cat and then bring it to a clini
+it, vaccinate it for rabies and other cat infect
+its ear so other veterinarians will know it's b
+put it back." In most communities TNR was
+not by the shelters, whose goal was to find
+through adoption.
+So let's get back to Gujjarlapudi, who was
+facility where 9 out of 10 incoming cats u
+saw that some of the cats coming into the s
+When he brought this up with the TNR cli
+the clipped ears meant and asked whether ti
+back, thereby taking them off Gujjarlapudi
+released them once—-might as well try it ag
+Then Gujjarlapudi asked a fateful follov
+to take some of these other cats who aren't ear
+your TVR thing and release them, and that u
+thanized.
+The TNR clinic said, Sure, we'll take 'em
+This was the heretical moment. Becau
+turn" cats to the community. They held c
+them a warm, adoptive family. That was ti
+reality was that many, if not most, shelter52
+RESET
+that most cats had no hope of being adopted. What if, instead, the
+cats were just treated and put back into the community?
+Because not all cats were house pets. Many were feral. Others
+were "neighborhood cats," living outside and making a daily circuit
+among many different homes. They didn't need adoptive homes to
+survive! They were doing fine on their own. Maybe all they needed
+was to be vaccinated and sterilized-and then released.
+Hurley realized immediately the near-magical power of the so-
+lution. "It was a total holy sh** moment," she said. "It was just in a
+flash that I saw: Oh, this entire system that we've been burdened by
+for 100 years—it was built on a fundamental premise that was never
+questioned until this guy who didn't know any better asked, 'Could
+you just put them back?'"
+"Return to field"-the name for what Gujjarlapudi had pro-
+posed-addressed so many problems at once. Once sterilized, the
+cats wouldn't contribute to overpopulation. Once vaccinated, they
+wouldn't spread disease. Once released from the shelter, they wouldn't
+clog up space and staff time, meaning that the remaining cats were
+healthier and better cared for and more likely to be adopted.
+The shelter staffers were thrilled because they spent less time
+euthanizing cats and more time placing animals with families. "The
+staff now had a little breathing room," Gujjarlapudi said. "They're
+thinking, Wow, what else can we do?"
+Best of all, those cats who weren't likely candidates for adop-
+tion—-the ones who would have ended up euthanized- got to keep
+living.
+The obvious objection to this approach-expressed by many
+animal control officers—was, Wait just a darn minute—the commu-
+nity is going to be overrun by cats! Hundreds of cats that previously
+were being caged or euthanized would now be set free. It would be
+pandemonium.
+STUDY T
+But it didn't happen. According to Hurley, ‹
+spaying and neutering changes the cats' beha
+immediately become fat and lazy and calm ther
+Hurley. "They become better citizens of the cor
+if there were more cats around, they were cool
+makers.
+Another factor at play here is more subtle
+Could return to field actually lower the total por
+That sounds absurd. How could you releas
+community and see the population numbers dec
+ing water into a cup and seeing the volume of li
+The answer, according to Hurley, relates to
+pacity" of the community. Think of carrying
+bank, the sum of all the food available to feed
+mice and birds to bowls of kibbles left outside
+That food bank is not infinite. It can support s
+of animals.
+What happens when a cat (from among tha
+caged or euthanized? It opens up a spot at the l
+the cat away, but you left the food there, guara
+other cat there who's just going to have twice as
+Hurley. And then— this is the crucial part-thos
+buffet will have litters of kittens. "That's how li
+mals work—they have offspring in direct propo
+food is available."
+But when the food bank is being gobbled up
+tered cats, it crowds out cats who otherwise n
+ters. Consider what happened in San Jose, Ca
+local shelter became the first to adopt return
+*I'm not sure whether I would have the same response.54
+RESET
+Jacksonville's experience. The shelter returned about 10,000 cats
+to the field. Many skeptics feared an endless revolving door of cats
+coming in and out.
+But, no, the rate of cats coming into the shelter went down by
+30%.*
+Hurley knew she'd found her Leverage Point: something do-
+able and worth doing. Something capable of moving the boulder
+of mass euthanasia. And she had located that Leverage Point by
+scanning the environment for bright spots. Notice the pattern of
+thought:
+What's the problem? Cats being killed in overcrowded shelters.
+Where is that problem NOT happening? (l.e., what are the bright
+spots?) There's a bright spot in Jacksonville, where the shelter
+director embraced the idea of return to field.
+Is that situation fundamentally different from other situations where
+it might be used? (ln other words, is there a reason to think it would
+ONLY work in Jacksonville?) No, the dynamics in the Jackson-
+ville shelter were familiar and widespread.
+Okay then, let's replicate the bright spot!
+*By the way, I want to acknowledge that TNR has become controversial in the
+birder community because cats eat birds. That part, at least, is indisputable.
+So people who love birds say, "You're releasing more cats-that's necessarily
+gonna mean more birds die." Hurley's counterargument (as you read above)
+is that return to field shrinks the cat population. The birders don't buy that ar-
+gument: "Cats are a highly destructive invasive species that should not be
+allowed to live outdoors at all" was the stance articulated in one New York
+Times arlicle. It's all complicated and mostly I want to stay out of this debate
+because I'm a dog person.
+STUDY T
+Hurley shared her findings with a group o
+Northern California. Everyone in the room sha
+ing cats' lives. So Hurley laid out five strategies
+that goal, a key one being "return to field." But
+just giving a presentation. She wanted a commi
+thing.
+She pulled out a yellow legal pad and challe
+to write down three bits of information: Their
+ter. And the number of cats' lives that they wou
+six months, by adopting the bright-spot practic
+When Hurley tallied up the number, she found t
+mitted to save over 1,300 cats.
+The new practices were more successful than
+had anticipated. One group, which had pledged
+15 cats, found that after a year it had saved 900.1
+needed to think bigger.
+By late 2014, Hurley and her partner Levy w
+the Million Cat Challenge, an effort to scale the
+to shelters across the United States. The Challer
+million cats by the end of 2019.
+Not ambitious enough, as it turned out. T
+champions exceeded this goal easily. They had
+cats one full year ahead of schedule.
+By spring 2024, the number had rocketed
+lion cats. The campaign had been propelled by
+emerged almost by accident. It had been an idea
+director who didn't know enough to know that h
+gesting it. An idea that ended up revolutionizir
+the power of a well-chosen Leverage Point.
+In 2019, Hurley got an email from a shelter
+joined the campaign. The email said, "We've r56 RESET
+we've never had before ... Our shelter has 49 full bottles of Fatal-
+Plus which haven't been used and are at the end of their expiration
+date. How great is that problem to have?!"
+Fatal-Plus is the trade name for the euthanasia solution used in
+shelters.
+It wasn't needed anymore.
+STUDY
+Whirlwind review: Chapter 3, Study the Brig
+1. The third way to identity Leverage Points is to stuc
+most successful efforts. If you analyze what alle
+those occasions, you can scale that success.
+2. Averages are great for simple monitoring but terr
+want to spot Leverage Points, you must untangle o
+a. The air force found that there was no such thin
+They needed cockpits that could be tailored to
+3. Often the way to unlock forward progress is to
+people or projects or performance.
+a. At Gartner, Ken Davis was facing a sharp drop
+than agonizing about what wasn't working, h
+client partners.
+b. Davis was able to isolate specific practices th
+fined daily process." Those practices were l
+could direct his whole team toward them.
+4. You can analyze bright spots on any level: brig
+bright spots in a team, bright spots among diffe
+organization, or even bright spots across differ
+similar kinds of work.
+a. Kate Hurley, in consulting with animal shelters,
+the notion of "return to field." It became a critic
+ing the lives of millions of cats.
+5. Finding Leverage Points can be a needle-in-a-ha
+age Points might seem promising but prove impos
+different-you know you can succeed, because
+you do it more?)58
+RESET
+Recommendations (find live links at danheath.com/reset-links):
+I learned about the US Air Force's cockpit study from Todd Rose's fascinating
+book The End of Average. Rose, who headed the Mind, Brain, and Educa-
+tion program at Harvard, breaks down the myth of measuring individuals
+against the average in schools and at work. He's really good at showing how
+there are usually multiple pathways to success: the three approaches children
+take when learning to read, the seven distinct routes to career success, and
+others. For a more psychological take on change, including a closer look
+at the power of bright-spots thinking, check out Switch, by my brother Chip
+and me. For even more on bright spots-especially for social-sector work-
+see The Power of Positive Deviance by Richard Pascale, Jerry Sternin, and
+Monique Sternin. ("Positive deviance" = bright-spots thinking.) If you're a
+cat person-or simply interested in learning more about how a pair of vets
+managed to save millions of cats-check out the Unleashing Social Change
+podcast episode with Kate Hurley as a guest. For a master class on how
+Hurley approached fixes for overcrowding in shelters, watch her virtual lec-
+ture hosted by the San Diego Humane Society. Or, to learn more about the
+five lifesaving strategies used in the Million Cat Challenge, check out the
+resources section of the campaign's website. (As a teaser, one strategy was
+"managed admission," which was basically a way of relieving bottlenecks,
+a topic we will explore in the next chapter.)
+4
+TARGET THE CON.
+>> You can Find Leverage Points
+the #1 force that is holding y

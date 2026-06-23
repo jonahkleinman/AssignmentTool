@@ -43,6 +43,4 @@ next-env.d.ts
 
 # knowledge base — copyrighted source material + local build artifacts stay off git
 /knowledge/source/
-/knowledge/text/
-/knowledge/index.json
 /.cache/

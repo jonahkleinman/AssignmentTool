@@ -1,0 +1,757 @@
+DREW BOYD A
+JACOB GOLDENB
+INSIDE THE
+A Proven System of C
+for Breakthrough R
+SIMON & SCHUSTER PAPE
+NEW YORK LONDON TORONTO SYDN14 • INSIDE THE BOX
+of industries, products, services, and activities. Later in the book, you
+will meet some of our colleagues-researchers and practitioners-who
+helped shape and perfect the method. We present real-life cases from
+the experience of the team at Systematic Inventive Thinking, a consult-
+ing and training company. The team teaches the method to companies
+around the world to make creativity and innovation part of their cul-
+tures. We will introduce you to some SIT facilitators, who graciously
+shared their stories here.
+We now invite you to join the growing number of people around
+the world who are discovering a systematic way to reapply what man-
+kind does instinctively to create remarkable innovations. First, we will
+explore the Closed World in more detail so that you are convinced of
+its creative power and know how to recognize it to fuel your creative
+endeavors. Then, you will learn each of the five techniques through
+the eyes of inventors, companies, and even children. You'll learn a step-
+by-step way to apply each technique and how to avoid common pitfalls
+as we impart lessons we have learned in hundreds of training workshops.
+We'll then turn your attention to one of the most vexing scenarios
+we face when trying to innovate: the dreaded "contradiction." Con-
+tradictions occur when you must reconcile two different factors that
+directly oppose each other. If you fix one factor, it tends to make the
+other factor worse-and unacceptable. Contradictions often block our
+creative output, but we'll show you a way to think differently about
+them so you can unblock a way forward.
+Our goal for this book is to make the inside-the-box approach ac-
+cessible to anybody in any field and in any part of life, personal or pro-
+fessional. Together we hope to show you how to work inside the box
+to use your brain in a different way, and produce innovations that you
+never would have imagined otherwise.
+And here's the almost magical thing about inside-the-box thinking:
+the more you learn about the method, the more you will start to see
+how it can be applied to solve tough problems and create all sorts of
+breakthroughs in the world around you. You'll find your eyes open to a
+whole new world of innovation.
+2A228
+1
+CREATIVITY I
+INSIDE THE
+They cannot scare me with thei
+Between stars-on stars where r
+I have it in me so much nearer l
+To scare myself with my own de
+The year 1968 is seared in world memor
+pic achievements. In high-altitude, oxyg
+Beamon's world-record long jump of 29 f
+the greatest athletic achievement of all tim
+achievement exceeded the previous world
+remained unsurpassed for twenty-three yea:
+Beamon's remarkable challenge to gra
+coming out of the Mexico City Olympics.
+stadium, an unknown athlete was responsit
+matic and sensational triumphs in the histo
+won the gold medal in the high jump with
+invented, and which represented a radical
+jumping strategies. Although he did not set
+achievement revolutionized the sport. In
+ally all high jumpers had adopted his appr
+ous high-jump technique obsolete. This ner16 • INSIDE THE BOX
+named the "Fosbury Flop" after its charming and modest, almost shy,
+originator.
+These two men are examples of outstanding yet radically different
+paths to success in their fields. Using a conventional technique, Beamon
+extended the limits of what was possible in his sport. His record is an
+example of excellence of execution by taking a more-of-the-same ap-
+proach. In contrast, Fosbury invented a new technique that gave him an
+edge over more traditional high jumpers. Although superb performance
+is an important aspect of professional success in any field, in this book
+we focus on the second outcome, igniting creative revolutions.
+Interestingly, the Fosbury Flop example is used often by conference
+speakers and is featured in training materials to support the idea that
+revolutions originate from outside-the-box thinking. After all, the tech-
+nique was almost the polar opposite of the then-dominant "straddle,"
+in which the jumper approached the bar face-first, jumped, and rolled
+over the bar right side up, with his stomach toward the bar. In contrast,
+Fosbury approached the bar with his side, turning his back to it when
+rolling over. That he literally used the opposite technique was taken as
+clear evidence that Fosbury was thinking outside the box.
+This is a great story, we admit, but the truth is even more captivat-
+ing, as Jacob and his colleagues discovered in an email interview with
+Fosbury himself.
+When first learning the high jump at ten years old, Fosbury learned
+an antiquated, energy-wasting technique called the "scissors" by imitat-
+ing children at the local gym. A year later, Fosbury's physical education
+teacher and coach taught all the children trying out for track to jump
+using the classic straddle, also called the "Western roll." Fosbury, how-
+ever, continued to use the scissors jump until he reached high school,
+mainly because he was not able to master the straddle. (See figure 1.1,
+illustrating all three high-jump techniques.)
+By high school, however, the scissors technique was no longer ac-
+cepted. In switching to the straddle, Fosbury effectively had to learn
+how to jump all over again. As a result, he fell far behind his competi-
+tors. Extremely frustrated, Fosbury asked his coach if he could revert
+to the old scissors style to improve his results and boost his confidence.
+Figure 1.1
+Although not enthusiastic, the coach was syn
+lete's frustrations and agreed to let him try.
+sion, instead of working to improve his strad
+to the technique he felt comfortable with, ev
+Fosbury decided to try his old style in his
+awkward yet determined, he cleared his pre
+4 inches, but when he faced a new height,
+thing in the technique had to be changed. Tl
+with the scissors is that the jumper knocks 1
+buttocks. To compensate, Fosbury tried lifti
+forced him to simultaneously drop his sho
+He continued to raise his hips until he ever
+inches, which allowed him to place fourth
+a new personal record. No one noticed wh
+cause he was tweaking the old technique, on
+attempt was only marginally different from
+Fosbury slowly began overtaking the competi
+opposing teams noticed that he was doing so
+ing the rule book, they could find no evidenc
+hybrid technique. Fosbury was simply apply
+ments to an existing one. At some point, he b
+his back, arching his hips, and then unarching
+In 2003 Jacob and his colleagues conduc
+of the world's leading sports experts. They rat18 • INSIDE THE BOX
+Figure 1.2
+.........544
+IS OTHER
+ITEMS
+MOVEMENT
+RUNNING
+SHOES
+FIBERQLASE
+FOLE FOR
+FOLE SAKET
+SENT HaTTE
+TRACK
+FOSSURY
+FLOPK
+single most significant revolution in the history of sports. The Fosbury
+Flop received an average rating of 5, while innovations such as synthetic
+track or running shoes lagged by two or more points (figure 1.2).
+Creativity speakers tell this story as a way of demonstrating that
+Fosbury was thinking "outside of the straddle box." But as you can judge
+from the actual facts, this is not true. Fosbury was, in fact, thinking "in-
+side the scissors box."
+THE CLOSED WORLD
+This book explains Systematic Inventive Thinking, our inside-the-box
+way of thinking about creativity and innovation. We'll show how the
+Closed World principle that you read about in the introduction-the
+idea that highly creative solutions to problems are often hiding in plain
+sight within an existing product, service, or environment—-fits with Sys-
+tematic Inventive Thinking.
+But before we take our first steps together, let's make sure that
+you're on board with our basic premise. After all, we're challenging
+today's single biggest myth about creativity: that it requires outside-
+the-box thinking. We want to convince you that the opposite is true.
+Creativity is rarely achieved by broadening your horizons. You're much
+more likely to become distracted by distant stars in a faraway galaxy
+and come up with concepts that are irrel
+More important, elevating your vision enc
+that is, thinking with no basis in the conc
+cliched rather than creative, as the test of 1
+when you implement them. As the (cliché
+the details.
+As we discussed in the introduction, '
+ferent approach. We believe that you'll t
+focus on the internal aspects of a situation
+constrain your options rather than broaden
+closing the boundaries of a particular creati
+ing only inside these boundaries, you can be
+tently than by musing about the stratosphe
+muse to descend.
+Let's start by understanding the insic
+Closed World.
+THE NINE-DOT PUZZLE
+Although studying creativity is considered
+cipline nowadays, it is still a very young on
+chologist named J. P. Guilford was one of th
+who dared to conduct a study of creativit
+famous studies was the nine-dot puzzle, I
+in figure 1.3. He challenged research subjer
+using just four straight lines without lifting
+Today many people are familiar with this pu
+1970s, however, very few were even aware o
+it had been around for almost a century.
+If you've never seen this puzzle before
+solve it before continuing. Those of you who
+zle can confirm that your first attempts usu
+inside the imaginary square. The correct solu
+to draw lines that extend beyond the area de
+At the first stages, all the participants i20 • INSIDE THE BOX
+Figure 1.3
+(even those who eventually solved the puzzle) censored their own
+thinking by limiting the possible solutions to those within the imagi-
+nary square. Even though they weren't instructed to restrain themselves
+from considering such a solution, they were unable to "see" the white
+space beyond the square's boundaries. Only 20 percent managed to
+break out of the illusory confinement and continue their lines in the
+white space surrounding the dots.
+The symmetry, the beautiful simplicity of the solution, and the
+fact that 80 percent of the participants were effectively blinded by
+the boundaries of the square led Guilford and the readers of his books
+to leap to the sweeping conclusion that creativity requires you to go
+outside the box. The idea went viral (via 1970s-era media and word
+of mouth, of course). Overnight, it seemed that creativity gurus every-
+where were teaching managers how to think outside the box.
+Management consultants in the 1970s and 1980s even used this
+puzzle when making sales pitches to prospective clients. Because the
+solution is, in hindsight, deceptively simple, clients tended to admit
+they should have thought of it themselves. Because they hadn't, they
+were obviously not as creative or smart as they had previously thought,
+and needed to call in creative experts. Or so their consultants would
+have them believe.
+The nine-dot puzzle and the phrase "th
+became metaphors for creativity and spread li
+management, psychology, the creative arts, e
+improvement circles. There seemed to be no
+could be offered under the banner of thinking
+ers, trainers, training program developers, or
+and university professors all had much to say a
+outside-the-box thinking. It was an appealing
+ing message.
+Indeed, the concept enjoyed such strong
+appeal that no one bothered to check the fact
+two different research teams--Clarke Burnha
+and Joseph Alba with Robert Weisberg-ran ar
+the same puzzle but a different research procec
+Both teams followed the same protocol of d
+two groups. The first group was given the same
+ticipants in Guilford's experiment. The second
+solution required the lines to be drawn outside
+dering the dot array. In other words, the "trick"
+Would you like to guess the percentage of the
+ond group who solved the puzzle correctly? M
+60 percent to 90 percent of the group given th
+puzzle easily. In fact, only a meager 25 percent c
+What's more, in statistical terms, this 5 perc
+the subjects of Guilford's original study is insigr
+the difference could easily be due to what sta
+error.
+Let's look a little more closely at these sur
+this problem requires people to literally think or
+ticipants' performance was not improved even
+specific instructions to do so. That is, direct and
+think outside the box did not help.
+That this advice is useless when actually tryi
+involving a real box should effectively have kille
+widely disseminated-and therefore, much more22 • INSIDE THE BOX
+that out-of-the-box thinking spurs creativity. After all, with one simple
+yet brilliant experiment, researchers had proven that the conceptual
+link between thinking outside the box and creativity was a myth.
+Of course, in real life you won't find boxes. But you will find nu-
+merous situations where a creative breakthrough is staring you in the
+face. They are much more common than you probably think right now.
+Throughout this book, we will be providing you with lots of examples of
+famous innovations that can be traced directly to the techniques even if
+the creators of those innovations weren't aware of what they were doing
+at the time. To demonstrate how simple the techniques are, we'll also
+present real cases where individuals who used this approach successfully
+innovated across a wide range of industries and business domains.
+USING THE CLOSED WORLD TO OPEN UP CREATIVE POSSIBILITIES
+The Closed World is based on the idea that you look inward rather than
+outward, and that this propels you toward the virgin territory of truly
+creative ideas ideas that are both original and useful.
+Although he first published this idea in 2000, Roni Horowitz
+started developing his Closed World principle several years earlier by
+collecting data on what he considered highly inventive solutions to en-
+gineering problems. Horowitz noticed that these ideas all satisfied two
+conditions. First, they contradicted some essential belief in the prevail-
+ing wisdom about the right way to do things. (You'll learn more about
+this, which we call contradiction, in chapter 7.)
+Second, all the solutions were contained in a relatively small space
+surrounding the problem. This is what Roni called the Closed World of
+the problem. He believed that it could be applied as a general guideline
+in teaching creativity.
+After several years of working with Roni, and on the basis of our
+own recent research and field experience of our colleagues at SIT, we
+had enough evidence to prove that the Closed World principle is indeed
+relevant to creativity in all fields. Here are several examples that will
+help you get a better idea of what the Closed World entails and how
+you can use it to become more creative.
+FLAT TIRE
+One night, around midnight, two young
+cided to end a long day at their workplace al
+reached the parking lot, they discovered a f
+As it happened, the two engineers were close
+for their bachelor of science degrees together
+same company, and they enjoyed solving pro
+them knew that this inconsequential inciden
+direction of their lives.
+The two engineers should have had no
+on the car, which was a rental that had to be
+But when one of them tried to loosen the lug
+he discovered that the nuts were rusted tigh
+everything to put more pressure on the wren
+jumping upon it, but the nuts would not bud
+cell phone to call for assistance. Yet they did
+doning the car in an empty parking lot.
+Realizing that they would not be able to
+sheer force, the engineers sought a different :
+tire wrench would give them added leverag
+Perhaps a piece of pipe could be used to exte
+wrench to give the leverage they needed. Un
+locate any pipe or tubing. They realized that ti
+be found, would have to come from whateve
+ately at hand.
+Before we continue with this story, pleas
+plest solution to this problem. But it can't
+which students in our workshops suggest all ti
+• Call for help using a cell phone. (It's 1990-cell p
+• Inflate the tire temporarily using one of those foa
+don't have a can handy.)
+• Find a piece of metal pipe and use it to extend th
+none to be found.)24 • INSIDE THE BOX
+• Hitch a ride to the nearest service station. (Why not go this route? One, it's
+too dangerous, and, two, because we said so: the goal here is to come up
+with a Closed World solution.
+These noncreative solutions have one thing in common: they are far
+removed from the core element of the problem, which is the flat tire.
+Visually, you can think of them as existing outside the car; they are com-
+pletely external to the car body.
+So let's use the Closed World principle. Let's, metaphorically speak-
+ing, look inside the box, which in this case means inside the car-and
+only inside the car—for a possible solution.
+One possible solution would be to place the tire wrench handle
+under the wheel of the car and utilize the car's engine to move the
+wheel and push down on the tire wrench to loosen the lug nut. But this
+would require plenty of practice. Probably less difficult to execute is
+the idea of taking a few drops of oil from under the hood to lubricate
+and loosen the nuts. (By the way, if ever you need oil in a case like this,
+remember to use the brake oil, which does not get hot and attacks the
+rust better.) Another way to use the car's components would be to at-
+tempt to lengthen the tire wrench handle with the tailpipe. But this is
+one solution that we really don't recommend. You would need a hack-
+saw to cut off a section. Plus typical tailpipes are far wider in diameter
+than a tire wrench handle. You have no way to fit them together. This
+is a terrible idea, but it is more original than the pipe outside the car.
+Perhaps we are moving in an interesting direction?
+All these ideas also have something in common: they are all inside
+the car, that is, part of the car. What these few simple solutions show
+is the inverse relationship between the degree of creativity and the dis-
+tance of the idea or material (or "resource") from the Closed World of
+the problem (changing a flat tire). The further away the resource, the
+less creative the solution it generates. Indeed, our Closed World prin-
+ciple says that the further you go from the problem, the less creative
+you will be.
+Roni Horowitz was one of the two engineers in the story, and the
+incident led to his formulating the Closed V
+enberg was the second engineer. As soon :
+aloud--he said, "We need to find somethi
+vicinity of it to help us with these %$%$#!
+a solution in less than one minute. The solut
+in plain sight. It had been there all along, wa
+was the jack. Jacob remembers sensing the
+him as he reached for it.
+It was a simple task to use the jack to :
+wrench. The jack magnifies applied effort us
+or hydraulics. It's very strong-after all, it's d
+fore, it easily created enough force to loos
+could then be used for its original function.'
+see how it works, just in case you may need i
+This was a defining moment for both Ja
+became clear to them. First, problems have h
+not normally see, and these are the ideas that
+second was that they would give up aeronau
+their lives studying creativity, inside the box.
+Figure 1.426 • INSIDE THE BOX
+MORE ON THE CLOSED WORLD
+In his research on inventive solutions, Roni has focused on engineering
+problems, developing a technique to identify and distinguish between
+solutions inside and outside the Closed World.
+We've noticed that the Closed World is not exactly a uniform space.
+One way to sense the Closed World is by moving closer to the world of
+the problem. Look inside rather than outside. It seems more accurate to
+describe the problem space to reflect Roni's initial insight: in our search
+for a solution, the nearer we come to the core of the problem, the more
+creative the solution will be. That was Roni's aha! moment.
+Make no mistake: we are not saying that every single element in
+the Closed World of the problem can be used to devise a solution. We
+argue, instead, that if a solution exists, then the solution that uses elements
+from the Closed World will be more creative.
+Which brings us to another important point: the purpose of the
+Closed World is to teach creativity first and foremost. It's not to always
+come up with the best solution to a problem at hand. Sometimes the
+best solution to a problem can actually be found outside the box. But
+if your goal is to systematize creativity, you have to operate within the
+confines of the Closed World. That is key.
+This notion that creativity is enhanced by constraints, not free-
+dom, is confirmed by recent research findings in cognitive psychology,
+a subdiscipline of psychology that explores internal mental processes.
+The research also undermines the out-of-the-box argument. Called the
+"limited scope principle" by the previously mentioned Ronald Finke,
+Thomas Ward, and Steven Smith in their book Creative Cognition:
+Theory, Research, and Applications, this theory asserts that by limiting
+the number of variables under consideration from infinity to a finite
+number, we amplify our potential to come up with a creative solution.
+Why? Such limits boost the creative process, allowing individuals to be
+more focused.
+In the flat-tire problem above, when people were asked to rank all
+the proposed solutions in order, from most creative to least creative,
+the jack was considered the most creative solution of all. And the jack
+is obviously very close to the Closed Worl
+jack is not merely one more piece of equip
+the car. It is an integral part of the car's ti
+when asked to list all the elements of a tire
+the one element that people never forget (:
+some do forget to list the spare tire). Soluti
+outside the car are always considered less cr
+ried about this process.
+Perhaps when people eliminate resou
+problem world to its basic elements, they
+resourcefulness. Creativity is really about as
+limited list of possibilities, rather than ranc
+leaps and bounds. This, then, is our first rule
+To get a better feel for the Closed Worl
+flat-tire illustration. Let's suppose that your
+on a deserted strip of beach in Mexico. No
+can't find any wooden sticks or paper or ott
+the tires for traction. On the other hand, yor
+principle to help. The first thing you have t
+creative thinking and stress do not go han
+member whether you have ever heard of a
+whether you can think of some solutions us.
+mon sense. If you still are stuck in the sand
+inside the box, or inside yourself. Do not loo
+efforts brainstorming random suggestions or
+making "mind maps" that take you further a
+problem. When you look inward, you see t
+surface that you can push between the whee
+World principle says that it has to be inside
+there they are, lying on the floor of the car: th
+are rough, so they will provide sufficiently
+They are also flexible, so you can easily pust
+'have to have them replaced after your suc
+operation, but you can put that down to coll28 • INSIDE THE BOX
+THE MARKER ON THE BOARD (JACOB'S STORY)
+The moment I walked into the classroom, I could see that something
+was different. The students were excited, I could feel the anticipation in
+the air and something about their faces made me think that they were
+planning something mischievous.
+I understood their amusement as soon as I tried to erase the white-
+board, which was still covered with diagrams and equations from my
+previous class. As hard as I tried, I couldn't erase the remnants of the
+previous lecture. Someone had apparently switched my markers last
+time, and I had unknowingly used an indelible marker.
+Students were now leaning back in their chairs, openly smiling. As
+plainly as if spoken out loud, they were waiting for me to prove that
+my systematic creativity method really worked. If I had to describe the
+feeling in the classroom, I would have guessed it to be: "The professor is
+going down in flames!"
+I decided to accept the challenge. "All right, class," I said with deter-
+mination. "The worst thing that can happen is that there is no creative
+solution to this situation. But if there is one, we should be able to find it
+with what we have learned in the previous classes."
+First, I asked them to define a good traditional but noncreative solu-
+tion to the problem.
+"Getting some liquid from the janitor to dissolve the indelible
+marker?" suggested one student.
+"Right," I replied, beginning to feel more confident. Perhaps my stu-
+dents were with me now.
+"Remember the Closed World concept: let's confine our searches
+for a creative solution to resources that are inside this classroom. If we
+find something, it should be more original, even if not necessarily more
+useful or efficient, than going to the janitor."
+"Why would we go for a solution that was less useful than one we
+could easily find outside this room?" one student wanted to know.
+"In this class, we are looking only for creative solutions," I said
+"Let's leave the noncreative ones outside the Closed World-in this
+case, literally outside this room."
+Students started rummaging through their bags, pulling out nail
+polish remover, perfume bottles, and other a
+ing a can of cold beer). None of them wor
+dents were amazed at what their classmates
+"You see?" I smiled. "There are more re:
+you search inside, rather than expanding yo
+reason, a search inside yields ideas that we
+what was he thinking bringing beer to my c
+With growing confidence, I continued, "
+can find if we look even closer to the Clo
+Let's confine the space we are searching e
+the things that are at the very core of the
+writing world."
+Silence, of the blessed kind. The student
+"We could use an erasable marker to er:
+pered one student. "The erasable marker sho
+dissolve the markings on the board." I teste
+regular marker to write over one of the line:
+used an eraser to erase the line, it worked. /
+ible mark underneath remained
+After the initial shock, the class becam
+to ignore the noise and began erasing the bo
+But writing over every stroke of every !
+last class was a long, slow process. I was beg
+attempt to complete the task, or assume th:
+begin teaching. Just then, another student
+we can erase the board using the indelible n
+When I tried this, I found that the i
+source of the problem-contained enough s
+on the whiteboard. After some trials, the s
+ible marker was just as effective as a regular
+wrote over the marks on the board and erase
+the liquid solvent evaporated, the old mark
+in the new marks drawn on top of them. Th
+came the solution.
+Note that this is not a better solution30 • INSIDE THE BOX
+just as slow-but it is more original, more surprising, and more inside
+the Closed World.
+I turned back to the class, gratified but surprised that the exercise
+had gone so well. Keep in mind that this incident took place years ago,
+before we'd accumulated empirical evidence (evidence from observa-
+tion or experimentation) about the richness of the Closed World
+"Okay, people, point made! The Closed World is not endless, but
+the resources inside it exceed our initial perceptions, and we should
+make it a habit to look inside, especially if our only options are con-
+tained there."
+I triumphantly made my victory speech. "Sometimes traditional
+solutions do not fit; sometimes they do not exist. What if the janitor's
+office were closed? Looking inside, to resources we usually overlook,
+might be challenging cognitively but effective when a creative solution
+is required."
+With a sigh of relief, I added, "Now, could someone please go to the
+janitor and bring me something to clean the board?"
+HOW BRAINSTORMING PRODUCES FEWER AND LOWER-QUALITY IDEAS
+Now let's examine this subject from the opposite perspective by look-
+ing at brainstorming, perhaps the most widely known technique to
+spring from the out-of-the-box creativity movement.
+The ingenious term brainstorming conjures up images of unleashed
+whirlwind forces of energy. The simplicity of the technique and its easy
+assimilation in organizational settings, coupled with the enjoyment that
+participants derive from the process, explain its ubiquity. Advertising
+agency teams meet for brainstorming to develop "creative concepts" or
+new advertising strategies; engineers meet to resolve obstacles to the
+R&D (research and development) process; and even senior managers
+invite employees at different levels to review and identify new ideas
+to promote their organization and its functions through brainstorming
+sessions.
+Where did the idea of brainstorming come from? Not surprisingly,
+from a creative agency that needed to generate a continuous stream of
+new concepts and ideas. In 1953 Alex Osborn, a founder and manager
+at the BBDO advertising agency, coined t
+stimulated employees' creativity by encou
+work. According to Osborn, brainstorming
+creativity by encouraging them to offer the
+setting. He believed that a group of peopl
+effective than the same number of individi
+the more ideas suggested-no matter how
+the greater the chance that good ideas rem
+are filtered out.
+Brainstorming did create a storm, and it
+of people in organizations, factories, and bi
+came a widespread convention (though fre
+of its basic guidelines), academic scholars i
+started to study the validity of Osborn's
+influenced the efficacy of the brainstorming
+tions such as: What is the optimal number c
+is the optimal length of a brainstorming ses
+they sought to answer was: What is the real
+ing, when compared with the same numbe
+the same problem separately, with no conta
+The strongest findings that soon emerge
+• There was no advantage to a brainstorming gr
+number of individuals working alone.
+* The brainstorming group came up with fewer i
+alone.
+• The quality or creativity of the ideas generatec
+was actually lower.
+• The optimal number of participants in a brain:
+four-in direct contrast to the conventional bel
+merrier."
+These results were replicated repeatedi
+researchers' minds: brainstorming does not;
+simply because people are in the same roon32 « INSIDE THE BOX
+Researchers have also suggested several reasons for these findings.
+First, "noise" interrupts individuals' train of thought. Second, some
+people are "free riders," who make no contribution. Third, people don't
+know whether they are making progress in the right direction.
+Perhaps the most significant reason is the fear of criticism. Despite
+what should be a nonjudgmental environment, participants are often
+afraid of appearing stupid. They are fearless when it comes to contrib-
+uting completely crazy ideas that they know no one will take seriously.
+Participants are not so eager to share ideas that might be feasible, even
+in a brainstorming atmosphere. As a result, the ideas generated by brain-
+storming cluster around the extremes: brainstorming sessions generate
+more ordinary ideas and more wacky ideas than they do creative ideas
+that are both original and feasible.
+In short, fifty years of hard evidence show that despite its popular
+appeal, brainstorming offers no advantage if your goal is to improve
+your creative problem solving. This is true for many out-of-the-box
+methods advocated by management consultants and creativity experts.
+WHY THE CLOSED WORLD IS MUCH BIGGER THAN THE OUTSIDE ONE
+Before we conclude this chapter, some of you may be concerned that
+the Closed World-and the rule that directs our thinking inside it-
+necessarily restricts our options and reduces the number of solutions.
+After all, the space inside a problem is much smaller than the boundless
+universe outside it. What, then, you may be asking, makes us so sure
+that you will be more creative using the Closed World principle?
+Most researchers working on creativity today are convinced that a
+proliferation of ideas and analogies actually impedes the ideation pro-
+cess, and that randomness and disorganized thinking obstruct creativity.
+Although unrestricted freedom may be productive in problem solving,
+it stifles rather than promotes creative solutions. Consider the advice
+from Dr. Margaret Boden, a researcher in the fields of artificial intelli-
+gence, psychology, philosophy, cognitive science, and computer science.
+We like her clear statement on this effect: "Constraints, far from being
+opposed to creativity, make creativity possible. To throw away all con-
+straints would be to destroy the capacity for creative thinking. Random
+processes alone, if they happen to produr
+can result only in first-time curiosities, not
+It may sound counterintuitive, but e
+leads to "idea anarchy" and a poor level
+have had a firsthand or secondhand expe
+devised by improvising with scant materi
+lack of an essential substance or tool requi
+ever communicated a big idea succinctly
+score tickets to a sold-out concert (with
+you can consider yourself resourceful-th
+extremely efficiently. Using this same logic
+straints around resources, we can prevent
+productive thinking into that limited space
+are frequently hiding.
+It's true that we will find fewer ideas
+ward the center of the problem. But the
+creative than the ideas we could discover b
+in mind that by applying the Closed World
+searching for solutions in the greater outsi
+this, either before or after your search of th
+that when you search inside the Closed W
+of finding creative ideas. We'll even go so
+search outside the proverbial box, you pro
+that searching inside the Closed World n
+best solution to a given problem, but it
+you with the most creative one.
+Above all, the Closed World is a rich
+creative ideas. You simply have to get use
+the point of this book—and we'll be givin
+and tools to keep you focused and produc
+be more creative.
+THE CLOSED WORLD AND THE WORLD RALLY (JAC
+John, a student in one of my creativity clas
+a company that builds and races cars. Wh34 • INSIDE THE BOX
+Closed World in class, he could hardly remain in his seat. He told the
+class that the world of Grand Prix motorcar races operates exactly ac-
+cording to the Closed World principle. Since the rules of the races force
+drivers to solve their problems using only what they have on hand dur-
+ing the race, rally racing teams can be considered specialists in Closed
+World, inside-the-box thinking.
+No fewer than 220 people are involved in the design, construction,
+and preparation of each Grand Prix competition vehicle. But during
+the three-day race, the driver and codriver have to negotiate twenty ob-
+stacles on their own. The driver has limited knowledge of the road, and
+it's the codriver's job to call out the obstacles, tell the driver how fast to
+go, and specify which gear to use for every curve. Once the competition
+starts, the driver and codriver can use only what is in or on the car to
+keep them going to the finish line.
+A typical turbocharged four-wheel drive Hyundai World Rally Car
+(valued at $700,000) contains a basic tool kit, two liters of oil, one liter
+of water, a spare tire, two cans of Coca-Cola, and $100 in cash. Both
+team members wear fireproof underwear, a race suit, helmet, gloves,
+and shoes. The only things they can take with them are food and drink.
+They are allowed to make intermittent fuel stops, and if the car turns
+over, spectators are allowed to help the two-man team roll the car back
+onto its wheels.
+The race is grueling, and no matter how well prepared the car or
+its two-man team, things still go wrong. Here are some actual prob-
+lems encountered by actual Grand Prix racing teams and the solutions
+they devised. Would you like to try your hand at being a Closed World
+thinker? Write down what you would do in each situation before read-
+ing the actual solution.
+Problem 1: The Rock in the River
+The car drives over a shallow river crossing at 100 miles per hour, but a
+huge rock on the river bottom smashes the engine's sump. The engine
+loses all oil, but the codriver manages to shut the engine down before it
+is ruined.
+SOLUTION: The team used the two liters of
+the big hole in the sump had to be sealed
+simply gushed out again. The creative dri
+using the basic tool kit, removed their fire
+the underwear between the sump guard :
+diaper.
+Problem 2: The Broken Fan
+The team hears and feels a powerful vibr
+bay. The members stop on the side of th
+the blades in the fan that keeps the eng
+fan, now unbalanced, will inevitably fail c
+operate it. This will cause the engine to o'
+SOLUTION: Before the driver said a word,
+snapped off the blade immediately oppo
+balance to the fan. The car was back in th
+Problem 3: The Hole in the Radiator
+The driver decides to cut a corner in an
+time, and takes a shortcut driving through
+something in the field punctures a small I
+shuts down the engine before it is ruined,
+SOLUTION: The driver first used the spare
+since he knew that the water would even
+needed something to plug the hole or a
+tor. There was nothing the team could u
+the end of the rally was in sight. The drive
+ing the radiator with fluids—-by urinating36 • INSIDE THE BOX
+Problem 4: The Failing Clutch
+In the middle of the final day of the race, the clutch starts slipping.
+Although the end of the race is almost in sight, the team is exhausted
+after completing almost three grueling days. Yet it has to keep the car
+going.
+SOLUTION: The driver recalled how sticky Coca-Cola is when it spills. He
+stopped the car on the side of the road and emptied the windscreen
+washer bottle of its liquid. He then removed the hose that connects
+the bottle to the windscreen, and redirected it so that it pointed at the
+clutch. Meanwhile, the codriver poured the soda into the windscreen
+washer bottle. Every time the clutch started to slip, the codriver pulled
+on the windscreen washer handle, spraying Coke onto the clutch. The
+heat from the clutch caused the beverage to evaporate, leaving a sticky
+sugary film, which was sufficient to make the clutch stick for five min-
+utes. The codriver repeated this process until the car crossed the finish
+line.
+Could you spot the common theme here? That's right: each of these
+challenges was solved by using a nonobvious component found in the
+Closed World of the race car (which included the team members).
+NOT ALL SOLUTIONS IN THE CLOSED WORLD ARE CREATIVE (JACOB'S STORY)
+The 1995 movie Apollo 13 contains a Closed World scene that puts
+viewers on the edge of their seats. "There's one whole side of that
+spacecraft missing," Jim Lovell said as the astronauts got their first view
+of the damage that had been caused by the explosion. Oxygen tank 2 in
+the service module exploded, damaging oxygen tank 1 and blowing off
+a bay door. All oxygen stores were lost within about three hours, along
+with loss of water, electrical power, and use of the propulsion system.
+The astronauts needed a creative solution.
+Following the famous "Houston, we have a problem" scene, a team
+of engineers gathers to find a way to insert a rectangular filter into a
+cylindrical opening. If they fail, carbon dioxide levels in the command
+module will reach fatal levels. The head of t
+containing objects available to the astrona
+need to find a way to make this," he says, lift
+fit into a hole made for this," lifting the rou
+that," he says, spilling the contents of the bos
+I still recall how excited I was when see
+time! I whispered to my girlfriend, Anna (nc
+like that, all their solutions are bound to be
+I thought that this was a perfect example of
+at work. After all, the engineers and astronal
+but to look inside the spaceship. They were,
+I was sure that I was about to win Anna's ete
+my foresight and wisdom.
+But the engineers came up with a rati
+structed the astronauts to connect the two
+secured with tape. What a disappointment-
+at all! Which just goes to show that not-s
+manage to sneak into the Closed World
+contenders for the best solution because of
+effectiveness. But the point to remember is t
+Closed World is an empirically proven and :
+that shows that the density of creative idea
+side. And this is exactly the space in which
+thinking. The next chapters will offer you s
+inside this box, because as we see it, althou
+small at all.

@@ -1,0 +1,1048 @@
+DREW BOYD AN
+JACOB GOLDENB
+INSIDE THE
+A Proven System of Cr
+for Breakthrough Re
+SIMON & SCHUSTER PAPE
+NEW YORK
+LONDON
+TORONTO SYDNI2
+WHEN LESS BECOMES MORE:
+THE SUBTRACTION TECHNIQUE
+A shortcut to riches is to subtract from our desires.
+Petrarch (fourteenth-centur
+talian scholar, poet, and humanist
+AN EXPERIMENT IN INNOVATION (DREW'S STORY)
+"I don't think we've nailed it yet." Mike Gustafson, the general manager
+of Johnson & Johnson's fledgling anesthesia development program, was
+lamenting delays in developing the prototype of a new sedation system.
+Mike's team had spent the past two years designing the unit. Yet despite
+its advanced features, Mike felt it lacked something. He was trying to
+figure out how to increase the value of the unit and determine how
+to charge for it. Would he simply charge customers an initial purchase
+price for the new device? Or could he figure out a way to collect an
+ongoing revenue stream?
+Everyone agreed that the new sedation device was unique: When
+patients could administer the drug themselves, it eliminated the need
+for an anesthesiologist to oversee medical procedures requiring anesthe-
+sia. Patients were given a small ball to hold and asked to slip on a pair
+of headphones. An audio loop instructed them repeatedly to squeeze
+the ball. Whenever patients were conscious enough to hear and under-
+stand the recorded message, they squeezed the ball, which controlled
+how much anesthesia they received. The machine allowed just the right
+38 m
+amount of anesthesia, based on a calculatio
+weight and other factors. As patients went
+received enough of the drug to have been
+naturally stopped squeezing. This prevente
+machine automatically detected and respon
+by stopping or reducing the drug delivery
+ing patients to take deep breaths. When the
+off, and patients once again became conscio
+they squeezed until they again lapsed into
+system, called SEDASYS, would be the mo
+chine in the industry. The team believed t
+advisors agreed. It was unlike any machine c
+Mike called me in June 2002 for advi
+just learned about a new method of innovat
+taught by Jacob. Though I hadn't met him,
+he wrote about. I suggested to Mike that we
+using the anesthesia prototype to experime
+I needed to tread carefully. The previous inr
+duced to J&J had been a resounding failure.
+my colleague invest much time or money ir
+basic field test. Mike agreed.
+I invited a partner of Jacob's, Amnon
+cilitate a one-day workshop with the pro
+Amnon was CEO of Systematic Inventive T
+We gathered a team of engineers and I
+ence room. The atmosphere was not a proc
+workshop participants were not very enthu
+statement. Most were outright cynical. Som
+worked for more than two years creating w
+advanced prototype. Why waste a day "brai
+device that was almost ready to manufacture
+ing something that was already destined to t
+Members of the team, like most engineers, '
+nology they'd invented and certain about its40 • INSIDE THE BOX
+the general manager who brought Amnon and me in, was responsible for
+making sure the product met the company's financial expectations. He
+was less convinced that the product was ready to market.
+Amnon could sense the resistance in the relatively small room. The
+body language was stiff and defiant: arms crossed, chins down, eyes
+squinting. He first asked the team to list the prototype's major compo-
+nents; this is the first step for each of the Systematic Inventive Thinking
+techniques. The device resembled a large desktop PC, so it had similar
+components: screen, keyboard, case, CPU, and power supply. Because of
+government regulations, the device had to include a backup battery in
+the event of a total power loss at the hospital. The team identified all of
+these.
+Amnon moved on to the next step. Arranging the group into teams
+of two, he assigned each pair a component from the device. Then he
+dropped the bombshell: "Your task," he said, "is to reimagine the device
+without that component." You could tell from the looks on people's
+faces that they thought this was going to be an utter waste of time.
+Even I was skeptical, though I understood that we were about to apply
+a specific SIT technique called Subtraction.
+Subtraction is a way of exploring new configurations or taking
+more innovative approaches to solving challenges. The technique is
+simple: you mentally force out a component of the product or process
+you're working with and imagine the remaining components existing
+together "as is." The trick is to eliminate something previously thought
+to be necessary-something you believe is so necessary that the product
+couldn't work without it. Perhaps this sounds unrealistic, or even crazy,
+but Mike's team was about to be surprised at how effective this tech-
+nique can be. So was I.
+Pointing at the first pair, Amnon said, "You two are assigned the
+screen." He assigned the keyboard to the next pair, and the backup
+battery to the third. "And the next group_" but Amnon was cut off.
+The pair of engineers given the backup battery had had enough. They
+had more important things to do back at the research facility, and they
+weren't going to put up with this nonsense.
+"Backup battery? You want to remove the backup battery from our
+anesthesia machine? It is a violation of federa
+without a backup battery. We'll go to jail!" It
+participants started laughing.
+I squirmed in my chair. We were at the
+moment. If we could not prove that this innov
+while immediately, we would lose the team-
+again. This not only would put my career at 1
+that I had let down my friend Mike.
+Amnon persisted. "I know it seems strang
+laborate with me and the method for the mom
+the work." Amnon had a thick Israeli accent, a
+meanor that relieved some of the tension in ti
+at all concerned.
+The engineers shot one another looks of s
+vinced they had designed the most advanced al
+planet. In both design and functionality, it wa
+Lamborghini of anesthesia machines. And this
+about to ruin their creation.
+"I want you to imagine the unit without a
+instructed. "Why would it be beneficial? Who
+not about to let them bail out.
+You could almost see the brains calculatin
+gineers spoke up. "Okay," he said, "let's try this.
+let's dismiss the workshop and see if we can g
+today."
+Amnon agreed, and the ideas started comi
+Amnon's query about the value of a unit witho
+that the unit would be lighter, cheaper, and 1
+think of it, the backup battery takes up most o
+said one engineer. "If you really could take out
+wouldn't believe how incredibly simple this pr
+agreed. They had never really thought about i
+required, and that was that. But removing the 1
+would make the machine less complex, easie
+more mobile.42 • INSIDE THE BOX
+Amnon moved quickly to the next phase. "Okay, so there are im-
+portant benefits to taking out the battery. Good." He then explained
+that if we had assured ourselves that in principle it would be benefi-
+cial to subtract the battery, the Subtraction technique would then allow
+us to replace the component we'd just taken out with another compo-
+nent from within the Closed World. "What could you use within the
+Closed World that could perform the function of backup power once
+you took the battery out?" he asked.
+As we discussed in chapter 1, the Closed World is an imaginary
+place in space and time where all the elements (people and objects) are
+within your reach or influence. In using a technique like Subtraction,
+these "within reach" elements are your raw materials for innovation. In
+this particular case, we define the Closed World as a hospital operat-
+ing room where the unit is used. For example, all the equipment and
+people you see in figure 2.1 could be "recruited" into our solution.
+One of the engineers raised his hand hesitantly. Almost too embar-
+rassed to speak, he finally got out his idea: "Maybe, you could hook up
+our unit to the backup battery of another machine that's already in the
+operating room. Perhaps the defibrillator?" Everyone turned and looked
+at him. His voice grew excited. "We could install a lanyard from our de-
+Figure 2.1
+vice long enough and with the right conne
+defibrillator unit. There is plenty of powe
+if needed!" He picked up a pen and start
+Others looked over his shoulder and bega
+That's all it took. Suddenly the roon
+was transformed from an unruly crowd
+skeptics into a cohesive team of intereste
+experienced as they were, they were surpr
+idea of connecting their machine to anotl
+have defibrillators (those machines with 1
+tient suffering cardiac arrest), this was a to
+• it hit them: this "methodology" might actu
+Amnon wrote down all the ideas but
+surprised by them. "Are there any obviou
+work?" he asked. After a few comment
+the team seemed pretty confident that, it
+Amnon then moved to the next compo
+screen? Why would it be beneficial to take
+sia machine?"
+The two engineers were reluctant to
+But given what had just happened with
+to push back too aggressively. One said ir
+you must realize that we have spent tens
+lecting 'voice of the customer' market rese
+that, he continued, but also the team was
+screen dramatically surpassed anything of
+He ended with the clincher: "Doctors exp
+to have screens. They would never trust a r
+Definitely, ours needs to have a screen."
+nized this statement for what it was: a sign
+condition we will discuss later. The team u
+sia machines with screens that it was near
+without it.
+Amnon conceded that the engineers
+them to try the exercise. "Just as we did v44 • INSIDE THE BOX
+let the methodology do the work. Admittedly, the screen is there for a
+reason, and a perfectly valid one. But let's please just ask ourselves for
+a moment: What would be or could be the benefits of producing this
+exact same machine without a screen?"
+They agreed to consider the possibility. "It would be lighter, cheaper,
+less complex. It would be more mobile, and it would draw less power."
+One of the marketers in the room chimed in, "It would be less dis-
+tracting to physicians and other health care workers in the room. After
+all, none of them really needs to look at it." She thought about it a little
+more. Then she offered a provocative idea: "If you did take the screen
+out, it would send a strong signal to the marketplace." When asked
+what she meant, she explained,
+"It would imply that our device is so
+smart and intuitive that a screen isn't necessary. Doctors can rely on our
+device completely without having to look at the screen to understand
+what is happening with the patient. Without a screen, ours could be the
+'intelligent anesthesia machine.' It would disrupt the industry!"
+Lots of heads started nodding up and down. Mike was smiling.
+Later he told me that this part of the discussion inspired thoughts of
+taking a whole new approach to the project. Just discussing the screen
+and backup battery opened up a host of new opportunities.
+"Let's keep pushing," said Amnon. "What else in the Closed World
+of the operating room could replace the function of the screen?"
+"That's easy!" said one of the participants. "We could transmit
+patient data from our machine to the operating room's primary moni-
+tor. The doctor would be looking at that anyway." He was referring to
+the fact that every operating room has a monitor that can display key
+metrics about the procedure as well as images generated by specialized
+equipment. For example, doctors frequently use medical cameras to
+look inside patients' bodies, and the resulting images are displayed on
+the primary monitor.
+That a doctor could look at just one screen to see both internal im-
+ages and the patient's anesthesia-related information (heart rate, blood
+pressure, and so on) was a truly groundbreaking notion. I'd spent many
+hours observing doctors perform surgery and seen firsthand how annoy-
+ing it is to switch back and forth between different screens. Anything
+capable of simplifying their lives delivered i
+better quality of patient care and reduced c
+Notice that we had progressed from si
+mental improvements for a new medical di
+that could have major implications for hou
+keep in mind that these ideas all came fi
+step: conceptually removing a few key con
+had been considered nearly finished and re
+ing to traditional standards.
+Mike was grateful. Although he'd asked
+project and had agreed to experiment with
+ing, now his vision for the project had cha
+one round and a few hours of work using
+alone, Mike and his team came to a shockin
+saw their prototype as perfect. They needed
+they took the project back to the planning s
+Two months after this one-day expe
+conducted a full five-day new product d
+employed Systematic Inventive Thinking.
+system is now being used by doctors in Eur
+to countries all over the world.
+From a purely personal perspective, I l
+tling effectiveness of Jacob's methodology. A
+ning of what was to become a great friendsh
+BLINDED BY FIXEDNESS
+Subtraction works by eliminating an essent
+(a product or process). The component to
+internal component, meaning one that is
+when you imagine eliminating the compon
+components intact. This will seem strange at
+a television set without a screen. Or visuali
+filament. To make this conceptual leap, you
+we all suffer from fixedness: the tendency to
+tional way or use them as they have been tra46 • INSIDE THE BOX
+Psychologist Karl Duncker discovered a version of fixedness called
+"Functional Fixedness" when he posed his famous candle problem
+(figure 2.2). In this classic experiment, Duncker sat participants down
+at a table positioned against a wall. He gave each one a candle, a box of
+thumbtacks, and a book of matches, and asked them to attach the can-
+dle to the wall. Some participants tried pinning the candle directly to
+the wall using the thumbtacks. Others attempted to stick the candle to
+the wall using melted wax. Only a handful thought to use the thumb-
+tack box. These few innovative thinkers tacked the box onto the wall,
+effectively transforming it into a candleholder. Duncker realized that
+participants were so fixated on the thumbtack box's traditional function
+that they couldn't conceive of it as a possible solution to the problem.
+Interestingly, in later experiments, participants presented with an empty
+thumbtack box were twice as likely to solve Dunker's challenge as
+those given a full one. Somehow, seeing the box out of context-that is,
+not performing its usual function of holding thumbtacks—helped them
+visualize it as a possible solution.
+Through our facilitation of many innovation workshops, we ob-
+served and defined another type of fixedness: structural. "Structural
+Figure 2.2
+Fixedness" is the inclination of humans to s
+have trouble when an object has a part miss
+a different-what we perceive as a "wrong".
+YOU WANT TO TAKE OUT WHAT?
+Notice in the story of the anesthesia machi
+was removed, the team replaced it with son
+erating room (the Closed World of that part
+if you eliminated not just an essential feature
+tion of the product? In other words, you s
+For example, imagine taking the recording
+recorder. Or perhaps taking the calling fun
+Crazy? You won't think so after you read ab
+ucts that were created by doing just those thi
+Before CD players or MP3 players, you n
+listened to music using another technology: t
+this, Sony popularized its Walkman device in
+vation, the Walkman can in effect be explaine
+technique. Masaru Ibuka, Sony's cofounder,
+listen to music when he traveled on long fligh
+was too bulky to use on airplanes, so he aske
+a playback-only stereo version that could be i
+make it smaller, engineers stripped out the si
+function of Sony's traditional cassette tape 1
+placed the speakers, but the recording functio
+truly subtracted.
+Ibuka brought the prototype to Chairmar
+it. So Sony's marketing department conducte
+search to find out if others might too. The ma
+No one could imagine wanting such a gad&
+pressed on, and the rest is history. Walkman
+introduced in Japan. Although Sony expected
+units a month, again traditional business thir
+The company sold fifty thousand Walkman48 • INSIDE THE BOX
+months alone. It went on to sell more than two hundred million units
+globally over the life of the product. Well before Apple's iPod, Sony's
+Walkman fundamentally changed the way people listen to music.
+Another successful product developed by removing a core function
+from an existing brand is Motorola's cellular telephone Mango. The
+story of the Mango is an example of a technologically simple product
+that surprised everyone with its brilliant success.
+The company's vice president of marketing in Israel created the
+Mango as a way to compete with another company that had lower-
+priced cell phones. To take cost out of his phones, he subtracted the
+calling feature. That's right: a phone that could not make calls. It could
+only receive calls. In doing so, he created a whole new communications
+device for a market niche that possessed very special needs.
+Who would want such a device? Think about parents of teenagers.
+The Mango was a parent's dream come true. Without a calling feature,
+kids could not run up high phone bills. They could still receive calls, so
+parents still had a way to check up on them. The Mango was inexpen-
+sive, so it wasn't a catastrophe if it was lost or stolen. And it didn't re-
+quire a calling plan or monthly bill, because it only received calls. (Cell
+phone customers in Israel are charged only for making calls, not receiv-
+ing them.) Mangos were so simple that they were sold in supermarkets.
+Creating this special phone for kids had an added benefit. The
+company established a relationship with kids at an early age. Kids who
+had Mangos as their first cell phones were more likely to become loyal
+Motorola customers as they grew up.
+Parents and kids were not the only ones who liked the Mango.
+Businesses with field-based employees liked it too. Now companies
+had a way to call their salespeople and delivery staff with a phone that
+worked in only one direction: from the company to the employee. It
+saved money and helped companies keep track of their employees.
+Customers liked it too, as they were more likely to get through to a cell
+phone that could not make calls.
+The result was a tremendous success: in less than one year, more
+than 5 percent of the market had purchased Mango devices. That year,
+Israel was ranked the second-highest country in the world in terms of
+cell phone penetration. The internationa
+magazine chose the Mango as one of the t
+ing strategies worldwide for 1995.
+ADD AN EGG!
+In the 1950s, General Mills launched a li
+famous Betty Crocker brand. The cake mi
+gredients in the package, plus milk and egg
+needed was to add water, mix it all togeth
+oven. For busy homemakers, it saved time al
+virtually error free. General Mills had a sure
+Or so it thought. Despite the many ber
+did not sell well. Even the iconic and trustec
+not convince homemakers to adopt the neu
+General Mills brought in a team of ps
+usual was going on. The company needed t
+carefully if it was going to get this product
+consumers resisting it?
+The short answer: guilt. The psychol
+erage American housewives felt bad usin
+convenience. It saved so much time and e:
+the traditional cake baking routine that th
+ing their husbands and guests. In fact, the
+people thought women were spending hours
+getting more credit than they deserved. S
+product.
+General Mills had to act fast. Like most
+nies, it might have considered an advertisin
+guilt issue head-on, for example. Imagine a
+plaining that saving time in the kitchen with
+housewives to do other valuable things for tl
+cials would show how smart it was to use suc
+Against all marketing conventional wisd
+the product instead, making it less conver
+charged with adding water and a real egg tr50 • INSIDE THE BOX
+the perception that the powdered egg had been subtracted. General
+Mills relaunched the new product with the slogan "Add an Egg." Sales
+of Betty Crocker instant cake mix soared.
+Why would such a simple thing have such a large effect? First,
+doing a little more work made women feel less guilty while still saving
+time. Also, the extra work meant that women had invested time and
+effort in the process, creating a sense of ownership. The simple act of
+replacing the powdered egg with a real egg made the creation of the
+cake more fulfilling and meaningful. You could even argue that an egg
+has connotations of life and birth, and that the housewife "gives birth"
+to her tasty creation. Okay, that may sound a bit far-fetched. But you
+can't argue that this new approach didn't change everything.
+Betty Crocker's egg teaches us a powerful lesson about consumer
+psychology. Many other companies sell goods and services that come
+prepackaged. They too might be able to innovate with the Subtraction
+technique by taking out a key component and adding back a little activ-
+ity for the consumer.
+LOOK FOR REPLACEMENTS "RIGHT UNDER YOUR NOSE"
+The Subtraction technique allows you to replace the discarded com-
+ponent, but when you look for replacements, keep in mind two rules.
+First, you cannot replace the item with something identical. Once it's
+gone, it's gone! Note that the Betty Crocker cake mix replaced the
+powdered egg with a real egg, which was a different component. While
+it may seem obvious, you don't want to allow subtle modifications that
+let the subtracted component creep back in.
+Second, you want to look for replacements that are within your
+reach: inside the box of the Closed World. It is these replacements that
+lead to truly unique, surprising, yet simple innovations. In the case of
+the Betty Crocker Cake, the replacement egg was within immediate
+reach of the homemaker: in her refrigerator. As Leonardo da Vinci is
+credited with saying, "Simplicity is the ultimate sophistication."
+Consider the case of Royal Philips Electronics when it used Sub-
+traction on the DVD player. Amnon Levav (who worked on the anes-
+thesia machine) and SIT facilitator Amit Mayer were invited to advise
+the electronics giant at the start of the DV
+team at Philips wanted a way to make its
+from those produced by other electronics fi
+something interesting about their competit
+the fact that DVDs had tremendous advant
+nies were launching DVD players that lool
+VCRs- the same size, shape, look, and feel
+an opportunity to differentiate itself right fr
+to innovate when the technology was branc
+the market was saturated and mature. It w
+move if it succeeded.
+Let's turn back the clock and see wha
+DVDs emerged in 1997, VCRs had enj
+consumer success for more than twenty ye
+them to enjoy movies and record TV sho
+significant advantages over VHS cassettes. E
+great new medium for storing content. DV
+mere ⅜ inch thick-compared with the bi
+which measured one inch thick. DVDs load
+operate. The DVD player could jump to dif
+without having to run through the entire m
+ing a VHS cassette on a VCR. DVDs were :
+play, easier to manufacture, and easier to sel
+Yet despite all these dramatic changes :
+had hardly changed at all. VCRs looked like
+rectangular black (or silver) boxes with lots
+the familiar window that displayed the time
+tion. Because competition in the VCR ind
+added feature after feature to make their
+overdid it. VCRs had so many features th
+how to use them. Even setting the time was
+most VCR display windows were left flashi
+that most VCR owners never even figured o
+function-which, in turn, rendered all func
+uled recording useless.52 • INSIDE THE BOX
+When the DVD was introduced, manufacturers had a golden op-
+portunity to take advantage of this "miracle disc" and introduce a com-
+pletely new player for it. Surprisingly, they didn't take advantage of
+this opportunity. When introduced in 1997, DVD players looked very
+familiar.
+Why did manufacturers design DVD players that closely resembled
+the twenty-year-old technology they were destined to replace? Perhaps
+the companies thought it would comfort consumers. After all, they
+were buying a device that would replace their beloved VCR. Wasn't
+it a good thing that the DVD player would fit into the same space,
+and hook up in an almost identical way to stereo components and the
+television? Making the transition from the old VCR player to the new
+DVD player was easy. Of course, consumers had to get rid of their
+collection of VHS cassettes (or store them in the attic with their old
+vinyl LP records).
+The problem, of course, was that the entire industry approached
+DVD players as essentially a VCR box with compact discs instead of
+VHS tape. Philips, however, took a different view.
+Amnon led the Philips team through a series of exercises using
+the Subtraction technique. They listed the DVD player's components.
+Systematically, they imagined removing key components one at a time,
+while keeping all the rest intact. Each step yielded a new configuration
+of the device, and with it, the potential for new benefits and value.
+First, they took away the buttons on the front. Initially, everyone in
+the room laughed. Amnon wrote on the board, "Buttonless DVD," and
+the team joked about it. But that sparked a very heated discussion. Not
+everyone realized that most of the bulky box was empty. Some believed
+it was obvious that consumers wanted to see all the buttons in front. No
+one had ever seen a DVD without buttons, so they struggled to see the
+benefit. Then one of the designers said suddenly, "We could make it real
+slim."
+After all, the consumer didn't need them, since the same buttons
+were on the remote control. (As a practical matter, they moved them to
+the side and back just in case the homeowner lost the remote control.)
+Aesthetically, this gave the DVD machine a sleek, slim appearance on
+the shelf. The new machine would not only fit
+of entertainment units but also look much less
+who might resist changing from VCRs to the
+was very helpful. The fact that DVDs appearec
+VCRs caused more people to adopt them.
+Next, the Philips engineers subtracted the
+the front panel. This same sort of screen was fo
+information about operating the unit. Typicall
+covered most of the front panel. But how woul
+the unit without this information? Was there
+the Closed World (in this case, the living room
+front-panel LCD screen?
+The team had the answer: the television scr
+ily display operational control information suc
+ward. Interesting, isn't it, how the Philips team
+logic that the J&J engineers had employed to
+machine?
+Although it may seem obvious in hindsigh
+then. Functional Fixedness causes us to see T
+where movies and television shows are display
+them as control screens for other devices. This
+the Philips engineers to see other things that cou
+Figure 2.3
+VHS54 • INSIDE THE BOX
+front panel of the DVD player and controlled by the remote or displayed
+on the TV instead. As a direct result of subtracting and replacing like this,
+Philips was able to engineer the thinnest DVD player in the industry.
+The company dubbed it the Slimline and received a prestigious design
+award. And it wasn't long before the entire DVD industry adopted the
+Slimline as the dominant design. Thirty years of big, boxy thinking suc-
+cumbed to the power of Subtraction.
+The impact of the Slimline was greater than anyone even the
+engineers who built it— could have anticipated. The Slimline concept
+became a design archetype for many other products, including many
+nonelectronic products. If you search for "slimline design" on Amazon,
+you'll find more than thirty products from different categories such as
+speakers, computers, telephones, watches, and even the Bible.
+GOING BACKWARD TO GO FORWARD
+Using Subtraction seems foreign at first because it feels like going back-
+ward. Taking away things goes against the notion of technological ad-
+vancement. In a sense, this is true. But from a technology point of view,
+going backward should be easier. It should take less effort, time, and
+money to remove things rather than cramming more features into your
+product or service. Still, people usually ignore this direction because it
+seemingly goes against the course of evolution.
+The real question is whether Subtraction produces new value. If
+you're not improving a product or service, it doesn't make much sense
+to take away features. Taking away things should enhance a product or
+service even when it does not advance the technology per se. That cer-
+tainly happened with Philips and its Slimline DVD series. Was that just
+a lucky accident? We think not. If you look around, you will spot many
+products and services that have removed an essential element-going
+backward—to create surprising additional value for the consumer. Look
+at one of the most famous products ever: the iPod.
+It's hard to imagine that the iPod was not the first MP3 in the mar
+ket, given its huge commercial success today. But that's true. What's
+more, it wasn't even second or third. It arrived on the market in the lag-
+gardly eighth position! Seven other companies managed to launch their
+versions of a portable media player before.
+how many of these names do you rememb
+Rio, Creative Technologies, Archos? In fact,
+ers, the IXI, was prototyped in 1979, yet it u
+launched the iPod. So what made the iPod
+have that knocked most of these other music
+Was it superior sound quality? Longer batter
+None of the above. Functionally speaking, t
+counts except two: simplicity and design.
+First, some background: Competition wa
+so companies tried to outdo one another wi
+ucts with more functionality. For example,
+ers appeared on the market, they included
+listeners organize songs into playlists. Thes
+complete control over their songs and the o
+As the market heated up, companies launch
+better LCD displays that could do more ti
+considered such an essential component of M
+focused on improving their technology and
+they thought, moving forward.
+The first-generation iPod was a huge succ
+innovative fashion, eliminated the display al
+random "shuffle" function—in effect, moving
+inal iPod. The folks at Apple suggested some
+iPod. Rather than allowing consumers to choc
+to hear, in the order they wanted to hear thes
+plays songs in random order. You'd think this
+Don't people want more, not less, control o
+Astonishingly, the shuffle was embraced whole
+generation." People loved it. They didn't have
+and managing playlists of songs in a specific
+delivered your music like a radio station-you
+would play next. That surprise made listening
+And the fact that supposedly the iPod was
+one cared. Except possibly for dedicated gadge56 • INSIDE THE BOX
+no more concerned about MP3 technology than they were about all the
+surplus functions on their VCRs.
+So Apple did what Philips had done. It subtracted a component
+thought to be essential by the rest of the industry. It kept the rest of the
+product "as is" without replacing that component. In doing so, it sent
+a powerful message to consumers: that the shuffle function was easier
+and more fun to use than the MP3 players crammed with features.
+Apple launched the second-generation iPod Shuffle in 2006. That
+also proved an enormous success. The company targeted ordinary iPod
+owners who wanted a second, less expensive player that was "jaw-
+droppingly small," according to Amazon. They also believed that the
+Shuffle's price and simplicity would attract new users to the Apple
+brand. Eventually these consumers might make a more dedicated leap
+to Apple products and purchase a more complex iPod or even a Macin-
+tosh computer. Indeed, many iPhone adopters came from the base of
+customers using the iPod.
+A study of iPod Shuffle users confirmed the perception of the iPod
+as unique and innovative. A simple subtraction of a component thought
+to be essential took the technology backward and moved music enjoy-
+ment forward-and changed the music-playing device world forever.
+Now, that's innovation.
+WHAT IS AN "ESSENTIAL" COMPONENT?
+The Subtraction pattern is so simple that its disruptive powers often
+surprise people. As we saw in the anesthesia example, the product de-
+velopment team felt insulted by the idea of removing key components.
+But once the engineers got over their discomfort, the tool led them to
+innovations that radically changed the way doctors worked in operating
+rooms around the world.
+Our point is this: A key to using Subtraction is selecting an essential
+component to remove. But what do we mean by that? Notice in the
+previous examples that the subtracted component was neither the most
+essential nor the least essential. It was somewhere in the middle. This is
+where you are likely to get the most impact using the Subtraction tech-
+nique. In the case of the anesthesia machin
+drug itself would have gone too far, obvious
+screen, on the other hand, were essential, bu
+ments.
+If you remove too simple a component,
+enough to break fixedness. So how do you k
+ply have to experiment to see if you have go
+"OH, THIS IS GOING TO BE ADDICTIVE"
+When you use Subtraction, you don't alw
+component. There is also what we call "Partia
+technique as long as the product or service ti
+benefit. To deploy Partial Subtraction, you pi
+eliminate a specific feature of that compon
+Twitter, a microblogging application used bi
+people worldwide. By simply restricting each
+Twitter has become a vast digital conversat
+als around the globe are thinking and doing
+the traditional blog down to 140 characters c
+volume of and participation in this Internet 1
+happen?
+Twitter founders Noah Glass, Jack Dorsey,
+concept was right and that they had a potentia
+intent was to create a service that allowed peo
+to many friends at one time. Originally, Twittes
+a way for people to easily update their friends
+But when attempting to build a service
+its foundation, the Twitter team ran into cha
+expensive. On top of that, phone companies
+size of text messages. Any text message of mo
+automatically split into two messages. So the
+ter founders did was to place a limit on the ni
+short message service (SMS) text (now called :
+Subtracted text messages by reducing the size58 • INSIDE THE BOX
+for the sender's user name and the colon in front of the message. In
+February 2007, Dorsey wrote, "One could change the world with one
+hundred and forty characters."
+He was right. Today more than 100 million users subscribe to Twit-
+ter. The Twitter website gets more than 400 million unique visitors each
+month. It has become the global "listening post" when real-time events
+such
+as the March 2011 Japanese tsunami and the Egyptian revolu-
+tion two months earlier are happening. Glass said in an interview, "You
+know what's awesome about this thing? It makes you feel like you're
+right with that person. It's a whole emotional impact. You feel like
+you're connected."
+Partial Subtraction can create just as much value as a full Subtrac-
+tion. Remember the Mango mobile phone? Partial Subtractions have
+another advantage. Sometimes you can convince skeptics to do a Partial
+Subtraction rather than stripping out a component completely to get
+them on board.
+SUBTRACT WHAT LITTLE YOU HAVE
+The Subtraction technique can scare people at first. Some worry
+that they are detracting from the value that a product or service of-
+fers. That's especially true when you have only a limited number of
+components to start with, as defined by the Closed World. Taking away
+one in the name of innovation seems irrational. But as you'll see, Sub-
+traction works surprisingly well even when you start with very little.
+Take a simple product such as laundry detergent, which has only
+three main components: the active ingredient (detergent), perfume,
+and a binding agent to hold everything together. Now try this: Quickly
+run each component through your mind and imagine subtracting it
+from the other two. What mental pictures do you get? For most people,
+it conjures up horrible images of their clothes destroyed by a flawed
+product. Taking any one of the three out of the product would seem to
+ruin it. Who would want to wash clothes with a detergent missing any
+of these components?
+Now let's look at a company called Vitco Detergents, which used
+the Subtraction technique to create a completely new and innovative
+product. In 1996 Vitco used the method fo
+beyond a small selection of products. One
+detergent.
+Let's follow the same steps that Vitco
+to its line of laundry detergents:
+Step 1: List the product's physical components.
+• Active ingredients (detergents)
+• Perfumes
+• Binders
+Step 2: Remove a component, preferably an esse
+gent, an essential component is the detergent, of
+Step 3: Visualize the resulting concept. What we
+that contained only perfume and binder. It could
+tion was lost when we subtracted the active ingred
+Step 4: Identify needs, benefits, and markets. At fil
+lous. Who'd want a detergent that couldn't clean ci
+That's when one of the workshop parti
+minded the team that active ingredients are
+terial and actually wear it out. Removing th
+allow the clothes to last longer. Therefore, a
+those individuals who launder their clothes
+worn, not because they are dirty. Their clothe
+They just need to be refreshed
+The technical experts knew that they cor
+with few or no active ingredients. The produ
+binder, too. This might actually work!
+The main challenge they faced was
+a le
+regulations, Vitco could not market it as a c
+required a minimum amount of active ingre
+product as a detergent. The company's CEO
+the innovation workshop, had an immediate60 B INSIDE THE BOX
+launch a product that will define a new category? How about "Clothes
+Fresheners"? Aimed at those fussy people who wash clothes after mini-
+mal wearing because they don't feel fresh enough, the product would
+give them that fresh feeling without inflicting the wear and tear on the
+clothes that frequent laundering with a real detergent would. A whole
+new category of products was born: the laundry freshener.
+That same year, the giant consumer goods company Unilever ac-
+quired 60 percent of Vitco's shares. After the acquisition, Unilever reset
+Vitco's priorities and shut down the new-product-development pipe-
+line. The acquisition gave Unilever access to so many new (to it) prod-
+ucts that it didn't feel a need to develop any new products. The clothes
+freshener concept was set aside.
+Too bad for Unilever. Four years later, its main competitor, Procter
+& Gamble, launched the same product concept as part of its Febreze
+brand. P&G coined the term "clothing refreshers." Extensive market
+research revealed the insight that consumers sometimes need just to
+freshen their clothes without a full washing. Using that insight, P&G
+independently developed the same idea that Subtraction had led the
+Vitco team to: a simple "detergent" with virtually no cleaning elements.
+The clothing refresher business now reaps an annual $l billion from
+worldwide sales.
+Note that Vitco discovered the idea simply and inexpensively using
+the Subtraction technique. P&G, on the other hand, conducted exten
+sive consumer research to identify this market need. This dramatizes
+one of our strongest beliefs: that the innovation patterns in this book
+are essentially predictors of market success. Although reading market
+signals through research will certainly lead to innovative ideas, the same
+innovations can be achieved much more efficiently using the innovation
+techniques here.
+SUBTRACTION WHEN IT'S FORCED UPON YOU
+Sometimes Subtraction is thrust upon us rather than chosen delib-
+erately. Even in those situations, you can train your mind to use the
+technique to open up creative possibilities.
+In August 2010, the world was on edge from the news that thirty-
+three Chilean miners were trapped 2,30
+bottom of a collapsed mine shaft. The acci
+the usual routes of escape. All traditiona
+With hope that anyone would survive the
+an international rescue team swiftly implen
+escape tube that carried the men out of da
+the miners from what otherwise would ha
+death. After sixty-six days, the last miner em
+cheers and celebrations heard around the gl
+What most people don't know is that
+a half century old. First conceived in the n
+inspired solution has radically changed resc
+broad range of industries and scenarios.
+In May 1955, a mine shaft collapsed in
+German city of Gelsenkirchen. Three mi
+ground. Although rescuers managed to provi
+a stall borehole, they couldn't get the men
+had effectively sealed all existing mine shafts
+tracted."
+A thirty-four-year-old engineer working
+took a different approach to solving the p
+focused on attempting to reopen a mine she
+He subtracted the main shafts from the situ
+ment with a nonobvious component: the bor
+a small cigar-shaped capsule out of ordinar
+inches wide, the capsule was small enough t
+rescuers were using to send food and water d
+its tiny size, the capsule was large enough for
+into. Rescuers successfully retrieved each of
+workers this way.
+"What they did at Dahlbusch was a master
+Sabo, a forty-year veteran of mine rescue ope
+rescue at the Ohio Mine Safety Training Cen
+rescue has been around for hundreds of year
+small borehole to rescue one miner at a time v62 • INSIDE THE BOX
+As you'll hear us say over and over, this solution was obvious in
+hindsight. But rescuers were blinded by Functional and Structural
+Fixedness. Humans have been mining the earth for many thousands
+of years. Over time, the process has evolved considerably as successive
+generations come up with new and safer engineering and construction
+methodologies. The downside of this long history of innovation is that
+mining professionals believe they truly understand "best practices" for
+operational efficiency and safety. The sheer weight of experience—
+usually considered an advantage in a profession—has limited their abil-
+ity to think creatively.
+A mine is an intricate, interconnected network of vertical, sloped,
+and horizontal shafts. Miners are proud of the careful planning, rig-
+orous engineering, and strong construction skills required to build a
+shaft. Each miner possesses an indelible mental map of the entire mine
+network. He wouldn't be able to do his job without it. Yet this mental
+map creates a significant amount of Structural Fixedness. Whenever
+a disaster occurs, the first step in mine rescue protocol dictates using
+the existing infrastructure of mine shafts to release all miners at once.
+So plan A involves attempting to unblock the shaft that leads to the
+victims' location. This makes perfect sense: mine engineers, managers,
+and safety professionals know the exact location and structural integ-
+rity of each mine shaft, and how each one connects to all the others,
+They spent years building these shafts, and many more years working in
+them. Using existing shafts as rescue conduits is the quickest and safest
+way to get their coworkers back to the surface of the earth. But some-
+times plan A fails.
+In Germany, in 1955, plan A proved untenable. So the rescue
+team had to "put every option on the table," according to Rob McGee
+from the United States Mine Rescue Association. This pushed Au into
+thinking the unthinkable. Breaking the temptation to view the world
+through the lens of Structural Fixedness, he stopped to consider po-
+tential replacements within the Closed World. By subtracting the main
+mine shaft and then replacing it with an airhole, he saved not just those
+three German lives but also many future lives, as the mining industry
+adopted his technique as the gold standard for plan B. Indeed, Au's
+capsule rescued trapped individual miners ir
+1956 and 1957. In 1963 the capsule saved e
+depth of 190 feet for two weeks in an iron o1
+States Mine Safety and Health Association
+primed and ready to go anywhere in the worl
+The Phoenix capsule used to rescue the th
+was an enhanced version of Au's original de
+Chilean navy built three that were slightly la
+8 feet long and 21 inches in diameter-and a
+phones, speakers, and oxygen supplies. Othe
+proven amazingly robust.
+Eberhard Au died in 1996 at the age of s
+plied for a patent for his capsule. "The main th
+there," he reportedly said.
+SUBTRACTION REFRAMES THE PROBLEM FOR YOU
+You don't have to wait for a disaster to use Su
+systematically to reframe problems, innovativ
+at you. Drew found this out firsthand while sp
+training conference. After he finished his tall
+approached the stage. They introduced thems
+board of Standard Bank of South Africa. They
+the story.
+"LET'S FIRE THEM ALL!" (DREW'S STORY)
+I had just finished my talk on Systematic Inve
+I had stressed the usefulness of the Subtracti
+bank board members introduced themselves.?
+innovation is something that can be learned an
+pecially interested in Subtraction. "Do you thir
+our problem?" asked one of the delegates.
+I answered the same way I always do whe
+don't know. But there is only one way to find o
+meeting room in the conference hall and mad
+The executives explained their problem.64 • INSIDE THE BOX
+"We want to grow by acquiring other banks," said one of the man-
+agers, who seemed to be the appointed spokesperson. "We agree about
+that. We just can't seem to agree on the best approach. Some of us
+want to buy another bank in South Africa, while others like the idea of
+acquiring a bank in North America or Europe. How can we use this in-
+novation method to resolve this problem?"
+I thought about it for a minute. I had never faced this type of strat-
+egy problem before. I really didn't know if Subtraction would work as
+well with business model innovation as it did with traditional product
+or service innovation. But I was willing to try. (Only later did I discover
+that Jacob's colleagues had been using it this way for quite a while.)
+So I jumped in. "Okay, let's be true to the process and start from
+the top. The first step of Subtraction is to list the key components. What
+are the components of a bank?"
+The directors looked around at one another. It was such a simple
+question that it seemed to take them off guard. "Staff. We have employ-
+ees of many types."
+"Good. Let's write down 'staff." I picked up a marker and began
+making a list of bank components. "What else?"
+"Assets," said one. "Liabilities!" chimed in another. 'We have build-
+ings, ATMs, locations-we call it PPE, for property, plant, and equip-
+ment."
+"Keep going."
+"We have systems, and, of course, we have customers. We also have
+a reputation-our brand."
+I wrote this on the whiteboard:
+• Staff
+• Assets
+• Liabilities
+• Property
+• Systems
+• Products and services
+• Customers
+• Brand
+"Now let's use Subtraction and remo
+preferably an essential one." I noticed some
+gotten used to this reaction. And many ti
+will create a product or service configuratic
+and joke telling, the human mind makes
+unrelated themes to form the punch line.
+But even in serious situations such as this o
+nique results in a chuckle or two. Two unre
+were about to collide, and the men just co
+to laugh.
+"Let's subtract the staff!" said one of ti
+it half-jokingly, but he was genuinely inter
+process would lead.
+"All right. Imagine that your bank has t
+other components, just no staff. Now ask
+you buy that has the ideal labor force for
+are? Given your customer base, your branc
+services, what bank out there has the perfe
+fit well with the rest of your components?"
+One of the executives said, "We could 1
+is more diverse, for example. Perhaps we wa
+perspective. We could acquire a bank with e
+with our employees but give us a broader pe
+Just imagining their company without
+nents helped these senior executives gain a
+how to solve their problem. It no longer ma
+located. Geography had nothing to do with
+tion technique (with the replacement featu
+created a more useful dialogue about acqu
+problem in this new light made merging wit
+interesting.
+I let the discussion go on for a while. "P
+another component from the list-any one o
+"Brand. Let's subtract the company's bra
+this time.66 • INSIDE THE BOX
+"Very good. You have all the other components of your bank, but no
+brand. Now, what bank could you acquire that has a brand reputation
+that is ideally suited for the rest of the components: your staff, customer
+base, and so on?" The men thought about it for a moment, each of them
+pondering the various banks that might fit this profile. They were silent,
+actively thinking about other components written on the whiteboard.
+After a few minutes, the leader of the group shook my hand and
+thanked me. Politely, he asked me to leave the room. "We have some
+work to do," he said
+Following that meeting in 2004, Standard Bank of South Africa
+went on to acquire banks in Argentina, Turkey, Russia, and Nigeria.
+Note that it did not actually get rid of its staff, its brand, or any of the
+other components with these acquisitions. The point of using Subtrac-
+tion was to mentally imagine the bank without these components as
+a way to reframe the problem and see opportunities in new, creative
+ways. It worked!
+HOW TO USE SUBTRACTION
+To get the most out of the Subtraction technique, you follow five basic
+steps:
+1. List the product's or service's internal components.
+2. Select an essential component and imagine removing it. There are two
+ways:
+a. Full Subtraction. The entire component is removed.
+b. Partial Subtraction. Take one of the features or functions of the compo-
+nent away or diminish it in some way.
+3. Visualize the resulting concept (no matter how strange it seems).
+4. Ask: What are the potential benefits, markets, and values? Who would want
+this new product or service, and why would they find it valuable? If you are
+trying to solve a specific problem, how can it help address that particular
+challenge? After you've considered the concept "as is" (without that es-
+sential component), try replacing the function with something from the
+Closed World (but not with the original component). You can replace the
+component with either an internal or an exter
+potential benefits, markets, and values of the
+5. If you decide that this new product or servic
+feasible? Can you actually create these new i
+services? Why or why not? is there any way t
+make it more viable?
+Many of the products and services that y
+ated by using Subtraction-whether their
+For example, if you're reading this book wh
+you've been using a "subtracted" product th
+lens is the result of subtracting traditional eye
+Many self-service products are the direct
+service gas stations, self-service checkout lanc
+airport check-in kiosks are all examples of sit
+part of a service was subtracted and replaced
+these things for granted, but it wasn't always
+ple that one day machines would spit out mor
+would have said you were crazy. Only by look
+ate how the counterintuitive notion of "subti
+an enormously convenient banking service ca
+worldwide.
+Look at how certain foods have become n
+subtracting an essential component. Taking wai
+the more convenient powdered instant soup.
+soup is
+a nice example of a partial subtract
+benefits are smaller can size and longer shelf
+been completely transformed, thanks to comp
+online retailer, and Netflix, the entertainmer
+tracted the traditional brick-and-mortar stores:
+the Internet. IKEA, the giant home goods co
+but it sells furniture unassembled. IKEA subtra
+of manufacturing furniture. It replaced its asse
+customer.68 • INSIDE THE BOX
+COMMON PITFALLS IN USING SUBTRACTION
+As with all the techniques we describe in this book, you must use Sub-
+traction correctly to get results. Here's how to avoid some common
+pitfalls:
+• Don't just take out troublesome components. Taking out bad components
+to improve the performance is not using the Subtraction technique. Rather,
+it is fine-tuning the characteristics of the product to change the way it
+works. For example, taking out the sugar in soda to create a sugar-free drink
+certainly creates a new version of the original beverage. But this is not Sub-
+traction. This is simply changing the recipe. The same is true when you turn
+caffeinated coffee into decaffeinated.
+• Try taking out essential components. Remember the laundry freshener
+example? Febreze is the result of taking the most essential ingredient out
+of laundry detergent: the detergent itself! People tend to avoid taking out
+something essential because it seems so absurd. Either they want to steer
+away from the discomfort of "ruining" their product, or they simply don't
+believe in the power of the Subtraction technique. The key is to mentally vi-
+sualize and focus on what's left in the system rather than focusing on what's
+missing. By seeing all the remaining components as part of a new and use-
+ful configuration, you will cope better with the dissonance of having taken
+out the most essential part.
+• Avoid immediately replacing the subtracted component. Eliminating an
+essential component can assault your senses and sensibilities. This is a
+time when your old nemesis Structural Fixedness will kick in at its strongest.
+The discomfort of removing an essential element is so powerful that our
+minds immediately rush in to "rescue" the product or service. (Remember
+what we mean by "essential": not the most or least important element, but
+something in the middle.) You may find yourself instantly searching to fill in
+the void with an alternative component. Be careful. Sometimes removing
+the critical, core function ruins the product to the point where you cannot
+recover. Taking out a core function can indeed lead to innovative ideas, as
+we saw with the Sony Walkman, but these situations are rare. You should
+almost always plan on a replacement (from the Closed World) when taking
+out a core function.
+• Don't succumb to cognitive dissonance. The
+the strange new configuration and try to exp
+Removing the screen from a TV causes most
+ately as a radio, for example. But then it woul
+want to display are not radio programs, but*
+solely from TV stations. Also, as any enginee
+components, the wavelength, and any other
+this strange object as a TV without a screen,
+"screenless TV" to a radio, you risk overlookin
+new form of TV, such as one for people who d
+drivers-who want to listen to the shows they w
+the road.
+• Avoid simple "unbundling." Keep in mind that
+as a common marketing technique called "unb
+bundling is taking out features or downgrading
+a product or service. It is taking value out of ti
+you can set a lower price. Companies do this to
+the market, especially those customers who are
+television manufacturers take their high-end, pr
+the quality of the speakers, the display resolu
+assign a new model number and reduce its pr
+bundling happens when tour operators offer a l
+(using cheaper hotels and charter flights) at a
+is the same, but the amenities have been dow
+benefit is created by unbundling. Benefits are re
+be set lower. In Subtraction, on the other hand, ;
+after a component is removed (and perhaps rep

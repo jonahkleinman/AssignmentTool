@@ -1,0 +1,1496 @@
+cutena
+Deeper Teaching:
+Rigor, Joy, and Apprenticeship
+We HAvE SEEN How extracurricular and elective activities can pro-
+vide platforms for powerful learning experiences. How can similar
+qualities be created in core academic classes? While we struggled to find
+whole schools where consistent excellence in core classes was the norm,
+we did find individual teachers who had achieved it in their classrooms.
+They worked in all kinds of schools (traditional public, charter, and
+private); they handled a variety of subjects; and they taught students in
+lower tracks as well as higher ones. What were these teachers doing dif-
+ferently? How did their backgrounds and life experiences differ from
+those of their colleagues? How did they achieve deeper learning with
+students who were struggling to build basic skills? And how can the
+work of these teachers inform a broader effort toward deeper learning?
+We identified these teachers by focusing on three primary criteria:
+cognitive challenge, engagement, and participation. With respect to
+cognitive challenge, we sought out classrooms where the task that stu
+dents were confronted with was in the top half of Bloom's taxonomy-
+with students asked to analyze, synthesize, or create— or were in levels
+three or four of Webb's depth of knowledge scale, which similarly fo-
+cuses on complex thinking as opposed to recall or application! With
+respect to engagement, we were interested in the ethos of the classroom:
+was it a place where there was energy in the room, where students spoke,
+with both knowledge and enthusiasm about the work they were doing?
+Did their body language and vocal or written contributions suggest that
+they were "in task" as well as "on task," rather than counting the
+308DEEPER TEACHING
+309
+minutes until the bell rang? Our third criterion was participation. We
+picked classes where at least three-quarters of the students were actively
+engaged with the task; running a great class for a few students isn't ,
+enough. In addition to these observational criteria, we triangulated with
+other information: these were also classes that were highly recom-
+mended by faculty and students, classes that people in the schools we .
+visited said we had to see if we wanted to see the "deepest" teaching at
+their school. They were the classes where discussions spilled out into
+the hallway and cafeteria. Predictably, they were also the classes that
+older students reported remembering years later.
+To write about these teachers, we drew on class observations, lengthy
+interviews, artifacts including planning documents and students' work,
+and conversations with students. We used Mill's methods of agreement
+to identify what was in common among these "deeper teachers" and
+Mill's methods of difference to verify that these characteristics were dif-
+ferent from those of the many other teachers in our study? Our coding
+process began inductively, although having attended the classes, we
+could see some clear differences in the choices that teachers were
+making. Those observations informed our subsequent analytic journey.
+As we read through our data, we began to see strong links between how
+they saw their purpose (the why), the nature of their classrooms (the
+what), and their own identities as teachers and as people (the who). Thus,
+we organized our second round of coding around these three dimen-
+sions of the teachers and their practice.
+In an era when test scores reign supreme, some readers might find
+this way of choosing teachers to be anachronistic. We understand this
+critique but think it is misguided. First, the majority of state tests used
+during the time of our study have been shown to measure mostly low-
+level cognitive processes; hence we could not use them as indicators of
+"deeper" learning? Second, studies that have tried to identify teachers
+using value-added methodology have found, not surprisingly, that many
+of the teachers who are "most effective" using these methods are those
+who teach directly to the state tests. Third, some subjects we were
+interested in lack standardized testing. Fourth, given our view that sig-
+nificant learning accumulates over the long run, we were particularly
+interested in teachers who inspired their charges, who were successful in
+planting seeds that might grow into longstanding interest in a subject.
+Focusing on teachers who inspired this passion in the moment or who3I0
+IN SEARCH OF DEEPER LEARNING
+were identified by older students as particularly good teachers seemed
+like good proxies for identifying teachers with lasting influence. And
+ffth, these were teachers who students and colleagues alike testified
+were exceptional, which afforded us a rare opportunity to learn from
+the practice of such skilled teachers.
+To other readers, looking across disciplines will obscure important
+differences in deeper disciplinary teaching. From one perspective, we
+think this is a fair point; it would certainly be possible to delve "deeper"
+into pedagogical and content techniques within particular disciplinary
+arenas, and we build on discipline-specific work at certain points in the
+chapter But, at the same time, we found striking similarities among
+these teachers, even across disciplines, in how they thought about their
+fields, how they related to their students, how they saw the purpose of
+their work, and how all of this was shaped by who they were. By telling
+their stories, we hope to reignite an integrative conversation about
+teaching that builds on the best of the discipline-specific work but re-
+engages the shared question of what makes for powerful teaching
+We draw on the work of seven teachers in this chapter (all names are
+pseudonyms):
+• Jeff Fields, an English and philosophy teacher at Attainment
+High;
+• Nick Collins and Nathaniel Clarke, math teachers at a high-
+poverty traditional public school in the Northeast;
+• Kyle Hogan, an English teacher at a high-poverty traditional
+public school in the Northeast;
+• Joel Wolf and William Duchin, science teachers at Midwestern
+Math and Science Academy;
+• Megan Marino, a chemistry teacher at a high-poverty tradi-
+tional public school in the Northeast.
+All but one of these individuals have been teaching at least ten years;
+their ages range from early thirties to near seventy, with the median
+age early forties. Although they teach in a range of contexts, it is worth
+noting that all of them teach in traditional public schools, and that four
+of the seven teach in unselective schools in high-poverty urban districts.
+All of these teachers identified as white; this fact reflects the disheart-
+ening reality that very few of the teachers we observed in our researchDEEPER TEACHING
+3II
+were people of color -which is itself a reflection of the fact that more
+than 80 percent of the U.S. teaching workforce remains white. There
+were also five other teachers we found who had similar practices and
+perspectives; in the interest of space we do not present their stories, but
+our analysis of them is consistent with the argument we advance here,
+as is much of our analysis of electives teachers in Chapter 6.5
+The story that we tell about these teachers is a holistic one, in every
+sense. We are interested not only in their practices, but also in their
+identities, their journeys, and their accounts of what they are trying to
+do with their students. In so doing, we seek to broaden the conversa-
+tion around teaching, moving away from questions such as "What are
+best practices for increasing value-added test scores?" and toward ques-
+tions such as "What dispositions, skills, orientations, and identities do
+we want to cultivate in teachers if the goal is to inspire and motivate
+the next generation of students?" Because we see a tight link between
+who these people are and how they teach, our story perhaps will be
+frustrating to those who seek best practices or simple technical solu-
+tions. Yet we hope that our rich account of some of the most compel-
+ling educators we encountered will help future teachers as they embark
+on their own journeys toward deeper teaching, as well as illustrate
+what policies and practices are needed to support the development of
+such consequential work.
+We also hope that this approach will contribute to the scholarly lit-
+erature on the subject. There is writing about good teaching, there is
+writing about teachers' identities and beliefs, there is writing about the
+life cycle of teaching, but there is very little writing that links teachers'
+own learning experiences, identities, and stance toward their subjects
+and their students to observations of how they actually teach. Since
+we believe that it takes significant time to become a "deeper teacher,"
+it is critical to understand the nature of these trajectories and the
+evolving relationship between teachers' identities and their practices.
+To the degree that previous scholars have made these links, they have
+focused on teacher preparation and the first several years of teaching;
+this research allows us to examine exemplary experienced teachers and
+how their trajectories unfolded over longer spans of time?
+There are some limits to our approach. We are deeply exploring only
+seven teachers, so the generalizability of our findings awaits future re-
+search. The ways that they teach in their disciplines are not the only312
+IN SEARCH OF DEEPER LEARNING
+ways to do so; there are many ways to skin each disciplinary cat. Their
+accounts of their journeys are offered retrospectively, and thus are sub-
+ject to the usual presentist biases that can be present in such recon-
+structions. Despite these limitations, it is rare to have a chance to explore
+the practice, journey, and identities of such compelling teachers; we
+hope that doing so will stimulate more research of this type.
+Jeff Fields: Existential Explorations
+The classroom has a wall of windows that looks out on wooded lands, a
+picturesque backdrop for a philosophical discussion. Mr. Fields is an
+athletic-looking guy in his early forties with a laid-back energy and a deep
+voice. He has a buzz cut and wears a linen shirt with rolled-up shirtsleeves
+and khakis; when class begins, Mr. Fields sits at a desk facing the horseshoe
+of other desks and puts on a pair of glasses. About twenty students are
+sitting in the horseshoe, expectantly facing forward. They are dressed ca-
+sually. This is a philosophical literature honors class at Attainment High.
+The students come in and two boys talk with me briefly. When I say what
+I'm here for, one of them says, "You can't get deeper than this." | ask
+what that means and he says, "It's a philosophy class so we just talk about
+everything.." His peer interrupts, "Everyone comes in pretending they
+understand the reading-but I really only ever understand one part of it,
+but what ends up happening is that we all understand different parts, so
+then by the end of class we all understand all of it."
+Class begins. The topic of today's class is Descartes's famous postulate:
+"I think, therefore I am." Written on the board are four questions: "1. Basis
+of D's argument that all he can know is that he exists? 2. What is he? 3.
+From there, how prove God, and thus reality, exists? 4. Responses?" There
+are no SWBATs, no agenda, just the questions." The room is humming with
+energy, as students begin talking with one another in small groups about
+these four questions. Mr. Fields prompts them to rejoin the large group:
+"Thoughts on the first question? Ideas from the text?"
+One student begins: "If he is thinking a thing, then he must exist."
+Mr. Fields interjects: "Do you have language that supports?" The student
+looks through the text. "Perhaps it should also come to pass that if I were
+to cease thinking, then I would cease to exist," he reads from Descartes's
+Meditation Two. Another student, Anna, jumps in: "If he didn't exist, heDEEPER TEACHING
+3I3
+wouldn't be able to think." Mr. Fields offers, "What I'm hearing you saying
+is a little different than what he writes. What I heard him say in the text is
+that if I'm not thinking, I don't exist." A third student asks, "Do you ever
+stop thinking?" A fourth responds, "How would we know?"
+They continue to deconstruct the text in this manner for about fifteen
+minutes. Students are doing most of the talking, and they are sometimes
+challenging each other, asking for textual support for their arguments.
+Students draw on heavily marked-up texts. Eyes are attentively tracking
+the speaker. Then Mr. Fields shifts the discussion from "what" to "why."
+"Why is Descartes bothering with this? What's the point?"
+A student answers: "The only thing I can count on is that I exist. Even
+if these perceptions are wrong, I exist." (Here they are taking up Des-
+cartes's idea of "the deceiver"-what if there were someone, Matrix-
+style, who was trying to convince you of a reality that wasn't actually real.)
+Another student adds, "There has to be something which is being de-
+ceived. Since everything he is sensing doesn't have to be real, but the
+thing that is thinking has to exist." "But," adds another, "the question !
+have about [another student's] argument is what does it mean to exist?
+God sets out your plan before you-you still exist as a person but you don't
+have free will. Does the argument fall apart if something is making your
+decisions? Is that a different level of existence?"
+Toward the end of the period, Mr. Fields invites them to shift from un-
+packing Descartes's thesis to evaluating his argument. "What about
+computers?" says one student. "They seem to think, but they don't exist,"
+he argues. "Or what if you are in a vegetable state," says another, "then
+you can't think, but you still exist." Other students take up these hypo-
+theticals, offering their views on what is necessary and sufficient to dem-
+onstrate existence.
+The clock reaches 8:50, the end of the period. Time has flown by.
+Mr. Fields attempts to wrap up the discussion: "Tomorrow, we are going
+to see how Descartes shows that if we exist, God must exist." A chorus
+of cries break out across the room-how does the fact that we exist
+show that God exists? Skepticism, once let out of the bottle, can't easily
+be contained. As the students pack up, they continue the discussion; as
+one tells us later, "After every class pretty much, we like argue about it or
+discuss it for fifteen minutes after class. We walk down the halls talking
+about whatever we had just talked about. People probably think we're
+nuts, arguing about the nature of existence in the hallways."5 mad
+14,
+5
+IN SEARCH OF DEEPER LEARNING
+What makes this class tick? If you listen to the students, it begins
+with Mr. Fields's enthusiasm for the subject and the intensity of his re-
+spect for students' ideas about it: "In other classes, teachers are a little
+bit condescending," said one. "Mr. Fields genuinely wants to know what
+we have to say. He feels very genuine when he speaks to us." To sup-
+port this claim, the students pointed to the fact that when they were
+citing a passage, "Mr. Fields will flip to it with us," and when they said
+something interesting, he would pause, and take some time to think
+about what they were saying. Added another, "You can tell that he is so
+passionate about the material, he really wants to know what everyone
+thinks about it. ... All the really good teachers I've had really know
+their material well and are really invested-not even just in teaching,
+but in the material.... It's contagious."
+Students took particular note that Mr. Fields recently had been or-
+dained as a Zen priest, which meant that in the readings on Buddhism,
+he was as interested in them as they were. "When we learned that he
+had become a Zen priest," one student said, "we saw him as a person,
+and in some ways, as another student. He was learning the material as
+well with us, although he knew it already." Author Parker Palmer
+argues that the best classes are dominated not by student or teacher
+but by subject, which he calls "The Great Thing" that orients the in-
+quiry. This class had that feeling: while Mr. Fields was clearly the more
+knowledgeable reader, the tone of the class was one in which students
+and teacher were co-exploring philosophical texts.
+Part of what enabled this exploration was the way in which the stu-
+dents had come to understand the discipline in which they were par-
+ticipating. Rather than seeing philosophy as a fixed body of eternal
+truths established by great minds throughout history, they saw it more
+as a field in which they could and should seek to divine truth for them-
+selves, with texts serving as contributors to their journey. "I think the
+reason that people think philosophy is interesting is because there is
+no right answer, the way there is in biology and math," one student said.
+(This was not necessarily true in the most powerful science and math
+classes, as we will explore later.) In turn, this made students' critical
+task not to remember but rather to interpret the texts. In the stu-
+dents' telling, this created an unusual and exciting atmosphere in the
+class-one that was less focused on whether they were right or wrong
+and more on whether, as a class, they had worked together to deepenDEEPER TEACHING
+pAssion
+3-5
+Caresser
+their understanding. They also noted that they had become more con-
+fident in their abilities to offer these interpretations over time, and that
+this growing confidence was one of the most important things they had
+gained from the class.
+Much as in the theater production, the ethos of Mr. Fields's class was
+one that blended passion and precision, and that was grounded in a clear
+sense of purpose. Class often began with simply, "Who wants to
+start?"-an invitation for students to lead off with their thoughts on
+the previous night's text. There were some rules for conversation,
+particularly that students build on one another's points and stay close
+to the text. Sometimes the atmosphere was fun and light such as
+when a student exclaimed "Star Wars is such a Buddhist series of films!"
+to roaring laughter from his classmates— and other times it was deadly
+serious, as when students were pondering a deep philosophical conun-
+drum. Not once did we hear anyone ask whether something was on the
+test or whether one could get points for this or that; such questions would
+have been highly discordant with the norms of the class. While there was
+a lot of energy created by the existential questions at hand, there also
+was considerable precision in how students talked-making a claim,
+referring back to the text, and being challenged by Mr. Fields and one
+another on whether one could really make that claim based on that
+piece of text. In so doing, they were being inducted into some of the
+key norms of philosophy as a field, in which learning how to defend
+and support one's claims is critical.
+Supporting this learning was a highly evolved, if almost invisible,
+pedagogical approach. Mr. Fields had been teaching for twenty years;
+he had learned through long practice how to set up a supportive and
+collaborative classroom culture that, once established, could almost run
+itself. Much as in Socratic seminars at universities or Harkness tables
+at Exeter, there was not much variance in the day-to-day approach; the
+task was to talk about great texts, sometimes briefly scaffolded with
+some pre-writing or small-group discussion, but mainly students were
+asked to read and share their understandings.' Mr. Fields had, through
+much trial and error, come to four questions that guided the explora-
+tion of each text: (1) What? (What did the author say?); (2) Why? (Why
+was the author making that argument?); (3) Connect? (How does this
+connect to other passages in the text or to other texts?); and (4) Signifi-
+cance? (Why does it matter and what do we think of it?). These questions3I6
+IN SEARCH OF DEEPER LEARNING
+moved the discussion gradually outward in concentric circles, with stu-
+dents first deciphering the text, then connecting the text to other
+works, and only at that point, once they were sure they understood it,
+evaluating what they were reading. These questions also touched on a
+number of the qualities associated with deeper learning: the first two
+focused on mastery, asking students to accurately unearth what a
+particular author was saying and why he was saying it; the third asked
+for transfer, pushing students to connect what they were learning in a
+particular text with other readings; and the fourth invoked values and
+identity, asking students their views of the significance of what they
+were reading. All of the questions were open-ended and asked for
+analysis as well as recall.
+Like other teachers in this chapter, Mr. Fields often privileged depth
+over breadth. Sometimes, particularly with dense philosophy, the read-
+ings were only a few pages a night. He often had students read particular
+passages out loud, a practice that focused the discussion and centralized
+the text for shared interrogation. He had found that focusing on one
+passage could solve a number of related pedagogical dilemmas: it could
+equalize access to understanding, engender widespread engagement,
+and build deeper understanding of the text. As he described it:
+First somebody reads the passage and they hear it, but to them it
+feels just like dead language. It doesn't pique their interest or cu-
+riosity in any way. Then you ask the question, "So what's actually
+being said in this?" Half of them are disengaged because they don't
+actually understand what's even being said in the passage. Some-
+body in the class will say, "Well, here's how I'm reading this." Then
+another student says, "Oh, that's not how I thought of it."
+Then they start to discuss it. By doing that, the people who didn't
+understand the passage gain access to it. There you've got interest
+because more have access to the actual passage. And by layering
+one interpretation over another, students gradually deepen their
+understanding of the text.
+Mr. Fields also had a different approach to relevance than many other
+teachers. Earlier in his career, he said, he had been more tempted to
+start with a personal connection. But, he said, he had found that "as
+soon as you switch to talking about the text from the personal, it's likeING
+tu-
+ler
+1 a
+d
+DEEPER TEACHING
+317
+all the air gets let out of the balloon. They've been really excited to talk
+about themselves and their personal connections to a topic. They think
+it has nothing to do with the book. Then you bring the book in and
+they go, 'Oh shit. He tricked us. This is actually about the book?" As
+he became more experienced, he reversed the equation, beginning with
+the text, asking less about the personal connection and more about "why
+does this matter to us as people." The ideal, Mr. Fields said, is that there
+is a recursive loop between what was learned in the text and something
+one cares about in life: "Because the text is primary. "What's this text
+saying?' Rather than them being primary. It's more like their interest
+is all personal but it fuels their interest in the text itself. What does the
+text have to teach me about how I see my family? Does this change
+the way that I look at reality, or meaning in my life, or things like that?
+Then they make the connection, whoa, this is true in my life, too. That's
+where there's often a kind of light bulb like wow, this actually means
+something. And then that realization becomes the energy that feeds the
+inquiry back into [the] text."
+A critical part of Mr. Fields's growth as a teacher was learning how
+both to share his passion for the subject and to acknowledge that stu-
+dents might find different things in the text than he would. Mr. Fields
+had majored in literature, was married to a philosophy professor, and
+continued to study philosophy as part of his Buddhist training. After
+one unfulfilling year after college as a consultant, he felt that he had
+found his life's calling in teaching literature and philosophy to high
+school students, which he now had been doing for close to twenty years.
+So it was not hard for him to express his passion for the subject: "If you
+personify your subject as dead and kind of boring," he chuckled, "kids
+are not gonna invest. If you personify it as meaningful and really impor-
+tant somehow, and transformative, 'This changed my life, kids feel
+that. They feel it and they wanna know how. How did it change your
+life? Why is it so important to you?" In addition, he said, a critical
+turning point was when he stopped trying to lead students through
+the text using a series of questions that he had preselected. Students
+can read that attitude in a teacher, he says, because when you pose
+questions that you know the answers to, then "it's not really an open
+discussion; it's more like an oral quiz."
+In more recent years, Mr. Fields had shifted his approach to letting
+students pick the passages to discuss: "Actually learning to withdraw318
+IN SEARCH OF DEEPER LEARNING
+from the conversation I think is really essential. Learning to ask the
+question with passion because you do care about it, but to say, 'The
+reason it matters to me doesn't have to be the same reason that it
+matters to you. This is really important material. It has changed my
+life. It's transformed the way that I see relationships. It's transformed
+the way that I think of love? Then you say, 'What's it do for you?'"
+He found that decentering his role had both increased students'
+engagement- they were talking about the passages that mattered to
+them-and signaled his respect for his charges as people whose
+interests were as important as his own.
+This shift, while now foundational to his approach, had not come
+easily because it meant reconceiving his role as a teacher: "When I first
+started doing this, it felt revolutionary because I decided to go into
+the room and abandon what I knew about the text. I was no longer the
+authority on the text. I'm the teacher. Your identity as a teacher is
+wrapped up in being the one who knows. I think that there's something
+terrifying about that because, for a teacher, you're walking in, saying
+to students, 'Well, I have my own thoughts about it but they're not
+actually what matter, or, 'I don't claim to know the bottom line about
+this book. I can tell you my own personal feelings about it but I don't
+have the answer? I think that's really scary for a lot of teachers 'cause
+basically what you're doing then is you're walking into a big question
+mark. In fact, you are the question mark."
+But if making this change was initially scary for Mr. Fields, it did have
+the empowering effect that he sought in his students. They described
+it as refreshing not to be rehashing the "not like the nine thousandth
+billionth, trillionth essay on The Great Gatsby about the motif of death."
+And they respected that Mr. Fields didn't always have the answers: "His
+attitude is not like, Tknow everything. He's really open to the fact that
+he probably doesn't know everything and no one really does." Other
+teachers might get "defensive" when they didn't know the answer, but
+students thought that it actually "builds respect for the teacher when
+they are willing to admit that they don't know everything."
+A further benefit of this approach was that it gave everyone the re-
+sponsibility for "deepening" the learning. The goal of the class was to
+wring everything there was out of a given piece of text, and this was
+something that the group could do better than any individual, including
+the teacher. Mr. Fields saw this as part of his own growth as a person—
+realizing that his perspective was as colored by his background and
+]
+1
+i
+S
+t.
+i:
+C
+1]
+a
+n
+CDEEPER TEACHING
+319
+experiences as anyone else's-- and thus that trusting the wisdom of the
+crowd would lead to richer understandings of the text than what he
+alone could provide. Students saw it as about equality; that this wasn't
+a class where one person knew all the answers but rather where a di-
+versity of opinions was critical for deeper understanding.
+At a school where there was a lot of niggling for grades, this class
+stood out as one in which there was unadulterated joy in pursuit of
+existential questions. As one student summed up: "I think what I love
+about this is that we have thought about these questions our entire lives.
+We just didn't know how to put a name to these questions. I feel like
+I'm getting a glimpse of what people thought, not how individual people
+think, but how humans think. I think that's really cool."
+Nick Collins and Nathaniel Martin: Math as an Activity
+It's one thing to develop an appreciation for open-ended inquiry in phi-
+losophy, but what about mathematics? In our travels, most of the math
+instruction we saw was consistent with researchers' descriptions of
+American mathematics teaching: teacher-led lessons in which an in-
+structor explained a rule or algorithm, went over it on the board, and
+then had students apply it to "practice problems" that varied only slightly
+in their particulars. lO The reactions to this approach from students, de-
+pending on their interest and skill in math, ranged from workmanlike
+compliance to outright boredom and disengagement. We did see a small
+number of classes, however, where students were engaged in mathemat-
+ical reasoning, and, relatedly, were much more engaged and interested
+in their work. Most of these were in elite or advantaged settings—at
+an elite private school known for its distinctive pedagogy, at a statewide
+math and science magnet school, and in a few of the revamped math
+classes at Attainment High. But we were particularly interested in
+whether a similar approach could be implemented with more disadvan-
+taged students, which brought us to Bryant High School.
+Bryant is a school that serves exclusively high-poverty students, all
+of whom are students of color, in a major Northeastern city. The class-
+room we describe here was run by Nick Collins, a "master teacher" who
+was recruited by the city's teacher residency program both to teach in
+this school and to mentor a new teacher, Nathaniel Martin, who was in
+his first year of teaching mathematics.
+d
+te
+C.-320
+IN SEARCH OF DEEPER LEARNING
+I arrive at Bryant at about 8:15. The building is an old public school
+building-very tall ceilings give off the feel of a large comprehensive high
+school constructed in another era. It is early June, but fortunately not too
+hot. The lights are off in the main hallway, presumably to save money. We
+enter the room of Mr. Collins and his student teacher, Mr. Martin. Only
+Mr. Martin is present. The room has a worn linoleum floor, which has X and
+Y axes taped onto it with masking tape. Students are sitting at tables of
+two to four, facing front. All are students of color. They are wearing dark
+blue shirts with the name of the school on them. A sign on the wall reads,
+"Math is an activity: questioning, noticing, calculating, exploring, organ-
+izing, persevering, making sense, understanding, applying connections."
+The younger teacher begins the lesson by projecting a picture of the
+front of a package of balloons on the overhead. He asks the students to
+call out and write down, "What do you notice?" "What can you count or
+measure?" "What do you wonder?" [This is an adaptation of a well-
+known protocol used in constructivist teaching: "see, think, wonder."]
+The students respond, "The Balloon is red." "There is a six on the package."
+As they talk, he is blowing up a balloon. "Don't pass out, man," a student
+calls, and there is shared laughter; the tone of the class is light. A student
+points out, "The picture of the balloon on the package is round, but the
+one you are blowing up is not quite round." The teacher encourages them
+to think about why and a short discussion ensues. "What other questions
+could you ask?" he asks. And, "What does this balloon stuff have to do with
+math class?" A student asks, "How can you measure a balloon?" and the
+teacher asks this back to the class-"How can you measure the balloon?"
+The students call out that there is the diameter, the radius, and the cir-
+cumference. The teacher asks them to define these terms, and they
+establish that you could measure the circumference but would have to
+compute the radius or the diameter. Then, the teacher asks, "How many
+breaths will it take to fill this balloon?" "Is it fully inflated? How would we
+know?" The students ponder this, intrigued but unsure. And, he says, with
+a dramatic pause, how many breaths would it take to fill a bigger balloon?
+At this point the other teacher, Mr. Collins, walks in the door with a HUGE
+purple balloon, almost as big as he is. "How many breaths would it take to
+fill this balloon?" he asks.
+The teachers hand out balloons of varying sizes. The students set to
+work in small groups. Each group has a white board next to its table
+where students can capture their work. The process is to blow a breath,
+D
+t'
+9
+tr
+fi
+a!
+th
+th
+m
+m
+cl
+if
+W.
+le
+di
+th
+rit
+sli
+el
+m
+"[
+Th
+sa
+to
+ve
+be
+bu
+it':
+to
+th.NING
+hool
+high
+too
+We
+Inly
+and
+i of
+ark
+ds,
+IN-
+to
+"
+t
+DEEPER TEACHING
+32I
+watch the balloon inflate, measure the circumference, and chart it on a
+two-column chart. The goal is to figure out what kind of function re-
+lates the numbers of breaths (the Xs) and the circumference (the Ys).
+All of the groups are working assiduously; only one student asks to
+go to the bathroom. I ask one group how they are going to solve the
+problem. "We have to start with the input," says one. "The only way really
+to figure it out is to try it," says another. Over time, students begin to
+fill out their tables. The teachers are circulating, offering help and
+asking for questions. The period ends before students can graph their
+results or turn them into a function. We talk some with the students;
+they say that this is a very different approach to math than anything
+they have previously experienced: "more fun" and "more thinking like a
+mathematician."
+A new group of students files in. This class is an elective, "discrete
+mathematics." Because this is a STEM-themed school (though not a
+magnet or otherwise selective school), the students take additional math
+classes; this class, the teachers explain, was an elective for the teachers,
+if not for the students (who had to take it to fill their slate of math classes).
+The teachers chose it because they liked the subject and because they
+wanted the students to see something very different from what they were
+learning in algebra. (Discrete math is about understanding arithmetic in
+different bases, modular arithmetic, and graph theory.) The main task for
+this class is a math game. The game features "trees" comprised of a se-
+ries of connected lines and dots. Each player makes a move by putting a
+slash line through one of the lines, and then everything above that line is
+eliminated from the game. The players take turns, and whoever has to
+make the last cut loses. At each configuration, the teachers prod them:
+"Do you want to go first, do you want to go second, or does it matter?"
+The students try out different possibilities, often playing through the
+same tree more than once, to see whether various opening moves lead
+to different results. There is fairly rapt attention-everyone is playing a
+version of this game, and the students want to win. Energy is high at the
+beginning and gradually flags as the period moves toward its conclusion,
+but this is the kind of draining of energy that comes from thinking hard-
+it's what you might see at a chess club. The teachers are circulating, trying
+to get students to think more generally. "Why," they ask, "do in some of
+these cases you want to go first and others not? What's the more general
+rule here?"releva
+ceR.
+322
+IN SEARCH OF DEEPER LEARNING
+These two classes differ considerably from most math classes we saw
+in our research. They were both organized around a single essential
+question— in the first case, what sort of function will explain how many
+breaths it takes to blow up a balloon; in the second, what rule will ex-
+plain the winning strategy in a particular mathematical game. Both
+approaches treated students as meaning-makers-while there were
+some processes to be followed, students were being asked to develop
+their own theories and ideas about what could explain the outcome.
+The questions were also intrinsically interesting— in the first, engage-
+ment was motivated by a demonstration, and in the second, the task
+took the form of a game, which was itself fun, challenging, and pur-
+poseful. In all of these respects these math classes differed from most
+others we saw, where the common approach was for the teacher to pro-
+vide an algorithm and for the students to apply the rule to a series of
+practice problems. The atmosphere was also different from that in most
+math classes we observed: the students were at ease with the teachers,
+with a relaxed, light tone in the balloon class and a highly focused
+spirit in the math games class.
+How did these teachers learn to teach this way? For Mr. Collins, it
+was a gradual process. He grew up in an affluent district nearby where
+he had been a math whiz. From early on, he had been good at math
+and he initially embraced the competitive timed tests, the "can I do my
+multiplication tables faster than you" approach to math. As he got older,
+he became more interested in the way in which math posed puzzles-and
+the challenge to figure out these puzzles was what kept him interested
+in the field. Interestingly, he was less taken by the applications of
+math-for example, physics or economics— because while these made
+the math more "real world," from his perspective they often made the
+math itself less interesting. He found himself more drawn to fields like
+computer science, where there was a big task to do, and lots of freedom
+and flexibility to figure out how to do it.
+Over the years, Mr. Collins had gradually figured out how to trans-
+late this commitment to "puzzling through" into a set of workable ped-
+agogical principles for high school students. Part of his approach came
+through his university teacher-prep program, which had taken a strong
+stance about the constructed nature of mathematical knowledge. Part
+came from his own reading— a book that argued that "math was an ac-
+tivity" rather than a "body of knowledge" was particularly influential.DEEPER TEACHING
+323
+And then he described the most important influence (what he called
+"the biggest revolution" in his teaching) his finding of "math Twitter,"
+an online community with influential figures like Berkeley professor
+Jo Boaler and practicing math teacher Dan Meyer. This group had a
+similar stance toward math, and across Twitter they shared ideas,
+teaching strategies, and, most of all, sample problems that were "low
+floor, high ceiling" — meaning that they were simple enough to offer an
+easy on-ramp for all learners, but had enough room to play to be chal-
+lenging for the most mathematically inclined. In our conversation,
+Mr. Collins identified particular posts from Dan Meyer and others as
+significantly shaping his practice, particularly the idea that "real world
+did not necessarily mean real math," which was consistent with his
+overall mathematical philosophy and interests.
+For Mr. Martin, it had been a godsend to find Mr. Collins as his
+mentor. Mr. Martin had been homeschooled for the first eight years of
+his life, and thus had become used to working independently and finding
+answers to his own questions. He later attended what he described as a
+typical high school and, afterward, spent the first two years of college
+doing work that was "fairly traditional-sit there and take notes as the
+teacher talks." He continued, "I didn't start getting into actual math—
+proofs and algebraic thinking — until junior and senior years," and what
+he describes in retrospect as a "very procedural education." But once:
+he recovered from that initial setback, he found this latter part of col-
+lege very stimulating, and the kind of math he did then helped him to
+think about what he was trying to do with his students. "I often think:
+what would an actual mathematician do?" To answer that, "I think I'm
+drawing on having studied math in college—not just when I was taking
+the derivative but when I was doing proofs. ... I was inducted into the
+community of mathematicians by my college professors, and I can share
+that with my students." Just as the director of the theater production
+had been apprenticed into theater and then, in turn, apprenticed his stu-
+dents, Mr. Martin saw himself as bringing his experiences in college
+mathematics to his high school students.
+The result of his training was that Mr. Martin, like Mr. Collins, had
+come to see math less as a field of right answers than it is usually per-
+ceived to be. "Does math have right answers?" we asked. "Well," the
+twenty-three-year-old responded, "as a community of humans, we've
+decided that numbers are a good way to think about things," and, given324
+IN SEARCH OF DEEPER LEARNING
+that, he said, "certain things are true." But real math, he continued, was
+less about knowing the right answers, and more about "I'm going to
+try this out, conjecture, and revise," and that was what he was trying
+to share with his students. Working with Mr. Collins had been a god-
+send, he said, because Mr. Collins "set the tone for collaboration— math
+is about you seeing random things and trying to make sense of them;
+he very much set the expectation that math is something students do
+rather than something they receive."
+Mr. Collins's and Mr. Martin's students appreciated this attitude.
+They told us that "just so you know, this school sucks— they care more
+about the rules than the education," but added "[the two math teachers)
+are awesome." Why is that, we asked? One Latina girl explained, "When
+we get frustrated, he knows we are thinking hard. I know that he cares
+about us. He uses a different form of grading — a rubric- {that empha-
+sizes] effort and reasoning. It is different from doing problems and
+seeing whether we get the right answer. He cares about us and our
+learning: When we get too frustrated, he tells us to take a drink and
+take a walk." An African American student added, "This class is dif-
+ferent because we are thinking more like mathematicians. ... Math is
+about finding different ways of understanding something, and looking
+for patterns." Adds a third, "This class is great, At ++. They really care
+about whether we learn, this class involves a lot of playing with num-
+bers, when we get something they move on, but if we are struggling
+they don't tell us, they ask us again and again, give us different prob-
+lems, they are always asking us to think. They show that they care by
+always being available at lunch, after school, helping us to think. It's
+fun."
+Both Mr. Collins and Mr. Martin saw their work in math as not only
+about building mathematical interest but also about empowering their
+students. As Mr. Martin said, "Our purpose is not to get them into
+college; our purpose is to give students power. The idea is to help stu-
+dents become mathematicians, which means they have to do what real
+mathematicians do-discover, innovate, and meet a real intellectual
+need." Thus there is congruence between their approach to math—
+which is more about building mathematical identities than about
+covering content-and their ultimate goals for their students.
+In fact, the only other places where we saw students asked to develop
+their own interpretations in math were highly elite settings. At oneLEARNING
+qued, was
+going to
+is trying
+n a god-
+I-math
+if them;
+'ents do
+titude.
+e more
+achers]
+When
+≥ cares
+npha-
+•S and
+d our
+k and
+s dif-
+Ith is
+king
+care
+um-
+ling
+ob-
+: by
+It's
+Ily
+eir
+to
+u-
+It
+DEEPER TEACHING
+325
+highly regarded private school, the Harkness method had been adapted
+to math, and every class began with each student writing an answer to
+a problem on the board, which other students then built upon and cri-
+tiqued. (The school's faculty had also replaced the textbook with mate-
+rials they themselves had written, a spiraling curriculum of problems
+that they hoped would introduce students to math as an integrated
+field-instead of as different, siloed branches, which is how students
+often experienced it.) At the Midwestern Math and Science Academy,
+an exam school for the strongest math and science students in the state,
+students worked in a similar inquiry-oriented way: they were exposed
+to the mathematical mysteries in calculus and linear algebra by working
+collectively on one hard problem at a time. What Mr. Collins and
+Mr. Martin's class demonstrated was that an equivalent approach was
+possible with students who were less privileged and entered with less
+knowledge of math; it simply required a willingness to recast math in
+a way that made it more inviting for these students.
+Pedagogically, this meant puzzles, games, and low-floor, high-ceiling
+problems, through which the duo sought to advance understanding of
+core mathematical content. As Mr. Collins says, "My underlying phi-
+losophy is that math and mathematical thinking and solving puzzles is
+something which is innately enjoyable. It's not so much that I have to
+convince them; it's more that I have to remove the reasons that it's not
+coming to life for them." Mr. Collins himself also continued to enjoy
+what he called recreational math-games and puzzles that he himself
+liked to do— and he brought these in and shared them with the students.
+Particularly at the beginning of the year, they made a considerable
+effort to reframe the ways in which students experienced math,
+which for many had been a painful subject. By reintroducing math as a
+field rife with puzzles that could gradually be unraveled, they hoped to
+awaken students' mathematical interests. When we asked Mr. Martin
+whether, as a first-year teacher, he had had problems with classroom
+management, he responded that Mr. Collins had developed a very
+strong collaborative culture by creating a "task environment" in which
+math is "seen very much as something you do rather than receive"; from
+there, his job had simply been to sustain it.
+Overall, their teaching illustrates a parallel to what we saw in elec-
+tives at Attainment High: if you want to change students' experiences
+in core disciplines, you need to change the "what" of what students are326
+IN SEARCH OF DEEPER LEARNING
+being asked to do. Mr. Collins and Mr. Martin had not found some
+magical way to make traditional mathematics more engaging. Rather
+they had simply, and significantly, changed the tasks asked of students—
+play mathematical games, reason collectively about puzzling math-
+ematical conundrums-and, through those processes, they were
+gradually teaching topics like discrete mathematics and statistical
+analysis. Like other "deeper teachers" in our sample, they led with
+authentic complex tasks, and embedded within those tasks the basic
+skill-building needed to take on those tasks. They also drew on
+Mr. Collins's knowledge of the field to make these selections. Mir-
+roring Jerome Bruner's contention that real mastery is the ability to
+see the structure of how knowledge is organized in a field, Mr. Col-
+lins chose problems or exercises based on his sense of the arc of
+mathematical learning in different topical areas.
+Mr. Collins had also made changes to his ways of assessing students'
+progress and success in his class. Like the organic chemistry teacher at
+Attainment High, he had been frustrated by the process of grading
+quizzes; giving students a "yo" just seemed to tell them that they weren't
+good at math rather than that they were struggling with particular
+concepts or subtopics. Instead, like Adam, he had moved toward a
+mastery-based system: students were assessed on particular elements
+(of math, and, if they did not pass, were given opportunities to do the
+material again, with different questions, until they showed mastery of
+a particular skill or idea. He also had tried some collective performance
+assessments: students worked together to solve problems in a group,
+thus modeling on the assessments the same kind of collaborative culture
+they were creating in class.
+The duo's class also shows what is possible through an apprentice-
+ship model of teacher training. While Mr. Martin was part of a teaching
+residency program that itself provided significant training, he named
+Mr. Collins as by far the most significant influence on his teaching.
+They planned together; they debriefed lessons together; and sometimes,
+within lessons, they moved from one teaching to the other teaching.
+This total immersion helped Mr. Martin see, concretely, what it would
+mean to actualize this approach to mathematics, to practice it exten-
+sively, and to refine and revise it with actual students. The balance of
+the teaching also shifted over time, with Mr. Collins doing most of
+the teaching at the beginning of the year and Mr. Martin doing the
+DEEPER 1
+majorit!
+progran
+gradual
+compet
+teacher-
+of the 1
+show th
+Everyth
+field, hc
+student:
+teachers
+and errr
+tled intr
+example
+celerate
+Kyle Hi
+In our
+serving
+classes s
+In afflue
+the mos
+tion, per
+vantager
+highly t
+progran
+"regular
+higher-t
+author I
+dents we
+sion que
+making.
+ture tha
+present i
+Enter
+poverty' LEARNING
+ind some
+3. Rather
+idents-
+g math-
+=y were
+itistical
+ed with
+e basic
+'ew on
+• Mir-
+lity to
+• Col-
+irc of
+lents'
+ler at
+ding
+ren't
+ular
+•d a
+ints
+the
+•of
+Ice
+iP,
+re
+DEEPER TEACHING
+327
+majority by the end. This was by design, as part of the "residency"
+program; much as in medical residencies, the younger professional
+gradually assumes more responsibility as she or he demonstrates
+competence. While such an approach is only as good as the "master"
+teacher —we saw some pairs where the apprentice had taken on much
+of the formulaic approach to teaching of the lead teacher-it does
+show the power of co-teaching as a mechanism for learning the craft.
+Everything about Mr. Martin-how he talked about the nature of his
+field, how he thought about pedagogy, and what he actually did with
+students-were qualities that we otherwise observed only in veteran
+teachers, who had been through many rounds (and often years) of trial
+and error before they unlearned their initial methodology and reset-
+tled into a more collaborative, open-ended approach. His is only one
+example, but it does show that such a learning curve can be greatly ac-
+celerated in the hands of the right mentor."!
+Kyle Hogan: Building Skills, Empowering Learners
+In our travels, we saw a stark discrepancy between English classes
+serving affluent and higher-track students on the one hand, and
+classes serving higher-poverty and lower-track students on the other.
+In affluent settings, English was frequently the discipline where we saw
+the most opportunities for meaning-making, analysis, and interpreta-
+tion, perhaps because discussion is the coin of the realm. But in less ad-
+vantaged settings, we saw significantly less of this. For example, at one
+highly tracked comprehensive high school that included both a magnet
+program serving predominantly affluent white and Asian students and a
+"regular track" serving predominantly black students, we saw the
+higher-track students being asked questions like "What choices did the
+author make in organizing the narrative?" while the lower-track stu-
+dents were simply reading the story aloud and answering comprehen-
+sion questions, with no opportunities for interpretation or meaning-
+making. These observations are consistent with a large body of litera-
+ture that indicates that opportunities for extended thinking are more
+present in higher tracks and more affluent settings.12
+Enter Kyle Hogan. Mr. Hogan teaches almost exclusively high-
+poverty black and Latinx students in a traditional public school in a328
+IN SEARCH OF DEEPER LEARNING
+major Northeastern city. His mission in life is not only to educate but
+also to empower those students: to build their skills and knowledge,
+but also to teach them how to read critically canonical texts as well
+as analyze words in all of their forms in the world around them.
+Mr. Hogan-who is in his mid-thirties, has a joint master's degree in
+philosophy and education, is working on an education doctorate, and
+teaches novice English teachers at a well-regarded university- describes
+his own practice as only a work in progress. How to integrate skill-
+building with critical reading is both the topic of his doctoral thesis
+and a lifelong dilemma.
+To describe aspects of Mr. Hogan's approach, we focus on a set of
+classes about a Ta-Nehisi Coates article, "In Defense of a Loaded
+Word."i3 The article, published in the New York Times in November
+2013, is a defense of sometimes using the word "nigger," suggesting
+that rules regarding usage should not be absolute but rather should
+take into account the nature of the context, the race of the speaker,
+and the relationships among the parties. The classes described here took
+place less than two weeks after the article was published. We describe a
+three-class arc: the first one devoted to deciphering the text, the second
+to a discussion of it, and the third to an analysis of the form of the
+writing.
+Mr. Hogan is a thirty-something guy, slim, dressed in a sports jacket and
+tie. He has short buzzed hair and the overall impression I get is a bit preppy.
+There are twenty students in all. Two are chattering away in what I dis-
+cover is Haitian Creole, while others speak in Spanish. There are thirteen
+boys and seven girls.
+They are sitting around a horseshoe arrangement of tables. Mr. Hogan
+jumps right in, reminding the group about the analytic essay due on
+Monday. He asks me to introduce myself. When I say that I'm looking for
+classrooms where students are learning deeply, a few students clap and
+another says, "This is your man."
+Mr. Hogan introduces the Coates piece. "We're going to talk about his
+central argument-which he doesn't state directly! I don't really know
+what he's saying-so you're going to help figure it out, and to figure out
+why he doesn't just say it flat out," he says. A student responds, "You really
+don't know what he's saying? Because then I ain't gonna be able to figure
+it out either." The students laugh.
+DEE
+quir
+mel
+cho
+h
+Y
+tl
+e
+N
+pap
+this
+eds
+are.
+TI
+stra
+para
+gett
+the
+of ti
+folle
+som
+outs
+M
+wha
+Mr. I
+"Tha
+what
+that
+M
+then
+tion,
+call r
+studi
+direc
+key sARNING
+ite but
+ledge,
+s well
+hem.
+ee in
+, and
+ribes
+kill-
+resis
+it of
+ded
+ber
+ing
+uld
+er,
+ok
+з а
+le
+d
+DEEPER TEACHING
+329
+Mr. Hogan smiles but moves forward with the task, and the group
+quickly quiets down. He directs the group to look at the writing assign-
+ment due next Monday, which is a choice between two prompts. The
+choice involving the Coates article is as follows:
+In his essay, Coates never states his thesis directly; instead, he implies
+his central argument by building ideas from paragraph to paragraph.
+Your task is to state Coates' central argument in your own words and
+then defend, challenge, or qualify it. Support your argument with
+evidence from your reading, observation, and experience.
+Mr. Hogan says that the New York Times is "the most challenging daily
+paper," and holds up a copy. "Some people make fun of me because I have
+this delivered to my house every day," he says. He then explains what op-
+eds are: "Most of the newspaper is factual stories, but at the back there
+are arguments and opinions."
+The class starts to look at the essay. "We're going to use a reading
+strategy where in a few words you summarize what he's saying in each
+paragraph.... We've done this before. We'll do the first paragraph to-
+gether and then I'm going to let you work in groups or on your own with
+the rest." Mr. Hogan pauses after a few sentences and asks what one
+of the sentences mean, and several students help to clarify. Mr. Hogan
+follows up: "Does anyone else have this experience that they're called
+something in your family that would be uncomfortable if someone from
+outside the family called you?" There are loud assents.
+Mr. Hogan asks students to turn and talk with their partner about
+what the first paragraph is about. There is one minute of conversation;
+Mr. Hogan then asks what students came up with. A boy raises his hand:
+"That relationships with different people affect your language in terms of
+what you call them?" Another student adds: "The fact that other people
+that might not be as close to him call him dad is a problem."
+Mr. Hogan asks if they want to do another paragraph together and
+there are some murmurs of assent. He leads them through the next sec-
+tion, feeding them questions: "What is he implying here? ... If I were to
+call my wife 'baby' is that okay? What about if you called her baby?" One
+student says that he thinks this article is about the n-word and Mr. Hogan
+directs them to look back at the title. Mr. Hogan ask students to put the
+key sentence of the second paragraph in their own words: "Right names330
+IN SEARCH OF DEEPER LEARNING
+depend on right relationships," one student offers. Mr. Hogan prompts
+the students to annotate all of their thoughts and responses in the mar-
+gins of the text. With the first two paragraphs done, Mr. Hogan releases
+his students to spend ten to fifteen minutes working through the rest of
+the article.
+I sit down with two boys, who tell me that they find this strategy to be
+very useful-"because later I can look back on it and see what I was
+thinking, since we're going to write an essay on it and stuff." I come back
+to the pair where I have stationed my computer. They have finished the
+next two paragraphs and tell me what they think: "He hints at how race
+might have to do with how we use the n-word," one of them tells me. They
+have underlined lots of words and drawn arrows to their annotations in
+the margins. I turn to the other side and talk to a student who is working
+on his own. He says that he thinks Coates is in between thinking that the
+word is and isn't acceptable, referring to a paragraph that describes how
+frequently the n-word recurs in black music and culture. I move to a pair
+of girls who affirm that they find the strategy useful-"| do it on my own,"
+she says.
+In this first class, we see a highly scaffolded effort to help students
+make sense of the text. Recognizing that his students lack dominant
+cultural capital, Mr. Hogan explains what the New York Times is and
+what an op-ed is. He models by sharing his own enthusiasm for the
+Times. And he helps them work through the eleven-paragraph op-ed,
+annotating paragraph by paragraph, until they each have developed
+their own summary of the piece. In so doing, he is responding to where
+the students are-supporting them by breaking a full-length op-ed
+into paragraph-long chunks-but not lessening his expectations that
+they can read a significant contemporary author and engage with his
+ideas. He also models that this is a topic on which there can be different
+viewpoints, starting with his opening comment that it is the students'
+job to help him make sense of the essay.
+A day later, we return for the discussion of the Coates text:
+Mr. Hogan begins: "What l'd like to do is have a discussion about whether
+you agree, disagree, or want to qualify his claim, but before we do that
+you need to know what his claim was. Try to write it down in a sentence
+or two." | walk around-it seems that roughly half of the students have
+grasped at least the idea that Coates is defending the n-word as a choice
+DEEPER T
+that bla
+continut
+lenge" a
+argumer
+student:
+"qualify,
+"Let's
+STUDEN
+to use c
+say to e
+about it
+MR. HOr
+Raise yc
+STUDEN
+MR. HO
+saying a
+STUDEN
+STUDEN
+tain per
+MR. HO
+STUDEN
+was say
+n-word
+agree v
+tion no
+-er and
+with ce
+MR. HO
+pend ol
+think tr
+STUDEN
+white f
+strange
+MR. HC
+people
+STUDEr
+notatic
+becausING
+pts
+ar-
+ies
+of
+as
+sk
+le
+'y
+n
+9
+DEEPER TEACHING
+33I
+that black people can make in certain contexts. Mr. Hogan has put a
+continuum on the board, running from "defend" to "qualify" to "chal-
+lenge" and says that students who think they have a sense of the central
+argument should put their initials in the appropriate column. A number of
+students get up and do so. A bunch of them fall between "defend" and
+"qualify," with only two toward "challenge."
+"Let's start talking about this," Mr. Hogan says.
+STUDENT 1: "I believe that he's arguing that in certain situations you have
+to use certain words. ... There are certain graces that we are allowed to
+say to each other. If you say the n-word to Jamal, he might get offensive
+about it….. the coach was using the word in an aggressive way."
+MR. HOGAN: "Do you think that [student 1] is correct in his asséssment?
+Raise your hand if so."
+STUDENT 2: "I think he says that certain words are for certain people."
+MR. HOGAN: "Does anyone think they understand what [student 2] is
+saying and can paraphrase it?"
+STUDENT 3: "It's like the example of calling your spouse, 'baby'..."
+STUDENT 2: "No. I think he's saying that certain words are meant for cer-
+tain people."
+MR. HOGAN: "What's been said so far and what do you want to add to it?
+STUDENT 4: "[Student 1] was saying that it's mostly race... and [student 2]
+was saying that depending on race you can't say certain things like the
+n-word or spic, but [student 3] says it depends on the relationship, and I
+agree with that. There are certain words that hold a negative connota-
+tion no matter what. With the n-word there is a difference between the
+-er and the -a. I think that Coates thinks that language does have to do
+with certain words and certain situations that you're put in."
+MR. HOGAN: "Can we agree that Coates is saying the words we use de-
+pend on the situation?" Students say yes. "So to what extent does Coates
+think that race is part of the situation?"
+STUDENT 5: "I think it's just about the relationship.... I mean, if I have a
+white friend who calls me that, I'm not gonna care, but if it's a random
+stranger I would."
+MR. HOGAN: "Do you think that Coates would think it's okay for black
+people to use the n-word in some situations and context?"
+STUDENT 6: "I thought he was saying that that word holds a negative con-
+notation, so I think he would say it's never okay even for people of color
+because it brings back the history."332
+IN SEARCH OF DEEPER LEARNING
+MR. HOGAN: "So we need to go back to the text because we have some
+disagreement here about what Coates is saying. We need to figure this
+out."
+STUDENT 7: "Generally, I think he thinks that in some situations he thinks
+it's okay." [He reads a quote from the text.]
+STUDENT 8: "I feel like he's trying to say that it's okay when there's an "a"
+but it can go back to something negative otherwise.... I think it's not neg-
+ative when you use it among your type of race."
+MR. HOGAN: "Does Coates think that?"
+STUDENT 9: "I think so, because right here it says"— and he offers a quote
+from the text _"When Matt Barnes used the word 'niggas' he was being
+inappropriate. When Richie Incognito and Riley Cooper used 'nigger, they
+were being violent and offensive."
+STUDENT 10: "I agree because he's saying that the n-word for when some
+races use it is like a symbol of saying that they've overcome something...
+like in the last line, 'It tells white people that, for all their guns and all their
+gold, there will always be places they can never go.' So no matter what the
+white people do they will never be able to use that word in the same way."
+In this discussion, we see the students grappling with the complexi-
+ties of Coates's argument. The students' comments build on one another;
+there is some "barn-raising" in the way that the students' cumulative
+responses create an increasingly complex argument. They consider the
+questions of whether different races can and should use the word,
+whether "nigger" is different from "nigga," and how, if at all, context
+and relationships shape when the word should be used. The exclusively
+black and Latinx students are also unself-conscious about saying the
+word, even in front of a white teacher, and have no trouble developing
+an analytic discussion on a potentially very sensitive topic. Finally,
+unlike the Waiting for Godot pattern that we described in Chapter I-
+where teachers promised that the "deeper" day was coming on some
+unspecified future date-here the unpacking work of the previous class
+becomes a platform for a deeper discussion of ideas.
+In a third class, Mr. Hogan prompts the students to think more about
+the structure of the argument than its content, which leads into their
+writing assignment:
+"We're going to start by talking about whether Coates's implied thesis
+was effective, and then we're going to focus on your introduction andING
+me
+his
+iks
+'a"
+9-
+te
+:y
+e
+DEEPER TEACHING
+333
+thesis paragraphs," he says. He says that the homework is to write a draft
+of the introduction to their argument essay.
+"When I say implied thesis, what do I mean?" Mr. Hogan asks. "What
+his intention is-what he's implying to other people," a student says. "If
+you imply something you don't say it-like you don't actually say it." Adds
+another. "You're hinting at it; it's subliminal," says another. "Subliminal is
+going too far," Mr. Hogan says.
+"If we take a look at his first paragraph," Mr. Hogan says, and gestures
+for them to look at the text, "Do we see a thesis statement there? No.
+So what I want you to do is to write-on a scale of zero to five-write
+whether you like his implied thesis." A student asks, "What is his implied
+thesis?"
+Student: "I think what he's saying is that saying niggers depends who
+you are ... it depends who you are and who you have a relationship with —
+if I'm a Negro and I say nigger then it's one thing, but if I'm white, it's like
+not okay."
+Mr. Hogan asks the students to turn and talk about where they sit on
+the one-to-five scale in terms of how effective they found Coates's im-
+plied thesis. Mr. Hogan asks students to share out loud what their part-
+ners were saying, and asks one student to summarize what his partner said.
+STUDENT 1: "What she said is because his writing have [sic] too much in-
+formation-it started far away and it's not connected and it confuse
+people a lot. The point he makes is there but because of the connections
+it's not as clear."
+MR. HOGAN: "So tell me if this is right: you've got a bunch of different
+stories and they are too far from the central point?"
+STUDENT 2: "I'm in the middle because it's like it's good what he says but
+he taking too long to get to the point."
+MR. HOGAN: What would you have preferred that he did?
+STUDENT 2: "In the end he shoulda just stated his fact and went to the
+point."
+STUDENT 3: "I think the stories and all the stuff does match-you just have
+to put thought into what he's saying. All the stories he gave about Matt
+Barnes and stuff are all prime examples of relationships and where it's
+coming from and how it works. I'm still not exactly sure what he's getting
+at so that's why l'm at a 2.5. It's basically like a riddle to me."
+MR. HOGAN: "When you think about the effect, do you think he intention-
+ally put his thesis under the surface to make you think?"334
+IN SEARCH OF DEEPER LEARNING
+STUDENT 4: "I feel like in order to prove his point he had to give different
+examples of different situations-I think he's trying to get the reader to
+see it from a different point of view rather than just one so they could
+choose which one they agree with the most."
+The discussion continues and then Mr. Hogan prompts them to begin
+work on their own essays. The prompt is to "state Coates' central argu-
+ment and then to defend, qualify, or challenge what Coates is saying." In
+preparation for this task, they look at an AP English test essay from a stu-
+dent from the year before. Mr. Hogan asks them to analyze it, not for
+the specifics but for the structure of how the author has organized the
+text. One student says that "you should have a thesis-explain your
+opinion on the subject." "Does Coates do that?" Mr. Hogan asks. "No,"
+says the student. "So we want to keep that in mind-putting your argu-
+ment first is more of a guideline, since writing is an art, not like in math
+where two plus two is four no matter where in the world you go."
+I talk with two students who are still confused about the argument-
+they are looking back at the passage to figure it out. Mr. Hogan projects
+one student's intro on the document camera for the class to read-by a
+Latino student who was working on his intro yesterday during a study hall:
+In the passage, "In defense of a loaded word," the writer, Ta-Nahesi
+Coates, argues that when it comes to a solid relationship between
+two people, they have certain rights to call one another any name
+they feel comfortable with. More specifically, name calling can im-
+pact the relationship with one another negatively or positively, de-
+pending on how the other person reacts to the name calling. Others
+might say using expletives has no place in civilized relationships.
+Ultimately I think this language can be offensive but it is up to the
+individual to decide with consideration to whether this language is
+appropriate or not.
+Mr. Hogan prompts students to use this as an inspiration and to keep
+going. "The best way to write a good paper is to write a bad first draft-you
+just have to go for it," he says.
+In this third lesson, Mr. Hogan shifts the focus from the content of
+Coates's argument to the nature of persuasive writing. One reason he
+DEEPER *
+had chc
+frequen
+thesis, :
+tool, M
+pushed
+real wr
+that is
+the wo
+only ar
+In our
+kins's"
+to shor
+and wi
+difficu
+Mr.
+cognit
+Thus 1
+glish e
+what t
+dents
+thus t
+of the
+studer
+consis
+throu
+writin
+Hor
+teache
+point.
+"the a
+stude
+think
+ultim:
+tions,
+able, :
+"Well
+unsul
+the bNG
+it
+DEEPER TEACHING
+335
+had chosen the Coates text was that it differed from what students were
+frequently taught in school about essay writing: it did not lead with a
+thesis, and, in fact, the thesis was never directly stated. As a teaching
+tool, Mr. Hogan saw the implied thesis as having double benefits- it
+pushed his students to decipher the argument, and it showed them that
+real writing does not always conform to the hamburger-essay template
+that is so familiar in school. In so doing, he was inducting them into
+the world of real writers, where there is no fixed template, but rather
+only an intentionality about the effects of different authorial choices.
+In our interview with him, Mr. Hogan, unprompted, cited David Per-
+kins's "whole game at the junior level" as key to his thinking: he wanted
+to show students the "whole game" of professional persuasive writing
+and within that have them practice the parts that were particularly
+difficult.
+Mr. Hogan also was seeking to support the transfer of skills that
+cognitive scientists have identified as a critical component of mastery.
+Thus he had students read both the Coates and the former AP En-
+glish example for their structures, then he asked them to think about
+what they implied for their own writing. In a meta-move, the stu-
+dents were writing an essay about the nature of another essay, and
+thus they were having to make the same choices that they were asking
+of the author they were reading. Mr. Hogan ends by encouraging
+students to see their work as just the first draft of their thinking,
+consistent with the idea that production of worthy products comes
+through multiple drafts and revisions, another meta-lesson about the
+writing process.
+How did Mr. Hogan come to teach this way? Like many of the other
+teachers in our sample, he had taken a significant journey to reach this
+point. He was, he told us, initially shaped by what Dan Lortie called
+"the apprenticeship of observation," because his own experiences as a
+student had "a huge effect" on his initial practice as a teacher. 4 The
+thinking was that "we would look at literature and discuss it and
+ultimately come to what seemed like reasonable, supported interpreta-
+tions, and when we weren't coming to what struck me as these reason-
+able, supported interpretations, I didn't know what else to do but say,
+'Well, here it is." That led to "student assessments that looked more like,
+unsurprisingly, regurgitation." He also remembers that he just taught
+the books that were assigned from the curriculum, and that, at the336
+IN SEARCH OF DEEPER LEARNING
+beginning, it felt like the question was how was he going to fill up all
+the classes in the school year.
+Over time, he had reflected more on what his actual, as opposed to
+inherited, goals were for students. As part of this reflection, he went
+on a college tour, where he followed up with his former students as well
+as a number of their professors and asked them what they were strug-
+gling with in college. He found that "students weren't struggling at the
+next level because they couldn't read and understand Hamlet." The
+problem, he discovered, was not so much whether they could remember
+this text or that one, but rather "what was holding them back was their
+ability to critically read, analyze what they were reading, make argu-
+ments, and synthesize a variety of [ideas] into their viewpoints." Thus,
+he realized, if he had limited time with students, while exposing them
+to a variety of texts was still important, the most important thing he
+could do was to take enough time with each text to make sure that stu-
+dents built up their abilities to analyze, interrogate, and write, which
+were portable skills that they would need in college.
+At the same time, Mr. Hogan coupled this hard-headed analysis with
+a desire to induct students into his own love of all things text. Mr. Hogan
+described himself as "having an obsession with the written word... I
+just love reading and writing in essentially every genre." Shakespeare,
+Proust, Dickinson, Baldwin, Coates, fiction and nonfiction, historical
+and contemporary, were all of interest to Mr. Hogan. He continued to
+read voraciously, bringing new texts to class as he got interested in them
+and thought they would spark something for the students. He described
+himself as having a "pedagogical lens" on everything he sees: "When I
+read the newspaper, when I watch a movie, when I see an ad, I'm al-
+most always thinking, at least in the back of my mind, 'How might this
+fit into my teaching?' Mr. Hogan's students described gradually
+adopting this attitude themselves; as one reported, "I used to just like
+see ads and not think about it and now I think about how they're
+targeting certain audiences."
+As someone with a master's degree from a divinity school, Mr.
+Hogan saw teaching as an almost spiritual endeavor, a "calling" of
+sorts. In an interview with Sarah, he flatly disputed Jal's account from
+a previous book that teaching should professionalize along the lines of
+medicine or law, because those dry fields, in his view, did not compare
+to teaching:DEEPER TEACHING
+337
+I think there's really something missing there. I think it's more like
+teachers as architects where there's a more artistic component,
+teachers as ministers where you have this more spiritual com-
+ponent, almost a more theological component.... It's a way of
+living in the world in the same way that I think some religious folks
+would argue that they wake up every morning and look at the
+world through a lens of what would the Honorable Prophet Mu-
+hammad do or what would the Buddha do or what would Jesus do.
+Teaching is an identity, a way of being in the world, a way of seeing
+the world that means that my teaching is going to inform the way
+that I'm looking at almost everything outside of school. Simi-
+larly, the things that I encounter outside of school are really going
+to be informing the choices that I make as a teacher.
+Thus, he concluded, "Dewey was right" when he said that school was
+not preparation for the real world. But rather, "for students who are here
+hours and hours and hours every day, this is the real world. Then that's
+when I want to make this world-which is part of the real world; it's
+the real world for me and them for much of our lives-I want to make
+it vital to their experience as human beings."
+These convictions organized many of Mr. Hogan's choices. The
+essential question for the year was, "How do you use literacy skills to
+influence change in your life and the lives of others?" a question he
+picked because he wanted to show students the way in which litera-
+ture could be a force for social mobility. Within that overarching
+purpose, he looked for texts that would likely both be of interest to
+the students and embody issues of "perennial" or vital interest. He
+then gave himself some flexibility to pick texts as the interests of the
+class developed:
+Okay now might be an excellent time to bring in Judith Ortiz
+Cofer, "The Myth of the Latin Woman." This might be a good
+time to bring in-we've already done some stuff with Richard
+Rodriguez. This might be a good time to bring in Randall Ken-
+nedy out of Harvard who writes about our use of the N-word. It
+might be a time to bring in Anzaldúa. At that point, I can say,
+"Okay. Now I can connect some of these classic pieces to the Coates
+piece and do a sort of thematic unit on language."338
+IN SEARCH OF DEEPER LEARNING
+Far from his initial practice of moving lockstep through a set of pre-
+assigned texts, he now felt the rhythm of the class and thought about
+which texts would best expand its web of knowledge. If the job of the
+Deweyan teacher is to connect the web of knowledge in learners' heads
+to the tree of knowledge in the world, he used his wide-ranging knowl-
+edge of literature to pick texts that would likely extend their growing
+understanding.
+Mr. Hogan also had grappled with how exactly to make the skill-
+building piece come alive. Many classes began with some vocabulary
+words-for example, juxtaposition, antithesis, delectable- which he
+challenged students to use and combine. Examples offered were: "the
+antithesis of dapper is frumpy"; "the antithesis of brief is long-winded";
+"two antithesis foods such as broccoli and fried chicken in juxtaposi-
+tion to each other make the broccoli seem less delectable" (students
+cheer because the sentence contains all three words). By making vocab-
+ulary playful, inviting students to consider different ways of using the
+words, Mr. Hogan was trying to show them that these weren't just words
+to be memorized but rather they could use them in different ways as
+writers. One powerful "aha" for Mr. Hogan was his discovery that re-
+framing grammar as an instrument of power enabled him to see how
+to integrate it with his other goals. "When I stopped seeing grammar
+as rightness and more as making choices to express ideas, that really
+helped-at first I just couldn't see how to integrate it at all. So a lot of
+the beginning of the year is setting up what the classroom means for
+us as people who want to be successful in an unjust world—we need to
+be able to make a choice about the kind of language we use to make
+sure that we're able to use it to further our purposes."
+Finally, Mr. Hogan's experiences had led him to take a different
+stance than many of the other teachers we interviewed. While many
+other teachers in our sample, encouraged by today's data-saturated
+climate, tended to reflect on what their students did not know how to
+do, Mr. Hogan started with a conviction that students' thinking was
+often ahead of their writing: "Students are ready to think deeply
+about issues of public discourse—-they're ready for that intellectually
+but they're not at a place where they know that you're supposed to put
+a comma before the coordinating conjunction when you have two in-
+dependent clauses." Thus while for many teachers the common pat-
+tern we saw was "Bloom as ladder"-do the lower-order tasks now
+D
+C
+f

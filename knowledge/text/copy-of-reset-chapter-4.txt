@@ -1,0 +1,504 @@
+ALSO BY DAN HEATH
+Upstream: The Quest to Solve Problems Before They Happen
+RES
+How to Change What's l
+ALSO BY CHIP AND DAN HEATH
+Made to Stick: Why Some Ideas Survive and Others Die
+Switch: How to Change Things When Change Is Hard
+Decisive: How to Make Better Choices in Life and Work
+The Power of Moments: Why Certain Experiences
+Have Extraordinary Impact
+Dan He
+AVID READER I
+New York
+Amsterdam/ Antwerp
+London58
+RESET
+Recommendations (find live links at danheath.com/reset-links):
+I learned about the US Air Force's cockpit study from Todd Rose's fascinating
+book The End of Average. Rose, who headed the Mind, Brain, and Educa-
+tion program at Harvard, breaks down the myth of measuring individuals
+against the average in schools and at work. He's really good at showing how
+there are usually multiple pathways to success: the three approaches children
+take when learning to read, the seven distinct routes to career success, and
+others. For a more psychological take on change, including a closer look
+at the power of bright-spots thinking, check out Switch, by my brother Chip
+and me. For even more on bright spots-especially for social-sector work—
+see The Power of Positive Deviance by Richard Pascale, Jerry Sternin, and
+Monique Sternin. ("Positive deviance" = bright-spots thinking.) If you're a
+cal person-or simply interested in learning more about how a pair of vets
+managed to save millions of cats-check out the Unleashing Social Change
+podcast episode with Kate Hurley as a guest. For a master class on how
+Hurley approached fixes for overcrowding in shelters, watch her virtual lec-
+ture hosted by the San Diego Humane Society. Or, to learn more about the
+five lifesaving strategies used in the Million Cat Challenge, check out the
+resources section of the campaign's website. (As a teaser, one strategy was
+"managed admission," which was basically a way of relieving bottlenecks,
+a topic we will explore in the next chapter.)
+4
+TARGET THE CONS
+/.
+L
+>> You can Find Leverage Points
+the #1 force that is holding yTARGET THE CON
+One night during the pandemic, I was sen
+dinner for the family. What I saw when I
+seemingly endless line of cars for the driv
+cally through the parking lot and twisting
+I panicked. I hate lines. This was a half-
+I started fabricating wife-worthy excuse
+honey, there was a road closed. So naturally I
+rest of the way, but it turns out they'd run o
+pizca?
+Then I rallied myself. No, come on, buck
+the 50ish cars ahead of me. Be a good dad.
+After one final moment of desperate m
+if I just offered my daughters extra screen tim
+cepted my fate.
+I rolled forward and entered the line.
+Later I found that my experience was
+data. QSR magazine published in 2023 a s62
+RESET
+took, on average, for customers to get through a drive-thru line at
+10 major franchises. Check out where Chick-fil-A landed:
+CHAINI
+Taco Bell
+Carl's Jr.
+KFC
+Arby's
+Dunkin'
+Hardee's
+Wendy's
+Burger King
+McDonald's
+Chick-fil-A
+TOTAL SECONDS REQUIRED TO
+GET THROUGHTHE PRIVE THRU
+279
+304
+304
+320
+321
+336
+343
+351
+413
+436
+Dead last! You'd get through the line at Taco Bell about 2.5 min-
+utes faster.
+But let's get back to my predicament. Once I joined the line,
+something happened that tragically interrupted my sulking: I no-
+ticed that the line was moving. Almost constantly. It crept forward,
+steadily, like an automatic car wash.
+I flipped from irritated to fascinated. This was the most opera-
+tionally sophisticated drive-thru I'd ever seen. It ran like clockwork.
+(Cluckwork?)* By the time I emerged from the line, nuggets in the
+passenger seat, I promised myself I'd investigate the story.
+It had taken less than 10 minutes to get 50 cars through the
+line.
+This aspect of my experience, too, was reflected in a chart
+*If you're viewing this as an ebook, there's an in-app purchase that allows
+you to remove all of these puns.
+TARC
+published by QSR. The previous chart show
+get through the line. This one shows the aver
+line. Note the Chick-fil-A number relative t
+CHAIN
+Chick-fil-A
+McDonald's
+Wendy's
+Taco Bell
+Burger King
+Dunkin'
+KFC
+Arby's
+Hardee's
+Carl's Jr.
+AVG A
+So the data is saying, yes, it's taking a wi
+line at Chick-fil-A, but that's because there
+line. The chain's speed, in terms of cars serv
+the best in the country.
+And, as it turns out, my local Chick-fi
+Durham, North Carolina) is one of the top f
+drive-thrus in the entire chain. At its best,
+in an hour. That's a car every nine second
+through college before Hardee's would finis
+My local nugget source is basically the U:
+But it wasn't always that way. In the be
+mal Chick-fil-A with a normal drive-thru.
+of critical changes over the years, one after
+present-day results.
+Those changes were guided by a simple:
+use to boost your own change efforts. It's t64
+RESET
+constraint, and it's the fourth of five methods you can use to identify
+Leverage Points.
+What's the "constraint"? It's the limiting factor. It's the #1 force
+that is holding you back from doing your work better or on a greater
+scale. (I'm using "constraint" as a synonym for "bottleneck" — the
+two terms are similar, but I like the former because it seems broader
+and lacks the factory/operations connotations of "bottleneck.")*
+And in your search for Leverage Points, you are looking for can-
+didates that target the constraint-that erode the obstacles standing
+in the way.
+Chick-fil-A's steady progress over the years was fueled by con-
+tinuous attention to constraints. "Drive-thru is all about flow," said
+Tony Fernandez, the owner/operator of the Chick-fil-A at Roxboro
+Road. "It's about managing the bottlenecks."
+A key early Leverage Point was the embrace of "face-to-face or-
+dering." Meaning that in the drive-thru lanes outside the restaurant,
+a human being stands next to your car and takes your order. It was a
+triple win: First, it's faster. The traditional menu board dazzles and
+delays customers. But with somebody standing at your window, you
+make quicker decisions.
+Second, pushing the order takers upstream into the parking lot
+increased the amount of time the kitchen had to produce the meals,
+thus increasing the odds your food would be ready right when your
+car arrived at the window.t
+*For readers intrigued by the notion of constraints, there's a classic business
+book you should immediately order called The Goal by Eliyahu Goldratt and
+Jeff Cox. It explains the "Theory of Constraints" via a fictionalized account of
+a failing factory and a failing marriage. It's an odd and compelling book and
+there's a reason it has sold more than 10 million copies.
+†Weirdly, in drive-thru lingo, they call the window (where you get your food)
+the "door." I refuse to be complicit in this usage.
+TAR
+Third, and perhaps most important, unt
+from the menu board allowed Chick-fil-A
+food franchise might be stuck with one me
+if it's busy). But there's no natural limit on
+In 2024, my Chick-fil-A would routinely I
+taking orders simultaneously.
+In the early days, before tablet compt
+place, the parking-lot attendants would call
+via cell phones. Then, the constraint shifte
+cess, so they wheeled out the cash register to
+superlong cable. As technology advanced, e
+ers could accept payment, too. Wireless tab
+Periodically, the bottleneck would shi
+(who make the food) or to "meal assembly'
+and bag your order). More staffers would
+relieve the constraint.
+One day, one of Fernandez's lieutenants
+cob's brother Austin), flew a drone above th
+line. (Go and see the work.) Watching the vide
+that when the line spilled out onto the stre
+don it. I could relate.
+That insight sparked an idea for anothe
+"closing the gaps," which meant that whil
+taken, you were encouraged to keep your
+with the order taker walking alongside you
+gets and sauces. That forward movement le
+between cars, which accommodated more
+reduced the chance that the line would ov
+which prevented potential customers from I
+Closing the gaps had a psychological pay
+operational one. Fernandez and his team l66
+RESET
+customer satisfaction was not necessarily minimizing the wait time.
+It was the feeling of progress. That steadily creeping 50-car line
+at Chick-fil-A, which takes seven minutes to complete, is actually
+preferable to idling in the five-minute line behind two cars at Tàco
+Bell. It's less painful. (Uncanny, isn't it, how this mirrors the prog-
+ress principle from the introduction? The feeling of progress is psy-
+chologically precious.)
+Keep in mind that, even as you improve your operations, the
+constraint never goes away. As one area gets better, the constraint
+shifts elsewhere. When I first met Fernandez, the active constraint
+in the system was the "beverage cockpit." The laws of physics would
+simply not allow the team to pour the drinks into the cups quickly
+enough to keep up with the line. They needed more drink dispens-
+ers, but there wasn't room, so they had to wait for an expensive
+renovation that more than doubled the capacity of the beverage
+cockpit.
+By mid-2024, the constraint was back to meal assembly. They're
+working on it. The new goal was an unprecedented 500-car hour.
+Fernandez joked that, someday, he'll hire quarterbacks to work
+the drive-thru window, so cars can just roll by without stopping,
+their food thrown through the window in a perfect spiral.
+2.
+What's counterintuitive about constraints is that even smart-seeming
+investments can be worthless at improving the operations of a system
+if they don't address the constraint.
+Here's a simple example. Let's say you're running a donut stand
+at a county fair. One person cooks the donuts, which takes 60 sec-
+onds, and the other person takes the orders, which takes 90 seconds.
+The stand is busy all day, with a long line of customers waiting.
+TARI
+Imagine that a salesman approaches you
+cial donut fryer that will cut your cook tim
+onds to 30 seconds. It's expensive, but that?
+The fryer is a solid Leverage Point— you sh
+No. Because if you think of the overall s
+on a rhythm of 90 seconds per customer: Eve
+customer walks away with donuts. And the
+performance— the bottleneck— is the orderi
+So if you could cook donuts in 30 seco
+system as a whole wouldn't get any faster!
+wouldn't serve any more customers. Your c
+minute of idle time in between every custo
+fancy fryer is not a Leverage Point because it
+operations.
+To fight the constraint, you should hire
+With two order takers going, you'll be check
+on average every 45 seconds, which means ti
+flips to the donut-cooking (which takes 60).
+So NOW it's time to call the donut-fryer:
+lets you cook donuts every 30 seconds, which
+flips back to ordering. If you hire a third orde
+taking orders at 90 seconds apiece means a
+seconds-then, presto, you've got a lightning-
+monized at 30 seconds per order. You've tripl
+You could theoretically keep running thi
+whittling the time down, down, down. But
+out of customers. You'll have a small army of
+around, checking their phones. The constrain
+*Have I created this whole thought experiment abor
+to Krispy Kreme will be tax-deductible? Perhaps. Mig68
+RESETI
+So, in the world of operations, the notion of a constraint is rigid.
+Mathematical. In other contexts, the constraint may be less scien-
+tific. But it's still relevant.
+Let's zoom far away from fast food. Away from scale, away from
+speed. Let's consider the home-care business, in which customers
+hire caregivers to attend to their (in most cases) very old relatives.
+The caregivers are not trained medical personnel; rather, they help
+with the daily activities of life: bathing, shopping, cleaning, cook-
+ing. They also provide companionship. Often, the people they care
+for live alone.
+So this is a business that's personal, complicated, human, com-
+passionate, messy, difficult. The antifactory. But it still has a con-
+straint! In the post-pandemic era, the constraint on the growth of
+most home-care businesses was labor: finding and keeping good
+people.
+It's hard to attract good people when the job demands intense,
+taxing work but the pay is close to minimum wage. Home-care
+leaders could pay their staffers a generous wage-say, $30 an hour!
+But then most of their business would evaporate, because their cus-
+tomers are regular folks paying out of pocket for their own relatives
+to receive care. For most non-rich people, it's a massive financial
+burden. There's just not much room to budge on wages.
+So how do you hire extremely capable and dependable people
+for a subpar wage? Mostly, you don't. Workers cycle in and out of
+home care constantly. The median turnover rate in the industry is
+about 65%, meaning that two out of every three workers are gone
+within a year. Churn rates above 100% are not uncommon.
+So that's your constraint. You can't grow because it's really hard
+to find more staffers who will work (reliably) at the wages you can
+afford to pay.
+Laura Shaw-deBruin, the executive director of Norwood Seniors
+TARC
+Network, decided to aim her efforts squarely
+was appalled by the high-churn norms of th
+barrassing. It was not efficient," she said. "I
+where they worked. I wanted them to be hap
+To escape the endless churn cycle, she n
+Norwood got pickier about whom it hired,
+keep those chosen few. That required a subsi
+ment-building a pipeline of candidates an
+filters to identify the absolute best employee:
+questionnaires, structured interviews, backgr
+orous preorientation process- involves a me
+The interview, for instance, is designed to
+had the wrong instincts for home-care wo
+people will say," said Shaw-deBruin. One sce
+times is, Imagine that you're working with a
+dementia and she's getting angry at you and yell
+Some candidates, Shaw-deBruin said, will
+out the door: "When you're caring for somebc
+out the door," she said. Some candidates hav
+interviews while driving their car. One perso
+ing a bath. (These people were not hired.)
+The preorientation process, too, is bur
+physical and a drug test, among other steps.
+delivered on a strict deadline. "If they're late
+don't even bother hiring them," said Shaw-
+get the things done on time, are they not g
+shift? We value reliability."
+Only 3% or so of Norwood's applicants
+cream of the crop and are often caregivers
+Norwood wants to keep them.
+The firm tries to carefully match careg70
+RESET
+the caregiver has a veto if the fit doesn't seem right. The match
+is critical, since the relationships can last for years. "We have a
+client right now who smokes weed and drinks all day," said Shaw-
+deBruin. "That's all he does. He's retired and this is how he wants
+to spend his retirement. He is not aggressive. He's not hurtful or
+nasty. He just doesn't give a hoot about anything. But without us
+there, he won't eat or shower. So we help him, remind him to do
+those things. And we take him places because he does not get in
+the car anymore, thank goodness. One of the caregivers I have with
+him is just as old as he is ….. very laid-back. And they work perfectly
+together."
+Norwood built a mentoring program that matches new hires
+with more experienced staffers. Home care can be "very isolating"
+for new workers, said Shaw-deBruin. "I wanted them to feel con-
+nected." Now, they're contacted by a peer on their first day. And
+then again on the 30-, 60-, and 90-day milestones. The program
+gives them someone to talk to-someone who's not a boss. Some-
+one who can relate to the countless daily hardships of caregiving.
+At Chick-fil-A, the constraint bobbed around-from ordering
+to payment to baggers to beverages and so on. As the constraint
+shifted, so did the Leverage Point-the part of the system where
+applying force could permit disproportionate progress.
+At Norwood, by contrast, the constraint holds rock steady, and
+so does its strategy. The constraint is labor quality and retention—
+all day, every day. So the firm's leaders have identified Leverage
+Points to relieve that constraint: a tough hiring process and a men-
+torship program and careful attention to matching the right care-
+giver with the right client.
+All this attention to retention has paid off: Caregivers stay with
+them. Norwood is now consistently below 30% churn, which is
+rare in the industry. And it's no mystery why the firm has had that
+TAR
+success: It thoughtfully and consistently applie
+constraint.
+Constraints are contingent on a goal. If y
+the constraint at my kid's school?" that qu
+Constraint on what? The constraint on sma
+lack of teachers. Or classroom space. The
+the student experience might be the lack of int
+rooms (reminiscent of the "shadow a studes
+Chick-fil-A found its constraint in the
+flow of its drive-thru. Norwood found its a
+of growing the business. How do you find the
+you've identified?
+Often the "go and see the work" advice
+the trick. When you observe how the work 1
+spot blockages. Where are there pileups or
+Or try asking yourself this question: If y
+one person to help you achieve your goal, y
+role be? The role you identify might well
+constraint. Once you realize this, you migh
+constraint even if you can't actually hire so
+Even individuals have constraints. The
+Heck deals constantly with unhappy fight
+job to identify what's holding them back a
+verse the bad feelings. What's something
+them to embrace immediately-but also
+What could possibly serve as a Leverage
+riage?
+Heck frequently recommends to her72
+RESET
+"sticky-note appreciations." Here's how it works: You keep a sticky-
+note pad and a pen right by the toothbrush holder in the bathroom.
+Then, while you brush your teeth, you're thinking about something
+positive you noticed about your partner: Something you appreci-
+ated. You write it on a sticky note and leave it on the mirror for
+them to find: "Thanks for making time to talk college stuff with
+Lucas-—you're so good with him."
+"I'm hoping to create an attitude of gratitude in their relation-
+ship where they're creating this desire to look for the positives,"
+said Heck. "What's going right in the relationship? What do you
+love and appreciate about your partner? Because whatever we look
+for, we're going to find."
+This activity is a reliable client favorite. And it's easy to under-
+stand why: People love finding those notes of appreciation twice
+a day.
+Except that Heck said that those little bursts of joy are not really
+the point. "It might feel really good to receive a sticky note from
+your partner, but that's not actually the purpose of this," she said.
+"The purpose is to create a habit of mind where you're scanning for
+the positives. And it gets easier with time. So the more you start to
+tune into What do I appreciate? What do I admire? What do I respect?,
+the easier it becomes."
+This is ingenious. As a therapist, almost everything is out of your
+control: the couple's past, their personalities, their emotions, their
+jobs and finances and kids. Not to mention that you might see them
+for only one hour in a week. The other 167 hours are out of your
+jurisdiction.
+To repeat a riff from the introduction: When you're facing a
+big challenge, you can't change everything. You can't change most
+things. You can't even change a respectable fraction of things! But,
+with a bit of prodding and catalyzing, you can help change something.
+For Heck, that something was to "cre
+you're scanning for the positives." That
+key constraint in the couple's lives: the
+positive about their partners. They're
+glasses, they're wearing jackass-colored g
+The sticky-note appreciations activi
+doesn't instantly solve a couple's probles
+verage Point. For struggling couples who
+hopes that it's possible to get back to wi
+chance to see the boulder budge.
+Because constraints make sense only it
+logical corollary is that when you shift
+shifts too.
+Think about the veterans loan-forgive
+ter 2. In the beginning, when veterans ha
+the constraint was "reducing the friction
+came the epiphany: Hey, let's just proactive.
+That's a new goal. And as a result the c
+thing more like: getting permission from di
+to compare databases so that we can figure or
+given. Targeting that constraint, rather the
+a huge difference in how you direct your
+Similarly, with the Million Cat Challe
+"return to field" practice amounted to a
+ters. If your goal is to shelter cats in hopes
+and you're hopelessly overcrowded, your
+lack of space. Or the lack of families rec
+committing to return to field, though, the74 RESET
+something more like: making sure there is enough surgical capacity
+to handle all the spaying and neutering that's necessary.
+When you know where you're headed and understand what's
+keeping you from getting there, you can overcome that constraint
+and chart a better path forward.
+TARC
+Whirlwind review: Chapter 4, Target the Cc
+1. The fourth way to identify Leverage Points is to
+bottleneck-the #1 thing holding you back from
+fied the constraint, you can spot ideas for easing
+a. At the Chick-fil-A on Roxboro Road, the dri
+every nine seconds! They achieved that level
+ing the bottlenecks systematically.
+2. Constraints don't go away. When you relieve or
+the system AND another constraint takes its pla
+straint.
+3. Investments that aren't directed at the constrain
+prove the system as a whole.
+a. In the donut shop example, buying a new
+donuts faster, but that wouldn't help anything
+the beginning) was the ordering step.
+4. Constraints can be clear-cut in operations-intensi
+organization faces constraints, even if they aren't
+a. In Norwood's home-care business, the co.
+worthy labor who would work for the wage
+To relieve that constraint, the firm hired more
+retention and employee satisfaction.
+b. Even individuals have constraints. In Laurc
+practice, the key constraint was "viewing yc
+she prescribed the sticky-note appreciations
+5. Constraints only make sense in the context of g
+the constraint will move, too.
+a. In the Million Cat Challenge, shelters began
+"return to field." That, in turn, shifted the cons
+surgical capacity for spaying and neutering.
+6. When you understand deeply what is holding yc
+sible Leverage Points that will allow you to shrir
+forward progress.76
+RESET
+Recommendations (find live links at danheath.com/reset-links):
+For more on the theory of constraints, l'm not sure whether anything can top
+the classic 1984 business book The Goal by Eliyahu Goldratt and Jeff Cox.
+It offers practical examples and lessons on how to evaluate an entire system
+(versus its individual components) as well as insights on organizational culture,
+leadership, and teamwork. And did I mention it's a novel? Also, 24 years after
+The Goal, Goldratt applied his philosophy of constraints to life more broadly
+through a conversation with his daughter, Efrat, in the book The Choice. For
+a practical, constraint-based approach to personal change, I'd recommend
+How to Change by Katy Milkman. She described her approach: "Change
+comes most readily when you understand what's standing between you and
+success and tailor your solution to that roadblock." If sticky-note appreciations
+struck a chord, you can hear more from Laura Heck on my podcast, What It's
+Like to Be ... She gives us a peek into life as a couple's therapist-from the
+power of mystery dates to the rampant misuse of the word "narcissism." And
+finally, as a palate cleanser, enjoy this comedic take on what happens when
+"closing the gaps" at Chick-fil-A goes too far.
+5
+MAP THE SYS
+/
+> You can Find Leverage Poin
+above the silos to spot hidde

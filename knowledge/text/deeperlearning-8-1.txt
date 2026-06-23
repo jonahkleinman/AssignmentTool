@@ -1,0 +1,749 @@
+8 me
+Mastery, Identity, Creativity, and the
+Future of Schooling
+ScHooLINg TODaY seeks a different future, but is heavily constrained
+by its past. Efforts to create twenty-first-century skills sit uncomfort-
+ably on top of a U.S. educational system that, at its foundation, is still
+employing a late-nineteenth-century grammar of schooling. While the
+research for this book was conducted in the United States, the dilemma
+is global-educators and officials in many countries are trying to re-
+think inherited practices in order to create learners ready to meet the
+challenges of the modern world. When we offered an executive educa-
+tion program on deeper learning at Harvard in the summer of 2017,
+the majority of our enrollees were international; they too were searching
+for ways to integrate rigor with joy, precision with passion, mastery with
+identity and creativity.
+What should we tell them? The lessons from this book are necessarily
+partial; no one has it all figured out. But what we found, perhaps, was a
+path forward: we found a series of forays, at the level of classrooms,
+extracurriculars, clubs, and sometimes whole schools, that, in one way
+or another, were trying to move away from old realities and toward
+new and powerful learning environments. American public schools
+are in the early days of their journey toward deeper learning; old prac-
+tices are still entrenched in many ways! We have a public system that
+was founded on the idea of teaching as transmission, and on an indus-
+trial model devoted to sorting and batch-processing students. What
+we witnessed were a series of efforts to break away from those realities
+and establish something new. But such efforts are themselves embry-
+362MASTERY, IDENTITY, CREATIVITY
+363
+onic. Different individuals and institutions are beginning to put in
+place different pieces of the puzzle, but the creation of an integrated
+whole is still very much a work in progress.?
+At the same time, a few things became clear to us: across our dif-
+ferent powerful learning environments there were important common-
+alities; among our deeper teachers there was a shared stance and often
+a remarkably similar journey; and across our successful schools there
+was a common set of elements that allowed them to translate espoused
+visions into enacted practices. There was also agreement on the ways
+in which the broader system was inhibiting efforts to enact deeper
+learning. To this end, many of our most successful examples (electives,
+clubs, extracurriculars, charter schools) were in some ways buffered
+from the external system and its current demands. Thus the critical
+questions became: What would it take to make the exception the rule? How
+might we create a system where it wouldn't be necessary to work against the
+grain to be successful?
+In the pages that follow, we take up these questions. Our thesis can
+be captured in one sentence: We need to change student learning, so we need
+to change schools, so we need to change systems. We advance this argument
+by working outward in concentric circles. We begin by exploring what
+we learned about the nature of powerful learning experiences. Then
+we turn to teachers and teaching, asking what kinds of preparation
+and career trajectories they would need to lead such experiences.
+Then we move to schools, considering what kinds of leadership, cul-
+ture, norms, processes, and organizational designs they would need
+to support such learning for both students and teachers. Finally, we
+move outward to the system level, considering how we might remake
+policies and structures to support such work closer to the ground. We
+include a discussion of politics and values because the question of
+whether or how to transform our country's schools is not in the end a
+technical one, but one related at its core to how we see the purpose of
+education.
+What follows is not intended as an all-or-nothing proposition. While
+we lay out the changes that would need to happen at each level to create
+a system oriented toward deep learning, individual teachers, adminis-
+trators, schools, teacher-preparation institutions, and others can take
+some concrete steps in this direction without waiting for wholesale
+system change. The United States has more than 13,000 districts and304
+IN SEARCH OF DEEPER LEARNING
+almost 100,000 public schools within a fairly decentralized system of
+governance. This frustrates those who desire rapid and centralized
+change, but it also creates opportunities for a deeper-learning agenda
+to flourish in different corners as it acquires local political support. We
+can well imagine the change looking more like a social movement or
+an Othello board, where, as some places flip toward deeper learning,
+momentum builds for similar change in surrounding classrooms,
+schools, or districts.
+The Nature of Powerful Learning Environments
+Across the variety of settings that we studied, some clear commonali-
+ties emerged among those learning environments that students and
+teachers described as the most powerful. In all of these environments,
+learning started with a purpose— something that was not preparation
+for life later but could grab the interest of a young person in the present.
+Students were treated as producers, that is, as people who could offer
+interpretations, solve problems, develop products of value, and other-
+wise create in ways consistent with the norms of the field or discipline.
+Subjects were treated as open-ended rather than closed; there was a
+belief that what students were discovering or creating had significant
+value, not that knowledge had been previously discovered and needed
+only to be transmitted. Students were invited to "play the whole game
+at a junior level"—-that is, while there were opportunities to work in
+depth on particular subsections, students were immersed in whole
+projects, such as putting on a production, designing experiments, or
+engaging in mathematical problem-solving. While traditional classes
+used an "I do /we do /you do" formula, powerful learning environ-
+ments gradually transferred ownership of the process of learning it-
+self. Such a shift could empower students either individually or in small
+groups-as in the projects at Dewey High, or the self-paced organic
+chemistry modules or design projects at Attainment High-or it could
+empower the group collectively, as in Mr. Fields's philosophy classes,
+Harkness tables at Exeter, or the student production team in Servant of
+Two Masters. While traditional classes often had only two roles-
+teacher and student— powerful learning environments built communi-
+ties of learners in which students could teach as well as learn, capital-MASTERY, IDENTITY, CREATIVITY
+305
+izing on both the distributed expertise that exists in any group of
+learners and the motivational benefits of peer-to-peer learning. These
+powerful learning environments were also cognitively challenging.
+"This is the class that makes my brain hurt" was a refrain we heard
+more than once. At the same time, they were also passionate places
+where the passion sustained students' motivation when the learning
+was hard. To enable these experiences, the teachers had carefully built
+communities that were challenging yet vulnerable, where students
+sought to give their best but were willing to be wrong.
+Such environments also tended to mobilize two very different sets
+of virtues. In their emphasis on intrinsic motivation, creativity, and stu-
+dent empowerment, these environments evoked liberal or romantic
+virtues-and, in so doing, stayed consistent with the Rousseauian meta-
+phor of learning as more "igniting a fire" than "Alling a container." At
+the same time, these were places that emphasized classical virtues. They
+had real standards for learning and emphasized the importance of prac-
+tice, revision, and repetition to get work exactly right. Whether it was
+Mr. Simmons having students move forward in organic chemistry only
+after they had shown complete command of the previous unit, students
+developing draft after draft of their projects at Dewey High in prepa-
+ration for public exhibitions, or the Servant production team patiently
+refining the angle of an actor's foot, there was a fierce attention to
+detail and an insistence on mastery.
+In other words, the most powerful learning experiences we observed
+were neither at the progressive pole of self-guided learning nor at the
+conservative extreme of direct instruction. Rather, they assumed
+the model of apprenticeship or induction, in which students became
+motivated by a domain and worked to develop or make something
+within that domain, but did so under the watchful eye of expert men-
+tors." Our findings are consistent with two recent syntheses of
+decades of work on project-based learning and problem-based or
+inquiry-oriented learning, both of which find that such modes can have
+strongly positive results if (and only if) they are organized with appro-
+priate scaffolding and necessary direction from more knowledgeable
+others.' John Hattie's meta-analysis of practices aligned with effective
+teaching similarly emphasizes a number of the elements that we identify
+here, including the importance of feedback, deliberate practice, and
+scaffolding.366
+IN SEARCH OF DEEPER LEARNING
+In emphasizing this duality, we seek to integrate two very different
+traditions of school commentary. On the one hand, this study builds
+on a long lineage of progressive figures- from J. M. Rice in the 1890s
+to John Goodlad in the ig8os— who at different points over the past
+120 years have similarly argued that schools are unnecessarily stulti-
+fying places where textbooks, bell schedules, and the view of teaching
+as transmission cut students off from the enlivening possibilities of
+learning. On the other hand, this study also draws from work on ex-
+pertise (which emphasizes practice and feedback from knowledgeable
+others); the notion that fields possess standards that guide the creation
+of good work (we can see this in IB, among other places); and the old-
+fashioned idea that things of quality can be produced only through sig-
+nificant amounts of hard work, practice, and revision. In so doing, we
+offer a bridge across ideological divides, and suggest that powerful
+learning environments integrate elements from what are frequently
+seen as opposed positions?
+We also suggest that deep learning accrues over time through an
+upward spiral of mastery, identity, and creativity. Our argument is that
+there is a cycle that integrates developing one's knowledge and skill
+in a domain (mastery), becoming deeply and personally invested in
+that domain (identity), and trying to make or do something fresh
+in that domain rather than simply receiving knowledge passively (cre-
+ativity). Over time, students play the "whole game" at more and more
+complex levels, participating in the same activities but at increasing
+levels of sophistication. We saw this clearly in our observations of extra-
+curricular activities; a similar theory of learning was at work in project-
+based schools that emphasized multiple cycles of revision as students
+worked toward a culminating project.
+It is also important to name what we are not arguing. As should be
+apparent, deep learning is not synonymous with student-centered
+learning, project-based learning, blended learning, or competency-
+based learning. These are modalities of learning that can be either deep
+or shallow in practice. We think of mastery, identity, and creativity as
+rather stringent criteria against which particular learning experiences
+can be evaluated. In advancing this argument, we are seeking to give
+some teeth to what it means to learn "deeply," creating a demanding
+standard to which students, teachers, and other stakeholders can
+aspire.
+M
+E
+fi
+a
+F
+t
+t
+t
+t
+t
+i
+€
+t
+1
+tARNING
+ifferent
+builds
+: 18005
+se past
+stulti-
+aching
+ties of
+on ex-
+yeable
+eation
+e old-
+h sig-
+g, we
+erful
+ently
+h an
+that
+skill
+d in
+resh
+cre-
+nore
+sing
+tra-
+ect-
+nts
+be
+ed
+•y-
+ep
+as
+es
+ve.
+1g
+.N
+MASTERY, IDENTITY, CREATIVITY
+367
+Expanding a Parallel "Grammar" of Schooling
+Our adoption of an apprenticeship perspective also sheds light on why
+we found electives and extracurriculars to be such promising platforms
+for learning. David Tyack and Larry Cuban have powerfully argued
+that the core "grammar" of schooling— featuring teaching as trans-
+mission, age-graded classrooms, short blocks—is not hospitable to
+powerful modes of learning.® But what Tyack and Cuban missed is that
+in high schools there is a second, parallel grammar that many students
+are experiencing every day, one with many characteristics that make it
+promising for learning: purpose, choice, community, interdependent
+roles, learning with heart and hands as well as head, apprenticeship, and
+the "whole game at the junior level." While books like The Adolescent
+Society and The Shopping Mall High School have faulted the periphery for
+distracting students from the academic core, our account suggests that
+the core might have much to learn from the periphery when it comes
+to organizing learning experiences.
+Part of what makes this parallel "grammar" so promising is that it
+connects to longer and older traditions of learning, particularly tradi-
+tions of apprenticeship. Efforts to transform learning in core disciplines
+to make students more active learners date only to Dewey and his dis-
+ciples beginning a century ago, and, as we have seen, these efforts have
+proceeded in fits and starts, never having been really tried on any scale
+in public schools. By contrast, learning in theater and debate goes back
+at least to the Greeks, and thus we have millennia of aggregated knowl-
+edge about how best to prepare aspiring actors or debaters to enact
+their craft. These traditions are unambiguous that learning must happen
+through doing, that trying and failing is a necessary part of improve-
+ment, and that coaching and feedback from more skilled others is crit-
+ical for learning. These fields have also developed structures that create
+rhythm to the learning, a set of roles that are endemic to the field, and a
+technical language that allows people to communicate with precision,
+all of which are linked to the adult work that it emulates. These char-
+acteristics either do not exist or are less developed when it comes to the
+teaching of core disciplinary subjects; that area has much catching up
+to do if it is to provide the same kind of infrastructure that supports
+peripheral modes of learning.368
+IN SEARCH OF DEEPER LEARNING
+Recognizing the importance of extracurriculars also has important
+equity implications. Opportunities to participate in these arenas are un-
+equally distributed; low-income students are three times as likely as
+their non-poor counterparts "to participate in neither sports nor clubs"
+(30 percent versus 1o percent); some research suggests that this gap
+is widening over time in concert with growing income inequality? In
+the high-poverty school where we studied debate, it was the only non-
+sports extracurricular offered, in contrast to the vast array of options
+at Attainment High. Our research suggests that equalizing opportuni-
+ties to powerful learning experiences across race and class lines requires
+paying significant attention to inequities in these peripheral spaces as
+well as to inequities in core academic classes.
+Unlearning and Double Loop Learning
+Our study also suggests that achieving these challenging integrations
+will require as much unlearning as learning. For traditional comprehen-
+sive high schools, it will be impossible to realize powerful learning
+environments without giving something up. For example, the rush of
+teaching and testing for enormous amounts of content in various sub-
+jects, with all that entails, would need be to be rethought if the goal were
+to give students a deeper learning experience in those subjects. Such a
+goal would also require teachers to rethink what are, for some, funda-
+mental aspects of their identities, moving from deliverers of content and
+repositories of knowledge to skillful facilitators of deep explorations into
+particular domains.
+Schools that are committed to particular thematic approaches-
+exemplified by Dewey High's commitment to projects and No Excuses
+High's emphasis on traditional modes of achievement-gain part of
+their collective identity not only by what they are but also by what they
+are not. This can make it difficult to incorporate part of the other into
+their approach. These schools tend to be good at what Chris Argyris
+called "single loop learning," which he defines as getting better within
+one's existing paradigms and goals. " So, for example, we once visited a
+ITo-excuses school and asked the leader what the school was working
+on, and he said, "Our scholars are using forty-four of the forty-nine
+minutes of a period productively; we'd like to get that up to forty-seven
+MASTER
+minut
+were g
+calls ",
+goals i
+their
+their
+ments
+and p
+admir
+ensur
+ects, i
+word.
+takin
+these
+DNA
+thus 1
+At
+achie
+and e
+thro
+the li
+no-e
+sult i
+that
+they
+are s
+com
+ogn:
+buil
+resp
+dial
+inos
+2011
+If w
+fori
+achR LEARNING
+important
+as are un-
+i likely as
+lor clubs"
+this gap
+ality.' In
+nly non-
+options
+portuni-
+requires
+paces as
+ations
+ehen-
+ring
+ish of
+sub-
+S-
+ses
+of
+ey
+to
+in
+a
+g
+e
+MASTERY, IDENTITY, CREATIVITY
+369
+minutes." This is textbook single loop learning. But what our schools
+were gradually realizing was that they needed to engage in what Argyris
+calls "double loop learning," which requires questioning fundamental
+goals and paradigms. At No Excuses High, school leaders realized that
+their overwhelming emphasis on control strategies was inhibiting
+their students' ability to function in the more open-ended environ-
+ments of college, so they were trying to incorporate more self-directed
+and project-based learning. Conversely, at Dewey High, teachers and
+administrators were realizing that sometimes they were struggling to
+ensure that foundational skills were being built through students' proj-
+ects, and that conventional data should not be considered a four-letter
+word. Noticing and naming these absences was one thing, but really
+taking them on was quite another because much of the worldview of
+these schools-their existing systems, culture, and organizational
+DNA- was bound to a seemingly ironclad set of commitments. Change
+thus requires significant undoing and unlearning.
+At the same time, while such changes will undoubtedly be difficult,
+achieving these integrations is arguably the central challenge for schools
+and even entire educational systems moving forward. As we progressed
+through our travels, we found that people were increasingly aware of
+the limitations of approaches that emphasized only one side of the coin:
+no-excuses networks are now building schools that they hope will re-
+sult in more empowered and self-directed learners; East Asian nations
+that have been leading the PISA rankings are now interested in whether
+they are taking care of their students' mental health and whether they
+are sufficiently fostering creativity; and conversely, project-based and
+competency-based networks beyond Dewey High are beginning to rec-
+ognize the importance of continuous improvement and careful skill-
+building, especially if such schools are to realize their aspirations with
+respect to equity. We are also encouraged that there seems to be more
+dialogue aeross different models. When we began the study in 2010,
+inost schools were talking to counterparts similar to themselves; by
+2018, many were involved in networks that crossed pedagogical divides.
+If we are not simply to continue the pendulum-swinging nature of re-
+form, bringing together these opposing qualities will be critical to
+achieving lasting success.
+relayin370
+IN SEARCH OF DEEPER LEARNING
+Deeper Teaching
+While the schools and networks in our study generally struggled to in-
+tegrate these qualities, we did find a number of skillful teachers who
+were able to create powerful learning experiences for their students, and
+who share some common characteristics:
+• Significant and substantive knowledge of their disciplines or
+fields;
+• A view of these disciplines or fields as open-ended rather than
+closed;
+• High levels of pedagogical knowledge in their preferred approach
+to teaching;
+• A stance toward teaching as an act of igniting interest rather
+than as an act of transmission;
+• One or more "seminal learning experiences" in their pasts that
+caused them to view their domains, their students, and their pur-
+pose, in this fashion.
+Truly knowing their subjects was critical to these teachers. It gave
+them the deep understanding that they were trying to give to their stu-
+dents; it made them comfortable with ambiguity and not having all the
+answers because they were fundamentally secure in their control of
+their field; and their passion for their subject engendered student pas-
+sion for those same fields. Further, the seminal learning experiences
+often came in their junior or senior years of college or in graduate
+school. Moving beyond survey courses and actually doing their disci-
+pline were key in helping them to understand how knowledge is cre-
+ated. That, in turn, helped them to induct students into a fellowship of
+people who are part of a given discipline.
+Thus while Dan Lortie was right that the lengthy apprenticeship of
+observation that future teachers undergo as students is perhaps the most
+important impediment to significant change in teaching, he missed that
+the opposite can also be true; future teachers' best experiences (in
+school, college, or even graduate school) can be the launching point for
+a different kind of teaching." Prospective teachers experience dozens
+of teachers over the course of their lives, but they are not all equallyARNING
+to in-
+s who
+s, and
+or
+.ve
+u-
+of
+5-
+e
+MASTERY, IDENTITY, CREATIVITY
+371
+influential; even one really good experience can provide the spark for
+what teachers are trying to accomplish. Again, an apprenticeship per-
+spective is helpful here; all of our most compelling group had been ap-
+prenticed by their own most valued teachers into a way of being that
+they then sought to pass on to their students.
+A related point is that what characterized these teachers was a spe-
+cific and particular stance, which was connected to their own disciplinary
+or field-specific identities. Their stance encompassed a number of re-
+lated ideas— that inspiring charges to become members of the field was
+more important than "covering the material" and so depth was more
+important than breadth; that students could construct as well as receive
+knowledge; that historically marginalized students could achieve in
+powerful ways if given the chance; that failure was a critical part-of.
+learning; and that discovering how to engage in the overarching pro-
+cesses of a field was more important than the acquisition of any par-
+ticular piece of knowledge. These stances were born both out of their
+own experiences in doing the work of their fields and out of their
+experiences with students, which reconfirmed for them that orienting
+their teaching in this direction would serve their charges well in the
+long run. Given that the systems that they were in did not prioritize
+these ends, these teachers had to make what Robert Kegan calls a "sub-
+ject to object" shift—in other words, they had to move from being sub-
+ject to the expectations of the current system to a stance in which they
+took the existing system as "object" and made their own decisions about
+whether expected practices and goals would truly support their students'®
+learning. In the case of AP teachers, for example, the shift highlighted
+the difference between teachers who "taught to the test," and teachers
+who had their own goals for the subject matter, saw the test as one con-
+straint in their designs, and then developed units that both met their
+goals and enabled their students to pass the tests.
+The importance of stance and teachers' disciplinary identities com-
+plicates Lee Shulman's famous formulation that good teaching involves
+substantive knowledge, pedagogical knowledge, and pedagogical con-
+tent knowledge. 12 These realms of knowledge are critically important,
+but our research suggests that good teaching also needs to be anchored
+in a clear vision-of what the work of the relevant discipline or field ac-
+tually looks like, as well as in the conviction that students (including
+disadvantaged students) are capable sense-makers who can engage in372
+IN SEARCH OF DEEPER LEARNING
+such work. There is again a parallel here to student learning: much as
+was true for students' powerful learning, forging this kind of teaching
+identity brings together the cognitive and affective in a powerful way
+that can fundamentally orient and shape teachers' trajectories.
+How might we more consistently engender these qualities in our
+teachers? As we have seen, content knowledge is crucial, thus a critical
+starting point is to reduce "out-of-field" teaching by making every
+effort to ensure that teachers teach the subjects they actually studied
+in college. Our research expands on this point: it shows that teachers
+need not only to know the subjects they teach, but also to have had some
+experience actually doing the work of their fields or disciplines (much as
+teachers in the periphery had experiences in their domains). The impli-
+cation is that teacher preparation programs should work with disci-
+plinary departments to help their students have real experiences doing
+science in labs, writing history based on primary research and original
+documents, and in other ways immersing themselves in doing the work
+of the fields that they aspire to teach. Much as Finnish teachers have to
+complete a research thesis as part of their training, it would be good if
+prospective American high school teachers similarly had to produce re-
+search-one project focused on an educational problem, overseen by
+education school faculty, and one piece of disciplinary research in their
+fields, overseen by faculty in the disciplines. For those aiming to teach
+less classically academic subjects, such as modern instantiations of voca-
+tional education, we would expect that they would spend time similarly
+apprenticing in real-world equivalents. The core principle here is not
+that teachers need to become more academic, but rather that they need
+to immerse themselves in the real-world versions of the subjects they
+aspire to teach, which, depending on the domain, may or may not sit
+within the university.
+With this substantive knowledge in place, the next question concerns
+how teachers learn how to teach. The most compelling teachers in our
+sample had a median experience level of fifteen years. In part this is un-
+avoidable, because it takes time to accrue skill 13 But these teachers also
+described very long periods of trial and error, in which their transmis-
+sion mode of teaching had to be gradually undone and replaced by a
+different mode of pedagogy. The example of Mr. Martin, the first-
+year math teacher who had spent a year co-teaching with one of the
+strongest teachers in our sample, suggests that this learning trajec-ARNING
+uch as
+iching
+1l way
+n our
+itical
+every
+idied
+chers
+iome
+ch as
+spli-
+isci-
+ring
+inal
+ork
+: to
+1 if
+re-
+by
+eir
+ch
+a-
+ly
+st
+d
+t
+MASTERY, IDENTITY, CREATIVITY
+373
+tory might be greatly accelerated if new teachers were apprenticed to
+master teachers. This relationship was successful in part because it
+was true co-teaching the two teachers planned together, taught to-
+gether, and debriefed together, with the ratio of teaching gradually
+shifting more to the newer teacher over time. Consistent with our
+emphasis on apprenticeship as a powerful mechanism for learning,
+this example suggests that teachers will best learn to teach from other
+teachers.
+Formalizing this idea, in the past decade we have seen the creation
+of a number of teacher residency programs in cities around the country.
+Modeled on medical residencies, the idea is that all new teachers should
+spend one year being carefully trained by master teachers. As in the
+math case described earlier (which was part of a teacher residency), there
+is a gradual transfer of responsibility from the veteran to the new teacher
+as the new teacher shows that she can handle different aspects of
+teaching. Studies have shown that residency programs can have posi-
+tive effects on teacher retention and teacher quality, and help fill
+shortages in hard-to-staff subjects! A recent report from the National
+Commission on Teaching and America's Future (of which Mehta is a
+member) called for every new teacher to complete one year in a resi-
+dency program.15
+If such residency programs provide promising containers for teacher
+training, our research suggests that it is what happens inside these con-
+tainers that shapes whether or not teachers learn to teach in ways that
+challenge, engage, and empower students. In particular, it is important
+that these residencies take a specific stand on the nature of good in-
+struction, emphasizing the qualities of the powerful learning environ-
+ments that we have described here. The recent movement toward
+developing high-leverage practices for teacher education that support
+"ambitious" instruction in a variety of disciplines is a step in this direc-
+tion, because it is granular, concrete, and inquiry-based in its vision of
+good instruction. At the same time, these practices need to become not
+ends in themselves, but ways of actualizing broader stances toward
+teaching. Our research suggests that helping teachers reflect on and un-
+derstand the reasons for these stances (particularly the shift away from
+teaching as transmission and toward students as junior-level participants
+in their fields) is critical if teachers are going to stand for deeper learning
+and teaching.!374
+IN SEARCH OF DEEPER LEARNING
+This vision, in turn, needs to guide the selection of master teachers
+and, when possible, the schools into which new teachers are placed.
+Part of the challenge for an apprenticeship vision of deeper instruction
+is that most teachers don't teach this way, so having existing teachers
+apprentice new teachers into inherited ways of doing things will pro-
+duce only more of the same. Thus residency programs need to be se-
+lective in their choice of master teachers; this generation's exceptional
+teachers need to train what we hope will become the new normal of
+the next.I8
+Deeper Schools
+While there is currently much interest in the preparation of teachers,
+learning how to teach "deeply" will not happen in a year. It is also not
+reasonable to assume that new teachers, no matter how well prepared,
+can change the institutions they enter. Thus a commitment to training
+teachers in new ways, if it is to succeed, needs to be coupled with the
+building of different types of schools-Deeper schools may also need to
+Fethink the grammar of schooling to give students more purpose, more
+choice, more community, and other qualities that have proven intrinsic
+to deeper learning experiences.
+What would such schools look like, and how might they be orga-
+nized? Part of what motivated this project was that there was writing
+about effective schools, writing about "ambitious" teaching, but little
+to nothing on "ambitious schools." We set out to fill this gap, but an-
+swers were elusive. We found that most schools were not consistently
+able to enact a vision, any vision, because they lacked the organizational
+mechanisms that would enable such change. In addition, the schools
+we found that did have some consistency in their practices often were
+better at realizing some goals of learning than others.
+As far as we can tell, then, there appear to be a series of mechanisms
+that are critical for mounting an ambitious program of instruction (the
+how), but those elements need to be tied to a thick vision of powerful
+learning that integrates rigor and joy (the what). Thus, if we were to
+advise a future school leader who wanted to build a deeper learning
+school, we would suggest that he or she define a vision of learning in
+ways that are consistent with our earlier description of the "nature ofG
+S
+MASTERY, IDENTITY, CREATIVITY
+375
+powerful learning environments," then enact that vision using the
+mechanisms described below.
+With respect to the "how," there were some shared characteristics
+of those schools that, regardless of their vision, had discovered how to
+turn their espoused values into enacted practices. They were:
+I. A specific and granular vision of good instruction, which was the
+north star to which everything was oriented;
+2. Thick mechanisms for adult learning, which enabled all adults in
+the building to learn together how to achieve this vision;
+3. Symmetry, that is, the ways in which adults worked with and
+learned from one another paralleled the ways in which they
+hoped students would learn;
+4. Visibility, which means that student work (and by implication,
+teachers' teaching) was public and shared, which both de-
+privatized teaching and created some collective accountability
+around the enactment of the instructional vision;
+5. A collective identity that connected to the instructional vision and
+anchored student and faculty commitment to this way of
+working; and
+6. An organizational design that aligned all structures in support of
+the instructional vision.!9
+In comparison to the "effective schools" correlates, these elements are
+much more instructionally tied, and together form an intricate web that
+can support the enactment of an instructional vision.
+Having these elements helped schools move away from the classroom-
+to-classroom variation we saw in the vast majority of schools we vis-
+ited. By defining a granular instructional vision, the schools featured
+in earlier chapters were able to have highly specific conversations about
+the nature of good instruction and about what more and less rigorous
+versions of this instruction would look like. By creating thick mecha-
+nisms for adult learning, they helped to de-privatize teaching, coun-
+tering the phenomenon we saw in other schools whereby teachers
+knew that other teachers were doing great work but had no access to
+understanding how and why they were doing what they did. Symmetry,
+that is, the mirroring of the school's values in the design of leadership
+and adult learning, was a particularly key ingredient. In one sense, all
+schools we visited were symmetrical: in schools where administrators376
+IN SEARCH OF DEEPER LEARNING
+controlled and distrusted teachers, teachers controlled and dis-
+trusted students; in schools where administrators empowered teachers
+and treated them as designers (as at Dewey High), teachers more often
+treated students as capable and thoughtful human beings. While we
+came to think that symmetry was simply a natural property of schools
+as social institutions, skillful leaders regarded their work with faculty
+as opportunities to model the kinds of interactions they hoped the
+teachers would have with their students. Symmetry was also impor-
+tant in a more specific sense: teachers can't teach in ways that they
+themselves have not experienced, and thus the most skilled school
+leaders used professional learning time to give teachers the kinds of
+learning experiences that they hoped teachers would recreate in their
+classrooms.
+The fourth element-visibility of student work-was another mech-
+anism to de-privatize the classroom and to act as a check on the rigor
+of what was being produced. At Dewey High, this came in the form of
+public exhibition of projects. Seeing the work of one's students and one's
+colleagues' students not only exerted some modest pressure for perfor-
+mance but also promoted collective dialogue among faculty about the
+nature of high-quality student work. International Baccalaureate exams
+played a similar role at IB High, creating a common scaffold and an-
+chor that situated the collective work of the faculty. Building a collec-
+tive identity--at Dewey High around projects, at IB High around
+making IB possible for non-elite students, and at No Excuses High
+around closing the achievement gap-was critical to sustaining moti-
+vation, purpose, and energy at these schools. Finally, these schools were
+meticulously designed to bring all elements of their structure into align-
+ment; everything from hirig to teacher development to assessment
+flowed from these schools' Instructionalvision and overall purpose. In
+contrast, at most schools we visited, some elements (such as the teacher
+evaluation system) were grossly misaligned with other elements (for
+example, the professional learning strategy).
+In the case of large comprehensive schools, it may be unrealistic to
+expect the kind of thoroughgoing alignment around a single instruc-
+tional vision that we saw at small charter schools. In these larger schools,
+the department can be the right vehicle for deepening instruction. 20 But
+what such disciplinary groupings need to do at a departmental level is
+largely the same as what certain smaller schools were doing schoolwide.MASTERY, IDENTITY, CREATIVITY
+377
+The math department at Attainment High, for example, set a specific
+and granular vision of instruction, particular to itself, focusing on math-
+ematical practices it wanted students to develop, drawing in large part
+on Common Core expectations. Because a state assessment based on
+the Common Core had not yet been developed, the department
+couldn't teach to a test. Instead, they had to work together to define
+how the broader Common Core standards would translate to cur-
+riculum and teaching, a need that provided a rich opportunity for
+dialogue and learning. Over time, many in the department became
+enthusiastic about this work and began to draw boundaries between
+the new ways of doing math and their older approaches. In so doing,
+they developed a collective identity that built motivation and also tied
+the department to the larger community of math educators and re-
+searchers moving toward reform. There also was a strong and aligned
+organizational design to this work, because the department introduced
+the new approach in ninth grade and gradually carried it through the
+later years.
+Cross-cutting these mechanisms was the culture of the schools.
+Powerful learning environments that we observed in electives, extra-
+curriculars, and core classes had an ethos in which student risk-taking
+was the norm, productive struggle was expected, and failure was em-
+braced as a critical part of learning. Schools that prioritized these qual-
+ities in a symmetrical way in classrooms created a similar culture for
+teachers, in which they could make decisions and take risks. Failure was
+seen not as a dereliction of duty but as a critical part of learning and
+growth. Especially if the goal is for teachers to work in a mode different
+from the one in which they have been working, creating a culture that
+supports such unlearning and learning is critical.21 With that culture
+often comes a flat organizational structure in which decision-making
+is shared among faculty; there is a recognition that the wisdom of the
+group creates a much stronger platform for learning than knowledge
+flowing top-down from the center. Such a culture also brings with it a
+changed attitude toward students, whose ideas, interests, and capabili-
+ties are to be respected, and who should participate in making some
+decisions about their education and their schools. Schools like No
+Excuses High, which began, in their history and organizational im-
+print, with a very different set of assumptions— emphasizing hierarchy,
+control, and fear of failure-would need to undergo a significant process

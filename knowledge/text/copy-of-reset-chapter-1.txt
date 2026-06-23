@@ -1,0 +1,459 @@
+ALSO BY DAN HEATH
+Upstream: The Quest to Solve Problems Before They Happen
+RES
+How to Change What's
+ALSO BY CHIP AND DAN HEATH
+Made to Stick: Why Some Ideas Survive and Others Die
+Switch: Flow to Change Things When Change Is Hard
+Decisive: How to Make Better Choices in Life and Work
+The Power of Moments: Why Certain Experienies
+Have Extraordinary Impact
+Dan He
+AVID READER
+New York Amsterdam/Antwerp LondonGO AND SEE THE
+>> You can Find Leverage Points
+up close the reality of youGO AND SEE TI
+In 2016, Karen Ritter, an assistant prin
+School (near Chicago), wanted to under
+better serve its students. So she chose to
+As part of a program called "Shadow a S
+by the Stanford d.school and the desig
+around a ninth-grader, Alan, for an enti
+Her day with Alan started in PE. Sh
+gym while students gawked and grinne
+school day began. She sat next to him i
+ments, just like he did. Ate cafeteria fo
+she said diplomatically.)
+Ritter's experience was covered by P
+watching the video of Ritter's day is a
+deflate in slow motion. At one point, t
+she's doing. "I'm holding up," she says
+language: I am not holding up.)
+Particularly draining was Alan's algel6
+RESET
+test scores in math, he'd been slotted into a double-length remedial
+period. The camera caught Ritter sneaking looks at the clock, just
+like a real student. After a long stretch of instruction, the bell rang,
+but to Ritter's chagrin, it wasn't for her. There were 30 more min-
+utes to go. "It was brutal to sit through that," she said.
+The day before her observation, Ritter was asked to complete
+a report card, grading the school on a variety of factors. For "Sup~
+portive Environment," she gave the school an A. Then, after her day
+of shadowing, she was asked to revisit those marks.
+The grade for Supportive Environment stayed an A: She was
+pleased with what she experienced. But on other factors, the grades
+deteriorated. Before the day, she'd scored the school a B on this
+statement: "In this school, students learn actively, creating, ques-
+tioning, discovering." After her day as a student, the B cratered to
+a C-minus.
+Similarly, with the grinding double-length algebra class fresh in
+her mind, her score for "Student Engagement" dropped from a B
+to a C-plus.
+By shadowing a student, Ritter discovered that some of her
+intuitions had been exactly right. The school really did provide a
+supportive environment. In other places, though, her intuition had
+been way off the mark.
+SUPPORTIVE
+ENVIRONMENT
+ACTIVE
+LEARNING
+STUDENT
+ENGAGEMENT
+Before
+A
+B
+B
+After
+C-
+C+
+G
+She wondered about the double-lengti
+stance. "We don't have proof that this is
+learning," she said. "It's just making them
+Alan, the double-length class had crowded
+He had wanted to take classes in French anc
+he couldn't do both. (Other students were
+tives.)
+Ritter's goal, in shadowing a student, w
+improve the student experience. Her day wi
+identify two potential Leverage Points: (1) 1
+matic slotting of students into double-lengtl
+(2) encouraging faculty to be more interact
+The school would later act upon both of t
+received professional development in better
+the school subsequently changed its policy t
+dent could have at least one elective. (Pre
+had both a double-reading and a double-mai
+at all in their schedule!)
+In this section, we'll explore five method
+age Points. Finding them will require some
+times they are hidden—masked by habits
+times (as we'll see on the next few pages), th
+to anyone who looks. Either way, we have to
+to know where to look. The tools in this s
+independent ways to conduct the hunt.
+What we're looking for are interventio
+and worth doing. "Doable": meaning that t
+short term. And "worth doing": because w
+ders, not pebbles.
+The first method for finding Leverage
+by Ritter, an approach that Nelson RepenRESET
+the work."* Repenning is a professor at MIT who studies system
+dynamics. He told me that of all the principles he's shared with ex-
+ecutives and students over the years, the one that most reliably pays
+off is: Go and see the work.
+Meaning: If you're a school principal, shadow a student for the
+day. If you're a factory manager, follow the production from start
+to finish. If you're a consultant, map out the flow of activities on a
+single client engagement.
+"Going and seeing the work" is what the hospital receiving area
+team did when they began their overhaul: They followed packages
+through the system, from the delivery dock to their ultimate desti-
+nations in the hospital.
+One executive, following Repenning's imperative to see the
+work, discovered that in his company, there was a woman who
+diligently maintained a repository of the firm's engineering docu-
+ments. She spent long stretches of time printing high-definition
+color prints and organizing them in a room full of file cabinets.
+But there was a digital repository that auto-archived these files. It
+had existed for years. And word never got back to this poor woman.
+"When you go see the work," wrote Repenning and two col-
+leagues, Don Kieffer and Todd Astor, "if you aren't embarrassed by
+what you find, you probably aren't looking closely enough."†
+* Repenning's phrasing is a riff on a well-known operations concept called
+"going to the gembo," which originated with Talichi Ohno, the godfather of
+the Toyota Production System. "Gemba" comes from a Japanese term mean-
+ing the "actual place."
+†Note that this spirit of examination-the genuine desire to get closer to the
+truth--is the heart of "going and seeing the work." This is in sharp contrast to
+the CEO who conducts a stage-managed visit to a factory or field office for
+the sake of good optics: I am an enlightened leader who enjoys mingling with
+you common folk!
+G
+Repenning, Kieffer, and Michael Morale
+case study in MIT Sloan Management Review.
+of a Panama City plant that made corrugate
+derstand why his paper losses during produc
+the industry average. So he went to see the
+reported what happened next:
+Mike left his office and visited the factor:
+work and understand its current design. I
+numerous problems. The paper was often
+in extra losses from cutting. In addition, p
+damaged by the forklifts that moved them
+Perhaps most notably, Mike observed
+rugator machine stopped at 11:30am. Assi
+planned outage, Mike rushed to the ma
+that the machine was stopped every day at
+restarting the machine at lunchtime not
+ductivity but also increased the probabilit
+paper and mechanical problems. Interestir
+turned out to be a response that had been
+in response to instability in the electric po
+local utility—a problem that had been fixe
+Morales's investigation, then, surfaced s
+Points for whittling down paper waste. Wit
+losses fell from 21% to 15%, reflecting a say
+Now, your first reaction to this story migl
+doing stuff that's obviously dumb/wrong, then yo
+wrong stuff. But be careful: Repenning and K
+discovered similarly 'obvious' issues in almo
+we have ever studied. "101
+RESET
+Glaring problems are sometimes the legacy of past solutions
+improvisations and workarounds. Take the case of the paper plant:
+As the plant manager, you observe that you're getting unsteady
+power to your corrugating machine around lunchtime. It's not
+good for efficiency, and it's not good for the machine itself. So you
+schedule a shutdown every day to preserve the equipment. That's
+proactive and wise. A great short-term solution.
+But of course you'll never get an official announcement from
+the utility saying, "All Clear!" so the daily shutdown continues.
+Weeks become months, months become years, and habits become
+enshrined. Your plant depends on so many habits for its basic func-
+tioning that eventually you stop distinguishing them individually,
+and rather they just collectively become The Way We Do Things.
+A new employee, learning the ropes, is taught: Every day, at lunch-
+time, we shut down the corrugating machine.
+So what looks like "mismanagement" is often the accidental ac-
+cretion of outdated habits. And the way you can begin to detect
+and ultimately erode that accretion is by going and seeing the work.
+You'll spot places where you and your team have acclimated to
+problems-—instead of fixing them. Those long-tolerated bad habits
+are Leverage Points: Correcting them is doable and worth doing.
+For knowledge work, this type of observation can be harder. You
+can trace a corrugated box through a factory. But can you trace, say,
+the development of a market analysis by a consulting firm?
+Yes. For sure, yes. But it's not as tangible. You will have to make
+it tangible by mapping out the flow: Okay, for the Kipon Trucking ac-
+count, we first had the kickoff meeting (two hours), and then we prepared
+a research plan (six days), which we sent to the client, who returned feed-
+back (to days), and then the engagement manager gave assignments to
+the five core team members (one day), and then ...
+You're making the invisible visible. Think whiteboards and
+GO A
+markers. How long does each step take? Where
+or delayed? How do communications ping-pos
+and the client? In what steps do the greatest le
+happen? Protect those. And in what steps do th
+little value? Rework or eliminate those.
+In short, you can still go and see the work.
+The key thing here-and the radical depart
+eryday work—is that you are substituting exper
+Tom Chi, a co-founder of X, the ambitious R
+said that most corporate decisions are made us
+People sit around and duel in the land of ideas
+A sample meeting: Ted thinks you should t
+Marisa hates Ted, so she pushes back on it. I
+making decisions, always suggests waiting for
+always a hair's breadth away from making a stra
+How will it affect the CULTURE? (Gregg is eve
+part of the culture.)
+And on and on it goes. Ultimately, as Chi
+"Either the person who is best at arguing or
+highest title in the room ends up deciding." TI
+is that when you make decisions that way, you
+decisions based on cognitive vapor.
+"Smart people will always come up with sm
+guesses," said Chi. "But that does not mean ti
+not guesses. ... Because it actually doesn't m
+agree or disagree if it sounds smart or doesr
+only thing to listen for is: When I hear someth
+it a direct experience? If it's a guess, it needs to
+way. ... But if it's a direct experience, then tha
+to make decisions off of."
+Chi's challenge to us is to get out of the "12 RESET
+and into the medium of reality. When we go and see the work, we
+stop debating ideas and start discovering them.
+..2.
+Going and seeing the work can be particularly important when
+things stop working. Your marriage hits a rocky patch. Your sales
+start drying up. Teachers leave your school faster than you can re-
+place them.
+Because when unexpected problems arise in our organizations,
+it often reveals that we didn't know as much about our "system" as
+we thought we did.
+On this point, consider a study by the psychologists Leonid
+Rozenblit and Frank Keil, who asked people to assess how well they
+understood certain familiar devices. How well do you understand how
+a zipper works? A flush toilet? People reported moderate levels of
+understanding. On a seven-point scale, with seven reflecting the
+highest level of understanding, the average score landed a bit under
+four.
+After the participants scored themselves, Rozenblit and Keil put
+them to the test: Okay, write out a step-by-step explanation of how the
+device works, from the first step to the last. Feel free to draw pictures to get
+your meaning across.
+There's a great You Tube video that brings this study to life. A
+teenager named Alex Nickel, inspired by the research, asked some
+teenage peers to explain how a toilet works. Their answers were
+memorable:
+TEEN 1: Well, so there's a handle, and you flush it, and it goes
+through some machinery ...
+GC
+TEEN 2: There's like pipes going up to the 1
+you press the flusher thing, and then th
+around and it flushes the gross stuff out
+ALEX NICKEL: How does that actually, like, l
+TEEN 2: It goes down a pipe? I don't know.
+TEEN 3: Water comes out into the bowl an
+stuff down …
+ALEX NICKEL: Can you elaborate on that? I
+TEEN 3: Um, I'm not sure.
+To get back to the original study: After t
+ished their "explanations" of the device, t
+their understanding of the device for a seco
+Their self-assessments plummeted
+"Nearly all participants showed drops in
+knew," wrote Rozenblit and Keil in their 201
+gists called this the "illusion of explanatory
+"Most people feel they understand the worl
+coherence, and depth than they really do.""
+prodded to produce an explanation, they r
+than I thought.
+In another study of this illusion, conduc
+and published in Memory and Cognition, peo
+this skeletal picture of a bicycle frame anc
+chain, and the remaining parts of the frame14
+RESET
+(Before you look down, pause. Could you do this exercise cor-
+rectly? How confident are you?)
+One person drew a bike like this. Take a second to analyze what's
+wrong here.
+One problem: This bike won't move; the pedals aren't attached
+to any moving part of the system. And look how high the pedals are!
+Are people supposed to pedal with their kneecaps?
+Here was another participant's bike:
+At first glance, this looks pretty fancy. Spokes and hand brakes
+were added, unsolicited, for extra realism! But notice the chain and
+the frame are connecting both wheels. Which means this bike can't
+be turned. It's a one-way ticket to the emergency room.
+Here's one more point of interest about that last bike: The per-
+son who drew it reported that they went cycling most days. (Presum-
+ably in a straight line?)
+I'm poking fun but let me confess: I had to look up the answer
+about how a bike works. I'm pretty sure
+chain around both wheels, too.
+So I'm inclined to empathize with the
+need to understand the bike to use it effe
+understanding sufficient?
+The problem comes when we mistake
+for systemic understanding. We think beca
+because it operates as we expect, that we
+a problem, because when the bike or the
+working, we're sunk. We realize that u
+level of understanding, there's nothing.
+3.
+That sudden awakening is what befalls ma
+are plunged into crisis. Businesses struggl
+It'll turn around. Just wait a little longer: I'v
+We've been through hard times.
+But then, sometimes, things don't turn
+matic action wasn't taken earlier, when it
+mandatory. Change or go bankrupt.
+In those situations-when a business
+investors or board members might hire a
+That's someone who parachutes into t
+the place, makes a bunch of changes, an
+months.
+Consider how odd this arrangement i
+your business was in a pickle, you'd seck ‹
+turnaround expertise, the way that you
+your marriage was foundering. This isn't16
+RESET
+the reins to a stranger. It's like letting the therapist move in with your
+spouse, fix the relationship, then turn it back over to you.*
+Despite the dire circumstances involved-businesses on the
+brink of bankruptcy-turnarounds frequently succeed. We're used
+to thinking about organizational change as slow. But, no, in these
+situations, a company might be rescued-from life support to basic
+health—in a matter of months.
+So let's think like a turnaround consultant. You're coming into a
+company that once was viable and now isn't. This predicament trig-
+gers the shift from functional to systemic understanding (as in the
+toilet and bike examples above). Things were working, now they
+aren't. How do you quickly make sense of what's wrong and how
+to fix it?
+Turnaround consultants go and see the work t They walk the halls,
+they observe the production lines. But because they aren't experts
+in the particular business they're now running, the observation is
+not enough. They need guidance. So in trying to understand the
+reality of a business, turnaround artists go straight to the front lines.
+"If you really want to know what's going on in an organization,
+you always ask the people closest to the customer and closest to the
+core activity, whether it's providing a service or making something,"
+said the turnaround consultant Paul Fioravanti on a podcast.
+Jeff Vogelsang, a turnaround consultant with Promontory Point
+Partners, seconds the approach. "I go to people and say, 'This is a
+private conversation. I'm not gonna share anything you say. I'm
+looking for common themes. I'm looking for your opinions...
+"And they'll say, 'I don't care. I'll tell you everything. They can
+*Could someone start working on BODY turnaround consultants? Just call me
+when my six-pack is ready.
+†Wait, never mind about the "body turnaround" thing..
+fire me? Then they'll puke out everythi
+erything that's wrong. I'll write 10 pages
+out to be accurate and 10% is emotional
+Within two weeks, the people who work
+going on, if you're good at asking open c
+and letting them ramble."
+As a methodology, this could not be si
+going on in your organization, talk to the
+Here's what customers really think of us. Here
+up. Here's why the software updates are alway
+There's no black magic. It's just listeni
+Parenthetically, when I've shared this
+times get a polarized reaction. Some peop
+Frontline people are just clock-punchers. If
+they're gonna say they work too hard or they
+others have an overly romantic view: Yes, p
+do all the hard work and nobody listens to the
+better than the suits!
+I sometimes wonder whether either gr
+has actually met any frontline people. Be
+just people. They have smart ideas and d
+not: Consult them because they're wise, self
+Consult them because they know their jobs ber
+are closer to reality than yours.
+Going and seeing the work, ultimately
+consultation.
+I see we turn off the corrugating machin
+that?
+We thought we were helping students wit
+math course, but is there any proof it's workin
+their suffering?18
+RESET
+The payoff for this observational effort can be profound. Imag-
+ine if you could locate and stop the dumbest things your team is
+doing: the ill-advised, the pointless, the self-sabotaging- BOOM,
+gone. What would that be worth?
+There are unmistakable areas for improvement that we may
+never see and brilliant ideas for change that we'll never unlock un-
+less we go and see the work.
+Whirlwind review: Chapter 1, Go and Ser
+1. The first way to identify Leverage Points is to ob
+As Nelson Repenning says, "Go and see the v
+a. Assistant Principal Karen Ritter uncovered
+school by shadowing a student.
+2. When you go and see the work, you often disc
+ious to problems, or have acclimated to them,
+a. The president of the paper plant discover
+chine was being shut down every day at lu
+problem that had been resolved years ear
+b. Mismanagement is often the accidental ac
+3. Going and seeing the work is far preferable to
+style of hatching improvements-what Tom Ch
+a. To find real Leverage Points, you must get c
+and into the medium of reality.
+4. When you're trying to improve your work, y
+have functional understanding rather than sy:
+out that systemic understanding, it's hard to mo
+a. Even regular cyclists couldn't draw a bicy
+lusion of explanatory depth."
+5. But it's possible to gain systemic understanding
+tants do it by going straight to the front lines.
+a. "The people who work there will tell you
+up and let them talk.
+6. Ultimately, going and seeing the work is abou
+of the situation and perceiving it with fresh eye
+ising Leverage Points.20
+RESET
+Recommendations (find live links at danheath.com/reset-links):
+(Note from Dan Heath: Here's a quick explanation of these "Recommenda-
+tions" sections that follow each chapter. These are not sources per se—the
+endnotes are at the back of the book. Rather, the Recommendations offer
+tips about places to explore beyond the book. Sometimes the links give extra
+color to the points made in the text; sometimes they're the original sources
+cited, when I think those sources are worth a deeper dive; sometimes they're
+interesting tangents. The "links" are underlined below but please know that !
+am not an insane person who thinks you can poke your finger at them to visit
+a website. The idea here is that you should visit the website danheath.com/
+reset-links and there you'll find this exact paragraph below, except that the
+links will be clickable. Happy hunting!)
+In this talk, which I highly recommend, the engineer and innovator Tom Chi
+describes how he fights against guess-a-thons and gets his teams working in
+the medium of reality. To see what it's like for a principal to step into the real-
+ity of a student, watch the PBS NewsHour segment I mention in the chapter.
+You'll see Assistant Principal Karen Ritter run sprints, battle back-to-back sec-
+tions of Algebra, and write an essay alongside her ninth-grade shadowee,
+Alan Garcia. If you'd like to take a deeper look at the illusion of explanatory
+depth research, head here for the academic article. (And to see that video
+of teenagers struggling to explain toilets, go here.) If you're curious about
+the swashbuckling world of turnaround specialists, start with James Shein's
+Reversing the Slide. Shein's book is both sharp and irreverent, making for an
+engaging read. Or, take a listen to my conversation with the turnaround con-
+sultant Jeff Vogelsang, whom I interviewed on my podcast, What It's Like to
+Be ... He's the guy quoted in this chapter saying that when you interview
+frontline people, they'll "puke out" everything that was relevant. For more on
+"going to the gemba" — the inspiration for MIT professor Nelson Repenning's
+"go and see the work" advice-check out The Toyota Way. I's a great sum-
+mary of the Toyota Production System —much beloved by operations gurus. In
+this article and this talk, Repenning details how you can increase the visibility
+of the work you and your team are doing. This is especially important for
+knowledge work, Repenning points out, where feedback is naturally far less
+visible than in manufacturing.
+2
+CONSIDER THE
+OF THE GO
+> You can Find Leverage Points
+alternate pathways to your ultim

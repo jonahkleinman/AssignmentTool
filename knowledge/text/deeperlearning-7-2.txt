@@ -1,0 +1,1340 @@
+R LEARNING
+set of pre-
+ight about
+job of the
+ers heads
+g knowl-
+growing
+he skill
+tabulary
+hich he
+re: "the
+inded",
+taposi-
+udents
+vocab-
+ng the
+words
+ays as
+at re-
+how
+imar
+sally
+ot of
+; for
+d to
+ake
+ent
+ny
+ed
+to .
+aS
+t
+DEEPER TEACHING
+339
+on the assumption that higher-order tasks will follow at some future
+date-Mr. Hogan's approach was "Bloom as web," moving back and
+forth between complex texts and the skill-building needed to deci-
+pher and write about them.
+Joel Wolf, William Duchin, and Megan Marino:
+Scientific Inquiry
+On a visit to an urban charter school early in our travels, the science
+department chair, a woman in her mid-twenties, pulled us aside and
+said, "If you really want to see deep learning, you should visit the school
+where I went to high school-the Midwestern Math and Science
+Academy la pseudonym]." MMSA, as we will call it, is an exam school
+created by a governor and a Nobel Prize winner with a twofold mis-
+sion-to educate some of the strongest math and science students in
+the state, and to develop new approaches to schooling that could serve
+as models for the state and the nation. We visited MMSA in 2013 for
+seven research days, with a particular interest in how they approached
+science instruction. While we realize that there are some who are skep-
+tical of what can be learned from a selective magnet school (and the
+school certainly benefits from the strong skills and motivation of its
+students), we felt that this school had found particularly thoughtful
+things to do with its students, perhaps generating ideas that could be
+useful across the spectrum.
+Part of what made MMSA distinctive was its strong constructivist
+stance that students should be treated as inquirers who need to figure
+things out for themselves. This was a consistent theme in our interviews
+with both students and faculty. As one student said,
+They don't just give you information and expect you to regurgi-
+tate it—you have to develop things on your own. They encourage
+discovering things. Like with math classes, at my previous school
+they would give us the information and then have us give it back
+to them on a test. Here they will give us [the material] and then
+will ask you to draw your own conclusions based on the evidence
+that you've gained— it gives you deeper understandings because
+you understand the math behind it.340
+IN SEARCH OF DEEPER LEARNING
+Another student said that many of the questions on tests in science
+were "transfer questions, where they change the scenario; you can't just
+memorize it the day of; you need to know it and have a good under-
+standing of it." In language, "Before you had to memorize vocab and
+grammar; here it's all discussion and immersion based." From the
+teachers' perspective, this was a huge shift from what the students were
+used to in their previous schools. As one teacher told us, "The shift is
+so hard to do- the first semester of sophomore year is like hell because
+they come in, and they're like this is how I was successful for so many
+years." The result is that "students can be uncomfortable early on
+because their idea of what teachers are supposed to do is different from
+what happens here. 'My teacher doesn't teach; they always answer ques-
+tions with questions." Over time, both students and teachers said that
+students adjusted, gradually becoming more comfortable with uncer-
+tainty and the notion that knowledge is not given but constructed.
+A significant part of helping students make this shift is a required
+sophomore course called Methods of Scientific Inquiry (MST), which
+is designed and taught by a team of teachers. The purpose of the course
+is to teach students what it means to do scientific inquiry, and the goal is
+for students to write a scientific paper that could be submitted to a
+journal. Students begin by learning some basic statistics— how to run
+a t-test, and how to test the relationship between x and y variables by
+doing a correlation analysis or running a regression. Students then are
+exposed to some of the scientific literature, because, as Joel Wolf, one
+of the teachers of the course, says, "many of the students have not seen
+or read the peer-reviewed professional literature," only textbooks.
+Mr. Wolf and his colleagues then walk students through how to use da-
+tabases to find things in the scientific literature. They do a simple lab
+on buoyancy, the purpose of which is to show how to label axes of a
+graph and put the dependent variable on the y axis and the indepen-
+dent variable on the x axis. Thus in the first several months of school,
+students learn the things they need to know, big and small, to at least
+begin to write a scientific paper.
+Then there is a scaffolded process of developing the research for the
+paper. The first step is brainstorming— what are they interested in, what
+data do they have access to or might they be able to collect? Mr. Wolf
+helps to fine-tune the brainstorming process, helping students to figure
+out what is "feasible or reasonable and what might not work." Then they
+DE
+pr
+th
+pr
+st&
+a s
+tu'
+ter
+to
+ac1
+Tl
+SCI
+WC
+eni
+the
+clu
+the
+ter
+or$
+stu
+toy
+he
+a 1]
+stu
+tea
+wh
+list
+stat
+likt
+theLEARNING
+1 science
+an't just
+I under-
+cab and
+om the
+its were
+shift is
+ecause
+• many
+rly on
+t from
+ques-
+d that
+ncer-
+1.
+lired
+hich
+urse
+›al is
+to a
+run
+; by
+are
+one
+sen
+ks.
+la-
+ab
+1-
+st
+t
+DEEPER TEACHING
+34I
+develop a project proposal, which Mr. Wolf describes as a critical step
+in the process. Here they have to define the question, the methods they
+will use, how they plan to analyze the data, as well as how they will ad-
+dress "safety concerns and privacy issues." They also make a list of the
+materials they will need for their project, and develop a timeline for
+what they plan to do on specific days. Students submit a draft of this
+proposal, which gets marked up by Mr. Wolf, then submit a revision
+that responds to his questions.
+The rest of the semester follows a similar pattern. Each step in the
+project is closely structured, but students have full control over the sub-
+stance of the experiment and the content of the paper. The elements of
+a scientific paper are isolated introduction, literature review, data and
+methods, findings, and discussion— and each piece has to be separately
+turned in for feedback from Mr. Wolf. Some of the components are ex-
+tensively scaffolded; for example, for the literature review, students have
+to write an annotated bibliography of at least ten sources before they
+actually try to integrate that research into their literature review.
+The last steps are writing an abstract and a title. As Mr. Wolf de~
+scribes the goal, "We talk about-like in an art class. Products of art
+would be the painting, the sculpture, but what's that product of sci-
+ence? It's that publication, and we want them to generate that paper at
+the end that looks like a peer-review journal article." The project con-
+cludes with students developing a poster for the project, and sharing
+their results and conclusions with their classmates.
+Over the years, students have chosen a wide range of topics. Mr. Wolf
+remembers projects seeking to understand plant growth, comparing
+organic and nonorganic apples, and a product-testing project where
+students measured the absorption levels of different kinds of paper
+towels. There also have been projects in the social sciences; for example,
+he remembers one where a teacher delivered the same short lecture in
+a monotone and then in a livelier way: the experimenters then gave
+students a content assessment and asked them to rate the quality of the
+teaching across the two versions. One group we observed was testing
+whether students were more likely to remember lyrics of a song if they
+listened to the song or were shown the lyrics visually. (They found no
+statistically significant difference.) In a given year, some students would
+likely be in the chemistry lab, some in the greenhouse, and some out in
+the field, which avoided the problem of competing for scarce resources.342
+IN SEARCH OF DEEPER LEARNING
+The class generally has about twenty-four students, working in pairs,
+meaning that Mr. Wolf is supporting twelve projects at once, which he
+finds to be a significant but manageable workload, especially because
+at any given stage of the process some students will need more help
+than others.
+These semester-long mini-projects sophomore year feed into the Stu-
+dent Inquiry and Research program in junior and senior years. MMSA
+gives over much of Wednesdays to these projects, which are larger sci-
+entific investigations, either designed by the students on campus or in
+college labs. The school has established partnerships with two well-
+regarded universities for students to work in labs, and buses take stu-
+dents back and forth to these labs on Wednesdays. The school has a
+full-time coordinator for this program, who works to find mentors,
+checks in with matches as they develop, and conducts site visits at the
+labs and other off-campus sites where students are placed. Students
+choose their projects; about 75 percent of these projects are in STEM,
+but some students do work in other disciplines, including literature
+(writing novels) and music (composition). As in the MSI course, the pro-
+cess is scaffolded: students have to submit a proposal, keep notebooks
+that document what they are learning, and present to the community
+at the end of the year. Substantively, the projects here are more ambi-
+tious. The year we visited, one student was running regressions on the
+effects of homelessness; another was exploring whether the universal
+declaration of human rights was truly universal; and a third, in a uni-
+versity lab, was evaluating the effects of different drugs on heart dis-
+ease. Roughly 5 to 1o percent of these projects are presented at research
+conferences or are published. Students described the MSI course as
+critical preparation for these larger projects: "Sophomore year was
+big... in teaching us how to learn on our own; how to bring all dif-
+ferent types of data together and synthesize and boil it down to prove
+something."
+Interestingly, the way that MSI was working during our visit wasn't
+the way in which it had initially been envisioned. In its earlier itera-
+tion, said Mr. Wolf, the skill-building part took most of the semester,
+and the project happened only in the final three weeks. But when a team
+conducted a review of the course, they found that students did not find
+the skill-building part particularly engaging or relevant, because it was
+divorced from the context in which it would be used:ARNING
+a pairs,
+hich he
+secause
+re help
+he Stu-
+VIMSA
+yer sci-
+1s or in
+o well-
+ke stu-
+il has a
+entors,
+; at the
+udents
+TEM,
+rature
+le pro-
+ebooks
+nunity
+ambi-
+on the
+iversal
+a uni-
+It dis-
+search
+urse as
+ar was
+ill dif-
+prove
+wasn't
+itera-
+lester,
+1 team
+st find
+it was
+DEEPER TEACHING
+343
+The students were not seeing the relevance to all of the skill-
+building activities. They didn't understand why they were expected
+to do all that stüff that didn't seem to have a context. ... The
+project is what gives it context. When they're reading literature
+they're reading literature because it's relevant to the research
+that they're doing, and they're writing about it so that their con-
+clusions can be understood in a broader context and not in isola-
+tion, for example. Background can be given so that the reader of
+their paper has some knowledge about their topic before they get
+into the specifics of what they've learned. Now it has a context
+and a meaning, and it's relevant to them, and they understand
+how it fits in.
+As a result, they had shortened the skill-building portion to just the
+first few weeks of the course, then integrated additional tools through
+the development of the scientific research. From Mr. Wolf's perspec-
+tive, this shift not only had the benefit of making the work more en-
+gaging; it also helped students to think more like scientists, for whom
+integrating hypotheses, literature, data, and findings are the core tasks.
+Thus the MSI example parallels the apprenticeship and induction ap-
+proach that made the extracurriculars described earlier so powerful. It
+draws on the motivation of students' intrinsic interest in their topics,
+develops learning in a contextualized rather than a decontextualized
+way, has a clear purpose, and is incentivized by a public presentation of
+work at the end. At the same time, it also features ample feedback from
+an experienced teacher and a carefully scaffolded process that helps stu-
+dents gradually gain the tools they need to conduct real scientific re-
+search. There is "playing the whole game at the junior level" in the MSI
+project, followed by the gradual move toward becoming part of the
+larger community of scientists, as students become more experienced
+and many join college labs. Much as Mr. Hogan did with English lan-
+guage arts, the building of basic skills is subsumed within a larger arc
+that has meaning and purpose.
+What was it about Mr. Wolf and his fellow science teacher Duchin
+(known on campus as Dr. Duchin) that enabled them to construct this
+are for their students? Mr. Wolf said that the model for his teaching
+stemmed from the part of his own educational career that looked most
+like real science: "Another interesting thing is —I think back at my own344
+IN SEARCH OF DEEPER LEARNING
+education. It wasn't until I did an independent study in my senior year
+that I really got involved in doing some of the kinds of things that we
+ask the students to do in the MSI class, my senior year in college. I really
+didn't get good exposure to a lot of stuff until I became a grad student
+and started doing research of my own. That was a whole different ex-
+perience than all the coursework that I had taken prior to that."
+Dr. Duchin, who also taught MSI and had been a fixture at MMSA for
+several decades, described the way his own doctoral training shaped his
+teaching: "I suppose, if I didn't go to graduate school, I wouldn't be the
+same person I am. I'm a constructivist, because that's the training that
+I have. I practiced constructing models that reflect the data that I
+collected. I can't separate that experience from who I am now, as a
+teacher of these kids."!s Many of the teachers at MMSA have Ph.D.'s in
+their subjects, and it was this exposure to building and creating knowl-
+edge themselves that had enabled them to apprentice students into a
+similar mode.
+MMSA's schoolwide commitment to inquiry-oriented teaching dra-
+matically shortened the period of trial and error that characterized the
+first years of many of our other teachers. Dr. Duchin describes initially
+coming to MMSA after working for a few years as an adjunct lecturer
+on the college circuit, and finding a fit between his beliefs about the
+subject and his beliefs about teaching. "In college, I'm a lecturer. I'm
+supposed to communicate the theory, the concept, the thought pattern
+of the discipline, and then test students on it. Here, I came to discover
+very early that it was a constructivist atmosphere, not an instructivist
+one. It appealed to me tremendously, particularly in my career, coming
+out of science, which is constructivist. It just seemed to make sense that
+we should educate our science students in a constructivist manner. It
+was a good fit for me." In an environment filled with students and col-
+leagues who had similar beliefs, Dr. Duchin had many opportunities
+to grow and reshape his teaching in a supportive environment.
+Megan Marino was trying to do something similar but in a much less
+privileged environment. After earning a Ph.D. in chemistry with a focus
+on science education, Ms. Marino had been teaching in a large, com-
+prehensive, traditional public high school in a Northeastern city. Most
+of her students were African American or Latinx, and they were almost
+uniformly recipients of free or reduced-price lunch. One of the classes
+that we observed her teaching was a Methods of Scientific Inquiry class:
+D
+ti
+C
+t
+- •~UNG
+ear
+we
+illy
+ent
+ЭX-
+t."
+lis
+he
+at
+a
+a
+DEEPER TEACHING
+345
+Ms. Marino has told me that this class is an eleventh- and twelfth-
+grade elective, which functionally means that it's a "dumping ground"
+for students whose schedules put them in the time slot. She says that
+there is a huge range of skills and interests but "that's the point-I don't
+care if students start by thinking of themselves as science students
+or not."
+The sun streams through the tall windows on one side of the room. Even
+with the blinds partially closed I can see the city skyline to the west of
+the school. The students have been working on corrosion; yesterday they
+did an experiment and have brought in their results. Class begins imme-
+diately with the bell. There are about twenty students in the room. Most
+appear to be black or Latinx with three who appear to be white and one
+boy in ROTC uniform who appears to be Middle Eastern. Ms. Marino says
+that the students will be continuing their steel wool experiments from the
+day before-they will be designing a second experiment based on the re-
+sults of the first. "You're going to come up with a new question based
+on what you see, based on what is interesting to you," she continues,
+and asks students to take out their notebooks and their handouts from
+yesterday. She prompts students to look at the post-lab questions,
+briefly explains the plan for the class, and says that she will be checking
+homework. The students get going within five minutes of the bell. "You
+are going to do the same things that you did for the first experiment...
+create a question, identify your variables." They have done a little back-
+ground work about rusting before the lab (they read an article), but Ms.
+Marino tells me that "I'm more of an explore-first kind of teacher, so
+the pre-work was pretty sparse." She gives me the article, which pro-
+vides some basic information about corrosion in the context of dis-
+cussing vintage cars and how they rust differently in different parts of
+the country.
+There is a one-page outline of instructions for the lab. In Phase 1,
+students could choose one of three questions to explore-the first ques-
+tion, for example, is "How does water temperature affect the rate of
+corrosion of steel wool?" Then they had to identify the variables (and
+check with Ms. C before moving on), state a hypothesis, create a mate-
+rials list, write a detailed
+procedure (check with Ms. C), carry it out, and
+record results. Today, in Phase 2, they are to design a follow-up experi-
+ment based on what was most interesting in their first results. The follow-
+up questions are as follows:346
+IN SEARCH OF DEEPER LEARNING
+1) What does your original experiment show about the relationship
+between your dependent and independent variables? Answer this
+question for both experiments.
+2) Comment on your hypothesis in light of your results.
+3) Explain your thinking around your follow-up experiment. What
+about your original results led you to choose the particular
+follow-up experiment?
+4) Explain why corrosion happens more quickly under some condi-
+tions than others, according to your experiment. This should in-
+clude a discussion of the chemical reactions involved in corrosion
+and how the conditions affect this reaction.
+The students immediately move from their desks to spaces around the
+room, checking on their results. I talk to a pair of girls, one with long black
+hair and a slight lisp who tells me that she is part of the science mentors
+program, the other with a messy bun. They tell me that they picked the
+question about which liquid or solution resulted in the fastest corrosion.
+They tested water, vinegar, and lemon juice, and show me the test tubes
+where they have put the samples of steel wool with these solutions. They
+have hypothesized that water will corrode the wool the most "because
+water is polar and steel isn't …. that's just what we thought." | ask how they
+will know about the levels of corrosion and they say just by looking-
+but when I come back later they have decided to measure the mass of
+the steel wool.
+Ms. Marino is talking to a pair who is having a hard time deciding on a
+second experiment-a Latina girl and a black girl. They chose to look at
+how salt water, regular water, and vinegar corroded the steel wool by mea-
+suring the mass of the wool before and after it soaked in the solutions.
+The salt water didn't change the mass of the wool, as they had thought it
+might. Ms. Marino says, "It's up to you-you could even decide to dupli-
+cate the same experiment with different solutions," she adds. "Because,
+would we ever decide we know for sure with just one experiment?" They
+shake their heads. When I follow up a few minutes later, they tell me that
+they've decided to design a new experiment to see if higher concentra-
+tions of salt will result in greater corrosion. I ask why, and they say, "Water
+is everywhere, so it's related to real life-so we'd know what would happen
+if metal was in the ocean." When I ask why they think in this pair of labs
+students are designing different experiments rather than all following the
+DEEPE
+same
+get to
+The
+goggl
+rino s
+puts
+weigh
+with A
+Throu
+which
+struct
+noteb
+that t
+work.
+to thi!
+for or
+уеаг.
+At 1
+dents
+Marin
+who d
+to hav
+on the
+puter
+герог
+Th
+advan
+meth
+are ev
+what
+doing
+tific p
+in oth
+the st
+some
+make
+theiriVING
+ship
+this
+hat
+di-
+in-
+on
+he
+ck
+rs
+le
+п.
+'У
+e
+f
+DEEPER TEACHING
+347
+same procedure, one of them says, "Well this is an elective class so we
+get to choose what we want to do."
+The feeling in the room is busy but focused. Many students wear safety
+goggles without seeming self-conscious about it; at some point Ms. Ma-
+rino says to a student, "Dear, I need you to wear your goggles," and he
+puts them on without fuss. All students are engaged in measuring,
+weighing, taking notes, talking about the experiments, or conversing
+with Ms. Marino or Tiffany, a former student who works as an assistant.
+Throughout, when I ask students questions about the experiments-like
+which solution they originally thought would be the most corrosive- I'm
+struck by the fact that many of them look uncertain and check their
+notebooks rather than responding extemporaneously. My impression is
+that this is the effect of their general lack of confidence in this kind of
+work. They don't seem to have the big picture, that this is about learning
+to think like a scientist, but they are doing so nevertheless- my guess is
+for one of the first times. It is also October, still relatively early in the
+year.
+At the end of the period Ms. Marino prompts clean-up, and all the stu-
+dents put their labeled experiments-in-progress on the windowsill. Ms.
+Marino gives a few reminders: she checked notebooks today so anyone
+who didn't get checked needs to show her theirs. "By tomorrow we need
+to have our follow-up experiments completely set up and we'll be working
+on the analysis questions. Later in the week we'll have time in the com-
+puter lab to work on processing some of this and formatting it as a lab
+report."
+This class reveals what an inquiry-oriented stance looks like in a less
+advantaged setting. As at MMSA, students are employing the scientific
+method, have some control over the nature of their investigations, and
+are evaluating their hypotheses through evidence. While they are some-
+what unsure of their footing, given that this is their first exposure to
+doing real science, they are able to work through the steps of the scien-
+tific process. The room also shares the affective qualities we have seen
+in other powerful classrooms—a hum of busy focus that is driven by
+the students. It is also notable that it is an elective-students, freed of
+some of the coverage constraints of other science classrooms, can
+make some choices about what they investigate, which helps to pique
+their interest. Finally, unlike many of the scientific labs we saw —where348
+IN SEARCH OF DEEPER LEARNING
+the purpose was to replicate existing experiments-there was in this
+room a genuine sense of the unpredictability that characterizes real
+science, as students tried different materials to arrive at their results.
+The experimental work was also linked to underlying content in
+chemistry, creating the basis for the conclusions of the experiments.
+Like the other teachers profiled, Ms. Marino had made a series of
+decisions that produced the classroom we saw. Because the class is an
+elective for juniors and seniors, it is not subject to state tests. As a teacher
+with a strong reputation within a school with loose administrative
+oversight, Ms. Marino also had significant autonomy in designing the
+course. She had, over time, decided that certain ideas and associated
+procedures within chemistry that she initially had held dear could be
+sacrificed in favor of greater conceptual understanding of core ideas,
+while inducting students into the use of the scientific method. As a
+result, she had made participating in the science fair a required com-
+ponent of the course, and threaded development of the science fair
+project through the learning across the year.
+Pedagogically, she had taken the task of scientific inquiry and broken
+it into many components. One strategy she used, especially early in the
+year, was that on the first day she would design an experiment, which
+students would carry out; then they would design the follow-up experi-
+ment. In so doing, she both actively demonstrated the steps of the sci-
+entific method and gave students some freedom to develop their own
+ideas. The science fair project was the culmination of this evolution, as
+she gradually gave over responsibility to the students to take charge of
+their own scientific explorations. Much as Mr. Fields hoped that each
+discussion of a text would produce something new, Ms. Marino
+similarly thought that the key was for students not to feel as if they
+were the thousandth student to perform an experiment but rather that
+they were investigating something original. Creating choice over the
+science fair project was one part of this-"if you hate cooking but love
+sports, don't pick a project on sugar crystallization," she said — but even
+in day-to-day instruction, she thought that students making choices
+gave the work life. "That whole idea of really asking students to kind
+of come at it from who they are. I think every student is more engaged
+in a lesson if they think it's different because they're there. Because
+they're taking part in it; that [their presence] has somehow changed
+what has happened," she told us.
+DEEPEF
+At t
+induct
+she als
+ways t
+my pel
+goals i
+she ser
+active
+has ar
+skills,
+growin
+Lamps
+gradua
+As t
+been :
+learne
+teachi
+high s
+for ma
+cation
+who w
+teachi
+did he
+runni
+scienci
+search
+search
+level 1
+inforn
+Ms.
+methc
+things
+of the
+if you
+other
+correc
+cult. )
+okay.ARNING
+in this
+es real
+esults.
+ent in
+nts.
+ies of
+is an
+icher
+ative
+; the
+ated
+1 be
+eas,
+iS a
+•m-
+air
+en
+i-
+i-
+S
+DEEPER TEACHING
+349
+At the same time, while Ms. Marino placed a heavy emphasis on
+inducting students into the methods and epistemology of real science,
+she also made sure to integrate a core knowledge of chemistry: "I al-
+ways tell kids and I mean it. I see the world in chemistry. It organizes
+my perspective, my vision on the world," she said. One of Ms. Marino's
+goals is for students to become scientifically literate, and to achieve that,
+she seeds an accumulating series of chemistry lessons within her largely
+active approach to teaching. Much as the National Research Council
+has argued that deeper understanding requires fusing content with
+skills, Ms. Marino believed that scientific inquiry is necessarily built on a
+growing base of scientific knowledge. At the same time, as Magdalene
+Lampert does in math, she would often foreground an investigation, then
+gradually bring in the scientific content, rather than the reverse.
+As with many of our other teachers, coming to teach this way had
+been an evolution. Ms. Marino described herself as someone who
+learned well from the book, the traditional way, and she had begun her
+teaching in a rather conventional manner. When she began teaching
+high school, however, she quickly discovered that this did not work
+for many of her students. While completing a master's degree in edu-
+cation, she struck up a relationship with her science methods professor,
+who was beginning a large NSF-funded grant on inquiry-based science
+teaching. Ms. Marino became a doctoral student on this project, and
+did her own research comparing more and less inquiry-based ways of
+running labs. At the same time, she got her Ph.D. in chemistry, not
+science education, and thus had to complete some bench chemistry re-
+search as well. This combination had both grounded her in doing re-
+search in the discipline and given her an opportunity to do dissertation-
+level research about different teaching practices. These experiences
+informed the work she was doing with her own students.!7
+Ms. Marino now teaches others who are trying to learn inquiry-based
+methods of teaching science. Her key piece of advice? "One of the first
+things is be not afraid. It is a little messier. ... Push yourself to let go
+of the idea of a very tight kind of classroom control and have faith that
+if you kind of give students the reins that it will be okay." Much like
+other teachers in our sample, she embraces the value of growth over
+correctness: "One of my other refrains to kids is, 'It is hard. It is diffi-
+cult. You shouldn't feel bad. It takes time and repeated effort and that's
+okay. Everything we do, every effort you provide is advancing you350
+IN SEARCH OF DEEPER LEARNING
+towards the ultimate goal even if you're not there yet. Even if you get
+the wrong answer, it doesn't mean that it was a waste.?'" As was true at
+Attainment High, she noted that this message is counter-cultural to
+what students normally receive, and that it requires some unlearning
+on their part to get used to it.
+Like a coach, Ms. Marino employs a variety of methods to acclima-
+tize students to this new way of being. For example, she refuses to grade
+the multiple-choice sections of tests if students have not taken a
+real shot at doing the open-response sections. Because she has found
+that some students freeze up at the writing stage of developing lab re-
+ports, she urges them to first talk out their ideas, then write down
+their thoughts. A central goal of her teaching is to build a culture in
+which students try out scientific ideas with one another, ultimately
+making them responsible for creating and regulating a space infused
+with scientific norms.
+In line with Dewey, who urged that the teacher should be an active
+researcher of her own practice, and a reformist superintendent who in
+1893 advocated teacher learning so that students could "drink from a
+running stream rather than from a stagnant pool," Ms. Marino frequently
+adjusted and experimented with her own practice.l8 Unlike the teachers
+at MMSA, she was not part of a school committed to the kind of teaching
+she was employing, so she did not have the benefit of the kind of com-
+munity that they had on-site. As a result she eschewed most schoolwide
+discussions and focused on her classroom. In her city, however, she had
+found a community of people who shared similar missions and goals:
+through this community she both shared what she learned, and learned
+from others' shared experiences. In particular, through videotaping her-
+self teaching and asking a group of friends from across her networks to
+provide feedback, she continued to strengthen her own teaching.
+What Do These Teachers Do Differently?
+These teachers differed from their more traditional colleagues in a va-
+riety of interlinked ways. They had a different conception of their pur-
+pose (the why), which in turn was linked to a different teacher identity
+(the who), which in turn was linked to a different set of pedagogical
+choices (the what and how).
+DEI
+Tal
+-
+Edi
+Ped
+Vie
+Vie
+Rol
+Rohi
+Vie-
+Eth
+wha
+infc
+the
+kno
+our
+tow:
+to t]
+of t1
+caps
+The
+The
+diffe
+thei
+they
+but :
+tant
+want
+uatic
+worl
+abouSING
+get
+e at
+to
+ng
+la-
+a
+1
+DEEPER TEACHING
+35I
+Table 7.I A Different Stance: Traditional versus "Deeper" Teachers
+Traditional teachers
+Educational goal
+Cover the material
+Pedagogical priorities
+View of knowledge
+View of students
+Role of student
+Role of teacher
+View of failure
+Ethos
+Breadth
+Certain
+Extrinsically motivated
+Receiver of knowledge
+Dispenser of knowledge
+Something to be avoided
+Compliance
+"Deeper" teachers
+Do the work of the field;
+inspire students to
+become members
+of the field
+Depth
+Uncertain
+Creative, curious,
+and capable
+Creator of knowledge
+Facilitator of learning
+Critical for learning
+Rigor and joy
+Tying these together was a different stance, a different way of viewing
+what they were trying to do, which came out of their experiences and
+informed their work. While leading work by Lee Shulman emphasizes
+the different sorts of knowledge that teachers possess-substantive
+knowledge, pedagogical knowledge, pedagogical content knowledge—
+our work suggests that it is the perspective or stance that teachers take
+toward their work that is critical!' (Knowledge certainly contributes
+to the formulation of such a stance, but it is not sufficient. 29) A number
+of the key dimensions of this stance and how they fit together are en-
+capsulated in Table 7.I.
+The Why: How Deeper Teachers See Their Purpose
+The starting point for understanding these teachers is that they had a
+different view from most teachers of what they were trying to do with
+their students. At essence, they began with a set of goals about what
+they wanted for the young people in their charge—not just knowledge,
+but a set of capacities and dispositions that they thought were impor-
+tant for facing the world. They sought to empower their students; they
+wanted them to be able to approach both their fields and other life sit-
+uations as people who could act on the world and not simply have the
+world act on them.
+While their hopes for the students as people came first, they cared
+about their students through their disciplines or subjects. In other words,352
+IN SEARCH OF DEEPER LEARNING
+in contrast to the role of parents, as teachers they expressed love
+for their students by showing them the corner of the world that in-
+spired them. In so doing, they hoped to modestly but fundamentally
+change their charges, helping them to develop new interests, new
+understandings, and, potentially, new identities that would integrate
+what they were learning into revised notions of their core selves.21
+Their goals were at once both less and more ambitious than those of
+other teachers we encountered: less ambitious in that they were less.con-
+cerned with whether students remembered particular pieces of content;,
+and more ambitious in that they hoped to create seminal learning expe-
+riences that would affect their students beyond the specific content of
+the course: they tried to plant seeds that might inspire many years of
+inquiry into their subject.
+This approach reflected the different way in which these teachers un-
+derstood their disciplines. To a person, they saw their disciplines as
+open-ended rather than close-ended fields, meaning that they saw their
+fields as places where people had constructed provisional knowledge,
+rather than as places where there was a finished set of answers that
+needed to be passed on or "professed" to others.
+While teachers' epistemological understandings of their disciplines
+might seem like an arcane point, we found that it was critical for every-
+thing that followed. If teachers saw their fields as fixed or inherited
+bodies of knowledge, teaching as transmission seemed like a logical and
+efficient approach. Students might be given opportunities to process
+more interactively, but the fundamental goal was to push students to
+absorb established knowledge. Conversely, if the fields were understood
+as places where different people would develop different interpretations,
+experiments, and approaches to problems, it seemed natural to invite
+students into this process of inquiry, connecting them to the genera-
+tions of scholars and seekers of knowledge who had come before.
+At the same time, even while teachers were giving their students
+room to develop their own approaches and interpretations, they were
+pushing them to think hard about how they would defend the argu-
+ments that they were making. The teachers loved their fields and dis-
+ciplines, and with that love came a belief in the way those disciplines
+embodied standards about which arguments passed muster and which
+did not. They indicated this through their feedback, both verbal and
+written, and by the standards that governed what happened in their
+DEEPER
+classes
+standa:
+owned
+ously p
+with o
+inferer
+some s
+and as
+appros
+ticula
+"I do /
+goal o:
+dents :
+In n
+that w
+Much
+"game
+in wh
+ties. N
+his sti
+five-p
+to ma
+at MI
+scale,
+pate j
+in a 1
+philo
+think
+this 1
+profe
+powe
+and c
+Tl
+teach
+were
+recei
+heav:
+theirEARNING
+ed love
+hat in-
+entally
+iS, new
+tegrate
+elves. 21
+lose of
+is.con-
+ntent;
+expe-
+ent of
+irs of
+sun-
+85 as
+heir
+dge,
+that
+nes
+ry-
+ted
+nd
+ESS
+to
+od
+IS,
+te
+DEEPER TEACHING
+353
+classes. When possible, they tried to teach students to enforce these
+standards, making the task of rigor something that was collectively
+owned. In English classes, for example, students would often be vigor-
+ously prompted to support interpretations with particular pieces of text,
+with other students asked to evaluate whether they thought those
+inferences were warranted. In math, it could come through assigning
+some students to present problems that they had solved on the board,
+and asking others to verify their chains of logic. If the conventional
+approach to instruction is "I do / we do / you do" with respect to a par-
+ticular piece of content or skill, the approach of these teachers was
+"I do / we do/ you do" with respect to the standards of the field; with the
+goal of gradually shifting responsibility for the learning itself to the stu-
+dents as a collective. 22
+In many ways, these teachers were paralleling the induction processes
+that we saw in theater and other extracurriculars in the previous chapter.
+Much of what they were trying to do was to close the gap between the
+"game of school" way of approaching the field or discipline and the way
+in which professional participants in those fields do those same activi-
+ties. Mr. Hogan, for example, used the Ta-Nehisi Coates article to show
+his students that good, real-world writers did not always conform to the
+five-paragraph essay form that they had been taught, then invited them
+to make similar authorial choices in their own work. The instructors
+at MMSA walked students through the scientific process on a small
+scale, then connected them to college labs where they could partici-
+pate in the creation of real science. Even when students were not yet)
+in a position to contribute to the field-for example, in math and
+philosophy-their teachers tried to induct them into the kind of/
+thinking and methodology that disciplinary experts employ. They did
+this not because they thought that all of their students woüld become
+professionals in these disciplines, but rather because it was a way of em-
+powering their students; showing them that they, too, could develop
+and create knowledge and ideas.
+These commitments were particularly apparent in teachers who were
+teaching high-poverty students and students of color. These teachers
+were well aware that these were the students who historically had not
+received an empowering education, and they saw their missions as
+heavily shaped by a commitment to social justice. But they did not frame
+their students in deficit terms; nor did they, like many of the teachers354
+IN SEARCH OF DEEPER LEARNING
+in our sample, see the urgency of "catching students up on the basics"
+as precluding the kind of thinking that they wanted for their students.
+Instead, they made sensible adjustments-shortening the pieces of
+text they asked students to read; scaffolding unfamiliar terms or
+concepts; embedding skill-building within larger investigations-
+but kept their fundamental stance toward students as highly capable
+meaning-makers.
+These teachers also had a different view of expertise than is some-
+times found in the literature. Much of the literature, especially in cog-
+nitive science, emphasizes the importance of the differences between
+experts and novices: experts can see patterns that novices cannot, and
+thus the role of teaching is to use this expertise to help bring novices
+along a trajectory toward expertise 23 These teachers did not deny that
+they had greater expertise in their subjects than their students, but their
+stance was rather one of co-investigators. As Dr. Duchin describes
+it, "What developed for me was a subject-centered learning commu-
+nity. I have to be part of the learning community, not that intercessor
+between the content and the students. I think that's where the truth
+comes out, and students know it." These teachers were hoping that as
+a text was analyzed, an experiment conducted, a proof worked out,
+their students would come up with something they hadn't seen, that
+new ideas would be unearthed. Having sought to inspire their charges
+to love their subjects, they welcomed having others with whom they
+could explore their fields.
+The Who: Teachers' Journeys and Identities
+This stance, in turn, was heavily shaped by the life trajectories and
+identities of those teachers. As we noted at the outset, all but one of the
+teachers in our sample had been teaching at least ten years; the median
+level of experience was twenty years. They had reached their stance only
+after a considerable journey, with their sense of what matters most for
+teaching as well as their hopes for young people crystallizing over a long
+period.
+Many of the teachers in our sample had started teaching in the tra-
+ditional way-cover content, assess results, batch-process students,
+rinse and repeat-and had gradually come to see the limits of that
+method, which had motivated a search for a new approach. Ms. Walsh,R LEARNING
+he basics"
+• students.
+pieces of
+terms or
+gations-
+y capable
+is some-
+y in cog-
+between
+not, and
+novices
+eny that
+ut their
+scribes
+mmu-
+ccessor
+; truth
+that as
+d out,
+L, that
+larges
+I they
+and
+f the
+dian
+only
+for
+ong
+ra-
+ItS,
+nat
+sh,
+DEEPER TEACHING
+355
+the IB teacher at IB High, recalled that her very first experience was
+teaching on a Fulbright in Malaysia. Around October of her first year,
+she said, one of her students came up to her and said, "Miss, you seem
+like a very nice lady, but you have to stop talking!" She described this
+somewhat sobering encounter as the beginning of her journey into how
+students were experiencing her teaching, which had so evolved that, by
+the time we saw her twenty years later, she was hardly talking at all.
+Many of the teachers had made similar journeys. This was not an easy
+shift—it required destabilizing their initial conception of what they
+were supposed to do as professionals— so the evolution toward this
+approach could take a long period of reflection, as they gradually came
+to hold a different view of their role. 24
+While it may have taken time for them to find a teaching equilib-
+rium, they generally credited a seminal learning experience for shaping
+how they viewed their field or purpose. For some, this had come in the
+last two years of college or in graduate school, which was the time in
+their own schooling when they had finally shifted from being told in-
+formation acquired by others to participating in the development of
+knowledge. 25 For the humanities teachers, it came from participating
+in Socratic seminars or other joint meaning-making activities in their
+own schooling, which they sought to pass on to their students. If Dan
+Lortie emphasized the ways in which the apprenticeship of observation
+was normally a conservative force that replicated transmission-style
+teaching, our teachers suggested that the opposite is also possible:
+drawing on the best experiences of schooling could provide models for
+a different kind of teaching.
+One particularly striking instance of this relationship between how
+teachers learned their fields and how they taught them came in a dis-
+cussion we had with a teacher in an advantaged school who was teaching
+both history and AP psychology. We had visited her history class, which,
+while not perfect, had given students opportunities to interact with
+documents and try to develop historical interpretations. We had also
+visited her AP psychology class, which had none of the life of the his-
+tory class, because students were being asked to memorize definitions
+of different kinds of conditioning. As we interviewed her to probe the
+reasons for the differences between these classes, we asked how she saw
+the two disciplines. To paraphrase, she said that history is very much
+an open discipline. People think it's all names and facts, but it's not.356
+IN SEARCH OF DEEPER LEARNING
+Why do you say that? we asked. In college, she said, we had this two-
+year required course in Western Civilization, co-taught by four pro-
+fessors, in history, English, theology, and philosophy, and we got to see
+how the same events could be understood through different lenses.
+What about psychology, we asked? Oh, she said, unlike history, psy-
+chology is all about right answers, it is a very closed discipline. From
+these starkly different answers we can see that even in the same person,
+very different teaching can result from very different understandings
+of various fields or disciplines. 26 Perhaps not surprisingly, given our ap-
+prenticeship view of powerful teaching and learning, it was only when
+teachers had themselves experienced the nature of their disciplines as
+open or constructed that they could create the same experience for their
+students.
+Depth of knowledge about their fields was also important for other
+reasons. All of our most compelling teachers had at least an undergrad-
+uate degree in their subject, with some who had masters' or even
+doctoral degrees. This depth of knowledge helped them think about
+how to structure the work in their fields; in particular, it helped them to
+decide which readings, questions, or problems would be likely to open
+up the widest range of possibilities for their students. It also was criti-
+cally important for giving them confidence in their ability to teach in
+• more open-ended ways; for other teachers in our study, moving off-
+script or asking open-ended questions felt perilous because it could
+expose the limitations in their knowledge of their fields. These teachers,
+by contrast, were hoping that students' questions and ideas would take
+them to unfamiliar territories, confident in their ability to handle such
+terrain because they were secure in their underlying knowledge of the
+field. Ironically, as students in Mr. Fields's philosophy class told us, when
+teachers admitted that they didn't know everything, students thought
+more, not less, of them.
+If the roots of these teachers' approach to teaching were deeply
+grounded in their initial learning in their fields, they were sustained
+by an ongoing passion for their subjects and for finding ways to teach
+them. The humanities teachers were voracious readers, continuing to
+explore different tributaries of their subjects. Mr. Fields had recently
+been ordained as a Buddhist priest, which was the culmination of a sus-
+tained multiyear interest in Buddhism. Mr. Hogan said that he saw
+everything in his life-movies, television shows, books, magazines,R LEARNING
+this two-
+four pro-
+got to see
+it lenses.
+ory, psy-
+le. From
+person,
+andings
+our ap-
+y when
+lines as
+or their
+other
+rgrad-
+• even
+about
+em to
+open
+criti-
+ch in
+off-
+ould
+len
+ght
+sly
+ed
+DEEPER TEACHING
+357
+even advertisements-as texts carrying messages that could be decon-
+structed; he was always on alert for materials that he could bring into
+the classroom. Mr. Collins continued to love to do what he called "rec-
+reational math," which he then shared with his students. Students, not
+surprisingly, could sense the ways in which these fields were alive in
+their teachers, describing this passion and interest as "contagious."
+If part of their identity was continued immersion in doing the work
+of their fields or disciplines, these teachers were also equally alive in
+thinking through the work of teaching, constantly tinkering with and
+revising aspects of their practice as they tried to figure out what would
+land well with their students. Much as Dewey described teaching as a
+form of action research, these teachers were continually experimenting
+in ways small and large. In so doing, they stayed plugged into new cur-
+rents developing in their fields and disciplines, considering whether
+these approaches would work for them and their students. For some,
+this was facilitated by technology and the growth of online teacher
+communities; for others, by colleagues or critical friends in their geo-
+graphic areas. Much as we have described deep learning for students as
+occurring over long periods of time in spirals of mastery, identity, and
+creativity, these teachers were part of similar cycles as they enriched
+their teaching. Such cycles also sustained these teachers, preventing
+the kind of burnout that is so common in more structured teaching
+situations.
+Finally, there was an interaction between these teachers' growing
+sense of what mattered for their students, their understanding of their
+fields, and their pedagogical approaches. Initially, for many of these
+teachers, these elements had been misaligned: the ways they were
+teaching felt incongruent with their own views of their fields, and
+while they were meeting external expectations for their students (for
+instance, by keeping up with pacing guides), their own assessment of
+what their students were learning fell short of their expectations. Over
+time, as they gained experience or tracked student outcomes over
+time (including the years after students left their classrooms), they
+had come to realize that less really was more-that more important
+than what was covered was developing students' abilities to think and
+to take ownership of the tools of their field or discipline. This real-
+ization enabled them to shift their goals and to some degree their cur-
+riculum, which in turn enabled them to develop pedagogical practices358
+INSPIRIN
+LACTIN
+IN SEARCH OF DEEPER LEARNING
+consistent with both their hopes for students and their views of their
+fields or disciplines. While they continued to iterate and revise, part of
+what was striking about these teachers was the way in which they had
+ound an equilibrium that integrated their knowledge, their teaching,
+and their selves.
+The What and How: Inducting Students into the Disciplines
+The ways in which these teachers taught were highly varied. Consis-
+tent with the aphorism from the National Research Council report-
+"asking which teaching technique is best is analogous to asking which
+tool is best— a hammer, a screwdriver, a knife, or pliers" —the peda-
+gogical approaches that these teachers employed differed depending
+on their disciplines, goals, and teaching philosophies.2 Some, like
+Mr. Fields, used essentially only one modality, which had the advan-
+tage that students knew how they were going to be working and could
+both focus on the content and gradually assume ownership of the pro-
+cess. Others, like Mr. Hogan and Mr. Collins, varied the pedagogical
+modalities depending on what they were teaching and what method
+would best suit that task.
+If the pedagogical modes varied, what was common in their approaches
+was that they aimed to be simultaneously inspiring and exacting. All of
+them saw their fields as something worthy-of considerable devotion,
+something that could be this way for everyone, if, as Mr. Collins said,
+the obstacles to such devotion were removed. But at the same time, they
+also all had high standards for what good work in their fields looked like,
+and they instantiated those standards by asking hard questions and by
+requiring students continually to revise and revise both their thinking
+and their written work.
+In many ways, their classes exemplified many of the same qualities
+that were present in the extracurriculars: purpose, choice, community,
+apprenticeship, and the sense of "playing the whole game at the junior
+level." As in theater, classes were grounded in an attention-grabbing
+purpose or question: How do we know if we exist? How many breaths
+would it take to blow up a huge balloon? Under what circumstances is
+it appropriate to say "nigger"? What do we want to investigate scien-
+tifically? Within this overarching purpose, there was often choice:
+Mr. Fields let students start with the passages that meant something toNING
+heir
+tof
+had
+ng,
+S-
+-
+h
+DEEPER TEACHING
+359
+them; the Methods of Scientific Inquiry classes let students choose what
+they wanted to explore and how they would design an experiment to
+explore it. The work happened within a community that the teachers
+had expertly created, one that was playful and productive, warm in af-
+fect but focused in energy. Students knew the rules and norms of how
+the space worked, so they could push one another on things large and
+small, such as reminding classmates to put on their goggles or pressing
+them to refer to texts.
+All of this happened within the context of apprenticeship and playing
+the whole game at the junior level: the teachers, as the expert guides to
+the field, were gradually showing students how their domains worked,
+with students learning by doing the work of the domain. In taking this
+stance, teachers emphasized learning over performance; failure was not
+something to be avoided but rather an expected part of striving toward
+the difficult tasks of thinking and creation. Finally, all of these classes
+shared a culture of respect for students as capable and intelligent young
+people, whose opinions and ideas had real value, and where challenging
+those ideas was a sign of intellectual seriousness.
+These teachers also had a distinctive approach to choices about time
+and coverage. Most teachers we saw were highly concerned with what
+was covered, and would rush or lecture if they worried that they were
+"falling behind" their expected goals. The teachers featured in this
+chapter, by contrast, were more concerned with whether students were y
+adopting the habits and dispositions of inquirers in their disciplines,
+Thus when students became particularly interested in an idea or ques-
+tion, the teachers saw that as a critical opportunity to ignite learning
+rather than as a threat to subject-coverage goals. For example, a teacher
+who teaches American history to predominantly poor black and Latinx
+students in a prominent urban center remembers that he had been
+taught to teach in what he calls "developmental" lessons, where you ask
+students a series of questions that leads to a preset destination- whatever
+points you, the teacher, want to get across about the topic. He re-
+members clearly that one day a mentor asked him to try something
+different-it was an elective on popular culture, and the item in ques-
+tion was the Michael Jackson video Thriller-by soliciting students'
+ideas rather than leading them to his planned conclusions about the
+video. The ensuing discussion had a kind of life and energy that was
+absent from classes with his previous approach. This discovery became360
+IN SEARCH OF DEEPER LEARNING
+the beginning of a long teaching journey, in which he gradually
+learned the techniques of how to run a classroom discussion, how to
+honor students' interests while also integrating core content, and how to
+balance breadth and depth. As part of this shift, he had found that
+when students got particularly interested in a subject-such as, for ex-
+ample, the founding fathers and slavery—it served him well to go into
+those topics in depth, creating opportunities for students to take more
+ownership over their reading, writing, and analyses.
+Ted Sizer once said that "to change anything, you need to change
+everything,"28 These teachers had taken that point to heart. In partic-
+ular, they had not created greater purpose or engagement through some
+magical teaching technique; rather they had changed the pacing and
+the goals of their courses in ways that were more congenial to their
+induct-into-the-disciplines approach. Specifically, they had prioritized
+depth over breadth, they had given students some choice, and they had
+picked topics that they thought would appeal, in different ways, to the
+adolescent mind. To create these departures, they had to find ways to
+buffer themselves from external expectations. Some did this by teaching
+in the elective curriculum, some did it by moving to schools like MMSA
+that were supportive of these approaches, while some were simply so
+beloved by students and parents that they had enough political clout to
+do things differently. All sought out situations that were not monitored
+by external tests. Thus while a big part of becoming a compelling
+teacher was building empowering classrooms with students, an equally
+important part was creating the political space to redesign their courses.
+D
+ti
+0
+e
+S1
+C
+a
+e
+ic
+d
+a
+VI
+d
+SI
+tl
+fi
+tl
+ar
+sC
+bi
+These teachers show what is possible in high school education. Working
+in settings ranging from the country's most elite state academies to its
+highest-poverty urban public schools, they demonstrate how teachers
+can create spaces that enable students to become knowledgeable, skillful,
+and deeply invested in the core academic disciplines.
+The cases in this chapter also show how difficult it will be to achieve
+such outcomes. These teachers had each undertaken significant per-
+sonal journeys to reach their present teaching approaches, involving
+not only thousands of hours of practice, but also ongoing cycles of re-
+flection and experimentation. Their teaching was not something that
+could come off the shelf; they hadn't adopted the latest in "best prac-DEEPER TEACHING
+30I
+tices." Rather, they had forged consequential identities around the type
+of teachers they wanted to be, which was connected to their personal
+evolution and their understanding of their fields. As they had become
+surer of their footing over the course of their careers, they had be-
+come more confident in their visions of what they wanted for students,
+and had developed wider repertoires of techniques to accomplish those
+ends. Ultimately, they had discovered ways to create coherent teaching
+identities that integrated their goals, their pedagogy, and their broader
+selves.
+But if it is true that the teaching identities and skills of these teachers
+developed only over years, it is also true that they were working within
+a system that was not supporting, and, in many cases was actively sub-
+verting, their growth and development. The paucity of such teachers
+discovered by our research is itself an indictment of the absence of such
+systems to generate and nurture this kind of teaching practice. With
+the exception of the teachers at MMSA, these teachers largely had to
+figure this out through a long process of trial and error, aided by oc-
+casional fortunate infusions of knowledge from friends or experts. In
+many cases, not only were they not supported by their environments;
+they also had to actively contravene or buffer the expectations of
+administrators, district officials, or state tests.
+What would it look like to create a different kind of ecosystem of
+schools? One that was organized in such a way that such teaching could
+be rule rather than exception? We turn to these questions next.
+421
