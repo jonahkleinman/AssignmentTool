@@ -1,6 +1,6 @@
 export const DEFAULT_MODEL = "gpt-4o";
 
-export const STEP_IDS = ["assessment", "parts", "goal", "constraints"] as const;
+export const STEP_IDS = ["grade", "assessment", "parts", "goal", "constraints"] as const;
 
 export type StepId = (typeof STEP_IDS)[number];
 export type Answers = Record<StepId, string>;
@@ -23,13 +23,14 @@ Available structural operations:
 Central rule:
 The useful design move is not the rearrangement by itself. The value comes from reinterpretation: name the function the changed, moved, combined, split, repeated, or removed part served, then name what now picks that job up. Never say only "add peer review" or "move the conclusion earlier"; explain the function shift.
 
-Worked example:
+Worked example (this is your private reasoning — the teacher never sees the words "operation" or "function shift"):
 Original assessment: five-paragraph essay. Part changed: the conclusion. Operation: split and reorder it. Instead of one final conclusion after all points, students write a short "so what?" after Point A before continuing. Function shift: the old final conclusion carried synthesis and stakes at the end; the new mini-conclusion makes students interpret evidence while the argument is still being built, and the final paragraph can focus on transfer or limits instead of summary.
 
 Analogy:
 If a lamp stops working and you remove the bulb, you have not redesigned the lamp. You have removed the part that produced light. A real redesign says what now produces the light: a new bulb, an LED strip, a window, or a reflective surface. Assessment redesign works the same way. If a rubric, conclusion, lab report section, worksheet problem, or presentation slide is changed, identify what pedagogical "light" it produced and what now produces it.
 
 Behavior:
+- If the intake names a Grade or age level, write every redesign FOR that level: pitch the task complexity, vocabulary, reading load, scaffolding, and student-facing language to those students, and keep examples developmentally appropriate. If several grades are named, pitch to the span — keep the core task accessible across the range and note where to scaffold down or stretch up. If no level is given, stay grade-neutral.
 - If the user sends a full intake with labels like Assignment type, Assignment components / description, Learning goals, and Current constraints, decide whether the brief is specific enough to make useful redesigns.
 - If the assignment type, current student work, learning goals, or important constraints are too thin or ambiguous, ask 1-3 concise clarifying questions before generating prototypes. Ask only for information that would materially change the redesign. Do not use Markdown headings in a clarification-only reply.
 - If the intake is specific enough, or if the user answers clarification questions or asks you to use the current information, emit 2-3 prototype redesigns.
@@ -38,17 +39,19 @@ Behavior:
 - Ground every suggestion in the specific assessment and learning goal. Avoid generic filler.
 - Suggest relevant constraint types when they matter, such as class time, scoring burden, accessibility, source rules, collaboration rules, technology access, or evidence quality.
 - When feedback design is relevant, prefer open-ended feedback that reveals reasoning over binary right/wrong checks, unless a binary check is clearly appropriate.
-- If a "Relevant assessment principles" block is supplied, ground your reasoning in it and cite the bracketed source inline (e.g. "per Inside the Box, p. 14"), especially in the "Why it's better" field. Never cite a source that was not supplied.
+- If a "Relevant assessment principles" block is supplied, ground your reasoning in it and cite the bracketed source inline (e.g. "per Inside the Box, p. 14"), especially in the "And you'll see" field. Never cite a source that was not supplied.
 
-For full-intake prototype responses, use exactly this Markdown shape for each prototype. Blank lines between fields are required:
+For full-intake prototype responses, use exactly this Markdown shape for each prototype. Write every field as plain, warm language a teacher can absorb at a glance, and keep each field to one short, concrete clause — these render as compact before/after cards, so no multi-sentence paragraphs. The framework above (structural operations, function, function shift) is your private reasoning only. Never put the words "operation", "function", or "function shift" in front of the teacher; describe the move in everyday classroom language instead. Always restate what the current assignment has students do first, so it is obvious what is being adjusted. Blank lines between fields are required:
 
 ### <short prototype name>
 
-**Operation:** <op> - <what specifically changed>
+**In your assignment, you were asking students to** <restate, concretely, what the current assignment has students do — the specific part you are about to change>.
 
-**Function shift:** <function the changed part served -> what now absorbs it>
+**Instead, you could try asking them to** <the concrete, doable change>.
 
-**Why it's better:** <rationale tied to the learning goal>
+**That way, they'll have to** <the new thinking or work this forces — the job that part now does, in plain terms>.
+
+**And you'll see** <the evidence or student behavior this surfaces, tied to the stated learning goal>.
 
 Keep prototype headings short. Do not prefix headings with "Prototype 1", "Prototype 2", or similar numbering. Emit Markdown text only.
 `.trim();
@@ -63,6 +66,7 @@ Rules:
 - Produce 3-6 choices.
 - Each choice should be a few words, usually under 9 words.
 - Make choices specific to the assignment and prior answers supplied by the user.
+- If a grade or age level is supplied, level the choices to it: keep goals, constraints, and language developmentally appropriate for those students.
 - For goal, offer plausible learning goals for that assignment and its described components. More than one can be selected.
 - For constraints, offer realistic boundaries such as time, format, source rules, collaboration, scoring load, accessibility, or technology access.
 - Avoid generic choices like "improve learning" or "student engagement".
@@ -84,6 +88,7 @@ Rules:
 export const EXTRACT_USER_PROMPT = "Here is the assignment. Distill it into the required JSON.";
 
 const STEP_LABELS: Record<StepId, string> = {
+  grade: "grade or age level",
   assessment: "assignment type",
   parts: "assignment components / description",
   goal: "learning goals",
@@ -95,6 +100,7 @@ export function buildSuggestUserPrompt(step: StepId, answers: Answers): string {
     `Generate choices for the "${STEP_LABELS[step]}" wizard step.`,
     "",
     "Prior answers:",
+    `Grade or age level: ${answers.grade || "(empty)"}`,
     `Assignment type: ${answers.assessment || "(empty)"}`,
     `Assignment components / description: ${answers.parts || "(empty)"}`,
     `Learning goals: ${answers.goal || "(empty)"}`,

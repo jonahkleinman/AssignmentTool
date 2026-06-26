@@ -68,9 +68,103 @@ function parsePrototypes(text: string): { preamble: string; prototypes: Prototyp
   return { preamble, prototypes };
 }
 
+interface Beat {
+  label: string;
+  text: string;
+}
+
+interface Beats {
+  before?: Beat;
+  after?: Beat;
+  soThat?: Beat;
+  outcome?: Beat;
+}
+
+/**
+ * Pull the four teacher-facing beats out of a prototype body by their bold
+ * lead-ins (see SYSTEM_PROMPT), keeping each lead-in so the card can read as
+ * full, warm sentences. Returns null when the body doesn't follow the shape —
+ * e.g. a partial stream or an off-format reply — so callers can fall back to
+ * plain markdown.
+ */
+function parseBeats(body: string): Beats | null {
+  const re = /\*\*(.+?)\*\*\s*([\s\S]*?)(?=\n\s*\*\*|$)/g;
+  const beats: Beats = {};
+  let m: RegExpExecArray | null;
+  while ((m = re.exec(body)) !== null) {
+    const label = m[1].trim();
+    const key = label.toLowerCase();
+    const text = m[2].trim().replace(/^[-—:]\s*/, "").replace(/\*\*/g, "");
+    if (!text) continue;
+    const beat: Beat = { label, text };
+    if (key.includes("were asking") || key.includes("right now")) beats.before ??= beat;
+    else if (key.includes("instead")) beats.after ??= beat;
+    else if (key.includes("that way") || key.includes("they'll") || key.includes("they will"))
+      beats.soThat ??= beat;
+    else if (key.includes("you'll see") || key.includes("you will see")) beats.outcome ??= beat;
+  }
+  // The before → instead contrast is the whole point, so anchor on "before".
+  return beats.before ? beats : null;
+}
+
+function PrototypeBody({ body, streaming }: { body: string; streaming: boolean }) {
+  const beats = parseBeats(body);
+
+  if (!beats) {
+    return (
+      <div className="studio-prose mt-3 text-[0.97rem]">
+        <StudioMarkdown>{body}</StudioMarkdown>
+        {streaming && <span className="caret" aria-hidden />}
+      </div>
+    );
+  }
+
+  const order: (keyof Beats)[] = ["before", "after", "soThat", "outcome"];
+  const lastKey = order.filter((k) => beats[k]).at(-1);
+  const caret = (k: keyof Beats) =>
+    streaming && lastKey === k ? <span className="caret" aria-hidden /> : null;
+
+  return (
+    <div className="mt-4 space-y-3 text-[0.98rem] leading-relaxed">
+      {beats.before && (
+        <p className="text-ink-soft">
+          <span className="font-medium text-ink-faint">{beats.before.label} </span>
+          {beats.before.text}
+          {caret("before")}
+        </p>
+      )}
+
+      {beats.after && (
+        <p className="rounded-r-lg border-l-2 border-mint bg-mint/[0.06] py-2.5 pl-3.5 pr-3 text-ink">
+          <span className="font-semibold text-mint">{beats.after.label} </span>
+          {beats.after.text}
+          {caret("after")}
+        </p>
+      )}
+
+      {beats.soThat && (
+        <p className="text-ink-soft">
+          <span className="font-medium text-ink">{beats.soThat.label} </span>
+          {beats.soThat.text}
+          {caret("soThat")}
+        </p>
+      )}
+
+      {beats.outcome && (
+        <p className="text-ink-soft">
+          <span className="font-medium text-ink">{beats.outcome.label} </span>
+          {beats.outcome.text}
+          {caret("outcome")}
+        </p>
+      )}
+    </div>
+  );
+}
+
 export default function Home() {
   const [stage, setStage] = useState<Stage>("start");
   const [stepIdx, setStepIdx] = useState(0);
+  const [skip, setSkip] = useState<Set<StepId>>(new Set());
   const [data, setData] = useState<Record<StepId, StepData>>(initData);
   const [drawer, setDrawer] = useState<DrawerConfig | null>(null);
   const [adding, setAdding] = useState(false);
@@ -122,6 +216,19 @@ export default function Home() {
       setData((d) => ({
         ...d,
         [cfg.id]: { ...d[cfg.id], loading: false, loaded: true, usedFallback: false },
+      }));
+      return;
+    }
+    if (cfg.staticChoices) {
+      setData((d) => ({
+        ...d,
+        [cfg.id]: {
+          ...d[cfg.id],
+          choices: Array.from(new Set([...cfg.fallback, ...d[cfg.id].selected])),
+          loading: false,
+          loaded: true,
+          usedFallback: false,
+        },
       }));
       return;
     }
@@ -206,12 +313,20 @@ export default function Home() {
 
   /* ---------- navigation ---------- */
   function goNext() {
-    if (stepIdx < STEPS.length - 1) {
-      setStepIdx(stepIdx + 1);
+    let next = stepIdx + 1;
+    while (next < STEPS.length && skip.has(STEPS[next].id)) next++;
+    if (next < STEPS.length) {
+      setStepIdx(next);
       return;
     }
     setStage("redesign");
     void startRedesign();
+  }
+
+  function goBack() {
+    let prev = stepIdx - 1;
+    while (prev >= 0 && skip.has(STEPS[prev].id)) prev--;
+    setStepIdx(Math.max(0, prev));
   }
 
   async function startRedesign() {
@@ -278,6 +393,7 @@ export default function Home() {
     setUploadStatus("idle");
     setUploadError(null);
     setUploadName("");
+    setSkip(new Set());
     setStepIdx(0);
     setStage("start");
     setDrawer(null);
@@ -339,6 +455,7 @@ export default function Home() {
     setUploadStatus("idle");
     setUploadName("");
     setUploadError(null);
+    setSkip(new Set());
     setStepIdx(0);
     setStage("wizard");
   }
@@ -346,7 +463,10 @@ export default function Home() {
   function continueFromUpload() {
     loadedRef.current.add("assessment");
     loadedRef.current.add("parts");
-    setStepIdx(2);
+    // assessment + parts are autofilled and reviewed on the upload card; ask
+    // grade next, then step over those two on the way to the goals step.
+    setSkip(new Set<StepId>(["assessment", "parts"]));
+    setStepIdx(STEPS.findIndex((s) => s.id === "grade"));
     setStage("wizard");
   }
 
@@ -482,6 +602,7 @@ export default function Home() {
             key={step.id}
             step={step}
             stepIdx={stepIdx}
+            skip={skip}
             d={data[step.id]}
             adding={adding}
             customText={customText}
@@ -491,7 +612,7 @@ export default function Home() {
             onToggle={toggleChoice}
             onAddCustom={addCustom}
             onSetTextAnswer={setTextAnswer}
-            onBack={() => setStepIdx(Math.max(0, stepIdx - 1))}
+            onBack={goBack}
             onNext={goNext}
             onRefine={refineStep}
           />
@@ -798,6 +919,7 @@ function StartView({
 function WizardView({
   step,
   stepIdx,
+  skip,
   d,
   adding,
   customText,
@@ -813,6 +935,7 @@ function WizardView({
 }: {
   step: StepConfig;
   stepIdx: number;
+  skip: Set<StepId>;
   d: StepData;
   adding: boolean;
   customText: string;
@@ -850,7 +973,11 @@ function WizardView({
           <div
             key={s.id}
             className={`h-1 flex-1 rounded-full transition-colors ${
-              i < stepIdx ? "bg-mint/70" : i === stepIdx ? "bg-mint" : "bg-line"
+              i < stepIdx || skip.has(s.id)
+                ? "bg-mint/70"
+                : i === stepIdx
+                  ? "bg-mint"
+                  : "bg-line"
             }`}
           />
         ))}
@@ -1069,17 +1196,17 @@ function RedesignView({
     <div className="flex flex-1 flex-col py-10 sm:py-14">
       <div className="animate-fade-up">
         <p className="font-mono text-[0.66rem] uppercase tracking-[0.28em] text-mint">
-          {awaitingClarification ? "Clarify the brief" : "The redesigns"}
+          {awaitingClarification ? "A couple of questions" : "Your redesigns"}
         </p>
         <h1 className="mt-3 font-display text-[2.1rem] font-semibold leading-[1.08] tracking-tight text-ink sm:text-[2.7rem]">
           {awaitingClarification
-            ? "Add the missing context."
-            : "Pick a direction to develop."}
+            ? "Just a little more context."
+            : "Pick a direction to build on."}
         </h1>
         <p className="mt-3 max-w-xl text-[1.02rem] text-ink-soft">
           {awaitingClarification
-            ? "The studio needs a little more information before it can make useful assignment directions."
-            : "Each one names the job a part was quietly doing, then moves it somewhere it works harder. Refine any of them in chat — or bring your own."}
+            ? "Answer what you can below — even a rough detail helps the studio suggest directions you'll actually want to use."
+            : "Here are a few ways to rework the assignment. Each one shows what students do now, what to try instead, and what it changes in their work. Like one? Refine it in chat, or bring your own idea."}
         </p>
       </div>
 
@@ -1157,10 +1284,7 @@ function RedesignView({
                 </span>
               </div>
               {p.body && (
-                <div className="studio-prose mt-3 text-[0.97rem]">
-                  <StudioMarkdown>{p.body}</StudioMarkdown>
-                  {redesign.loading && isLast && <span className="caret" aria-hidden />}
-                </div>
+                <PrototypeBody body={p.body} streaming={redesign.loading && isLast} />
               )}
               <div className="mt-4 border-t border-line/70 pt-4">
                 <button

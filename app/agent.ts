@@ -12,7 +12,7 @@ export interface Message {
   content: string;
 }
 
-export type StepId = "assessment" | "parts" | "goal" | "constraints";
+export type StepId = "grade" | "assessment" | "parts" | "goal" | "constraints";
 
 export interface StepConfig {
   id: StepId;
@@ -25,11 +25,34 @@ export interface StepConfig {
   longInput?: boolean;
   multi: boolean;
   optional: boolean;
+  /** Render the fallback list as the choices directly, skipping /api/suggest. */
+  staticChoices?: boolean;
   /** Offline fallback choices, used only if /api/suggest is unavailable. */
   fallback: string[];
 }
 
 export const STEPS: StepConfig[] = [
+  {
+    id: "grade",
+    label: "Grade level",
+    eyebrow: "The students",
+    question: "What grade are your students in?",
+    helper:
+      "This levels every suggestion and redesign to your students. Pick one or more grades, or add a specific grade or age of your own.",
+    multi: true,
+    optional: false,
+    staticChoices: true,
+    fallback: [
+      "5th grade",
+      "6th grade",
+      "7th grade",
+      "8th grade",
+      "9th grade",
+      "10th grade",
+      "11th grade",
+      "12th grade",
+    ],
+  },
   {
     id: "assessment",
     label: "Assignment type",
