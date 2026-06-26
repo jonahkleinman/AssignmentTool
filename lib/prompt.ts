@@ -1,6 +1,6 @@
 export const DEFAULT_MODEL = "gpt-4o";
 
-export const STEP_IDS = ["grade", "assessment", "parts", "goal", "constraints"] as const;
+export const STEP_IDS = ["grade", "assessment", "parts", "goal", "time"] as const;
 
 export type StepId = (typeof STEP_IDS)[number];
 export type Answers = Record<StepId, string>;
@@ -31,15 +31,16 @@ If a lamp stops working and you remove the bulb, you have not redesigned the lam
 
 Behavior:
 - If the intake names a Grade or age level, write every redesign FOR that level: pitch the task complexity, vocabulary, reading load, scaffolding, and student-facing language to those students, and keep examples developmentally appropriate. If several grades are named, pitch to the span — keep the core task accessible across the range and note where to scaffold down or stretch up. If no level is given, stay grade-neutral.
-- If the user sends a full intake with labels like Assignment type, Assignment components / description, Learning goals, and Current constraints, decide whether the brief is specific enough to make useful redesigns.
+- If the user sends a full intake with labels like Assignment type, Assignment components / description, Learning goals, and Time budget, decide whether the brief is specific enough to make useful redesigns.
+- Do not ask the teacher to list constraints. Deduce the constraints that already bind this assignment from the brief itself — what the task forces students to do, what it forbids, what its format, sources, audience, and the stated time budget rule in or out. The only constraint the teacher hands you is time; treat that time budget as a hard limit every redesign must fit inside.
+- A useful constraint hurts: it removes an easy path and forces a sharper move. Anchor each redesign on a real, binding constraint you found in the assignment (or on the time budget), not a generic boundary. Let the constraint generate the idea rather than merely fencing it.
 - If the assignment type, current student work, learning goals, or important constraints are too thin or ambiguous, ask 1-3 concise clarifying questions before generating prototypes. Ask only for information that would materially change the redesign. Do not use Markdown headings in a clarification-only reply.
 - If the intake is specific enough, or if the user answers clarification questions or asks you to use the current information, emit 2-3 prototype redesigns.
 - If the user asks to sharpen a wizard answer, respond conversationally with one improved concise answer, usually one sentence or two, that they can adopt. Then invite a specific next refinement only if helpful.
-- If the user asks to refine a prototype or talk through an idea, stay grounded in the named assessment, stated goal, and constraints. Make the idea concrete enough to try.
+- If the user asks to refine a prototype or talk through an idea, stay grounded in the named assessment, stated goal, time budget, and the constraints you deduced from the assignment. Make the idea concrete enough to try.
 - Ground every suggestion in the specific assessment and learning goal. Avoid generic filler.
-- Suggest relevant constraint types when they matter, such as class time, scoring burden, accessibility, source rules, collaboration rules, technology access, or evidence quality.
 - When feedback design is relevant, prefer open-ended feedback that reveals reasoning over binary right/wrong checks, unless a binary check is clearly appropriate.
-- If a "Relevant assessment principles" block is supplied, ground your reasoning in it and cite the bracketed source inline (e.g. "per Inside the Box, p. 14"), especially in the "And you'll see" field. Never cite a source that was not supplied.
+- A "Background thinking" block may be supplied. Treat it as private source material that informs your instincts only. Interpret the underlying ideas and apply them in your own plain classroom language. Never quote it, and never name, title, cite, or allude to a book, author, chapter, or page. The teacher should never know these notes exist — no "per ...", "research shows", or "the literature says". Let the influence stay invisible.
 
 For full-intake prototype responses, use exactly this Markdown shape for each prototype. Write every field as plain, warm language a teacher can absorb at a glance, and keep each field to one short, concrete clause — these render as compact before/after cards, so no multi-sentence paragraphs. The framework above (structural operations, function, function shift) is your private reasoning only. Never put the words "operation", "function", or "function shift" in front of the teacher; describe the move in everyday classroom language instead. Always restate what the current assignment has students do first, so it is obvious what is being adjusted. Blank lines between fields are required:
 
@@ -68,7 +69,6 @@ Rules:
 - Make choices specific to the assignment and prior answers supplied by the user.
 - If a grade or age level is supplied, level the choices to it: keep goals, constraints, and language developmentally appropriate for those students.
 - For goal, offer plausible learning goals for that assignment and its described components. More than one can be selected.
-- For constraints, offer realistic boundaries such as time, format, source rules, collaboration, scoring load, accessibility, or technology access.
 - Avoid generic choices like "improve learning" or "student engagement".
 `.trim();
 
@@ -92,7 +92,7 @@ const STEP_LABELS: Record<StepId, string> = {
   assessment: "assignment type",
   parts: "assignment components / description",
   goal: "learning goals",
-  constraints: "constraints to respect",
+  time: "time budget",
 };
 
 export function buildSuggestUserPrompt(step: StepId, answers: Answers): string {
@@ -104,7 +104,7 @@ export function buildSuggestUserPrompt(step: StepId, answers: Answers): string {
     `Assignment type: ${answers.assessment || "(empty)"}`,
     `Assignment components / description: ${answers.parts || "(empty)"}`,
     `Learning goals: ${answers.goal || "(empty)"}`,
-    `Current constraints: ${answers.constraints || "(empty)"}`,
+    `Time budget: ${answers.time || "(empty)"}`,
     "",
     "Return JSON only.",
   ].join("\n");

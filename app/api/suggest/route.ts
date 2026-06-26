@@ -30,7 +30,7 @@ function normalizeAnswers(value: unknown): Answers {
     assessment: typeof source.assessment === "string" ? source.assessment.trim() : "",
     parts: typeof source.parts === "string" ? source.parts.trim() : "",
     goal: typeof source.goal === "string" ? source.goal.trim() : "",
-    constraints: typeof source.constraints === "string" ? source.constraints.trim() : "",
+    time: typeof source.time === "string" ? source.time.trim() : "",
   };
 }
 
@@ -66,7 +66,7 @@ export async function POST(request: Request): Promise<Response> {
 
   if (!isRecord(body) || !isStepId(body.step)) {
     return jsonError(
-      "Request body must include a valid step: grade, assessment, parts, goal, or constraints.",
+      "Request body must include a valid step: grade, assessment, parts, goal, or time.",
       400,
     );
   }

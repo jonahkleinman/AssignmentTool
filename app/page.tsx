@@ -512,7 +512,7 @@ export default function Home() {
         { role: "assistant", content: redesign.text },
         {
           role: "user",
-          content: `Let's develop "${p.title}" further — tighten it, make sure it fits my constraints, and spell out what the student would actually do, step by step.`,
+          content: `Let's develop "${p.title}" further — tighten it, make sure it fits the time students have, and spell out what the student would actually do, step by step.`,
         },
       ],
     });

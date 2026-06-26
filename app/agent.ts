@@ -12,7 +12,7 @@ export interface Message {
   content: string;
 }
 
-export type StepId = "grade" | "assessment" | "parts" | "goal" | "constraints";
+export type StepId = "grade" | "assessment" | "parts" | "goal" | "time";
 
 export interface StepConfig {
   id: StepId;
@@ -96,19 +96,21 @@ export const STEPS: StepConfig[] = [
     ],
   },
   {
-    id: "constraints",
-    label: "Current constraints",
-    eyebrow: "The boundaries",
-    question: "Any constraints we should respect?",
-    helper: "Optional — time, length, format, sources.",
-    multi: true,
-    optional: true,
+    id: "time",
+    label: "Time budget",
+    eyebrow: "The real constraint",
+    question: "How much time do students get?",
+    helper:
+      "The one boundary worth pinning down — every redesign has to fit it. The studio reads the rest of the constraints off the assignment itself.",
+    multi: false,
+    optional: false,
+    staticChoices: true,
     fallback: [
-      "Must fit one class period",
-      "No outside sources allowed",
-      "Completed individually",
-      "Handwritten and in-class",
-      "Nothing fixed — open to anything",
+      "One class period",
+      "Two class periods",
+      "One class period plus homework",
+      "About a week, take-home",
+      "A multi-week project",
     ],
   },
 ];

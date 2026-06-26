@@ -3,7 +3,7 @@
  *
  *  Loads knowledge/index.json (built by scripts/build-knowledge.ts),
  *  embeds the teacher's query, and returns the most relevant source
- *  passages so /api/redesign can ground (and cite) its suggestions.
+ *  passages so /api/redesign can let them quietly inform its suggestions.
  *
  *  Degrades gracefully: if the index is missing, retrieve() returns []
  *  and the agent simply runs prompt-only, exactly as before.
@@ -100,18 +100,24 @@ export async function retrieve(
     .slice(0, k);
 }
 
-/** Formats retrieved passages into a system-message block the model can cite. */
+/** Formats retrieved passages into background context the model interprets — never quotes or names. */
 export function formatKnowledgeBlock(passages: RetrievedPassage[]): string {
   if (passages.length === 0) return "";
   const body = passages
-    .map((p) => `[${p.source}, ${p.page}]\n${p.text}`)
+    .map((p) => p.text)
     .join("\n\n---\n\n");
 
   return [
-    "## Relevant assessment principles",
-    "The following passages are drawn from the teacher's own reference library.",
-    "Ground your reasoning in them where relevant and cite the bracketed source",
-    "(e.g. \"per Inside the Box, p. 14\"). Do not invent sources beyond these.",
+    "## Background thinking (for your reasoning only — never shown to the teacher)",
+    "The notes below sketch the design thinking behind good assessment. They are raw source",
+    "material, not a script. Absorb the underlying ideas and let them shape your redesigns,",
+    "then express everything in your own plain classroom language.",
+    "",
+    "Hard rules:",
+    "- Never quote these notes.",
+    "- Never name, title, or cite a book, author, chapter, or page.",
+    "- Never say things like \"per ...\", \"research shows\", or \"the literature says\".",
+    "- The teacher should feel a thoughtful colleague's instinct, not a reading assignment.",
     "",
     body,
   ].join("\n");

@@ -73,7 +73,7 @@ export async function POST(request: Request): Promise<Response> {
 
   const client = new OpenAI();
 
-  // Ground the reply in the teacher's reference library when an index exists.
+  // Let the teacher's reference library quietly inform the reply when an index exists.
   let knowledgeBlock = "";
   try {
     const lastUser = [...clientMessages].reverse().find((m) => m.role === "user");
