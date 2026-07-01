@@ -65,11 +65,71 @@ function cosineSimilarity(a: number[], b: number[]): number {
   return dot / (Math.sqrt(normA) * Math.sqrt(normB));
 }
 
+function lexicalBoost(query: string, chunk: KnowledgeChunk): number {
+  const q = query.toLowerCase();
+  if (!/(habit|autopilot|stale|routine|familiar|(?:dis)?habituat)/.test(q)) return 0;
+
+  const haystack = `${chunk.source}\n${chunk.text}`.toLowerCase();
+  let boost = 0;
+  if (/(?:dis)?habituat/.test(haystack)) boost += 0.08;
+  if (/\bhabit|autopilot|familiar|surprise|attention|status quo/.test(haystack)) {
+    boost += 0.025;
+  }
+  return boost;
+}
+
 export interface RetrievedPassage {
   source: string;
   page: string;
   text: string;
   score: number;
+}
+
+export interface FocusedKnowledgeQueryInput {
+  assignmentType?: string;
+  parts?: string;
+  goal?: string;
+  time?: string;
+  purpose?: string;
+  constraints?: string[];
+  habits?: string[];
+  sourceDoc?: string;
+  raw?: string;
+}
+
+function compact(value: string | undefined, max = 700): string {
+  const text = value?.replace(/\s+/g, " ").trim() ?? "";
+  return text.length > max ? `${text.slice(0, max)}...` : text;
+}
+
+function compactList(values: string[] | undefined, maxItems = 6): string {
+  return (values ?? [])
+    .map((value) => compact(value, 240))
+    .filter(Boolean)
+    .slice(0, maxItems)
+    .join("; ");
+}
+
+/**
+ * Builds a retrieval query from the pedagogically useful parts of an intake.
+ * This keeps embeddings focused on habits, attention, and live constraints
+ * instead of diluting the query with a full assignment handout.
+ */
+export function buildFocusedKnowledgeQuery(input: FocusedKnowledgeQueryInput): string {
+  const lines = [
+    "assessment redesign constraints habits autopilot attention stale familiar routines novelty habituation dishabituation dishabituate",
+    input.assignmentType ? `Assignment type: ${compact(input.assignmentType, 220)}` : "",
+    input.parts ? `Current task: ${compact(input.parts)}` : "",
+    input.goal ? `Learning goal: ${compact(input.goal, 320)}` : "",
+    input.time ? `Time budget: ${compact(input.time, 180)}` : "",
+    input.purpose ? `Purpose: ${compact(input.purpose, 320)}` : "",
+    input.constraints?.length ? `Constraints: ${compactList(input.constraints)}` : "",
+    input.habits?.length ? `Student habits: ${compactList(input.habits)}` : "",
+    input.sourceDoc ? `Source excerpt: ${compact(input.sourceDoc, 900)}` : "",
+    input.raw ? `Teacher context: ${compact(input.raw, 900)}` : "",
+  ];
+
+  return lines.filter(Boolean).join("\n");
 }
 
 /** Embeds `query` and returns the top-k most similar knowledge chunks. */
@@ -94,7 +154,7 @@ export async function retrieve(
       source: chunk.source,
       page: chunk.page,
       text: chunk.text,
-      score: cosineSimilarity(queryEmbedding, chunk.embedding),
+      score: cosineSimilarity(queryEmbedding, chunk.embedding) + lexicalBoost(query, chunk),
     }))
     .sort((a, b) => b.score - a.score)
     .slice(0, k);

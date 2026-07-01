@@ -1,7 +1,8 @@
 /* ------------------------------------------------------------------ *
  *  Shared client-side contract for the Assessment Studio wizard.
- *  Talks to two backend routes (see plan):
+ *  Talks to three backend routes:
  *    POST /api/suggest  → { choices: string[] }      (per-step choices)
+ *    POST /api/diagnose → structured diagnosis        (uploaded assignments)
  *    POST /api/redesign → streamed text/markdown      (chat + redesigns)
  * ------------------------------------------------------------------ */
 
@@ -10,6 +11,27 @@ export type Role = "user" | "assistant";
 export interface Message {
   role: Role;
   content: string;
+}
+
+export type ConstraintKind = "hurts" | "inert";
+export type HabitStatus = "breaks" | "reinforces" | "untouched";
+
+export interface DiagnosisConstraint {
+  text: string;
+  kind: ConstraintKind;
+  note: string;
+}
+
+export interface DiagnosisHabit {
+  text: string;
+  status: HabitStatus;
+}
+
+export interface Diagnosis {
+  purpose: string;
+  constraints: DiagnosisConstraint[];
+  habits: DiagnosisHabit[];
+  note?: string;
 }
 
 export type StepId = "grade" | "assessment" | "parts" | "goal" | "time";
@@ -119,12 +141,15 @@ export const STEPS: StepConfig[] = [
 export function buildIntakeMessage(
   answers: Record<StepId, string>,
   sourceDoc?: string,
+  diagnosis?: Diagnosis | null,
 ): string {
   const lines: string[] = [];
   for (const step of STEPS) {
     const value = answers[step.id]?.trim();
     if (value) lines.push(`**${step.label}:** ${value}`);
   }
+  const diagnosisBlock = buildDiagnosisBlock(diagnosis);
+  if (diagnosisBlock) lines.push(diagnosisBlock);
   const source = sourceDoc?.trim();
   if (source) {
     lines.push(
@@ -132,6 +157,69 @@ export function buildIntakeMessage(
     );
   }
   return lines.join("\n\n");
+}
+
+export function buildDiagnosisBlock(diagnosis?: Diagnosis | null): string {
+  if (!diagnosis) return "";
+  const lines = [
+    "**Confirmed diagnosis (teacher-reviewed; use this to anchor redesigns):**",
+    `Purpose read: ${diagnosis.purpose.trim() || "(not supplied)"}`,
+    "Constraints:",
+    ...diagnosis.constraints
+      .filter((constraint) => constraint.text.trim())
+      .map((constraint) => {
+        const note = constraint.note.trim() ? ` — ${constraint.note.trim()}` : "";
+        return `- [${constraint.kind}] ${constraint.text.trim()}${note}`;
+      }),
+    "Habits:",
+    ...diagnosis.habits
+      .filter((habit) => habit.text.trim())
+      .map((habit) => `- [${habit.status}] ${habit.text.trim()}`),
+  ];
+  const note = diagnosis.note?.trim();
+  if (note) lines.push(`Teacher note: ${note}`);
+  return lines.join("\n");
+}
+
+function isObject(value: unknown): value is Record<string, unknown> {
+  return typeof value === "object" && value !== null;
+}
+
+function normalizeConstraintKind(value: unknown): ConstraintKind {
+  return value === "hurts" || value === "inert" ? value : "inert";
+}
+
+function normalizeHabitStatus(value: unknown): HabitStatus {
+  return value === "breaks" || value === "reinforces" || value === "untouched"
+    ? value
+    : "untouched";
+}
+
+function normalizeDiagnosis(value: unknown): Diagnosis {
+  const source = isObject(value) ? value : {};
+  return {
+    purpose: typeof source.purpose === "string" ? source.purpose : "",
+    constraints: Array.isArray(source.constraints)
+      ? source.constraints
+          .filter(isObject)
+          .map((item) => ({
+            text: typeof item.text === "string" ? item.text : "",
+            kind: normalizeConstraintKind(item.kind),
+            note: typeof item.note === "string" ? item.note : "",
+          }))
+          .filter((item) => item.text.trim())
+      : [],
+    habits: Array.isArray(source.habits)
+      ? source.habits
+          .filter(isObject)
+          .map((item) => ({
+            text: typeof item.text === "string" ? item.text : "",
+            status: normalizeHabitStatus(item.status),
+          }))
+          .filter((item) => item.text.trim())
+      : [],
+    note: typeof source.note === "string" ? source.note : "",
+  };
 }
 
 export interface ExtractionResult {
@@ -189,6 +277,50 @@ export async function fetchSuggestions(
   return data.choices
     .filter((c): c is string => typeof c === "string" && c.trim().length > 0)
     .slice(0, 6);
+}
+
+export async function diagnoseAssignment(
+  sourceDoc: string,
+  answers: Record<StepId, string>,
+  signal?: AbortSignal,
+): Promise<Diagnosis> {
+  const res = await fetch("/api/diagnose", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ sourceDoc, answers }),
+    signal,
+  });
+
+  if (!res.ok) {
+    let message = "The studio could not read the assignment back yet.";
+    try {
+      const data = await res.json();
+      if (data?.error) message = data.error;
+    } catch {
+      /* non-JSON error body — keep default */
+    }
+    throw new Error(message);
+  }
+
+  return normalizeDiagnosis((await res.json()) as Partial<Diagnosis>);
+}
+
+export function buildConstraintSwapMessage(
+  title: string,
+  currentBody: string,
+  constraint: string,
+): string {
+  return [
+    `Rebuild only the "${title}" redesign around this replacement constraint: ${constraint}`,
+    "",
+    "Return exactly one prototype in the required Markdown shape, with the same heading style and all required fields.",
+    "A different constraint should change what students do, what thinking it forces, and what the teacher sees.",
+    "Keep the confirmed diagnosis and time budget in force. Do not rewrite the other redesigns.",
+    "",
+    "Current prototype:",
+    `### ${title}`,
+    currentBody,
+  ].join("\n");
 }
 
 /** Streams the assistant reply for `messages`, calling onDelta per chunk. */

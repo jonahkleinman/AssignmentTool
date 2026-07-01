@@ -4,9 +4,14 @@ import { useEffect, useRef, useState } from "react";
 import {
   STEPS,
   buildIntakeMessage,
+  buildConstraintSwapMessage,
+  diagnoseAssignment,
   extractAssignment,
   fetchSuggestions,
   streamRedesign,
+  type Diagnosis,
+  type DiagnosisConstraint,
+  type DiagnosisHabit,
   type StepConfig,
   type StepId,
 } from "./agent";
@@ -14,7 +19,7 @@ import { isDriveConfigured, pickFromGoogleDrive } from "./drive";
 import { StudioMarkdown } from "./markdown";
 import { ChatDrawer, type DrawerConfig } from "./chat-drawer";
 
-type Stage = "start" | "wizard" | "redesign";
+type Stage = "start" | "wizard" | "diagnosis" | "redesign";
 type UploadStatus = "idle" | "reading" | "review" | "error";
 
 const STEP_BY_ID = Object.fromEntries(
@@ -68,6 +73,19 @@ function parsePrototypes(text: string): { preamble: string; prototypes: Prototyp
   return { preamble, prototypes };
 }
 
+function formatPrototype(p: Prototype): string {
+  return `### ${p.title.trim()}\n\n${p.body.trim()}`.trim();
+}
+
+function replacePrototypeAt(text: string, index: number, replacement: Prototype): string {
+  const parsed = parsePrototypes(text);
+  if (index < 0 || index >= parsed.prototypes.length) return text;
+  const prototypes = parsed.prototypes.map((prototype, i) =>
+    i === index ? replacement : prototype,
+  );
+  return [parsed.preamble.trim(), ...prototypes.map(formatPrototype)].filter(Boolean).join("\n\n");
+}
+
 interface Beat {
   label: string;
   text: string;
@@ -78,6 +96,18 @@ interface Beats {
   after?: Beat;
   soThat?: Beat;
   outcome?: Beat;
+  goal?: Beat;
+  constraint?: Beat;
+  job?: Beat;
+  habit?: Beat;
+  swapMenu?: Beat;
+}
+
+interface SwapState {
+  index: number;
+  text: string;
+  loading: boolean;
+  error: string | null;
 }
 
 /**
@@ -102,12 +132,39 @@ function parseBeats(body: string): Beats | null {
     else if (key.includes("that way") || key.includes("they'll") || key.includes("they will"))
       beats.soThat ??= beat;
     else if (key.includes("you'll see") || key.includes("you will see")) beats.outcome ??= beat;
+    else if (key === "goal") beats.goal ??= beat;
+    else if (key.includes("constraint")) {
+      if (key.includes("other")) beats.swapMenu ??= beat;
+      else beats.constraint ??= beat;
+    } else if (key.includes("what it does")) beats.job ??= beat;
+    else if (key.includes("habit")) beats.habit ??= beat;
   }
   // The before → instead contrast is the whole point, so anchor on "before".
   return beats.before ? beats : null;
 }
 
-function PrototypeBody({ body, streaming }: { body: string; streaming: boolean }) {
+function splitSwapOptions(text: string): string[] {
+  return text
+    .replace(/\r/g, "\n")
+    .replace(/\n+/g, ";")
+    .replace(/(^|;)\s*(?:[-*]|\d+[.)])\s*/g, "$1")
+    .split(";")
+    .map((option) => option.trim().replace(/\.$/, ""))
+    .filter(Boolean)
+    .slice(0, 3);
+}
+
+function PrototypeBody({
+  body,
+  streaming,
+  swapping,
+  onSwapConstraint,
+}: {
+  body: string;
+  streaming: boolean;
+  swapping?: boolean;
+  onSwapConstraint?: (constraint: string) => void;
+}) {
   const beats = parseBeats(body);
 
   if (!beats) {
@@ -123,39 +180,108 @@ function PrototypeBody({ body, streaming }: { body: string; streaming: boolean }
   const lastKey = order.filter((k) => beats[k]).at(-1);
   const caret = (k: keyof Beats) =>
     streaming && lastKey === k ? <span className="caret" aria-hidden /> : null;
+  const hasDetails = beats.goal || beats.constraint || beats.job || beats.habit || beats.swapMenu;
+  const swapOptions = beats.swapMenu ? splitSwapOptions(beats.swapMenu.text) : [];
 
   return (
-    <div className="mt-4 space-y-3 text-[0.98rem] leading-relaxed">
-      {beats.before && (
-        <p className="text-ink-soft">
-          <span className="font-medium text-ink-faint">{beats.before.label} </span>
-          {beats.before.text}
-          {caret("before")}
-        </p>
-      )}
+    <div className="mt-5 text-[0.98rem] leading-relaxed">
+      {order
+        .filter((k) => beats[k])
+        .map((k, i, seq) => {
+          const beat = beats[k]!;
+          const isHero = k === "after";
+          const last = i === seq.length - 1;
+          return (
+            <div key={k} className="relative flex gap-3.5 pb-4 last:pb-0">
+              {!last && (
+                <span
+                  aria-hidden
+                  className="absolute bottom-0 left-[6px] top-5 w-px bg-line"
+                />
+              )}
+              <span
+                aria-hidden
+                className={
+                  isHero
+                    ? "relative z-10 mt-[0.5em] h-3 w-3 shrink-0 rotate-45 rounded-[3px] bg-mint shadow-[0_0_12px_-1px_var(--color-mint)]"
+                    : "relative z-10 mt-[0.5em] h-3 w-3 shrink-0 rounded-full border-2 border-line-bright bg-card"
+                }
+              />
+              {isHero ? (
+                <p className="min-w-0 flex-1 rounded-xl border border-mint/25 bg-mint/[0.06] px-3.5 py-2.5">
+                  <span className="text-mint">{beat.label}</span>{" "}
+                  <span className="font-semibold text-ink">{beat.text}</span>
+                  {caret(k)}
+                </p>
+              ) : (
+                <p className="min-w-0 flex-1 text-ink-soft">
+                  {beat.label}{" "}
+                  <span className="font-medium text-ink">{beat.text}</span>
+                  {caret(k)}
+                </p>
+              )}
+            </div>
+          );
+        })}
 
-      {beats.after && (
-        <p className="rounded-r-lg border-l-2 border-mint bg-mint/[0.06] py-2.5 pl-3.5 pr-3 text-ink">
-          <span className="font-semibold text-mint">{beats.after.label} </span>
-          {beats.after.text}
-          {caret("after")}
-        </p>
-      )}
-
-      {beats.soThat && (
-        <p className="text-ink-soft">
-          <span className="font-medium text-ink">{beats.soThat.label} </span>
-          {beats.soThat.text}
-          {caret("soThat")}
-        </p>
-      )}
-
-      {beats.outcome && (
-        <p className="text-ink-soft">
-          <span className="font-medium text-ink">{beats.outcome.label} </span>
-          {beats.outcome.text}
-          {caret("outcome")}
-        </p>
+      {hasDetails && (
+        <details className="group mt-5 rounded-xl border border-line bg-panel/60">
+          <summary className="flex cursor-pointer list-none items-center justify-between gap-3 px-4 py-3 text-sm font-medium text-ink-soft transition-colors hover:text-ink">
+            <span>Goal and constraint</span>
+            <span
+              aria-hidden
+              className="text-mint transition-transform group-open:rotate-45"
+            >
+              +
+            </span>
+          </summary>
+          <div className="space-y-3 border-t border-line/70 px-4 py-4">
+            {beats.goal && (
+              <p className="text-sm text-ink-soft">
+                <span className="font-medium text-ink">{beats.goal.label}: </span>
+                {beats.goal.text}
+              </p>
+            )}
+            {beats.constraint && (
+              <p className="text-sm text-ink-soft">
+                <span className="font-medium text-ink">{beats.constraint.label}: </span>
+                {beats.constraint.text}
+              </p>
+            )}
+            {beats.job && (
+              <p className="text-sm text-ink-soft">
+                <span className="font-medium text-ink">{beats.job.label}: </span>
+                {beats.job.text}
+              </p>
+            )}
+            {beats.habit && (
+              <p className="text-sm text-ink-soft">
+                <span className="font-medium text-ink">{beats.habit.label}: </span>
+                {beats.habit.text}
+              </p>
+            )}
+            {swapOptions.length > 0 && (
+              <div>
+                <p className="font-mono text-[0.58rem] uppercase tracking-[0.18em] text-ink-faint">
+                  Swap the constraint
+                </p>
+                <div className="mt-2 flex flex-wrap gap-2">
+                  {swapOptions.map((option) => (
+                    <button
+                      key={option}
+                      type="button"
+                      disabled={swapping}
+                      onClick={() => onSwapConstraint?.(option)}
+                      className="rounded-full border border-line px-3 py-1.5 text-left text-xs font-medium text-mint transition-colors hover:border-mint hover:bg-mint/10 disabled:cursor-not-allowed disabled:opacity-40"
+                    >
+                      {option}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+        </details>
       )}
     </div>
   );
@@ -171,6 +297,13 @@ export default function Home() {
   const [customText, setCustomText] = useState("");
   const [clarificationAnswer, setClarificationAnswer] = useState("");
   const [sourceDoc, setSourceDoc] = useState("");
+  const [diagnosis, setDiagnosis] = useState<{
+    draft: Diagnosis | null;
+    loading: boolean;
+    error: string | null;
+  }>({ draft: null, loading: false, error: null });
+  const [confirmedDiagnosis, setConfirmedDiagnosis] = useState<Diagnosis | null>(null);
+  const [swapState, setSwapState] = useState<SwapState | null>(null);
   const [uploadStatus, setUploadStatus] = useState<UploadStatus>("idle");
   const [uploadError, setUploadError] = useState<string | null>(null);
   const [uploadName, setUploadName] = useState("");
@@ -183,7 +316,10 @@ export default function Home() {
 
   const loadedRef = useRef<Set<StepId>>(new Set());
   const redesignStarted = useRef(false);
+  const diagnosisStarted = useRef(false);
   const redesignAbort = useRef<AbortController | null>(null);
+  const diagnosisAbort = useRef<AbortController | null>(null);
+  const swapAbort = useRef<AbortController | null>(null);
 
   const step = STEPS[stepIdx];
 
@@ -271,7 +407,14 @@ export default function Home() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [stepIdx, stage]);
 
-  useEffect(() => () => redesignAbort.current?.abort(), []);
+  useEffect(
+    () => () => {
+      redesignAbort.current?.abort();
+      diagnosisAbort.current?.abort();
+      swapAbort.current?.abort();
+    },
+    [],
+  );
 
   /* ---------- choice handlers ---------- */
   function toggleChoice(cfg: StepConfig, value: string) {
@@ -319,8 +462,13 @@ export default function Home() {
       setStepIdx(next);
       return;
     }
+    if (sourceDoc.trim()) {
+      setStage("diagnosis");
+      void startDiagnosis();
+      return;
+    }
     setStage("redesign");
-    void startRedesign();
+    void startRedesign(null);
   }
 
   function goBack() {
@@ -329,16 +477,64 @@ export default function Home() {
     setStepIdx(Math.max(0, prev));
   }
 
-  async function startRedesign() {
+  async function startDiagnosis() {
+    if (diagnosisStarted.current) return;
+    diagnosisStarted.current = true;
+    diagnosisAbort.current?.abort();
+    const controller = new AbortController();
+    diagnosisAbort.current = controller;
+    setDiagnosis({ draft: null, loading: true, error: null });
+    try {
+      const draft = await diagnoseAssignment(sourceDoc, currentAnswers(), controller.signal);
+      setDiagnosis({ draft, loading: false, error: null });
+    } catch (err) {
+      if ((err as Error).name === "AbortError") return;
+      setDiagnosis({ draft: null, loading: false, error: (err as Error).message });
+    }
+  }
+
+  function goBackFromDiagnosis() {
+    diagnosisAbort.current?.abort();
+    diagnosisStarted.current = false;
+    setDiagnosis({ draft: null, loading: false, error: null });
+    setStage("wizard");
+  }
+
+  function retryDiagnosis() {
+    diagnosisStarted.current = false;
+    void startDiagnosis();
+  }
+
+  async function confirmDiagnosis(draft: Diagnosis) {
+    const confirmed = {
+      ...draft,
+      purpose: draft.purpose.trim(),
+      constraints: draft.constraints.filter((constraint) => constraint.text.trim()),
+      habits: draft.habits.filter((habit) => habit.text.trim()),
+      note: draft.note?.trim(),
+    };
+    setConfirmedDiagnosis(confirmed);
+    redesignStarted.current = false;
+    setStage("redesign");
+    await startRedesign(confirmed);
+  }
+
+  async function startRedesign(diagnosisOverride: Diagnosis | null = confirmedDiagnosis) {
     if (redesignStarted.current) return;
     redesignStarted.current = true;
     setClarificationAnswer("");
     setRedesign({ text: "", loading: true, error: null });
+    setSwapState(null);
     const controller = new AbortController();
     redesignAbort.current = controller;
     try {
       await streamRedesign(
-        [{ role: "user", content: buildIntakeMessage(currentAnswers(), sourceDoc) }],
+        [
+          {
+            role: "user",
+            content: buildIntakeMessage(currentAnswers(), sourceDoc, diagnosisOverride),
+          },
+        ],
         (delta) => setRedesign((r) => ({ ...r, text: r.text + delta })),
         controller.signal,
       );
@@ -362,7 +558,10 @@ export default function Home() {
     try {
       await streamRedesign(
         [
-          { role: "user", content: buildIntakeMessage(currentAnswers(), sourceDoc) },
+          {
+            role: "user",
+            content: buildIntakeMessage(currentAnswers(), sourceDoc, confirmedDiagnosis),
+          },
           { role: "assistant", content: clarificationQuestions },
           {
             role: "user",
@@ -381,14 +580,71 @@ export default function Home() {
     }
   }
 
+  async function swapConstraint(index: number, prototype: Prototype, constraint: string) {
+    if (redesign.loading || swapState?.loading) return;
+
+    swapAbort.current?.abort();
+    const controller = new AbortController();
+    swapAbort.current = controller;
+    let streamed = "";
+    setSwapState({ index, text: "", loading: true, error: null });
+
+    try {
+      await streamRedesign(
+        [
+          {
+            role: "user",
+            content: buildIntakeMessage(currentAnswers(), sourceDoc, confirmedDiagnosis),
+          },
+          { role: "assistant", content: redesign.text },
+          {
+            role: "user",
+            content: buildConstraintSwapMessage(prototype.title, prototype.body, constraint),
+          },
+        ],
+        (delta) => {
+          streamed += delta;
+          setSwapState((state) =>
+            state && state.index === index ? { ...state, text: state.text + delta } : state,
+          );
+        },
+        controller.signal,
+      );
+
+      const parsed = parsePrototypes(streamed);
+      const replacement = parsed.prototypes[0] ?? {
+        title: prototype.title,
+        body: streamed.trim(),
+      };
+      setRedesign((current) => ({
+        ...current,
+        text: replacePrototypeAt(current.text, index, replacement),
+      }));
+      setSwapState(null);
+    } catch (err) {
+      if ((err as Error).name === "AbortError") return;
+      setSwapState((state) =>
+        state && state.index === index
+          ? { ...state, loading: false, error: (err as Error).message }
+          : state,
+      );
+    }
+  }
+
   function resetAll() {
     redesignAbort.current?.abort();
+    diagnosisAbort.current?.abort();
+    swapAbort.current?.abort();
     uploadAbort.current?.abort();
     redesignStarted.current = false;
+    diagnosisStarted.current = false;
     loadedRef.current = new Set();
     setData(initData());
     setClarificationAnswer("");
     setRedesign({ text: "", loading: false, error: null });
+    setDiagnosis({ draft: null, loading: false, error: null });
+    setConfirmedDiagnosis(null);
+    setSwapState(null);
     setSourceDoc("");
     setUploadStatus("idle");
     setUploadError(null);
@@ -402,11 +658,15 @@ export default function Home() {
   /* ---------- upload / autofill ---------- */
   async function handleFile(file: File) {
     uploadAbort.current?.abort();
+    diagnosisAbort.current?.abort();
+    diagnosisStarted.current = false;
     const controller = new AbortController();
     uploadAbort.current = controller;
     setUploadName(file.name);
     setUploadError(null);
     setUploadStatus("reading");
+    setDiagnosis({ draft: null, loading: false, error: null });
+    setConfirmedDiagnosis(null);
     try {
       const result = await extractAssignment(file, controller.signal);
       setData((d) => ({
@@ -452,6 +712,10 @@ export default function Home() {
 
   function startFromScratch() {
     setSourceDoc("");
+    diagnosisAbort.current?.abort();
+    diagnosisStarted.current = false;
+    setDiagnosis({ draft: null, loading: false, error: null });
+    setConfirmedDiagnosis(null);
     setUploadStatus("idle");
     setUploadName("");
     setUploadError(null);
@@ -472,6 +736,10 @@ export default function Home() {
 
   function discardUpload() {
     setSourceDoc("");
+    diagnosisAbort.current?.abort();
+    diagnosisStarted.current = false;
+    setDiagnosis({ draft: null, loading: false, error: null });
+    setConfirmedDiagnosis(null);
     setUploadStatus("idle");
     setUploadName("");
     setUploadError(null);
@@ -508,7 +776,10 @@ export default function Home() {
       eyebrow: "Refine redesign",
       title: p.title,
       seed: [
-        { role: "user", content: buildIntakeMessage(currentAnswers(), sourceDoc) },
+        {
+          role: "user",
+          content: buildIntakeMessage(currentAnswers(), sourceDoc, confirmedDiagnosis),
+        },
         { role: "assistant", content: redesign.text },
         {
           role: "user",
@@ -523,7 +794,10 @@ export default function Home() {
       eyebrow: "New direction",
       title: "Bring your own idea",
       seed: [
-        { role: "user", content: buildIntakeMessage(currentAnswers(), sourceDoc) },
+        {
+          role: "user",
+          content: buildIntakeMessage(currentAnswers(), sourceDoc, confirmedDiagnosis),
+        },
         {
           role: "assistant",
           content:
@@ -538,7 +812,10 @@ export default function Home() {
       eyebrow: "Studio chat",
       title: "Refine these redesigns",
       seed: [
-        { role: "user", content: buildIntakeMessage(currentAnswers(), sourceDoc) },
+        {
+          role: "user",
+          content: buildIntakeMessage(currentAnswers(), sourceDoc, confirmedDiagnosis),
+        },
         { role: "assistant", content: redesign.text },
       ],
     });
@@ -564,6 +841,10 @@ export default function Home() {
           {stage === "wizard" ? (
             <span className="font-mono text-[0.66rem] uppercase tracking-[0.2em] text-ink-faint tabular-nums">
               {String(stepIdx + 1).padStart(2, "0")} / {String(STEPS.length).padStart(2, "0")}
+            </span>
+          ) : stage === "diagnosis" ? (
+            <span className="font-mono text-[0.66rem] uppercase tracking-[0.2em] text-ink-faint">
+              Read-back
             </span>
           ) : stage === "redesign" ? (
             <button
@@ -616,13 +897,23 @@ export default function Home() {
             onNext={goNext}
             onRefine={refineStep}
           />
+        ) : stage === "diagnosis" ? (
+          <DiagnosisView
+            diagnosis={diagnosis}
+            onChange={(draft) => setDiagnosis((state) => ({ ...state, draft }))}
+            onBack={goBackFromDiagnosis}
+            onRetry={retryDiagnosis}
+            onConfirm={confirmDiagnosis}
+          />
         ) : (
           <RedesignView
             redesign={redesign}
+            swapState={swapState}
             clarificationAnswer={clarificationAnswer}
             onClarificationAnswer={setClarificationAnswer}
             onSubmitClarification={answerClarification}
             onRefinePrototype={refinePrototype}
+            onSwapConstraint={swapConstraint}
             onOwnDirection={ownDirection}
             onRefineAll={refineAll}
           />
@@ -1159,22 +1450,337 @@ function WizardView({
 }
 
 /* ------------------------------------------------------------------ *
+ *  Diagnosis read-back
+ * ------------------------------------------------------------------ */
+function DiagnosisView({
+  diagnosis,
+  onChange,
+  onBack,
+  onRetry,
+  onConfirm,
+}: {
+  diagnosis: { draft: Diagnosis | null; loading: boolean; error: string | null };
+  onChange: (draft: Diagnosis) => void;
+  onBack: () => void;
+  onRetry: () => void;
+  onConfirm: (draft: Diagnosis) => void;
+}) {
+  const draft = diagnosis.draft;
+
+  function update(next: Partial<Diagnosis>) {
+    if (!draft) return;
+    onChange({ ...draft, ...next });
+  }
+
+  function updateConstraint(index: number, patch: Partial<DiagnosisConstraint>) {
+    if (!draft) return;
+    update({
+      constraints: draft.constraints.map((constraint, i) =>
+        i === index ? { ...constraint, ...patch } : constraint,
+      ),
+    });
+  }
+
+  function removeConstraint(index: number) {
+    if (!draft) return;
+    update({ constraints: draft.constraints.filter((_, i) => i !== index) });
+  }
+
+  function addConstraint() {
+    if (!draft) return;
+    update({
+      constraints: [...draft.constraints, { text: "", kind: "hurts", note: "" }],
+    });
+  }
+
+  function updateHabit(index: number, patch: Partial<DiagnosisHabit>) {
+    if (!draft) return;
+    update({
+      habits: draft.habits.map((habit, i) => (i === index ? { ...habit, ...patch } : habit)),
+    });
+  }
+
+  function removeHabit(index: number) {
+    if (!draft) return;
+    update({ habits: draft.habits.filter((_, i) => i !== index) });
+  }
+
+  function addHabit() {
+    if (!draft) return;
+    update({
+      habits: [...draft.habits, { text: "", status: "reinforces" }],
+    });
+  }
+
+  if (diagnosis.loading) {
+    return (
+      <div className="flex flex-1 flex-col items-center justify-center py-20 text-center">
+        <div className="flex items-center gap-2 text-ink-soft">
+          <span className="think-dot" style={{ animationDelay: "0ms" }} />
+          <span className="think-dot" style={{ animationDelay: "150ms" }} />
+          <span className="think-dot" style={{ animationDelay: "300ms" }} />
+        </div>
+        <p className="mt-5 font-display text-xl text-ink">Reading the assignment back…</p>
+        <p className="mt-2 max-w-md text-sm text-ink-soft">
+          Naming the constraints it actually creates and the habits it leaves alone.
+        </p>
+      </div>
+    );
+  }
+
+  if (diagnosis.error || !draft) {
+    return (
+      <div className="flex flex-1 flex-col py-10 sm:py-14">
+        <div className="animate-fade-up">
+          <p className="font-mono text-[0.66rem] uppercase tracking-[0.28em] text-rose">
+            Read-back failed
+          </p>
+          <h1 className="mt-3 font-display text-[2.1rem] font-semibold leading-[1.08] tracking-tight text-ink sm:text-[2.7rem]">
+            The studio could not diagnose this yet.
+          </h1>
+          <p className="mt-3 max-w-xl text-[1.02rem] text-ink-soft">
+            {diagnosis.error ?? "Try again, or go back and adjust the assignment details."}
+          </p>
+        </div>
+        <div className="mt-auto flex flex-col gap-3 pt-12 sm:flex-row sm:items-center sm:justify-between">
+          <button
+            onClick={onBack}
+            className="rounded-full px-4 py-2.5 text-sm font-medium text-ink-soft transition-colors hover:text-ink"
+          >
+            ← Back to answers
+          </button>
+          <button
+            onClick={onRetry}
+            className="inline-flex items-center justify-center gap-2 rounded-full bg-mint px-7 py-3 font-semibold text-[#06231a] transition-colors hover:bg-mint-deep"
+          >
+            Try again
+            <span aria-hidden>→</span>
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  const canConfirm = draft.purpose.trim().length > 0;
+
+  return (
+    <div className="flex flex-1 flex-col py-10 sm:py-14">
+      <div className="animate-fade-up">
+        <p className="font-mono text-[0.66rem] uppercase tracking-[0.28em] text-mint">
+          Read-back
+        </p>
+        <h1 className="mt-3 font-display text-[2.1rem] font-semibold leading-[1.08] tracking-tight text-ink sm:text-[2.7rem]">
+          Confirm what this assignment is really doing.
+        </h1>
+        <p className="mt-3 max-w-xl text-[1.02rem] text-ink-soft">
+          Edit the chips before generating. The redesigns will use this as their starting
+          point.
+        </p>
+      </div>
+
+      <div className="animate-fade-up mt-8 space-y-6" style={{ animationDelay: "80ms" }}>
+        <section className="rounded-2xl border border-line bg-card p-5 sm:p-6">
+          <label
+            htmlFor="diagnosis-purpose"
+            className="font-mono text-[0.62rem] uppercase tracking-[0.18em] text-mint"
+          >
+            Purpose read
+          </label>
+          <textarea
+            id="diagnosis-purpose"
+            rows={2}
+            value={draft.purpose}
+            onChange={(e) => update({ purpose: e.target.value })}
+            className="mt-3 min-h-20 w-full resize-y rounded-xl border border-line bg-panel px-4 py-3 text-[0.98rem] leading-relaxed text-ink placeholder:text-ink-faint transition-colors focus:border-mint focus:outline-none focus:ring-4 focus:ring-mint/15"
+          />
+        </section>
+
+        <section className="rounded-2xl border border-line bg-card p-5 sm:p-6">
+          <div className="flex items-center justify-between gap-4">
+            <div>
+              <p className="font-mono text-[0.62rem] uppercase tracking-[0.18em] text-mint">
+                Current constraints
+              </p>
+              <p className="mt-1 text-sm text-ink-soft">
+                Mark what bites and what is just format.
+              </p>
+            </div>
+            <button
+              type="button"
+              onClick={addConstraint}
+              className="shrink-0 rounded-full border border-line px-3 py-1.5 text-xs font-medium text-mint transition-colors hover:border-mint hover:bg-mint/10"
+            >
+              + Add
+            </button>
+          </div>
+
+          <div className="mt-4 space-y-3">
+            {draft.constraints.map((constraint, index) => (
+              <div
+                key={index}
+                className="rounded-xl border border-line bg-panel px-3 py-3 transition-colors focus-within:border-mint"
+              >
+                <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
+                  <select
+                    value={constraint.kind}
+                    onChange={(e) =>
+                      updateConstraint(index, {
+                        kind: e.target.value === "hurts" ? "hurts" : "inert",
+                      })
+                    }
+                    className="rounded-lg border border-line bg-card px-3 py-2 text-sm text-ink focus:border-mint focus:outline-none"
+                    aria-label="Constraint kind"
+                  >
+                    <option value="hurts">hurts</option>
+                    <option value="inert">inert</option>
+                  </select>
+                  <input
+                    value={constraint.text}
+                    onChange={(e) => updateConstraint(index, { text: e.target.value })}
+                    placeholder="Name the constraint"
+                    className="min-w-0 flex-1 bg-transparent px-1 py-2 text-[0.97rem] text-ink placeholder:text-ink-faint focus:outline-none"
+                  />
+                  <button
+                    type="button"
+                    onClick={() => removeConstraint(index)}
+                    className="self-start rounded-full px-2 py-1 text-ink-faint transition-colors hover:text-ink sm:self-auto"
+                    aria-label="Remove constraint"
+                  >
+                    ✕
+                  </button>
+                </div>
+                <input
+                  value={constraint.note}
+                  onChange={(e) => updateConstraint(index, { note: e.target.value })}
+                  placeholder="Why this does or doesn't force better thinking"
+                  className="mt-1 w-full bg-transparent px-1 py-1.5 text-sm text-ink-soft placeholder:text-ink-faint focus:outline-none"
+                />
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section className="rounded-2xl border border-line bg-card p-5 sm:p-6">
+          <div className="flex items-center justify-between gap-4">
+            <div>
+              <p className="font-mono text-[0.62rem] uppercase tracking-[0.18em] text-mint">
+                Student habits
+              </p>
+              <p className="mt-1 text-sm text-ink-soft">
+                Name what students can do on autopilot here.
+              </p>
+            </div>
+            <button
+              type="button"
+              onClick={addHabit}
+              className="shrink-0 rounded-full border border-line px-3 py-1.5 text-xs font-medium text-mint transition-colors hover:border-mint hover:bg-mint/10"
+            >
+              + Add
+            </button>
+          </div>
+
+          <div className="mt-4 space-y-3">
+            {draft.habits.map((habit, index) => (
+              <div
+                key={index}
+                className="flex flex-col gap-2 rounded-xl border border-line bg-panel px-3 py-3 transition-colors focus-within:border-mint sm:flex-row sm:items-center"
+              >
+                <select
+                  value={habit.status}
+                  onChange={(e) => {
+                    const value = e.target.value;
+                    updateHabit(index, {
+                      status:
+                        value === "breaks" || value === "reinforces" ? value : "untouched",
+                    });
+                  }}
+                  className="rounded-lg border border-line bg-card px-3 py-2 text-sm text-ink focus:border-mint focus:outline-none"
+                  aria-label="Habit status"
+                >
+                  <option value="breaks">breaks</option>
+                  <option value="reinforces">reinforces</option>
+                  <option value="untouched">untouched</option>
+                </select>
+                <input
+                  value={habit.text}
+                  onChange={(e) => updateHabit(index, { text: e.target.value })}
+                  placeholder="Name the habit"
+                  className="min-w-0 flex-1 bg-transparent px-1 py-2 text-[0.97rem] text-ink placeholder:text-ink-faint focus:outline-none"
+                />
+                <button
+                  type="button"
+                  onClick={() => removeHabit(index)}
+                  className="self-start rounded-full px-2 py-1 text-ink-faint transition-colors hover:text-ink sm:self-auto"
+                  aria-label="Remove habit"
+                >
+                  ✕
+                </button>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section className="rounded-2xl border border-line bg-card p-5 sm:p-6">
+          <label
+            htmlFor="diagnosis-note"
+            className="font-mono text-[0.62rem] uppercase tracking-[0.18em] text-amber"
+          >
+            Your note
+          </label>
+          <textarea
+            id="diagnosis-note"
+            rows={4}
+            value={draft.note ?? ""}
+            onChange={(e) => update({ note: e.target.value })}
+            placeholder="What do students do on autopilot with this kind of assignment?"
+            className="mt-3 min-h-28 w-full resize-y rounded-xl border border-line bg-panel px-4 py-3 text-[0.98rem] leading-relaxed text-ink placeholder:text-ink-faint transition-colors focus:border-mint focus:outline-none focus:ring-4 focus:ring-mint/15"
+          />
+        </section>
+      </div>
+
+      <div className="mt-auto flex flex-col gap-3 pt-12 sm:flex-row sm:items-center sm:justify-between">
+        <button
+          onClick={onBack}
+          className="rounded-full px-4 py-2.5 text-sm font-medium text-ink-soft transition-colors hover:text-ink"
+        >
+          ← Back to answers
+        </button>
+        <button
+          onClick={() => onConfirm(draft)}
+          disabled={!canConfirm}
+          className="group inline-flex items-center justify-center gap-2 rounded-full bg-mint px-7 py-3 font-semibold text-[#06231a] transition-colors hover:bg-mint-deep disabled:cursor-not-allowed disabled:opacity-40"
+        >
+          Generate redesigns
+          <span aria-hidden className="transition-transform group-hover:translate-x-1">
+            →
+          </span>
+        </button>
+      </div>
+    </div>
+  );
+}
+
+/* ------------------------------------------------------------------ *
  *  Redesign results
  * ------------------------------------------------------------------ */
 function RedesignView({
   redesign,
+  swapState,
   clarificationAnswer,
   onClarificationAnswer,
   onSubmitClarification,
   onRefinePrototype,
+  onSwapConstraint,
   onOwnDirection,
   onRefineAll,
 }: {
   redesign: { text: string; loading: boolean; error: string | null };
+  swapState: SwapState | null;
   clarificationAnswer: string;
   onClarificationAnswer: (value: string) => void;
   onSubmitClarification: (value: string) => void;
   onRefinePrototype: (p: Prototype) => void;
+  onSwapConstraint: (index: number, p: Prototype, constraint: string) => void;
   onOwnDirection: () => void;
   onRefineAll: () => void;
 }) {
@@ -1267,6 +1873,12 @@ function RedesignView({
       <div className="mt-6 space-y-4">
         {prototypes.map((p, i) => {
           const isLast = i === prototypes.length - 1;
+          const activeSwap = swapState?.index === i ? swapState : null;
+          const swappedPrototype = activeSwap?.text
+            ? parsePrototypes(activeSwap.text).prototypes[0]
+            : null;
+          const displayed = swappedPrototype ?? p;
+          const isSwapping = Boolean(activeSwap?.loading);
           return (
             <article
               key={i}
@@ -1277,18 +1889,40 @@ function RedesignView({
                   <span aria-hidden className="text-mint">
                     ◇
                   </span>
-                  <span>{p.title}</span>
+                  <span>{displayed.title}</span>
                 </h2>
                 <span className="mt-1 shrink-0 font-mono text-[0.62rem] uppercase tracking-widest text-ink-faint tabular-nums">
                   {String(i + 1).padStart(2, "0")}
                 </span>
               </div>
-              {p.body && (
-                <PrototypeBody body={p.body} streaming={redesign.loading && isLast} />
+              {isSwapping && !activeSwap?.text && (
+                <div className="mt-4 flex items-center gap-2 text-sm text-ink-soft">
+                  <span className="think-dot" style={{ animationDelay: "0ms" }} />
+                  <span className="think-dot" style={{ animationDelay: "150ms" }} />
+                  <span className="think-dot" style={{ animationDelay: "300ms" }} />
+                  <span className="ml-2">Rebuilding this constraint…</span>
+                </div>
+              )}
+              {displayed.body && (
+                <PrototypeBody
+                  body={displayed.body}
+                  streaming={(redesign.loading && isLast) || isSwapping}
+                  swapping={isSwapping}
+                  onSwapConstraint={(constraint) => onSwapConstraint(i, displayed, constraint)}
+                />
+              )}
+              {activeSwap?.error && (
+                <div
+                  role="alert"
+                  className="mt-4 rounded-xl border border-rose/40 bg-rose/10 px-4 py-3 text-sm text-ink"
+                >
+                  {activeSwap.error}
+                </div>
               )}
               <div className="mt-4 border-t border-line/70 pt-4">
                 <button
-                  onClick={() => onRefinePrototype(p)}
+                  onClick={() => onRefinePrototype(displayed)}
+                  disabled={isSwapping}
                   className="inline-flex items-center gap-2 rounded-full border border-line px-4 py-2 text-sm font-medium text-mint transition-colors hover:border-mint hover:bg-mint/10"
                 >
                   <span aria-hidden>◈</span> Refine this one

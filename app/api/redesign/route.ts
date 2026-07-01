@@ -1,8 +1,9 @@
 import OpenAI from "openai";
 import type { ChatCompletionMessageParam } from "openai/resources/chat/completions";
 
-import { DEFAULT_MODEL, SYSTEM_PROMPT } from "@/lib/prompt";
-import { formatKnowledgeBlock, retrieve } from "@/lib/knowledge";
+import { SYSTEM_PROMPT } from "@/lib/prompt";
+import { reasoningModel } from "@/lib/model";
+import { buildFocusedKnowledgeQuery, formatKnowledgeBlock, retrieve } from "@/lib/knowledge";
 
 export const runtime = "nodejs";
 
@@ -47,6 +48,47 @@ function errorMessage(error: unknown): string {
   return "The studio could not stream a redesign right now.";
 }
 
+function extractInlineField(text: string, label: string): string {
+  const escaped = label.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const re = new RegExp(`\\*\\*${escaped}:\\*\\*\\s*([^\\n]+)`, "i");
+  return re.exec(text)?.[1]?.trim() ?? "";
+}
+
+function extractLineField(text: string, label: string): string {
+  const escaped = label.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const re = new RegExp(`^${escaped}:\\s*(.+)$`, "im");
+  return re.exec(text)?.[1]?.trim() ?? "";
+}
+
+function extractSectionItems(text: string, label: string): string[] {
+  const escaped = label.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const re = new RegExp(`^${escaped}:\\s*([\\s\\S]*?)(?=^\\w[\\w /-]*:\\s*|\\*\\*|$)`, "im");
+  const section = re.exec(text)?.[1] ?? "";
+  return section
+    .split("\n")
+    .map((line) => line.replace(/^\s*[-*]\s*/, "").trim())
+    .filter(Boolean)
+    .slice(0, 8);
+}
+
+function buildRedesignKnowledgeQuery(messages: ClientMessage[]): string {
+  const userText = messages
+    .filter((message) => message.role === "user")
+    .map((message) => message.content)
+    .join("\n\n");
+
+  return buildFocusedKnowledgeQuery({
+    assignmentType: extractInlineField(userText, "Assignment type"),
+    parts: extractInlineField(userText, "Assignment components / description"),
+    goal: extractInlineField(userText, "Learning goals"),
+    time: extractInlineField(userText, "Time budget"),
+    purpose: extractLineField(userText, "Purpose read"),
+    constraints: extractSectionItems(userText, "Constraints"),
+    habits: extractSectionItems(userText, "Habits"),
+    raw: userText,
+  });
+}
+
 export async function POST(request: Request): Promise<Response> {
   if (!process.env.OPENAI_API_KEY) {
     return jsonError(
@@ -76,11 +118,9 @@ export async function POST(request: Request): Promise<Response> {
   // Let the teacher's reference library quietly inform the reply when an index exists.
   let knowledgeBlock = "";
   try {
-    const lastUser = [...clientMessages].reverse().find((m) => m.role === "user");
-    if (lastUser) {
-      const passages = await retrieve(client, lastUser.content, 5, request.signal);
-      knowledgeBlock = formatKnowledgeBlock(passages);
-    }
+    const query = buildRedesignKnowledgeQuery(clientMessages);
+    const passages = await retrieve(client, query, 5, request.signal);
+    knowledgeBlock = formatKnowledgeBlock(passages);
   } catch {
     // Retrieval is best-effort; fall back to prompt-only on any failure.
   }
@@ -94,7 +134,7 @@ export async function POST(request: Request): Promise<Response> {
   try {
     const stream = await client.chat.completions.create(
       {
-        model: process.env.OPENAI_MODEL ?? DEFAULT_MODEL,
+        ...reasoningModel(),
         messages,
         stream: true,
       },
