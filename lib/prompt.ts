@@ -1,8 +1,10 @@
 export const DEFAULT_MODEL = "gpt-4o";
 
 export const STEP_IDS = ["grade", "assessment", "parts", "goal", "time"] as const;
+export const LENS_IDS = ["confusion", "complexity", "aiexposure"] as const;
 
 export type StepId = (typeof STEP_IDS)[number];
+export type LensId = (typeof LENS_IDS)[number];
 export type Answers = Record<StepId, string>;
 
 export const SYSTEM_PROMPT = `
@@ -92,6 +94,71 @@ Tone:
 - Never use specialized terms, author names, book titles, citations, or phrases like "research shows".
 `.trim();
 
+const LENS_IMPACT_RULE = `
+Additional lens rule:
+- Order findings by student impact: put the places that affect the most students or the most important thinking first. Never grade the teacher's work with high/medium/low verdicts.
+- If the intake names a grade or age level, level the advice to those students' vocabulary, independence, reading load, and likely needs.
+- Keep the tone like a warm colleague: direct, concrete, and useful without sounding like a formal report.
+`.trim();
+
+export const CONFUSION_SYSTEM_PROMPT = `
+${DIAGNOSIS_SYSTEM_PROMPT}
+
+You are now producing a Confusion Points read.
+
+Return only JSON matching the required schema.
+
+What to produce:
+- summary: one plain sentence on the overall clarity of the assignment from the student's seat.
+- points: the specific places where students may stall, misread, or not know what counts as good work.
+
+Rules:
+- Read as a student would read: directions, sequence, products, success criteria, and hidden assumptions.
+- "impact" means how many students are likely to stall there: most, some, or a few.
+- "fix" should be one concrete tweak the teacher could make without redesigning the whole task.
+- Do not include generic classroom-management advice.
+${LENS_IMPACT_RULE}
+`.trim();
+
+export const COMPLEXITY_SYSTEM_PROMPT = `
+${DIAGNOSIS_SYSTEM_PROMPT}
+
+You are now producing a Complexity Map read.
+
+Return only JSON matching the required schema.
+
+What to produce:
+- read: 1-2 plain sentences naming how hard the task is and what kind of hard it is.
+- demands: the things students must juggle at the same time.
+- scaffolding: concrete places to add or remove scaffolding so the difficulty better matches the learning goal.
+
+Rules:
+- Label each demand as procedural, conceptual, or strategic.
+- "add" means give students support where task-management or access blocks the target thinking.
+- "remove" means strip support where it does the thinking students need to show.
+- Keep every move specific enough that a teacher could edit the handout from it.
+${LENS_IMPACT_RULE}
+`.trim();
+
+export const AI_EXPOSURE_SYSTEM_PROMPT = `
+${DIAGNOSIS_SYSTEM_PROMPT}
+
+You are now producing an AI Exposure read.
+
+Return only JSON matching the required schema.
+
+What to produce:
+- verdict: one neutral line on how much of the current assignment a chatbot or solver could carry.
+- exposures: the steps a chatbot could outsource and the constraint that brings the thinking back to students.
+
+Rules:
+- Stay neutral and descriptive. Do not scold, moralize, or say "AI-proof."
+- Name what the tool can do well, why it can do it, and what the student would have to do if the teacher adds the constraint.
+- Include Photomath-style solver exposure when the assignment involves routine math or procedural answers.
+- A constraint should change the work students must do, not merely ban a tool.
+${LENS_IMPACT_RULE}
+`.trim();
+
 export const SUGGEST_SYSTEM_PROMPT = `
 You generate short, specific answer choices for a teacher using an assessment redesign wizard.
 
@@ -129,6 +196,183 @@ const STEP_LABELS: Record<StepId, string> = {
   goal: "learning goals",
   time: "time budget",
 };
+
+export const CONFUSION_SCHEMA = {
+  type: "object",
+  additionalProperties: false,
+  properties: {
+    summary: { type: "string" },
+    points: {
+      type: "array",
+      items: {
+        type: "object",
+        additionalProperties: false,
+        properties: {
+          where: { type: "string" },
+          confusion: { type: "string" },
+          impact: { type: "string", enum: ["most", "some", "a few"] },
+          fix: { type: "string" },
+        },
+        required: ["where", "confusion", "impact", "fix"],
+      },
+    },
+  },
+  required: ["summary", "points"],
+} as const;
+
+export const COMPLEXITY_SCHEMA = {
+  type: "object",
+  additionalProperties: false,
+  properties: {
+    read: { type: "string" },
+    demands: {
+      type: "array",
+      items: {
+        type: "object",
+        additionalProperties: false,
+        properties: {
+          text: { type: "string" },
+          type: { type: "string", enum: ["procedural", "conceptual", "strategic"] },
+        },
+        required: ["text", "type"],
+      },
+    },
+    scaffolding: {
+      type: "array",
+      items: {
+        type: "object",
+        additionalProperties: false,
+        properties: {
+          direction: { type: "string", enum: ["add", "remove"] },
+          where: { type: "string" },
+          move: { type: "string" },
+          effect: { type: "string" },
+        },
+        required: ["direction", "where", "move", "effect"],
+      },
+    },
+  },
+  required: ["read", "demands", "scaffolding"],
+} as const;
+
+export const AI_EXPOSURE_SCHEMA = {
+  type: "object",
+  additionalProperties: false,
+  properties: {
+    verdict: { type: "string" },
+    exposures: {
+      type: "array",
+      items: {
+        type: "object",
+        additionalProperties: false,
+        properties: {
+          part: { type: "string" },
+          reach: { type: "string", enum: ["does most", "does some", "barely"] },
+          why: { type: "string" },
+          constraint: { type: "string" },
+          effect: { type: "string" },
+        },
+        required: ["part", "reach", "why", "constraint", "effect"],
+      },
+    },
+  },
+  required: ["verdict", "exposures"],
+} as const;
+
+export const LENSES: Record<
+  LensId,
+  {
+    system: string;
+    schema: { [key: string]: unknown };
+    retrieve: boolean;
+    knowledgeSeed?: string;
+    title: string;
+    subtitle: string;
+    handoff: boolean;
+  }
+> = {
+  confusion: {
+    system: CONFUSION_SYSTEM_PROMPT,
+    schema: CONFUSION_SCHEMA,
+    retrieve: true,
+    knowledgeSeed:
+      "student confusion hidden assumptions instructions clarity success criteria cognitive load attention scaffolding",
+    title: "Confusion Points",
+    subtitle: "find where students stall",
+    handoff: false,
+  },
+  complexity: {
+    system: COMPLEXITY_SYSTEM_PROMPT,
+    schema: COMPLEXITY_SCHEMA,
+    retrieve: true,
+    knowledgeSeed:
+      "complexity scaffolding degrees of freedom constraints procedural conceptual strategic difficulty support remove support",
+    title: "Complexity Map",
+    subtitle: "difficulty & scaffolding",
+    handoff: true,
+  },
+  aiexposure: {
+    system: AI_EXPOSURE_SYSTEM_PROMPT,
+    schema: AI_EXPOSURE_SCHEMA,
+    retrieve: false,
+    title: "AI Exposure",
+    subtitle: "where a chatbot could do the work",
+    handoff: true,
+  },
+};
+
+interface DiagnosisForPrompt {
+  purpose: string;
+  constraints: { text: string; kind: string; note?: string }[];
+  habits: { text: string; status: string }[];
+  note?: string;
+}
+
+function buildLensDiagnosisBlock(diagnosis: DiagnosisForPrompt): string {
+  const lines = [
+    "**Confirmed diagnosis (teacher-reviewed; use this to anchor the read):**",
+    `Purpose read: ${diagnosis.purpose.trim() || "(not supplied)"}`,
+    "Constraints:",
+    ...diagnosis.constraints
+      .filter((constraint) => constraint.text.trim())
+      .map((constraint) => {
+        const note = constraint.note?.trim() ? ` — ${constraint.note.trim()}` : "";
+        return `- [${constraint.kind}] ${constraint.text.trim()}${note}`;
+      }),
+    "Habits:",
+    ...diagnosis.habits
+      .filter((habit) => habit.text.trim())
+      .map((habit) => `- [${habit.status}] ${habit.text.trim()}`),
+  ];
+  const note = diagnosis.note?.trim();
+  if (note) lines.push(`Teacher note: ${note}`);
+  return lines.join("\n");
+}
+
+export function buildLensUserPrompt(
+  lens: LensId,
+  answers: Answers,
+  sourceDoc: string,
+  diagnosis: DiagnosisForPrompt,
+  focus?: string,
+): string {
+  const lensConfig = LENSES[lens];
+  return [
+    `Produce the "${lensConfig.title}" read in the required JSON shape.`,
+    "",
+    `Grade or age level: ${answers.grade || "(not supplied)"}`,
+    `Assignment type: ${answers.assessment || "(not supplied)"}`,
+    `Assignment components / description: ${answers.parts || "(not supplied)"}`,
+    `Learning goals: ${answers.goal || "(not supplied)"}`,
+    `Time budget: ${answers.time || "(not supplied)"}`,
+    "",
+    buildLensDiagnosisBlock(diagnosis),
+    ...(focus?.trim() ? ["", `Focus: ${focus.trim()}`] : []),
+    "",
+    "Source assignment:",
+    sourceDoc,
+  ].join("\n");
+}
 
 export function buildSuggestUserPrompt(step: StepId, answers: Answers): string {
   return [

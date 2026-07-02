@@ -121,7 +121,7 @@ export function ChatDrawer({
       <aside className="animate-slide-in relative flex h-full w-full max-w-md flex-col border-l border-line bg-panel shadow-2xl sm:max-w-lg">
         <header className="flex items-start justify-between gap-4 border-b border-line px-6 py-5">
           <div>
-            <p className="font-mono text-[0.6rem] uppercase tracking-[0.24em] text-amber">
+            <p className="font-mono text-[0.62rem] uppercase tracking-[0.24em] text-amber">
               {config.eyebrow}
             </p>
             <h2 className="mt-1 font-display text-xl font-semibold text-ink">
@@ -129,8 +129,9 @@ export function ChatDrawer({
             </h2>
           </div>
           <button
+            type="button"
             onClick={onClose}
-            className="-mr-1 rounded-full border border-line p-1.5 text-ink-soft transition-colors hover:border-line-bright hover:text-ink"
+            className="-mr-1 grid h-9 w-9 shrink-0 place-items-center rounded-full border border-line text-ink-soft transition-colors hover:border-line-bright hover:text-ink"
             aria-label="Close chat"
           >
             <span aria-hidden>✕</span>
@@ -171,7 +172,7 @@ export function ChatDrawer({
                           config.onAdopt?.(plainify(m.content));
                           onClose();
                         }}
-                        className="mt-4 inline-flex items-center gap-1.5 rounded-full bg-mint px-4 py-1.5 text-sm font-semibold text-[#06231a] transition-colors hover:bg-mint-deep"
+                        className="mt-4 inline-flex items-center gap-1.5 rounded-full bg-mint px-4 py-1.5 text-sm font-semibold text-mint-ink transition-colors hover:bg-mint-deep"
                       >
                         {config.adoptLabel ?? "Use this"}
                         <span aria-hidden>→</span>
@@ -212,10 +213,10 @@ export function ChatDrawer({
             <button
               type="submit"
               disabled={!input.trim() || pending}
-              className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-mint text-[#06231a] transition-colors hover:bg-mint-deep disabled:cursor-not-allowed disabled:opacity-40"
+              className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-mint text-mint-ink transition-colors hover:bg-mint-deep disabled:cursor-not-allowed disabled:opacity-40"
               aria-label="Send"
             >
-              {pending ? <span className="think-dot bg-[#06231a]" /> : <span aria-hidden>↑</span>}
+              {pending ? <span className="think-dot bg-mint-ink" /> : <span aria-hidden>↑</span>}
             </button>
           </div>
         </form>

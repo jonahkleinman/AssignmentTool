@@ -3,15 +3,22 @@
 import { useEffect, useRef, useState } from "react";
 import {
   STEPS,
+  buildRedesignSeedMessage,
   buildIntakeMessage,
   buildConstraintSwapMessage,
   diagnoseAssignment,
   extractAssignment,
   fetchSuggestions,
+  runLens,
   streamRedesign,
+  type AiExposureResult,
+  type ComplexityResult,
+  type ConfusionResult,
   type Diagnosis,
   type DiagnosisConstraint,
   type DiagnosisHabit,
+  type LensId,
+  type LensResult,
   type StepConfig,
   type StepId,
 } from "./agent";
@@ -19,12 +26,20 @@ import { isDriveConfigured, pickFromGoogleDrive } from "./drive";
 import { StudioMarkdown } from "./markdown";
 import { ChatDrawer, type DrawerConfig } from "./chat-drawer";
 
-type Stage = "start" | "wizard" | "diagnosis" | "redesign";
+type Stage = "start" | "wizard" | "diagnosis" | "lenses" | "redesign";
 type UploadStatus = "idle" | "reading" | "review" | "error";
+type ReadCardId = "redesign" | LensId;
 
 const STEP_BY_ID = Object.fromEntries(
   STEPS.map((s) => [s.id, s]),
 ) as Record<StepId, StepConfig>;
+
+const READ_CARDS: { id: ReadCardId; title: string; subtitle: string }[] = [
+  { id: "redesign", title: "Redesign", subtitle: "rework the whole task" },
+  { id: "confusion", title: "Confusion Points", subtitle: "find where students stall" },
+  { id: "complexity", title: "Complexity Map", subtitle: "difficulty & scaffolding" },
+  { id: "aiexposure", title: "AI Exposure", subtitle: "where a chatbot could do the work" },
+];
 
 interface StepData {
   choices: string[];
@@ -262,7 +277,7 @@ function PrototypeBody({
             )}
             {swapOptions.length > 0 && (
               <div>
-                <p className="font-mono text-[0.58rem] uppercase tracking-[0.18em] text-ink-faint">
+                <p className="font-mono text-[0.62rem] uppercase tracking-[0.18em] text-ink-faint">
                   Swap the constraint
                 </p>
                 <div className="mt-2 flex flex-wrap gap-2">
@@ -303,6 +318,13 @@ export default function Home() {
     error: string | null;
   }>({ draft: null, loading: false, error: null });
   const [confirmedDiagnosis, setConfirmedDiagnosis] = useState<Diagnosis | null>(null);
+  const [activeLens, setActiveLens] = useState<LensId | null>(null);
+  const [lensFocus, setLensFocus] = useState("");
+  const [lensResult, setLensResult] = useState<{
+    data: LensResult | null;
+    loading: boolean;
+    error: string | null;
+  }>({ data: null, loading: false, error: null });
   const [swapState, setSwapState] = useState<SwapState | null>(null);
   const [uploadStatus, setUploadStatus] = useState<UploadStatus>("idle");
   const [uploadError, setUploadError] = useState<string | null>(null);
@@ -319,6 +341,7 @@ export default function Home() {
   const diagnosisStarted = useRef(false);
   const redesignAbort = useRef<AbortController | null>(null);
   const diagnosisAbort = useRef<AbortController | null>(null);
+  const lensAbort = useRef<AbortController | null>(null);
   const swapAbort = useRef<AbortController | null>(null);
 
   const step = STEPS[stepIdx];
@@ -411,6 +434,7 @@ export default function Home() {
     () => () => {
       redesignAbort.current?.abort();
       diagnosisAbort.current?.abort();
+      lensAbort.current?.abort();
       swapAbort.current?.abort();
     },
     [],
@@ -514,12 +538,16 @@ export default function Home() {
       note: draft.note?.trim(),
     };
     setConfirmedDiagnosis(confirmed);
+    setActiveLens(null);
+    setLensResult({ data: null, loading: false, error: null });
     redesignStarted.current = false;
-    setStage("redesign");
-    await startRedesign(confirmed);
+    setStage("lenses");
   }
 
-  async function startRedesign(diagnosisOverride: Diagnosis | null = confirmedDiagnosis) {
+  async function startRedesign(
+    diagnosisOverride: Diagnosis | null = confirmedDiagnosis,
+    seed?: string,
+  ) {
     if (redesignStarted.current) return;
     redesignStarted.current = true;
     setClarificationAnswer("");
@@ -532,7 +560,7 @@ export default function Home() {
         [
           {
             role: "user",
-            content: buildIntakeMessage(currentAnswers(), sourceDoc, diagnosisOverride),
+            content: buildIntakeMessage(currentAnswers(), sourceDoc, diagnosisOverride, seed),
           },
         ],
         (delta) => setRedesign((r) => ({ ...r, text: r.text + delta })),
@@ -543,6 +571,51 @@ export default function Home() {
       if ((err as Error).name === "AbortError") return;
       setRedesign((r) => ({ ...r, loading: false, error: (err as Error).message }));
     }
+  }
+
+  async function startPickerRedesign(seed?: string) {
+    redesignAbort.current?.abort();
+    redesignStarted.current = false;
+    setStage("redesign");
+    await startRedesign(confirmedDiagnosis, seed);
+  }
+
+  async function startLens(lens: LensId) {
+    if (!confirmedDiagnosis) return;
+    lensAbort.current?.abort();
+    const controller = new AbortController();
+    lensAbort.current = controller;
+    setActiveLens(lens);
+    setLensResult({ data: null, loading: true, error: null });
+    try {
+      const data = await runLens(
+        lens,
+        currentAnswers(),
+        sourceDoc,
+        confirmedDiagnosis,
+        lensFocus,
+        controller.signal,
+      );
+      setLensResult({ data, loading: false, error: null });
+    } catch (err) {
+      if ((err as Error).name === "AbortError") return;
+      setLensResult({ data: null, loading: false, error: (err as Error).message });
+    }
+  }
+
+  function backToLensPicker() {
+    lensAbort.current?.abort();
+    redesignAbort.current?.abort();
+    redesignStarted.current = false;
+    setActiveLens(null);
+    setLensResult({ data: null, loading: false, error: null });
+    setRedesign({ text: "", loading: false, error: null });
+    setSwapState(null);
+    setStage("lenses");
+  }
+
+  function sendLensFindingToRedesign(seed: string, sourceLabel: string) {
+    void startPickerRedesign(buildRedesignSeedMessage(seed, sourceLabel));
   }
 
   async function answerClarification(raw: string) {
@@ -634,6 +707,7 @@ export default function Home() {
   function resetAll() {
     redesignAbort.current?.abort();
     diagnosisAbort.current?.abort();
+    lensAbort.current?.abort();
     swapAbort.current?.abort();
     uploadAbort.current?.abort();
     redesignStarted.current = false;
@@ -644,6 +718,9 @@ export default function Home() {
     setRedesign({ text: "", loading: false, error: null });
     setDiagnosis({ draft: null, loading: false, error: null });
     setConfirmedDiagnosis(null);
+    setActiveLens(null);
+    setLensFocus("");
+    setLensResult({ data: null, loading: false, error: null });
     setSwapState(null);
     setSourceDoc("");
     setUploadStatus("idle");
@@ -659,6 +736,7 @@ export default function Home() {
   async function handleFile(file: File) {
     uploadAbort.current?.abort();
     diagnosisAbort.current?.abort();
+    lensAbort.current?.abort();
     diagnosisStarted.current = false;
     const controller = new AbortController();
     uploadAbort.current = controller;
@@ -667,6 +745,8 @@ export default function Home() {
     setUploadStatus("reading");
     setDiagnosis({ draft: null, loading: false, error: null });
     setConfirmedDiagnosis(null);
+    setActiveLens(null);
+    setLensResult({ data: null, loading: false, error: null });
     try {
       const result = await extractAssignment(file, controller.signal);
       setData((d) => ({
@@ -713,9 +793,13 @@ export default function Home() {
   function startFromScratch() {
     setSourceDoc("");
     diagnosisAbort.current?.abort();
+    lensAbort.current?.abort();
     diagnosisStarted.current = false;
     setDiagnosis({ draft: null, loading: false, error: null });
     setConfirmedDiagnosis(null);
+    setActiveLens(null);
+    setLensFocus("");
+    setLensResult({ data: null, loading: false, error: null });
     setUploadStatus("idle");
     setUploadName("");
     setUploadError(null);
@@ -737,9 +821,13 @@ export default function Home() {
   function discardUpload() {
     setSourceDoc("");
     diagnosisAbort.current?.abort();
+    lensAbort.current?.abort();
     diagnosisStarted.current = false;
     setDiagnosis({ draft: null, loading: false, error: null });
     setConfirmedDiagnosis(null);
+    setActiveLens(null);
+    setLensFocus("");
+    setLensResult({ data: null, loading: false, error: null });
     setUploadStatus("idle");
     setUploadName("");
     setUploadError(null);
@@ -846,8 +934,17 @@ export default function Home() {
             <span className="font-mono text-[0.66rem] uppercase tracking-[0.2em] text-ink-faint">
               Read-back
             </span>
+          ) : stage === "lenses" ? (
+            <button
+              type="button"
+              onClick={resetAll}
+              className="rounded-full border border-line px-3.5 py-1.5 font-mono text-[0.62rem] uppercase tracking-widest text-ink-soft transition-colors hover:border-mint hover:text-mint"
+            >
+              Start over
+            </button>
           ) : stage === "redesign" ? (
             <button
+              type="button"
               onClick={resetAll}
               className="rounded-full border border-line px-3.5 py-1.5 font-mono text-[0.62rem] uppercase tracking-widest text-ink-soft transition-colors hover:border-mint hover:text-mint"
             >
@@ -905,6 +1002,26 @@ export default function Home() {
             onRetry={retryDiagnosis}
             onConfirm={confirmDiagnosis}
           />
+        ) : stage === "lenses" ? (
+          activeLens ? (
+            <LensResultShell
+              lens={activeLens}
+              result={lensResult}
+              onBack={backToLensPicker}
+              onRetry={() => void startLens(activeLens)}
+              onSendToRedesign={sendLensFindingToRedesign}
+            />
+          ) : (
+            <LensPicker
+              diagnosis={confirmedDiagnosis}
+              focus={lensFocus}
+              onFocus={setLensFocus}
+              onRead={(id) => {
+                if (id === "redesign") void startPickerRedesign();
+                else void startLens(id);
+              }}
+            />
+          )
         ) : (
           <RedesignView
             redesign={redesign}
@@ -916,6 +1033,7 @@ export default function Home() {
             onSwapConstraint={swapConstraint}
             onOwnDirection={ownDirection}
             onRefineAll={refineAll}
+            onBackToPicker={confirmedDiagnosis && sourceDoc.trim() ? backToLensPicker : undefined}
           />
         )}
       </main>
@@ -1038,7 +1156,7 @@ function StartView({
           <button
             onClick={onContinue}
             disabled={!ready}
-            className="group inline-flex items-center justify-center gap-2 rounded-full bg-mint px-7 py-3 font-semibold text-[#06231a] transition-all hover:bg-mint-deep disabled:cursor-not-allowed disabled:opacity-40"
+            className="group inline-flex items-center justify-center gap-2 rounded-full bg-mint px-7 py-3 font-semibold text-mint-ink transition-all hover:bg-mint-deep disabled:cursor-not-allowed disabled:opacity-40"
           >
             Continue to goals
             <span aria-hidden className="transition-transform group-hover:translate-x-1">
@@ -1090,8 +1208,9 @@ function StartView({
         >
           <p className="text-sm leading-relaxed text-ink">{error}</p>
           <button
+            type="button"
             onClick={onDismissError}
-            className="shrink-0 px-1 text-ink-faint transition-colors hover:text-ink"
+            className="grid h-9 w-9 shrink-0 -my-1 place-items-center rounded-full text-ink-faint transition-colors hover:text-ink"
             aria-label="Dismiss"
           >
             ✕
@@ -1180,7 +1299,7 @@ function StartView({
             <button
               type="submit"
               disabled={!pasteText.trim()}
-              className="mt-3 inline-flex items-center gap-2 rounded-full bg-mint px-5 py-2.5 text-sm font-semibold text-[#06231a] transition-colors hover:bg-mint-deep disabled:cursor-not-allowed disabled:opacity-40"
+              className="mt-3 inline-flex items-center gap-2 rounded-full bg-mint px-5 py-2.5 text-sm font-semibold text-mint-ink transition-colors hover:bg-mint-deep disabled:cursor-not-allowed disabled:opacity-40"
             >
               Read this text
               <span aria-hidden>→</span>
@@ -1343,7 +1462,7 @@ function WizardView({
                           step.multi ? "rounded-[5px]" : "rounded-full"
                         } ${
                           selected
-                            ? "border-mint bg-mint text-[#06231a]"
+                            ? "border-mint bg-mint text-mint-ink"
                             : "border-line-bright text-transparent group-hover:border-ink-faint"
                         }`}
                       >
@@ -1377,7 +1496,7 @@ function WizardView({
                   <button
                     type="submit"
                     disabled={!customText.trim()}
-                    className="rounded-lg bg-mint px-3.5 py-1.5 text-sm font-semibold text-[#06231a] transition-colors hover:bg-mint-deep disabled:opacity-40"
+                    className="rounded-lg bg-mint px-3.5 py-1.5 text-sm font-semibold text-mint-ink transition-colors hover:bg-mint-deep disabled:cursor-not-allowed disabled:opacity-40"
                   >
                     Add
                   </button>
@@ -1387,7 +1506,7 @@ function WizardView({
                       onSetAdding(false);
                       onCustomText("");
                     }}
-                    className="px-2 py-1 text-ink-faint transition-colors hover:text-ink"
+                    className="grid h-9 w-9 shrink-0 place-items-center rounded-full text-ink-faint transition-colors hover:text-ink"
                     aria-label="Cancel"
                   >
                     ✕
@@ -1437,7 +1556,7 @@ function WizardView({
         <button
           onClick={onNext}
           disabled={!canContinue}
-          className="group inline-flex items-center justify-center gap-2 rounded-full bg-mint px-7 py-3 font-semibold text-[#06231a] transition-all hover:bg-mint-deep disabled:cursor-not-allowed disabled:opacity-40"
+          className="group inline-flex items-center justify-center gap-2 rounded-full bg-mint px-7 py-3 font-semibold text-mint-ink transition-all hover:bg-mint-deep disabled:cursor-not-allowed disabled:opacity-40"
         >
           {isLast ? "Generate redesigns" : "Continue"}
           <span aria-hidden className="transition-transform group-hover:translate-x-1">
@@ -1445,6 +1564,86 @@ function WizardView({
           </span>
         </button>
       </div>
+    </div>
+  );
+}
+
+/* ------------------------------------------------------------------ *
+ *  Read-back building blocks
+ * ------------------------------------------------------------------ */
+
+/** Textarea that grows to fit its content — never clips, never needs a manual drag handle. */
+function AutoTextarea({
+  value,
+  className = "",
+  ...props
+}: React.TextareaHTMLAttributes<HTMLTextAreaElement> & { value: string }) {
+  const ref = useRef<HTMLTextAreaElement>(null);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    el.style.height = "auto";
+    el.style.height = `${el.scrollHeight}px`;
+  }, [value]);
+
+  return (
+    <textarea
+      ref={ref}
+      rows={1}
+      value={value}
+      className={`resize-none overflow-hidden ${className}`}
+      {...props}
+    />
+  );
+}
+
+type SegTone = "rose" | "mint" | "amber" | "muted";
+
+const SEG_ACTIVE: Record<SegTone, string> = {
+  rose: "bg-rose/15 text-rose",
+  mint: "bg-mint/15 text-mint",
+  amber: "bg-amber/15 text-amber",
+  muted: "bg-card-2 text-ink",
+};
+
+/** Compact segmented pill toggle — replaces the awkward <select> for small enums. */
+function Segmented<T extends string>({
+  value,
+  options,
+  onChange,
+  ariaLabel,
+}: {
+  value: T;
+  options: { value: T; label: string; tone: SegTone }[];
+  onChange: (value: T) => void;
+  ariaLabel: string;
+}) {
+  return (
+    <div
+      role="radiogroup"
+      aria-label={ariaLabel}
+      className="inline-flex shrink-0 items-center gap-0.5 rounded-full border border-line bg-panel p-0.5"
+    >
+      {options.map((option) => {
+        const active = option.value === value;
+        return (
+          <button
+            key={option.value}
+            type="button"
+            role="radio"
+            aria-checked={active}
+            onClick={() => onChange(option.value)}
+            className={`rounded-full px-3 py-1 text-xs font-medium transition-colors ${
+              active
+                ? SEG_ACTIVE[option.tone]
+                : "text-ink-faint hover:text-ink-soft"
+            }`}
+          >
+            {option.label}
+          </button>
+        );
+      })}
     </div>
   );
 }
@@ -1551,7 +1750,7 @@ function DiagnosisView({
           </button>
           <button
             onClick={onRetry}
-            className="inline-flex items-center justify-center gap-2 rounded-full bg-mint px-7 py-3 font-semibold text-[#06231a] transition-colors hover:bg-mint-deep"
+            className="inline-flex items-center justify-center gap-2 rounded-full bg-mint px-7 py-3 font-semibold text-mint-ink transition-colors hover:bg-mint-deep"
           >
             Try again
             <span aria-hidden>→</span>
@@ -1573,7 +1772,7 @@ function DiagnosisView({
           Confirm what this assignment is really doing.
         </h1>
         <p className="mt-3 max-w-xl text-[1.02rem] text-ink-soft">
-          Edit the chips before generating. The redesigns will use this as their starting
+          Edit the chips before choosing a read. The next step will use this as its starting
           point.
         </p>
       </div>
@@ -1586,12 +1785,11 @@ function DiagnosisView({
           >
             Purpose read
           </label>
-          <textarea
+          <AutoTextarea
             id="diagnosis-purpose"
-            rows={2}
             value={draft.purpose}
             onChange={(e) => update({ purpose: e.target.value })}
-            className="mt-3 min-h-20 w-full resize-y rounded-xl border border-line bg-panel px-4 py-3 text-[0.98rem] leading-relaxed text-ink placeholder:text-ink-faint transition-colors focus:border-mint focus:outline-none focus:ring-4 focus:ring-mint/15"
+            className="mt-3 min-h-16 w-full rounded-xl border border-line bg-panel px-4 py-3 text-[0.98rem] leading-relaxed text-ink placeholder:text-ink-faint transition-colors focus:border-mint focus:outline-none focus:ring-4 focus:ring-mint/15"
           />
         </section>
 
@@ -1602,7 +1800,7 @@ function DiagnosisView({
                 Current constraints
               </p>
               <p className="mt-1 text-sm text-ink-soft">
-                Mark what bites and what is just format.
+                Mark what forces real thinking and what is just format.
               </p>
             </div>
             <button
@@ -1615,48 +1813,55 @@ function DiagnosisView({
           </div>
 
           <div className="mt-4 space-y-3">
-            {draft.constraints.map((constraint, index) => (
-              <div
-                key={index}
-                className="rounded-xl border border-line bg-panel px-3 py-3 transition-colors focus-within:border-mint"
-              >
-                <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
-                  <select
-                    value={constraint.kind}
-                    onChange={(e) =>
-                      updateConstraint(index, {
-                        kind: e.target.value === "hurts" ? "hurts" : "inert",
-                      })
-                    }
-                    className="rounded-lg border border-line bg-card px-3 py-2 text-sm text-ink focus:border-mint focus:outline-none"
-                    aria-label="Constraint kind"
-                  >
-                    <option value="hurts">hurts</option>
-                    <option value="inert">inert</option>
-                  </select>
-                  <input
+            {draft.constraints.map((constraint, index) => {
+              const bites = constraint.kind === "hurts";
+              return (
+                <div
+                  key={index}
+                  className={`relative overflow-hidden rounded-xl border pl-5 pr-3 py-3 transition-colors focus-within:border-mint ${
+                    bites ? "border-rose/30 bg-rose/[0.05]" : "border-line bg-panel"
+                  }`}
+                >
+                  <span
+                    aria-hidden
+                    className={`absolute inset-y-0 left-0 w-[3px] ${
+                      bites ? "bg-rose" : "bg-line-bright"
+                    }`}
+                  />
+                  <div className="flex items-start justify-between gap-3">
+                    <Segmented
+                      ariaLabel="Does this constraint force thinking?"
+                      value={constraint.kind}
+                      onChange={(kind) => updateConstraint(index, { kind })}
+                      options={[
+                        { value: "hurts", label: "Forces thinking", tone: "rose" },
+                        { value: "inert", label: "Just format", tone: "muted" },
+                      ]}
+                    />
+                    <button
+                      type="button"
+                      onClick={() => removeConstraint(index)}
+                      className="grid h-8 w-8 shrink-0 place-items-center rounded-full text-ink-faint transition-colors hover:bg-card-2 hover:text-ink"
+                      aria-label="Remove constraint"
+                    >
+                      ✕
+                    </button>
+                  </div>
+                  <AutoTextarea
                     value={constraint.text}
                     onChange={(e) => updateConstraint(index, { text: e.target.value })}
                     placeholder="Name the constraint"
-                    className="min-w-0 flex-1 bg-transparent px-1 py-2 text-[0.97rem] text-ink placeholder:text-ink-faint focus:outline-none"
+                    className="mt-2.5 w-full bg-transparent text-[0.97rem] leading-relaxed text-ink placeholder:text-ink-faint focus:outline-none"
                   />
-                  <button
-                    type="button"
-                    onClick={() => removeConstraint(index)}
-                    className="self-start rounded-full px-2 py-1 text-ink-faint transition-colors hover:text-ink sm:self-auto"
-                    aria-label="Remove constraint"
-                  >
-                    ✕
-                  </button>
+                  <AutoTextarea
+                    value={constraint.note}
+                    onChange={(e) => updateConstraint(index, { note: e.target.value })}
+                    placeholder="Why this does or doesn't force better thinking"
+                    className="mt-1 w-full bg-transparent text-sm leading-relaxed text-ink-soft placeholder:text-ink-faint focus:outline-none"
+                  />
                 </div>
-                <input
-                  value={constraint.note}
-                  onChange={(e) => updateConstraint(index, { note: e.target.value })}
-                  placeholder="Why this does or doesn't force better thinking"
-                  className="mt-1 w-full bg-transparent px-1 py-1.5 text-sm text-ink-soft placeholder:text-ink-faint focus:outline-none"
-                />
-              </div>
-            ))}
+              );
+            })}
           </div>
         </section>
 
@@ -1680,43 +1885,48 @@ function DiagnosisView({
           </div>
 
           <div className="mt-4 space-y-3">
-            {draft.habits.map((habit, index) => (
-              <div
-                key={index}
-                className="flex flex-col gap-2 rounded-xl border border-line bg-panel px-3 py-3 transition-colors focus-within:border-mint sm:flex-row sm:items-center"
-              >
-                <select
-                  value={habit.status}
-                  onChange={(e) => {
-                    const value = e.target.value;
-                    updateHabit(index, {
-                      status:
-                        value === "breaks" || value === "reinforces" ? value : "untouched",
-                    });
-                  }}
-                  className="rounded-lg border border-line bg-card px-3 py-2 text-sm text-ink focus:border-mint focus:outline-none"
-                  aria-label="Habit status"
+            {draft.habits.map((habit, index) => {
+              const accent =
+                habit.status === "breaks"
+                  ? "bg-mint"
+                  : habit.status === "reinforces"
+                    ? "bg-rose"
+                    : "bg-line-bright";
+              return (
+                <div
+                  key={index}
+                  className="relative overflow-hidden rounded-xl border border-line bg-panel pl-5 pr-3 py-3 transition-colors focus-within:border-mint"
                 >
-                  <option value="breaks">breaks</option>
-                  <option value="reinforces">reinforces</option>
-                  <option value="untouched">untouched</option>
-                </select>
-                <input
-                  value={habit.text}
-                  onChange={(e) => updateHabit(index, { text: e.target.value })}
-                  placeholder="Name the habit"
-                  className="min-w-0 flex-1 bg-transparent px-1 py-2 text-[0.97rem] text-ink placeholder:text-ink-faint focus:outline-none"
-                />
-                <button
-                  type="button"
-                  onClick={() => removeHabit(index)}
-                  className="self-start rounded-full px-2 py-1 text-ink-faint transition-colors hover:text-ink sm:self-auto"
-                  aria-label="Remove habit"
-                >
-                  ✕
-                </button>
-              </div>
-            ))}
+                  <span aria-hidden className={`absolute inset-y-0 left-0 w-[3px] ${accent}`} />
+                  <div className="flex items-start justify-between gap-3">
+                    <Segmented
+                      ariaLabel="What does this assignment do to the habit?"
+                      value={habit.status}
+                      onChange={(status) => updateHabit(index, { status })}
+                      options={[
+                        { value: "breaks", label: "Breaks it", tone: "mint" },
+                        { value: "reinforces", label: "Reinforces", tone: "rose" },
+                        { value: "untouched", label: "Leaves alone", tone: "muted" },
+                      ]}
+                    />
+                    <button
+                      type="button"
+                      onClick={() => removeHabit(index)}
+                      className="grid h-8 w-8 shrink-0 place-items-center rounded-full text-ink-faint transition-colors hover:bg-card-2 hover:text-ink"
+                      aria-label="Remove habit"
+                    >
+                      ✕
+                    </button>
+                  </div>
+                  <AutoTextarea
+                    value={habit.text}
+                    onChange={(e) => updateHabit(index, { text: e.target.value })}
+                    placeholder="Name the habit"
+                    className="mt-2.5 w-full bg-transparent text-[0.97rem] leading-relaxed text-ink placeholder:text-ink-faint focus:outline-none"
+                  />
+                </div>
+              );
+            })}
           </div>
         </section>
 
@@ -1727,13 +1937,12 @@ function DiagnosisView({
           >
             Your note
           </label>
-          <textarea
+          <AutoTextarea
             id="diagnosis-note"
-            rows={4}
             value={draft.note ?? ""}
             onChange={(e) => update({ note: e.target.value })}
             placeholder="What do students do on autopilot with this kind of assignment?"
-            className="mt-3 min-h-28 w-full resize-y rounded-xl border border-line bg-panel px-4 py-3 text-[0.98rem] leading-relaxed text-ink placeholder:text-ink-faint transition-colors focus:border-mint focus:outline-none focus:ring-4 focus:ring-mint/15"
+            className="mt-3 min-h-24 w-full rounded-xl border border-line bg-panel px-4 py-3 text-[0.98rem] leading-relaxed text-ink placeholder:text-ink-faint transition-colors focus:border-mint focus:outline-none focus:ring-4 focus:ring-mint/15"
           />
         </section>
       </div>
@@ -1748,13 +1957,401 @@ function DiagnosisView({
         <button
           onClick={() => onConfirm(draft)}
           disabled={!canConfirm}
-          className="group inline-flex items-center justify-center gap-2 rounded-full bg-mint px-7 py-3 font-semibold text-[#06231a] transition-colors hover:bg-mint-deep disabled:cursor-not-allowed disabled:opacity-40"
+          className="group inline-flex items-center justify-center gap-2 rounded-full bg-mint px-7 py-3 font-semibold text-mint-ink transition-colors hover:bg-mint-deep disabled:cursor-not-allowed disabled:opacity-40"
         >
-          Generate redesigns
+          Choose a read
           <span aria-hidden className="transition-transform group-hover:translate-x-1">
             →
           </span>
         </button>
+      </div>
+    </div>
+  );
+}
+
+/* ------------------------------------------------------------------ *
+ *  Lens picker and reads
+ * ------------------------------------------------------------------ */
+function LensPicker({
+  diagnosis,
+  focus,
+  onFocus,
+  onRead,
+}: {
+  diagnosis: Diagnosis | null;
+  focus: string;
+  onFocus: (value: string) => void;
+  onRead: (id: ReadCardId) => void;
+}) {
+  return (
+    <div className="flex flex-1 flex-col py-10 sm:py-14">
+      <div className="animate-fade-up">
+        <p className="font-mono text-[0.66rem] uppercase tracking-[0.28em] text-mint">
+          Choose a read
+        </p>
+        <h1 className="mt-3 max-w-xl font-display text-[2.1rem] font-semibold leading-[1.08] tracking-tight text-ink sm:text-[2.7rem]">
+          What do you want to understand next?
+        </h1>
+        <p className="mt-3 max-w-xl text-[1.02rem] text-ink-soft">
+          The studio will use your confirmed read-back as the anchor, then look at the same
+          assignment through one lens at a time.
+        </p>
+      </div>
+
+      <section
+        className="animate-fade-up mt-8 rounded-2xl border border-line bg-card p-5 sm:p-6"
+        style={{ animationDelay: "80ms" }}
+      >
+        <p className="font-mono text-[0.62rem] uppercase tracking-[0.18em] text-mint">
+          Confirmed purpose
+        </p>
+        <p className="mt-2 text-[0.98rem] leading-relaxed text-ink-soft">
+          {diagnosis?.purpose?.trim() || "No purpose read is available yet."}
+        </p>
+      </section>
+
+      <div className="animate-fade-up mt-5" style={{ animationDelay: "120ms" }}>
+        <label
+          htmlFor="lens-focus"
+          className="font-mono text-[0.62rem] uppercase tracking-[0.18em] text-amber"
+        >
+          Optional focus
+        </label>
+        <input
+          id="lens-focus"
+          type="text"
+          value={focus}
+          onChange={(e) => onFocus(e.target.value)}
+          placeholder="e.g. focus on my ELL students, or assume students have ChatGPT + Photomath"
+          className="mt-2.5 w-full rounded-xl border border-line bg-panel px-4 py-3 text-[0.98rem] text-ink placeholder:text-ink-faint transition-colors focus:border-mint focus:outline-none focus:ring-4 focus:ring-mint/15"
+        />
+      </div>
+
+      <div
+        className="animate-fade-up mt-7 grid gap-3 sm:grid-cols-2"
+        style={{ animationDelay: "160ms" }}
+      >
+        {READ_CARDS.map((card) => (
+          <button
+            key={card.id}
+            type="button"
+            onClick={() => onRead(card.id)}
+            className="group min-h-[126px] rounded-2xl border border-line bg-card p-5 text-left transition-all hover:border-mint hover:bg-card-2 hover:shadow-[0_0_34px_-22px_var(--color-mint)]"
+          >
+            <span
+              aria-hidden
+              className="grid h-8 w-8 place-items-center rounded-lg bg-mint/10 text-mint transition-colors group-hover:bg-mint group-hover:text-mint-ink"
+            >
+              {card.id === "redesign" ? "◇" : "◈"}
+            </span>
+            <span className="mt-4 block font-display text-[1.25rem] font-semibold leading-tight text-ink">
+              {card.title}
+            </span>
+            <span className="mt-1.5 block text-sm leading-relaxed text-ink-soft">
+              {card.subtitle}
+            </span>
+          </button>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function LensResultShell({
+  lens,
+  result,
+  onBack,
+  onRetry,
+  onSendToRedesign,
+}: {
+  lens: LensId;
+  result: { data: LensResult | null; loading: boolean; error: string | null };
+  onBack: () => void;
+  onRetry: () => void;
+  onSendToRedesign: (seed: string, sourceLabel: string) => void;
+}) {
+  const meta = READ_CARDS.find((card) => card.id === lens);
+  const data = result.data?.lens === lens ? result.data : null;
+
+  if (result.loading) {
+    return (
+      <div className="flex flex-1 flex-col py-10 sm:py-14">
+        <button
+          type="button"
+          onClick={onBack}
+          className="mb-7 self-start rounded-full px-4 py-2.5 text-sm font-medium text-ink-soft transition-colors hover:text-ink"
+        >
+          ← Back to reads
+        </button>
+        <div className="flex flex-1 flex-col items-center justify-center py-20 text-center">
+          <div className="flex items-center gap-2 text-ink-soft">
+            <span className="think-dot" style={{ animationDelay: "0ms" }} />
+            <span className="think-dot" style={{ animationDelay: "150ms" }} />
+            <span className="think-dot" style={{ animationDelay: "300ms" }} />
+          </div>
+          <p className="mt-5 font-display text-xl text-ink">Reading…</p>
+          <p className="mt-2 max-w-md text-sm text-ink-soft">
+            Running the {meta?.title ?? "selected"} lens against the confirmed assignment.
+          </p>
+        </div>
+      </div>
+    );
+  }
+
+  if (result.error || !data) {
+    return (
+      <div className="flex flex-1 flex-col py-10 sm:py-14">
+        <button
+          type="button"
+          onClick={onBack}
+          className="mb-7 self-start rounded-full px-4 py-2.5 text-sm font-medium text-ink-soft transition-colors hover:text-ink"
+        >
+          ← Back to reads
+        </button>
+        <div className="animate-fade-up">
+          <p className="font-mono text-[0.66rem] uppercase tracking-[0.28em] text-rose">
+            Read failed
+          </p>
+          <h1 className="mt-3 font-display text-[2.1rem] font-semibold leading-[1.08] tracking-tight text-ink sm:text-[2.7rem]">
+            The studio could not run this read yet.
+          </h1>
+          <p className="mt-3 max-w-xl text-[1.02rem] text-ink-soft">
+            {result.error ?? "Try again, or go back and choose another read."}
+          </p>
+        </div>
+        <div className="mt-auto flex flex-col gap-3 pt-12 sm:flex-row sm:items-center sm:justify-between">
+          <button
+            onClick={onBack}
+            className="rounded-full px-4 py-2.5 text-sm font-medium text-ink-soft transition-colors hover:text-ink"
+          >
+            ← Back to reads
+          </button>
+          <button
+            onClick={onRetry}
+            className="inline-flex items-center justify-center gap-2 rounded-full bg-mint px-7 py-3 font-semibold text-mint-ink transition-colors hover:bg-mint-deep"
+          >
+            Try again
+            <span aria-hidden>→</span>
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="flex flex-1 flex-col py-10 sm:py-14">
+      <button
+        type="button"
+        onClick={onBack}
+        className="mb-7 self-start rounded-full px-4 py-2.5 text-sm font-medium text-ink-soft transition-colors hover:text-ink"
+      >
+        ← Back to reads
+      </button>
+      <div className="animate-fade-up">
+        <p className="font-mono text-[0.66rem] uppercase tracking-[0.28em] text-mint">
+          {meta?.subtitle ?? "Lens read"}
+        </p>
+        <h1 className="mt-3 font-display text-[2.1rem] font-semibold leading-[1.08] tracking-tight text-ink sm:text-[2.7rem]">
+          {meta?.title ?? "Lens read"}
+        </h1>
+      </div>
+
+      <div className="animate-fade-up mt-8" style={{ animationDelay: "80ms" }}>
+        {data.lens === "confusion" ? (
+          <ConfusionBody data={data} />
+        ) : data.lens === "complexity" ? (
+          <ComplexityBody data={data} onSendToRedesign={onSendToRedesign} />
+        ) : (
+          <AiExposureBody data={data} onSendToRedesign={onSendToRedesign} />
+        )}
+      </div>
+    </div>
+  );
+}
+
+function LensChip({ children, tone = "mint" }: { children: React.ReactNode; tone?: "mint" | "amber" }) {
+  return (
+    <span
+      className={`inline-flex shrink-0 items-center rounded-full border px-2.5 py-1 font-mono text-[0.62rem] uppercase tracking-[0.16em] ${
+        tone === "amber"
+          ? "border-amber/35 bg-amber/10 text-amber"
+          : "border-mint/30 bg-mint/10 text-mint"
+      }`}
+    >
+      {children}
+    </span>
+  );
+}
+
+function ConfusionBody({ data }: { data: ConfusionResult }) {
+  return (
+    <div>
+      <section className="rounded-2xl border border-line bg-card p-5 sm:p-6">
+        <p className="font-mono text-[0.62rem] uppercase tracking-[0.18em] text-mint">
+          Overall clarity
+        </p>
+        <p className="mt-2 text-[1.02rem] leading-relaxed text-ink">{data.summary}</p>
+      </section>
+
+      <div className="mt-5 space-y-4">
+        {data.points.map((point, index) => (
+          <article
+            key={`${point.where}-${index}`}
+            className="rounded-2xl border border-line bg-card p-5 sm:p-6"
+          >
+            <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
+              <h2 className="font-display text-[1.2rem] font-semibold leading-tight text-ink">
+                {point.where}
+              </h2>
+              <LensChip>{point.impact} students</LensChip>
+            </div>
+            <div className="mt-4 space-y-3">
+              <p className="flex gap-3 text-[0.98rem] leading-relaxed text-ink-soft">
+                <span aria-hidden className="mt-[0.55em] h-2 w-2 shrink-0 rounded-full bg-amber" />
+                <span>
+                  <span className="font-medium text-ink">Likely stall: </span>
+                  {point.confusion}
+                </span>
+              </p>
+              <p className="flex gap-3 text-[0.98rem] leading-relaxed text-ink-soft">
+                <span aria-hidden className="mt-[0.55em] h-2 w-2 shrink-0 rounded-full bg-mint" />
+                <span>
+                  <span className="font-medium text-ink">Tweak: </span>
+                  {point.fix}
+                </span>
+              </p>
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function ComplexityBody({
+  data,
+  onSendToRedesign,
+}: {
+  data: ComplexityResult;
+  onSendToRedesign: (seed: string, sourceLabel: string) => void;
+}) {
+  return (
+    <div>
+      <section className="rounded-2xl border border-line bg-card p-5 sm:p-6">
+        <p className="font-mono text-[0.62rem] uppercase tracking-[0.18em] text-mint">
+          Difficulty read
+        </p>
+        <p className="mt-2 text-[1.02rem] leading-relaxed text-ink">{data.read}</p>
+      </section>
+
+      {data.demands.length > 0 && (
+        <section className="mt-5 rounded-2xl border border-line bg-card p-5 sm:p-6">
+          <p className="font-mono text-[0.62rem] uppercase tracking-[0.18em] text-mint">
+            What students juggle
+          </p>
+          <div className="mt-4 space-y-3">
+            {data.demands.map((demand, index) => (
+              <div key={`${demand.text}-${index}`} className="flex items-start gap-3">
+                <span
+                  aria-hidden
+                  className="mt-[0.55em] h-2.5 w-2.5 shrink-0 rounded-full border-2 border-mint bg-card"
+                />
+                <p className="min-w-0 flex-1 text-[0.98rem] leading-relaxed text-ink-soft">
+                  <span className="font-medium text-ink">{demand.text}</span>
+                </p>
+                <LensChip tone="amber">{demand.type}</LensChip>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <div className="mt-5 space-y-4">
+        {data.scaffolding.map((item, index) => {
+          const seed = `At "${item.where}", ${item.direction} this scaffold: ${item.move}. Preserve this effect: ${item.effect}`;
+          return (
+            <article
+              key={`${item.where}-${index}`}
+              className="rounded-2xl border border-line bg-card p-5 sm:p-6"
+            >
+              <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
+                <h2 className="font-display text-[1.2rem] font-semibold leading-tight text-ink">
+                  {item.where}
+                </h2>
+                <LensChip>{item.direction} scaffold</LensChip>
+              </div>
+              <p className="mt-4 text-[0.98rem] leading-relaxed text-ink">
+                {item.move}
+              </p>
+              <p className="mt-2 text-sm leading-relaxed text-ink-soft">{item.effect}</p>
+              <button
+                type="button"
+                onClick={() => onSendToRedesign(seed, "Complexity Map")}
+                className="mt-4 inline-flex items-center gap-2 rounded-full border border-line px-4 py-2 text-sm font-medium text-mint transition-colors hover:border-mint hover:bg-mint/10"
+              >
+                Send to redesign
+                <span aria-hidden>→</span>
+              </button>
+            </article>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+function AiExposureBody({
+  data,
+  onSendToRedesign,
+}: {
+  data: AiExposureResult;
+  onSendToRedesign: (seed: string, sourceLabel: string) => void;
+}) {
+  return (
+    <div>
+      <section className="rounded-2xl border border-line bg-card p-5 sm:p-6">
+        <p className="font-mono text-[0.62rem] uppercase tracking-[0.18em] text-mint">
+          Exposure read
+        </p>
+        <p className="mt-2 text-[1.02rem] leading-relaxed text-ink">{data.verdict}</p>
+      </section>
+
+      <div className="mt-5 space-y-4">
+        {data.exposures.map((item, index) => {
+          const seed = `At "${item.part}", add this constraint: ${item.constraint}. It should make students do this thinking: ${item.effect}`;
+          return (
+            <article
+              key={`${item.part}-${index}`}
+              className="rounded-2xl border border-line bg-card p-5 sm:p-6"
+            >
+              <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
+                <h2 className="font-display text-[1.2rem] font-semibold leading-tight text-ink">
+                  {item.part}
+                </h2>
+                <LensChip tone="amber">{item.reach}</LensChip>
+              </div>
+              <div className="mt-4 space-y-3">
+                <p className="text-[0.98rem] leading-relaxed text-ink-soft">
+                  <span className="font-medium text-ink">Why a tool can carry it: </span>
+                  {item.why}
+                </p>
+                <p className="rounded-xl border border-mint/25 bg-mint/[0.06] px-3.5 py-3 text-[0.98rem] leading-relaxed text-ink">
+                  <span className="font-medium text-mint">Constraint: </span>
+                  {item.constraint}
+                </p>
+                <p className="text-sm leading-relaxed text-ink-soft">{item.effect}</p>
+              </div>
+              <button
+                type="button"
+                onClick={() => onSendToRedesign(seed, "AI Exposure")}
+                className="mt-4 inline-flex items-center gap-2 rounded-full border border-line px-4 py-2 text-sm font-medium text-mint transition-colors hover:border-mint hover:bg-mint/10"
+              >
+                Send to redesign
+                <span aria-hidden>→</span>
+              </button>
+            </article>
+          );
+        })}
       </div>
     </div>
   );
@@ -1773,6 +2370,7 @@ function RedesignView({
   onSwapConstraint,
   onOwnDirection,
   onRefineAll,
+  onBackToPicker,
 }: {
   redesign: { text: string; loading: boolean; error: string | null };
   swapState: SwapState | null;
@@ -1783,6 +2381,7 @@ function RedesignView({
   onSwapConstraint: (index: number, p: Prototype, constraint: string) => void;
   onOwnDirection: () => void;
   onRefineAll: () => void;
+  onBackToPicker?: () => void;
 }) {
   const { preamble, prototypes } = parsePrototypes(redesign.text);
   const empty = redesign.loading && redesign.text.trim() === "";
@@ -1800,6 +2399,15 @@ function RedesignView({
 
   return (
     <div className="flex flex-1 flex-col py-10 sm:py-14">
+      {onBackToPicker && (
+        <button
+          type="button"
+          onClick={onBackToPicker}
+          className="mb-7 self-start rounded-full px-4 py-2.5 text-sm font-medium text-ink-soft transition-colors hover:text-ink"
+        >
+          ← Back to reads
+        </button>
+      )}
       <div className="animate-fade-up">
         <p className="font-mono text-[0.66rem] uppercase tracking-[0.28em] text-mint">
           {awaitingClarification ? "A couple of questions" : "Your redesigns"}
@@ -1854,7 +2462,7 @@ function RedesignView({
             <button
               type="submit"
               disabled={!clarificationAnswer.trim()}
-              className="inline-flex items-center gap-2 rounded-full bg-mint px-5 py-2.5 text-sm font-semibold text-[#06231a] transition-colors hover:bg-mint-deep disabled:cursor-not-allowed disabled:opacity-40"
+              className="inline-flex items-center gap-2 rounded-full bg-mint px-5 py-2.5 text-sm font-semibold text-mint-ink transition-colors hover:bg-mint-deep disabled:cursor-not-allowed disabled:opacity-40"
             >
               Generate directions
               <span aria-hidden>→</span>
@@ -1938,7 +2546,7 @@ function RedesignView({
           role="alert"
           className="mt-8 rounded-xl border border-rose/40 bg-rose/10 px-5 py-4"
         >
-          <p className="font-mono text-[0.6rem] uppercase tracking-[0.2em] text-rose">
+          <p className="font-mono text-[0.62rem] uppercase tracking-[0.2em] text-rose">
             Couldn&apos;t reach the studio
           </p>
           <p className="mt-1 text-sm leading-relaxed text-ink">{redesign.error}</p>
@@ -1954,7 +2562,7 @@ function RedesignView({
           <div className="mt-4 flex flex-wrap gap-2.5">
             <button
               onClick={onOwnDirection}
-              className="inline-flex items-center gap-2 rounded-full bg-mint px-5 py-2.5 text-sm font-semibold text-[#06231a] transition-colors hover:bg-mint-deep"
+              className="inline-flex items-center gap-2 rounded-full bg-mint px-5 py-2.5 text-sm font-semibold text-mint-ink transition-colors hover:bg-mint-deep"
             >
               <span aria-hidden>+</span> Bring your own idea
             </button>

@@ -19,11 +19,12 @@
 
   --color-ink: #eef0f4;
   --color-ink-soft: #a3abb8;
-  --color-ink-faint: #6c7480;
+  --color-ink-faint: #8b93a1;
 
   --color-mint: #5ee3b4;
   --color-mint-deep: #2fc795;
-  --color-mint-dim: #1d6f56;
+  /* ink color for text/icons sitting on a mint fill (buttons, chips) */
+  --color-mint-ink: #06231a;
   --color-amber: #f3b66a;
   --color-rose: #f47089;
 }
@@ -34,6 +35,8 @@
 
 html {
   background-color: var(--canvas);
+  /* keep native controls (select dropdowns, scrollbars) on the dark theme */
+  color-scheme: dark;
 }
 
 body {
@@ -42,6 +45,12 @@ body {
   font-family: var(--font-sans), system-ui, sans-serif;
   position: relative;
   -webkit-font-smoothing: antialiased;
+}
+
+/* native <select> menus fall back to OS chrome — pin them to the theme */
+option {
+  background-color: var(--color-card);
+  color: var(--color-ink);
 }
 
 /* aurora glow + faint grid */
@@ -76,12 +85,26 @@ body::after {
 
 ::selection {
   background: var(--color-mint);
-  color: #06231a;
+  color: var(--color-mint-ink);
 }
 
 * {
   scrollbar-width: thin;
   scrollbar-color: var(--color-line-bright) transparent;
+}
+
+/* ------------------------------------------------------------------ *
+ *  Focus — one visible mint ring for every keyboard-focusable control.
+ *  Uses box-shadow (not outline) so it coexists with the `outline-none`
+ *  utilities already on inputs, and follows each element's border-radius.
+ *  :focus-visible keeps it keyboard-only, so mouse clicks stay clean.
+ * ------------------------------------------------------------------ */
+@layer utilities {
+  :focus-visible {
+    outline: 2px solid transparent; /* forced-colors / high-contrast fallback */
+    outline-offset: 2px;
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-mint) 70%, transparent);
+  }
 }
 
 /* ------------------------------------------------------------------ *

@@ -1,10 +1,15 @@
+import type { LensId } from "@/lib/prompt";
+
 /* ------------------------------------------------------------------ *
  *  Shared client-side contract for the Assessment Studio wizard.
- *  Talks to three backend routes:
+ *  Talks to four backend routes:
  *    POST /api/suggest  → { choices: string[] }      (per-step choices)
  *    POST /api/diagnose → structured diagnosis        (uploaded assignments)
+ *    POST /api/lens     → structured lens reads       (uploaded assignments)
  *    POST /api/redesign → streamed text/markdown      (chat + redesigns)
  * ------------------------------------------------------------------ */
+
+export type { LensId };
 
 export type Role = "user" | "assistant";
 
@@ -33,6 +38,59 @@ export interface Diagnosis {
   habits: DiagnosisHabit[];
   note?: string;
 }
+
+export type ConfusionImpact = "most" | "some" | "a few";
+export type ComplexityDemandType = "procedural" | "conceptual" | "strategic";
+export type ScaffoldDirection = "add" | "remove";
+export type AiExposureReach = "does most" | "does some" | "barely";
+
+export interface ConfusionPoint {
+  where: string;
+  confusion: string;
+  impact: ConfusionImpact;
+  fix: string;
+}
+
+export interface ConfusionResult {
+  summary: string;
+  points: ConfusionPoint[];
+}
+
+export interface ComplexityDemand {
+  text: string;
+  type: ComplexityDemandType;
+}
+
+export interface ComplexityScaffold {
+  direction: ScaffoldDirection;
+  where: string;
+  move: string;
+  effect: string;
+}
+
+export interface ComplexityResult {
+  read: string;
+  demands: ComplexityDemand[];
+  scaffolding: ComplexityScaffold[];
+}
+
+export interface AiExposureItem {
+  part: string;
+  reach: AiExposureReach;
+  why: string;
+  constraint: string;
+  effect: string;
+}
+
+export interface AiExposureResult {
+  verdict: string;
+  exposures: AiExposureItem[];
+}
+
+export type LensResult =
+  | ({ lens: "confusion" } & ConfusionResult)
+  | ({ lens: "complexity" } & ComplexityResult)
+  | ({ lens: "aiexposure" } & AiExposureResult);
 
 export type StepId = "grade" | "assessment" | "parts" | "goal" | "time";
 
@@ -142,6 +200,7 @@ export function buildIntakeMessage(
   answers: Record<StepId, string>,
   sourceDoc?: string,
   diagnosis?: Diagnosis | null,
+  redesignSeed?: string,
 ): string {
   const lines: string[] = [];
   for (const step of STEPS) {
@@ -156,7 +215,17 @@ export function buildIntakeMessage(
       `**Source assignment (verbatim, for grounding):**\n\n${source}`,
     );
   }
+  const seed = redesignSeed?.trim();
+  if (seed) {
+    lines.push(`**Anchor this redesign on the constraint the teacher chose to pursue:** ${seed}`);
+  }
   return lines.join("\n\n");
+}
+
+export function buildRedesignSeedMessage(constraint: string, sourceLabel: string): string {
+  const trimmed = constraint.trim();
+  const label = sourceLabel.trim();
+  return label ? `${label}: ${trimmed}` : trimmed;
 }
 
 export function buildDiagnosisBlock(diagnosis?: Diagnosis | null): string {
@@ -219,6 +288,97 @@ function normalizeDiagnosis(value: unknown): Diagnosis {
           .filter((item) => item.text.trim())
       : [],
     note: typeof source.note === "string" ? source.note : "",
+  };
+}
+
+function cleanLensText(value: unknown): string {
+  return typeof value === "string" ? value.replace(/\s+/g, " ").trim() : "";
+}
+
+function normalizeImpact(value: unknown): ConfusionImpact {
+  return value === "most" || value === "some" || value === "a few" ? value : "some";
+}
+
+function normalizeDemandType(value: unknown): ComplexityDemandType {
+  return value === "procedural" || value === "conceptual" || value === "strategic"
+    ? value
+    : "strategic";
+}
+
+function normalizeScaffoldDirection(value: unknown): ScaffoldDirection {
+  return value === "add" || value === "remove" ? value : "add";
+}
+
+function normalizeAiReach(value: unknown): AiExposureReach {
+  return value === "does most" || value === "does some" || value === "barely"
+    ? value
+    : "does some";
+}
+
+function normalizeLensResult(lens: LensId, value: unknown): LensResult {
+  const source = isObject(value) ? value : {};
+  if (lens === "confusion") {
+    return {
+      lens,
+      summary: cleanLensText(source.summary),
+      points: Array.isArray(source.points)
+        ? source.points
+            .filter(isObject)
+            .map((item) => ({
+              where: cleanLensText(item.where),
+              confusion: cleanLensText(item.confusion),
+              impact: normalizeImpact(item.impact),
+              fix: cleanLensText(item.fix),
+            }))
+            .filter((item) => item.where && item.confusion && item.fix)
+            .slice(0, 6)
+        : [],
+    };
+  }
+  if (lens === "complexity") {
+    return {
+      lens,
+      read: cleanLensText(source.read),
+      demands: Array.isArray(source.demands)
+        ? source.demands
+            .filter(isObject)
+            .map((item) => ({
+              text: cleanLensText(item.text),
+              type: normalizeDemandType(item.type),
+            }))
+            .filter((item) => item.text)
+            .slice(0, 8)
+        : [],
+      scaffolding: Array.isArray(source.scaffolding)
+        ? source.scaffolding
+            .filter(isObject)
+            .map((item) => ({
+              direction: normalizeScaffoldDirection(item.direction),
+              where: cleanLensText(item.where),
+              move: cleanLensText(item.move),
+              effect: cleanLensText(item.effect),
+            }))
+            .filter((item) => item.where && item.move && item.effect)
+            .slice(0, 6)
+        : [],
+    };
+  }
+  return {
+    lens,
+    verdict: cleanLensText(source.verdict),
+    exposures: Array.isArray(source.exposures)
+      ? source.exposures
+          .filter(isObject)
+          .map((item) => ({
+            part: cleanLensText(item.part),
+            reach: normalizeAiReach(item.reach),
+            why: cleanLensText(item.why),
+            constraint: cleanLensText(item.constraint),
+            effect: cleanLensText(item.effect),
+          }))
+          .filter((item) => item.part && item.why && item.constraint && item.effect)
+          .slice(0, 6)
+      : [],
   };
 }
 
@@ -303,6 +463,35 @@ export async function diagnoseAssignment(
   }
 
   return normalizeDiagnosis((await res.json()) as Partial<Diagnosis>);
+}
+
+export async function runLens(
+  lens: LensId,
+  answers: Record<StepId, string>,
+  sourceDoc: string,
+  diagnosis: Diagnosis,
+  focus: string,
+  signal?: AbortSignal,
+): Promise<LensResult> {
+  const res = await fetch("/api/lens", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ lens, answers, sourceDoc, diagnosis, focus }),
+    signal,
+  });
+
+  if (!res.ok) {
+    let message = "The studio could not run that read yet.";
+    try {
+      const data = await res.json();
+      if (data?.error) message = data.error;
+    } catch {
+      /* non-JSON error body — keep default */
+    }
+    throw new Error(message);
+  }
+
+  return normalizeLensResult(lens, await res.json());
 }
 
 export function buildConstraintSwapMessage(
