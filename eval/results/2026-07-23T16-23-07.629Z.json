@@ -1,0 +1,687 @@
+{
+  "generatedAt": "2026-07-23T16:23:07.629Z",
+  "corpusBuiltAt": "2026-06-22T23:30:24.574Z",
+  "embeddingModel": "text-embedding-3-small",
+  "labelsFile": "toy.json",
+  "labeler": "toy",
+  "gain": "2^relevance-1",
+  "runs": [
+    {
+      "config": {
+        "k": 5,
+        "threshold": 0.3,
+        "lexicalBoost": true,
+        "queryVariant": "structured"
+      },
+      "perIntake": [
+        {
+          "intakeId": "austen-friendship",
+          "expectedProfile": "on-corpus",
+          "metrics": {
+            "recallAtK": 0,
+            "precisionAtK": 0,
+            "mrr": 0.058823529411764705,
+            "ndcgAtK": 0,
+            "relevantCount": 2,
+            "retrievedCount": 5,
+            "aboveThresholdCount": 23,
+            "misleadingAtK": 0
+          },
+          "topSources": [
+            {
+              "rank": 1,
+              "source": "Look Again — 10. Progress",
+              "score": 0.46478182212132657,
+              "cosineScore": 0.3597818221213266,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            },
+            {
+              "rank": 2,
+              "source": "DeeperLearning.7.1",
+              "score": 0.4634533917309721,
+              "cosineScore": 0.4384533917309721,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            },
+            {
+              "rank": 3,
+              "source": "Look Again — 3 Social Media",
+              "score": 0.4566966855277833,
+              "cosineScore": 0.35169668552778327,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            },
+            {
+              "rank": 4,
+              "source": "Look Again — Introduction",
+              "score": 0.4517223410193173,
+              "cosineScore": 0.34672234101931726,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            },
+            {
+              "rank": 5,
+              "source": "DeeperLearning.4.1",
+              "score": 0.44000014235899687,
+              "cosineScore": 0.41500014235899685,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            }
+          ]
+        },
+        {
+          "intakeId": "austen-letters-form",
+          "expectedProfile": "on-corpus",
+          "metrics": {
+            "recallAtK": 0.5,
+            "precisionAtK": 0.2,
+            "mrr": 0.2,
+            "ndcgAtK": 0.1305055576691351,
+            "relevantCount": 2,
+            "retrievedCount": 5,
+            "aboveThresholdCount": 26,
+            "misleadingAtK": 0
+          },
+          "topSources": [
+            {
+              "rank": 1,
+              "source": "Reset — Chapter 1",
+              "score": 0.4999219171811445,
+              "cosineScore": 0.47492191718114446,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            },
+            {
+              "rank": 2,
+              "source": "Look Again — 10. Progress",
+              "score": 0.49705669602582847,
+              "cosineScore": 0.3920566960258285,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            },
+            {
+              "rank": 3,
+              "source": "DeeperLearning.4.1",
+              "score": 0.4719898003403986,
+              "cosineScore": 0.4469898003403986,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            },
+            {
+              "rank": 4,
+              "source": "DeeperLearning.6.1",
+              "score": 0.47085898953617217,
+              "cosineScore": 0.44585898953617215,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            },
+            {
+              "rank": 5,
+              "source": "Look Again — 5.Creativity",
+              "score": 0.4686119591810265,
+              "cosineScore": 0.36361195918102646,
+              "label": {
+                "score": 2,
+                "misleading": false
+              }
+            }
+          ]
+        },
+        {
+          "intakeId": "austen-irony-perspective",
+          "expectedProfile": "on-corpus",
+          "metrics": {
+            "recallAtK": 0.5,
+            "precisionAtK": 0.2,
+            "mrr": 0.3333333333333333,
+            "ndcgAtK": 0.3935773014954859,
+            "relevantCount": 2,
+            "retrievedCount": 5,
+            "aboveThresholdCount": 26,
+            "misleadingAtK": 0
+          },
+          "topSources": [
+            {
+              "rank": 1,
+              "source": "Look Again — 10. Progress",
+              "score": 0.5498958431216163,
+              "cosineScore": 0.44489584312161634,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            },
+            {
+              "rank": 2,
+              "source": "Look Again — 11. Discrimination",
+              "score": 0.5364020995418037,
+              "cosineScore": 0.43140209954180375,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            },
+            {
+              "rank": 3,
+              "source": "Look Again — Introduction",
+              "score": 0.5117484710060602,
+              "cosineScore": 0.4067484710060602,
+              "label": {
+                "score": 3,
+                "misleading": false
+              }
+            },
+            {
+              "rank": 4,
+              "source": "Look Again — 3 Social Media",
+              "score": 0.4888926494919613,
+              "cosineScore": 0.38389264949196134,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            },
+            {
+              "rank": 5,
+              "source": "DeeperLearning.7.1",
+              "score": 0.488066550762758,
+              "cosineScore": 0.463066550762758,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            }
+          ]
+        },
+        {
+          "intakeId": "neuroscience-ethics-case",
+          "expectedProfile": "mixed",
+          "metrics": {
+            "recallAtK": 0,
+            "precisionAtK": 0,
+            "mrr": 0.05263157894736842,
+            "ndcgAtK": 0,
+            "relevantCount": 1,
+            "retrievedCount": 5,
+            "aboveThresholdCount": 26,
+            "misleadingAtK": 0
+          },
+          "topSources": [
+            {
+              "rank": 1,
+              "source": "Look Again — 10. Progress",
+              "score": 0.5554704750401477,
+              "cosineScore": 0.4504704750401477,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            },
+            {
+              "rank": 2,
+              "source": "Look Again — 11. Discrimination",
+              "score": 0.534590846661973,
+              "cosineScore": 0.429590846661973,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            },
+            {
+              "rank": 3,
+              "source": "Look Again — Introduction",
+              "score": 0.5143377948702949,
+              "cosineScore": 0.40933779487029487,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            },
+            {
+              "rank": 4,
+              "source": "Look Again — 6. Lying",
+              "score": 0.5059912128768631,
+              "cosineScore": 0.4009912128768631,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            },
+            {
+              "rank": 5,
+              "source": "Look Again — 5.Creativity",
+              "score": 0.494884379579531,
+              "cosineScore": 0.389884379579531,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            }
+          ]
+        },
+        {
+          "intakeId": "soil-texture-cer",
+          "expectedProfile": "mixed",
+          "metrics": {
+            "recallAtK": 0,
+            "precisionAtK": 0,
+            "mrr": 0.1,
+            "ndcgAtK": 0,
+            "relevantCount": 2,
+            "retrievedCount": 5,
+            "aboveThresholdCount": 26,
+            "misleadingAtK": 0
+          },
+          "topSources": [
+            {
+              "rank": 1,
+              "source": "DeeperLearning.7.2",
+              "score": 0.5674134664371191,
+              "cosineScore": 0.5674134664371191,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            },
+            {
+              "rank": 2,
+              "source": "Reset — Chapter 1",
+              "score": 0.5188285709807737,
+              "cosineScore": 0.4938285709807737,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            },
+            {
+              "rank": 3,
+              "source": "Look Again — 5.Creativity",
+              "score": 0.5056529899755229,
+              "cosineScore": 0.4006529899755229,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            },
+            {
+              "rank": 4,
+              "source": "DeeperLearning.8.2",
+              "score": 0.4915467398745788,
+              "cosineScore": 0.4665467398745788,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            },
+            {
+              "rank": 5,
+              "source": "Look Again — Introduction",
+              "score": 0.48288663779108354,
+              "cosineScore": 0.3778866377910835,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            }
+          ]
+        },
+        {
+          "intakeId": "lactase-enzyme-cer",
+          "expectedProfile": "mixed",
+          "metrics": {
+            "recallAtK": 0,
+            "precisionAtK": 0,
+            "mrr": 0.07692307692307693,
+            "ndcgAtK": 0,
+            "relevantCount": 2,
+            "retrievedCount": 5,
+            "aboveThresholdCount": 26,
+            "misleadingAtK": 0
+          },
+          "topSources": [
+            {
+              "rank": 1,
+              "source": "DeeperLearning.7.2",
+              "score": 0.5180909440894814,
+              "cosineScore": 0.5180909440894814,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            },
+            {
+              "rank": 2,
+              "source": "Reset — Chapter 1",
+              "score": 0.49888870404670904,
+              "cosineScore": 0.473888704046709,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            },
+            {
+              "rank": 3,
+              "source": "Look Again — Introduction",
+              "score": 0.49730565883658506,
+              "cosineScore": 0.3923056588365851,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            },
+            {
+              "rank": 4,
+              "source": "Look Again — 5.Creativity",
+              "score": 0.495454056121964,
+              "cosineScore": 0.39045405612196404,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            },
+            {
+              "rank": 5,
+              "source": "DeeperLearning.7.1",
+              "score": 0.4878557671056686,
+              "cosineScore": 0.46285576710566856,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            }
+          ]
+        },
+        {
+          "intakeId": "infinite-monkey-program",
+          "expectedProfile": "mixed",
+          "metrics": {
+            "recallAtK": 0,
+            "precisionAtK": 0,
+            "mrr": 0.07692307692307693,
+            "ndcgAtK": 0,
+            "relevantCount": 1,
+            "retrievedCount": 5,
+            "aboveThresholdCount": 25,
+            "misleadingAtK": 0
+          },
+          "topSources": [
+            {
+              "rank": 1,
+              "source": "Look Again — 5.Creativity",
+              "score": 0.5092799677592963,
+              "cosineScore": 0.4042799677592963,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            },
+            {
+              "rank": 2,
+              "source": "DeeperLearning.7.1",
+              "score": 0.5030770952336883,
+              "cosineScore": 0.4780770952336883,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            },
+            {
+              "rank": 3,
+              "source": "Look Again — 10. Progress",
+              "score": 0.4431865885942604,
+              "cosineScore": 0.3381865885942604,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            },
+            {
+              "rank": 4,
+              "source": "Look Again — 6. Lying",
+              "score": 0.44273578404147473,
+              "cosineScore": 0.33773578404147475,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            },
+            {
+              "rank": 5,
+              "source": "Look Again — Introduction",
+              "score": 0.4370825827753656,
+              "cosineScore": 0.33208258277536556,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            }
+          ]
+        },
+        {
+          "intakeId": "tic-tac-toe-java",
+          "expectedProfile": "mixed",
+          "metrics": {
+            "recallAtK": 0,
+            "precisionAtK": 0,
+            "mrr": 0.05263157894736842,
+            "ndcgAtK": 0,
+            "relevantCount": 1,
+            "retrievedCount": 5,
+            "aboveThresholdCount": 25,
+            "misleadingAtK": 0
+          },
+          "topSources": [
+            {
+              "rank": 1,
+              "source": "DeeperLearning.7.1",
+              "score": 0.5212425485662115,
+              "cosineScore": 0.4962425485662115,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            },
+            {
+              "rank": 2,
+              "source": "Look Again — 5.Creativity",
+              "score": 0.4767654649780897,
+              "cosineScore": 0.37176546497808965,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            },
+            {
+              "rank": 3,
+              "source": "Look Again — 10. Progress",
+              "score": 0.42805583539460224,
+              "cosineScore": 0.32305583539460225,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            },
+            {
+              "rank": 4,
+              "source": "How to Turn a Doc into a Super — Powered AI Tutor",
+              "score": 0.42664757979824824,
+              "cosineScore": 0.42664757979824824,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            },
+            {
+              "rank": 5,
+              "source": "Look Again — 6. Lying",
+              "score": 0.4228384532193221,
+              "cosineScore": 0.31783845321932214,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            }
+          ]
+        },
+        {
+          "intakeId": "algebra-exp-log-test",
+          "expectedProfile": "off-corpus",
+          "metrics": {
+            "recallAtK": null,
+            "precisionAtK": 0,
+            "mrr": 0,
+            "ndcgAtK": 0,
+            "relevantCount": 0,
+            "retrievedCount": 5,
+            "aboveThresholdCount": 24,
+            "misleadingAtK": 0
+          },
+          "topSources": [
+            {
+              "rank": 1,
+              "source": "DeeperLearning.7.1",
+              "score": 0.590539521197606,
+              "cosineScore": 0.565539521197606,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            },
+            {
+              "rank": 2,
+              "source": "Reset — Chapter 1",
+              "score": 0.5003636180212389,
+              "cosineScore": 0.4753636180212389,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            },
+            {
+              "rank": 3,
+              "source": "DeeperLearning.8.2",
+              "score": 0.48699789064501986,
+              "cosineScore": 0.48699789064501986,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            },
+            {
+              "rank": 4,
+              "source": "DeeperLearning.8.1",
+              "score": 0.48362921940244913,
+              "cosineScore": 0.4586292194024491,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            },
+            {
+              "rank": 5,
+              "source": "Look Again — 5.Creativity",
+              "score": 0.4628015545765065,
+              "cosineScore": 0.3578015545765065,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            }
+          ]
+        },
+        {
+          "intakeId": "algebra-trig-quiz",
+          "expectedProfile": "off-corpus",
+          "metrics": {
+            "recallAtK": null,
+            "precisionAtK": 0,
+            "mrr": 0,
+            "ndcgAtK": 0,
+            "relevantCount": 0,
+            "retrievedCount": 5,
+            "aboveThresholdCount": 20,
+            "misleadingAtK": 0
+          },
+          "topSources": [
+            {
+              "rank": 1,
+              "source": "DeeperLearning.7.1",
+              "score": 0.5038705122326322,
+              "cosineScore": 0.4788705122326323,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            },
+            {
+              "rank": 2,
+              "source": "Reset — Chapter 1",
+              "score": 0.4354562595152168,
+              "cosineScore": 0.4104562595152168,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            },
+            {
+              "rank": 3,
+              "source": "Look Again — 5.Creativity",
+              "score": 0.4334581565947804,
+              "cosineScore": 0.32845815659478034,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            },
+            {
+              "rank": 4,
+              "source": "Look Again — Introduction",
+              "score": 0.4224094367753144,
+              "cosineScore": 0.31740943677531436,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            },
+            {
+              "rank": 5,
+              "source": "DeeperLearning.8.2",
+              "score": 0.40145353797799954,
+              "cosineScore": 0.40145353797799954,
+              "label": {
+                "score": 0,
+                "misleading": false
+              }
+            }
+          ]
+        }
+      ],
+      "aggregate": {
+        "recallAtK": 0.125,
+        "precisionAtK": 0.04,
+        "mrr": 0.09512661744859888,
+        "ndcgAtK": 0.052408285916462106,
+        "negativeControlAboveThreshold": 22
+      }
+    }
+  ]
+}

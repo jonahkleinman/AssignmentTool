@@ -25,7 +25,7 @@ export interface KnowledgeChunk {
   embedding: number[];
 }
 
-interface KnowledgeIndex {
+export interface KnowledgeIndex {
   model: string;
   builtAt: string;
   count: number;
@@ -34,7 +34,7 @@ interface KnowledgeIndex {
 
 let cached: KnowledgeIndex | null | undefined;
 
-function loadIndex(): KnowledgeIndex | null {
+export function loadKnowledgeIndex(): KnowledgeIndex | null {
   if (cached !== undefined) return cached;
   try {
     if (!existsSync(INDEX_PATH)) {
@@ -49,10 +49,10 @@ function loadIndex(): KnowledgeIndex | null {
 }
 
 export function knowledgeAvailable(): boolean {
-  return loadIndex() !== null;
+  return loadKnowledgeIndex() !== null;
 }
 
-function cosineSimilarity(a: number[], b: number[]): number {
+export function cosineSimilarity(a: number[], b: number[]): number {
   let dot = 0;
   let normA = 0;
   let normB = 0;
@@ -65,7 +65,7 @@ function cosineSimilarity(a: number[], b: number[]): number {
   return dot / (Math.sqrt(normA) * Math.sqrt(normB));
 }
 
-function lexicalBoost(query: string, chunk: KnowledgeChunk): number {
+export function knowledgeLexicalBoost(query: string, chunk: KnowledgeChunk): number {
   const q = query.toLowerCase();
   if (!/(habit|autopilot|stale|routine|familiar|(?:dis)?habituat)/.test(q)) return 0;
 
@@ -83,6 +83,12 @@ export interface RetrievedPassage {
   page: string;
   text: string;
   score: number;
+}
+
+export interface ScoredKnowledgeChunk extends RetrievedPassage {
+  id: string;
+  cosineScore: number;
+  lexicalBoost: number;
 }
 
 export interface FocusedKnowledgeQueryInput {
@@ -132,6 +138,29 @@ export function buildFocusedKnowledgeQuery(input: FocusedKnowledgeQueryInput): s
   return lines.filter(Boolean).join("\n");
 }
 
+export function scoreKnowledgeChunks(
+  index: KnowledgeIndex,
+  query: string,
+  queryEmbedding: number[],
+  useLexicalBoost = true,
+): ScoredKnowledgeChunk[] {
+  return index.chunks
+    .map((chunk) => {
+      const cosineScore = cosineSimilarity(queryEmbedding, chunk.embedding);
+      const boost = useLexicalBoost ? knowledgeLexicalBoost(query, chunk) : 0;
+      return {
+        id: chunk.id,
+        source: chunk.source,
+        page: chunk.page,
+        text: chunk.text,
+        cosineScore,
+        lexicalBoost: boost,
+        score: cosineScore + boost,
+      };
+    })
+    .sort((a, b) => b.score - a.score);
+}
+
 /** Embeds `query` and returns the top-k most similar knowledge chunks. */
 export async function retrieve(
   client: OpenAI,
@@ -139,7 +168,7 @@ export async function retrieve(
   k = 5,
   signal?: AbortSignal,
 ): Promise<RetrievedPassage[]> {
-  const index = loadIndex();
+  const index = loadKnowledgeIndex();
   if (!index || index.chunks.length === 0 || !query.trim()) return [];
 
   const res = await client.embeddings.create(
@@ -149,14 +178,7 @@ export async function retrieve(
   const queryEmbedding = res.data[0]?.embedding;
   if (!queryEmbedding) return [];
 
-  return index.chunks
-    .map((chunk) => ({
-      source: chunk.source,
-      page: chunk.page,
-      text: chunk.text,
-      score: cosineSimilarity(queryEmbedding, chunk.embedding) + lexicalBoost(query, chunk),
-    }))
-    .sort((a, b) => b.score - a.score)
+  return scoreKnowledgeChunks(index, query, queryEmbedding)
     .slice(0, k);
 }
 

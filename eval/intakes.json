@@ -1,0 +1,102 @@
+[
+  {
+    "id": "austen-friendship",
+    "grade": "10th grade",
+    "assessment": "Literary analysis essay",
+    "parts": "Students write a thesis-driven essay explaining how and why Austen values friendship in Pride and Prejudice, including what friendship provides and requires that marriage does not. They support an interpretation with close textual evidence.",
+    "goal": "Build an original interpretation of the novel's values from well-chosen textual evidence rather than summarize plot.",
+    "time": "About a week, with class time for drafting and homework for revision",
+    "sourceDoc": "Though Pride and Prejudice is a romantic novel following a classic ‘marriage plot,’ it is also a novel about friendship between sisters (and those who are not sisters). How and why does Austen value friendship? What does friendship provide and require that marriage does not?",
+    "expectedProfile": "on-corpus"
+  },
+  {
+    "id": "austen-letters-form",
+    "grade": "10th grade",
+    "assessment": "Close-reading literary analysis essay",
+    "parts": "Students analyze the significance of letters in Pride and Prejudice, comparing the diction, syntax, and style of letters written by several characters and considering why Elizabeth has no letters in the novel.",
+    "goal": "Use close reading of literary form and style to explain how characterization and narrative structure create meaning.",
+    "time": "About a week, including one class period to plan and draft",
+    "sourceDoc": "‘Through letters,’ Austen writes, ‘whatever of good or bad was to be told, would be communicated.’ Discuss the significance of letters in Pride and Prejudice. What do the diction, syntax, and style of letters written by Collins, Darcy, Lydia, Jane, and the Gardiners reveal about them? Why do we have no letters from Elizabeth?",
+    "expectedProfile": "on-corpus"
+  },
+  {
+    "id": "austen-irony-perspective",
+    "grade": "10th grade",
+    "assessment": "Literary form and structure essay",
+    "parts": "Students discuss ridicule and irony in Pride and Prejudice, tracing moments where narrator and character perspectives or competing social judgments coexist and deciding when the novel mocks, endorses, or leaves a judgment unresolved.",
+    "goal": "Analyze how narrative perspective and irony hold competing interpretations in tension, using precise passages as evidence.",
+    "time": "About a week, with a full draft revised for submission",
+    "sourceDoc": "Austen's narrator can simultaneously hold two perspectives or judgments in suspension, allowing the novel to mock but also endorse. Sometimes the status of the judgments—whose perspective, whether the narrator is mocking or endorsing—cannot be resolved. Discuss ridicule and irony in the novel.",
+    "expectedProfile": "on-corpus"
+  },
+  {
+    "id": "neuroscience-ethics-case",
+    "grade": "High school behavioral neuroscience",
+    "assessment": "Ethics case analysis and group presentation",
+    "parts": "Groups create a Google Slides presentation on an assigned historical research case. They summarize the case, identify breached Belmont Report principles with specific evidence, explain participant harm, propose prevention strategies, analyze effects on public trust, present as a group, and answer questions.",
+    "goal": "Apply Respect for Persons, Beneficence, and Justice to specific evidence; propose realistic safeguards; and communicate and defend an ethical analysis.",
+    "time": "Several in-class preparation days plus a class presentation",
+    "sourceDoc": "Each group analyzes ethical violations in an assigned case study such as the Stanford Prison Experiment, Dataverse study, Tearoom Trade, human radiation studies, sensory isolation, or Milgram experiment. Slides must cover case overview, specific Belmont Report violations and participant effects, prevention strategies, impact on public trust, sources, and a class Q&A in which every member can explain the findings.",
+    "expectedProfile": "mixed"
+  },
+  {
+    "id": "soil-texture-cer",
+    "grade": "High school environmental science",
+    "assessment": "Soil lab analysis and CER post-lab",
+    "parts": "Students calculate sand, silt, and clay percentages, classify a sample with a texture pyramid, calculate and rank water-holding capacity for sand, clay, and potting soil, then write a claim-evidence-reasoning explanation. They also apply results to drought, critique the experimental design, and connect soil texture to nutrient leaching, water movement, and plant productivity.",
+    "goal": "Use experimental data and concepts such as pore space, permeability, and capillary action to explain and predict how soil texture affects water availability and plant systems.",
+    "time": "One lab period plus one class period for calculations and post-lab analysis",
+    "sourceDoc": "Construct a scientific explanation describing the relationship between soil texture and water holding capacity to support your ranking of the soils. Include a claim, specific data as evidence, and reasoning using pore space, permeability, and capillary action. Then predict which soil would be most vulnerable to crop failure during prolonged drought and evaluate one limitation of the investigation.",
+    "expectedProfile": "mixed"
+  },
+  {
+    "id": "lactase-enzyme-cer",
+    "grade": "High school biology",
+    "assessment": "Enzyme simulation, data analysis, CER, and presentation",
+    "parts": "Students use a lactase simulation to vary pH and temperature, record two trials of glucose concentration, graph each trend, make a claim about optimal conditions, support it with data, explain the biology, and present results in five Google Slides.",
+    "goal": "Design and interpret a controlled investigation, use quantitative evidence to identify optimal enzyme conditions, and connect the observed pattern to enzyme biology and the small-intestine environment.",
+    "time": "Two class periods for simulation and analysis plus presentation preparation",
+    "sourceDoc": "Investigate the relationship between pH and lactase reaction rate and between temperature and reaction rate. Hold other variables constant, collect glucose concentration for two trials, graph one trial, and write a claim, evidence using actual data, and biological reasoning. Make a five-slide presentation to discuss results with the class.",
+    "expectedProfile": "mixed"
+  },
+  {
+    "id": "infinite-monkey-program",
+    "grade": "High school intensive coding",
+    "assessment": "Java probability simulation programming lab",
+    "parts": "Students build a program that accepts a string up to 256 characters, repeatedly generates equal-length random printable-character strings, checks case-sensitive matches, prints attempts, tracks iterations in a long, handles the maximum value safely, and reports success or failure. Optional extensions add BigInteger or compare blind generation with hill climbing.",
+    "goal": "Translate a probability thought experiment into a correct indefinite-loop algorithm while reasoning about character sets, input validation, data-type limits, and computational feasibility.",
+    "time": "Several coding class periods",
+    "sourceDoc": "Write a program simulating the Infinite Monkey Theorem. Validate a user string of at most 256 characters, randomly generate printable ASCII strings of the same length until a case-sensitive match or the long counter limit, and report attempts. Decide which loop structure to use, avoid overflow, and ensure every printable character has equal probability. An extension compares this blind algorithm with hill climbing.",
+    "expectedProfile": "mixed"
+  },
+  {
+    "id": "tic-tac-toe-java",
+    "grade": "High school introductory programming",
+    "assessment": "Java Tic-Tac-Toe programming project",
+    "parts": "Students write one TicTacToe class with a global 3-by-3 array and separate menu, single-player, multiplayer, board display, reset, move-validation, and winner-checking methods. Main should remain small and coordinate the game loop. Extensions add difficulty levels and variable board sizes.",
+    "goal": "Decompose an interactive program into coherent methods and use arrays, loops, parameters, validation, and state changes to produce reliable game behavior.",
+    "time": "Several introductory programming class periods",
+    "sourceDoc": "Create a Java TicTacToe class supporting one- and two-player games. Use a 3x3 String array and separate required methods for the menu, game modes, display, reset, checking whether a move is clear, and finding a winner. The main method should primarily call these functions. Optional extensions add computer intelligence and custom board sizes.",
+    "expectedProfile": "mixed"
+  },
+  {
+    "id": "algebra-exp-log-test",
+    "grade": "Algebra II",
+    "assessment": "Closed-book exponential and logarithmic functions test",
+    "parts": "Students show work without a calculator to find inverses, graph inverse relations and exponential functions, evaluate and manipulate logarithms, solve exponential and logarithmic equations, infer an exponential model from a graph, and solve compound-interest and depreciation problems in exact or calculator-ready form.",
+    "goal": "Demonstrate procedural fluency and conceptual understanding of inverse, exponential, and logarithmic functions under independent test conditions.",
+    "time": "One timed class period",
+    "sourceDoc": "Algebra II test on exponential and logarithmic functions. Show all work, use no calculator, and leave answers in exact form. Problems ask students to find inverses, graph functions and inverse relations, evaluate/expand/condense logarithms, solve equations, identify an exponential model, and calculate compound interest and depreciation.",
+    "expectedProfile": "off-corpus"
+  },
+  {
+    "id": "algebra-trig-quiz",
+    "grade": "Algebra II",
+    "assessment": "Graphing and solving trigonometric equations quiz",
+    "parts": "Students find amplitude, period, and midline and graph two full periods for cosine and sine functions, then solve trigonometric equations over specified degree and radian intervals.",
+    "goal": "Independently demonstrate accurate procedural skill with sinusoidal graph transformations and algebraic solution of trigonometric equations.",
+    "time": "One short timed quiz",
+    "sourceDoc": "For three trigonometric functions, find amplitude, period, and midline and graph at least two full periods. Then solve four sine, cosine, and secant equations over specified degree or radian intervals.",
+    "expectedProfile": "off-corpus"
+  }
+]

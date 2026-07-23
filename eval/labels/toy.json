@@ -1,0 +1,40 @@
+{
+  "labeler": "toy",
+  "labeledAt": "2026-07-23T00:00:00.000Z",
+  "corpusBuiltAt": "2026-06-22T23:30:24.574Z",
+  "labels": {
+    "austen-friendship": {
+      "The Quiet Reinvention of Assessment": { "score": 3, "misleading": false },
+      "Inside the Box — Chapter 1": { "score": 2, "misleading": false }
+    },
+    "austen-letters-form": {
+      "Inside the Box — Chapter 2": { "score": 3, "misleading": false },
+      "Look Again — 5.Creativity": { "score": 2, "misleading": false }
+    },
+    "austen-irony-perspective": {
+      "Look Again — Introduction": { "score": 3, "misleading": false },
+      "The Tacit Dimension": { "score": 2, "misleading": false }
+    },
+    "neuroscience-ethics-case": {
+      "DeeperLearning.7.1": { "score": 2, "misleading": false },
+      "Inside the Box — Chapter 3": { "score": 1, "misleading": false }
+    },
+    "soil-texture-cer": {
+      "DeeperLearning.6.1": { "score": 3, "misleading": false },
+      "DeeperLearning.6.2": { "score": 2, "misleading": false }
+    },
+    "lactase-enzyme-cer": {
+      "DeeperLearning.6.1": { "score": 3, "misleading": false },
+      "DeeperLearning.8.1": { "score": 2, "misleading": false }
+    },
+    "infinite-monkey-program": {
+      "Inside the Box — Chapter 1": { "score": 2, "misleading": false },
+      "How to Turn a Doc into a Super — Powered AI Tutor": { "score": 1, "misleading": true }
+    },
+    "tic-tac-toe-java": {
+      "Inside the Box — Chapter 2": { "score": 2, "misleading": false }
+    },
+    "algebra-exp-log-test": {},
+    "algebra-trig-quiz": {}
+  }
+}

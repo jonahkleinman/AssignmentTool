@@ -2,16 +2,23 @@
   "name": "assessment-creator",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "build:knowledge": "tsx scripts/build-knowledge.ts"
+    "build:knowledge": "tsx scripts/build-knowledge.ts",
+    "build:source-catalog": "tsx scripts/build-source-catalog.ts",
+    "eval:retrieval": "tsx scripts/eval-retrieval.ts",
+    "eval:agreement": "tsx scripts/eval-agreement.ts"
   },
   "dependencies": {
+    "@google-cloud/firestore": "^8.7.0",
     "mammoth": "^1.12.0",
-    "next": "16.2.9",
+    "next": "16.2.11",
     "openai": "^6.44.0",
     "react": "19.2.4",
     "react-dom": "19.2.4",
@@ -26,7 +33,7 @@
     "@types/react-dom": "^19",
     "dotenv": "^17.4.2",
     "eslint": "^9",
-    "eslint-config-next": "16.2.9",
+    "eslint-config-next": "16.2.11",
     "tailwindcss": "^4",
     "tsx": "^4.22.4",
     "typescript": "^5"
