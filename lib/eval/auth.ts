@@ -5,7 +5,7 @@ const SESSION_MESSAGE = "assessment-eval-labeling-v1";
 
 function accessCode(): string | null {
   const value = process.env.EVAL_ACCESS_CODE?.trim();
-  return value && value.length >= 12 ? value : null;
+  return value && value.length >= 10 ? value : null;
 }
 
 function digest(value: string): Buffer {
