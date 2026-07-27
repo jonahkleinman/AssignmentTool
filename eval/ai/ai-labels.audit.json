@@ -1,0 +1,1592 @@
+{
+  "generatedAt": "2026-07-27T23:37:00.284Z",
+  "corpusBuiltAt": "2026-06-22T23:30:24.574Z",
+  "model": {
+    "model": "gpt-5.5",
+    "reasoning_effort": "medium"
+  },
+  "promptVersion": "source-usefulness-v1",
+  "inputs": "assignment fields plus source-catalog summaries; no retrieval scores or ranks",
+  "judgments": {
+    "austen-friendship": [
+      {
+        "source": "DeeperLearning.4.1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Offers broad support for rigorous, critical-thinking-oriented assessment, but the summary gives no concrete redesign move for a Pride and Prejudice literary analysis essay beyond general rigor/student-centeredness."
+      },
+      {
+        "source": "DeeperLearning.4.2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The inclusive, high-expectation/student-support model is generally relevant to classroom design, but it does not identify a specific change to help students build original Austen interpretations from evidence."
+      },
+      {
+        "source": "DeeperLearning.6.1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Choice, community, and interdependence from extracurricular learning could weakly inspire peer discussion or collaborative drafting, but the theater focus is tangential and no clear literary-analysis redesign follows."
+      },
+      {
+        "source": "DeeperLearning.6.2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Apprenticeship, collaboration, and mastery in theater are only weakly transferable to essay writing; the summary does not provide a concrete way to improve close textual interpretation."
+      },
+      {
+        "source": "DeeperLearning.7.1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Cognitive challenge, engagement, and participation are relevant to helping students move beyond plot summary, but the summary remains general and does not supply a specific essay scaffold or assessment change."
+      },
+      {
+        "source": "DeeperLearning.7.2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Inquiry-based learning and student autonomy could support students developing their own interpretations, but the math/science focus and lack of writing-specific practices make the application indirect."
+      },
+      {
+        "source": "DeeperLearning.8.1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The call for mastery, identity, creativity, and powerful learning environments is broadly educational, but it offers no concrete redesign for a weeklong Austen essay assignment."
+      },
+      {
+        "source": "DeeperLearning.8.2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Inquiry, equity, and community engagement are generally valuable, but the summary is system-level and does not translate into a specific literary analysis task or revision structure."
+      },
+      {
+        "source": "DeeperLearning.Intro",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The deeper-learning frame supports moving from traditional summary to student-centered interpretation, but the summary is too broad to suggest a concrete change to this assignment."
+      },
+      {
+        "source": "How to Turn a Doc into a Super — Powered AI Tutor",
+        "score": 2,
+        "misleading": false,
+        "rationale": "Provides a concrete redesign possibility: build an AI tutor from the assignment, rubric, and approved Pride and Prejudice materials to coach thesis development, evidence selection, and revision without inventing content."
+      },
+      {
+        "source": "Inside the Box — Chapter 1",
+        "score": 2,
+        "misleading": false,
+        "rationale": "The 'Closed World' idea has a concrete but indirect application: require students to generate claims only from selected passages and textual patterns rather than outside commentary. Still, it is an innovation framework, not a writing pedagogy source."
+      },
+      {
+        "source": "Inside the Box — Chapter 2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The subtraction technique is only weakly transferable, perhaps suggesting removal of plot-summary crutches or outside sources, but the summary is about product innovation and gives no clear literary essay redesign."
+      },
+      {
+        "source": "Inside the Box — Chapter 3",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Division could weakly inspire breaking the essay process or the concept of friendship into components, but the source is about product/service innovation and does not clearly address literary interpretation."
+      },
+      {
+        "source": "Look Again — 10. Progress",
+        "score": 0,
+        "misleading": false,
+        "rationale": "The discussion of expectations and progress has no clear connection to redesigning an Austen literary analysis essay or improving textual-evidence-based interpretation."
+      },
+      {
+        "source": "Look Again — 11. Discrimination",
+        "score": 0,
+        "misleading": false,
+        "rationale": "Awareness of habituated bias is educationally worthwhile, but the summary does not connect to the friendship-focused Pride and Prejudice essay or to assignment design."
+      },
+      {
+        "source": "Look Again — 3 Social Media",
+        "score": 0,
+        "misleading": false,
+        "rationale": "Social media breaks and well-being have no concrete bearing on redesigning a literary analysis essay about Austen's values."
+      },
+      {
+        "source": "Look Again — 5.Creativity",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The idea that small changes can disrupt habituation and boost creativity could weakly support brainstorming more original interpretations, but it gives no specific literature-writing practice."
+      },
+      {
+        "source": "Look Again — 6. Lying",
+        "score": 0,
+        "misleading": false,
+        "rationale": "Habituation to lying and moral behavior are not connected to redesigning this assignment, despite possible thematic resonance with novels in general."
+      },
+      {
+        "source": "Look Again — Introduction",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The general concept of seeing familiar things anew could vaguely relate to rereading a familiar text, but the summary focuses on well-being and decision-making, not literary analysis design."
+      },
+      {
+        "source": "Reset — Chapter 1",
+        "score": 2,
+        "misleading": false,
+        "rationale": "Offers a concrete improvement process: observe students as they draft or review their work to find where they actually lapse into plot summary or struggle with evidence, then redesign supports around those leverage points."
+      },
+      {
+        "source": "Reset — Chapter 3",
+        "score": 2,
+        "misleading": false,
+        "rationale": "The 'bright spots' method could be concretely applied by examining successful student paragraphs or conferences to identify transferable moves for thesis, evidence selection, and close reading scaffolds."
+      },
+      {
+        "source": "Reset — Chapter 4",
+        "score": 2,
+        "misleading": false,
+        "rationale": "Identifying constraints is clearly useful for redesign: locate the bottleneck in the weeklong essay process, such as weak passage selection, vague theses, or insufficient revision time, and target that constraint."
+      },
+      {
+        "source": "Reset — Chapter 5",
+        "score": 2,
+        "misleading": false,
+        "rationale": "System mapping can concretely improve the assignment by mapping the path from reading notes to thesis to evidence to revision and finding where supports or feedback loops are missing."
+      },
+      {
+        "source": "Rest — Chapter 2",
+        "score": 2,
+        "misleading": false,
+        "rationale": "The 'goal of the goal' idea is directly useful for aligning the assignment with its true aim: original interpretation from evidence, not merely completion of a polished plot-summary essay."
+      },
+      {
+        "source": "The Quiet Reinvention of Assessment",
+        "score": 2,
+        "misleading": false,
+        "rationale": "Provides concrete assessment redesign options applicable to this essay, such as oral defenses of interpretations, process documentation of evidence selection, or continuous assessment of drafting to better measure authentic literary reasoning."
+      },
+      {
+        "source": "The Tacit Dimension",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Tacit knowledge could weakly remind the teacher to make implicit close-reading habits explicit, but the summary is philosophical and does not provide a concrete assignment redesign."
+      }
+    ],
+    "austen-letters-form": [
+      {
+        "source": "DeeperLearning.4.1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Offers only broad support for rigorous, student-centered, critical-thinking instruction; it does not provide a concrete redesign move for a Pride and Prejudice close-reading essay."
+      },
+      {
+        "source": "DeeperLearning.4.2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The inclusive, high-expectations/student-support model is generally educational, but no specific change to the letters-analysis prompt, close-reading process, or assessment follows from the summary."
+      },
+      {
+        "source": "DeeperLearning.6.1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The emphasis on choice, community, and interdependence is weakly transferable, perhaps to collaborative discussion of letters, but it is about extracurricular theater rather than literary-analysis essay design."
+      },
+      {
+        "source": "DeeperLearning.6.2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Theater-based apprenticeship and collaboration could loosely inspire performance or peer-work around letter voices, but the source does not directly address close reading, Austen, or essay assessment."
+      },
+      {
+        "source": "DeeperLearning.7.1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Cognitive challenge, engagement, and participation are relevant to improving a literature class task, but the summary is too general to yield a concrete redesign for comparing diction, syntax, and style in letters."
+      },
+      {
+        "source": "DeeperLearning.7.2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Inquiry-based learning and autonomy are broadly useful and could loosely support a student-generated interpretive question, but the source is science/math-focused and gives no concrete literary-analysis redesign."
+      },
+      {
+        "source": "DeeperLearning.8.1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Mastery, identity, creativity, and powerful learning environments are general school-design ideas; the connection to this specific close-reading essay is weak and non-concrete."
+      },
+      {
+        "source": "DeeperLearning.8.2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The source’s emphasis on inquiry, equity, and community is broadly educational, but it does not specify a practical way to redesign the Pride and Prejudice letters assignment."
+      },
+      {
+        "source": "DeeperLearning.Intro",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The general call for student-centered deeper learning is weakly transferable, but it lacks a concrete application to close reading literary form, characterization, or narrative structure."
+      },
+      {
+        "source": "How to Turn a Doc into a Super — Powered AI Tutor",
+        "score": 2,
+        "misleading": false,
+        "rationale": "Provides a concrete support redesign: build an AI tutor from the assignment materials and Austen letter excerpts to guide students through diction, syntax, style, and planning without replacing the essay."
+      },
+      {
+        "source": "Inside the Box — Chapter 1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The “Closed World” creativity method could loosely help a teacher redesign using only existing assignment materials, but it is a general innovation framework, not an on-target literary pedagogy source."
+      },
+      {
+        "source": "Inside the Box — Chapter 2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The subtraction technique is only weakly transferable as a design exercise, such as removing a routine component to rethink the task; it gives no clear close-reading or essay-specific improvement."
+      },
+      {
+        "source": "Inside the Box — Chapter 3",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The division technique could loosely inspire breaking the essay into stages or components, but the source is about product innovation and offers no specific literary-analysis redesign."
+      },
+      {
+        "source": "Look Again — 10. Progress",
+        "score": 0,
+        "misleading": false,
+        "rationale": "The discussion of habituation, expectations, and progress has no clear connection to redesigning a Pride and Prejudice close-reading essay on letters."
+      },
+      {
+        "source": "Look Again — 11. Discrimination",
+        "score": 0,
+        "misleading": false,
+        "rationale": "Although discrimination can be a literary topic, the summary concerns habituation to bias and does not contribute to redesigning an assignment about Austen’s letters, diction, syntax, style, and narration."
+      },
+      {
+        "source": "Look Again — 3 Social Media",
+        "score": 0,
+        "misleading": false,
+        "rationale": "The source focuses on social media breaks and well-being; it offers no useful connection to the close-reading essay or its learning goal."
+      },
+      {
+        "source": "Look Again — 5.Creativity",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The idea that small changes can boost creativity is weakly transferable to brainstorming or planning, but it does not provide a concrete change for literary close reading or essay assessment."
+      },
+      {
+        "source": "Look Again — 6. Lying",
+        "score": 0,
+        "misleading": false,
+        "rationale": "The psychology of habituation to lying is not useful for redesigning this literary-analysis assignment, despite possible thematic overlap with deception in the novel."
+      },
+      {
+        "source": "Look Again — Introduction",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Defamiliarization and noticing overlooked issues are weakly transferable to close reading, but the summary is about psychological habituation rather than a concrete literature-task redesign."
+      },
+      {
+        "source": "Reset — Chapter 1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "“Go and see the work” could help a teacher observe where students struggle during planning and drafting, but it is a general improvement method rather than a direct assignment redesign idea."
+      },
+      {
+        "source": "Reset — Chapter 3",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Identifying “bright spots” could loosely inform redesign by studying strong student annotations or essays, but the source is organizational and not specific to close-reading instruction."
+      },
+      {
+        "source": "Reset — Chapter 4",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The constraints idea could help identify bottlenecks such as limited drafting time or weak evidence selection, but it does not itself supply a concrete revision to the Austen assignment."
+      },
+      {
+        "source": "Reset — Chapter 5",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Mapping systems is weakly useful for examining the assignment sequence from reading to planning to drafting, but the source gives no literature-specific redesign move."
+      },
+      {
+        "source": "Rest — Chapter 2",
+        "score": 2,
+        "misleading": false,
+        "rationale": "The “goal of the goal” idea is clearly applicable: redesign the task and rubric so students do not merely catalog letters but use close reading of form and style to explain characterization and narrative structure."
+      },
+      {
+        "source": "The Quiet Reinvention of Assessment",
+        "score": 2,
+        "misleading": false,
+        "rationale": "Offers concrete assessment redesign options such as oral defenses, process documentation, and continuous assessment, which could strengthen the essay by checking students’ close-reading reasoning and drafting process."
+      },
+      {
+        "source": "The Tacit Dimension",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Tacit knowledge is weakly relevant to literary interpretation because close-reading moves may need modeling and articulation, but the summary does not provide a concrete assignment redesign."
+      }
+    ],
+    "austen-irony-perspective": [
+      {
+        "source": "DeeperLearning.4.1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "General support for rigorous, student-centered learning, but it gives no concrete redesign move for an Austen irony/perspective essay beyond broad aspirations."
+      },
+      {
+        "source": "DeeperLearning.4.2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Inclusive high-expectation support is generally relevant to teaching, but the summary does not suggest a specific change to passage-based literary analysis of irony."
+      },
+      {
+        "source": "DeeperLearning.6.1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Choice, community, and interdependence from extracurricular learning are only weakly transferable; no clear concrete revision to this literary essay follows from the summary."
+      },
+      {
+        "source": "DeeperLearning.6.2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Theater apprenticeship and collaboration could loosely inspire discussion or performance of perspectives, but the summary does not directly address literary argument, irony, or essay structure."
+      },
+      {
+        "source": "DeeperLearning.7.1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Focus on cognitive challenge, engagement, and participation is broadly useful for classroom design, but it does not provide a specific redesign for analyzing Austen’s narrator and competing judgments."
+      },
+      {
+        "source": "DeeperLearning.7.2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Inquiry-based learning and autonomy are weakly transferable to literary investigation, but the math/science focus offers no concrete method for this Pride and Prejudice essay."
+      },
+      {
+        "source": "DeeperLearning.8.1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The call for mastery, identity, creativity, and powerful learning environments is broad systems-level advice, not a concrete redesign of this assignment."
+      },
+      {
+        "source": "DeeperLearning.8.2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Inquiry, equity, and community engagement are generally educational but too broad to yield a clear change to the Austen irony essay."
+      },
+      {
+        "source": "DeeperLearning.Intro",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The deeper-learning framework is broadly relevant to making assignments more engaging, but the summary lacks a concrete application to narrative perspective, irony, or passage-based evidence."
+      },
+      {
+        "source": "How to Turn a Doc into a Super — Powered AI Tutor",
+        "score": 2,
+        "misleading": false,
+        "rationale": "A document-based AI tutor could concretely support this assignment by using the novel, prompt, and rubric to help students test interpretations, locate evidence, and revise drafts while staying grounded in official materials."
+      },
+      {
+        "source": "Inside the Box — Chapter 1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The Closed World idea is only weakly transferable as a general design mindset—work with the existing text and constraints—but it gives no on-target literary-analysis redesign."
+      },
+      {
+        "source": "Inside the Box — Chapter 2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The subtraction technique for product innovation is tangential; at most it could prompt simplifying the task, but no clear Austen-specific assignment improvement follows."
+      },
+      {
+        "source": "Inside the Box — Chapter 3",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The division technique is a general innovation tool; it might loosely suggest breaking the essay process into parts, but it does not address irony, perspective, or literary evidence."
+      },
+      {
+        "source": "Look Again — 10. Progress",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Habituation and expectations are tangential to redesigning a literary form essay; there is no clear concrete change for analyzing Pride and Prejudice."
+      },
+      {
+        "source": "Look Again — 11. Discrimination",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Awareness of overlooked bias has a loose thematic connection to social judgments, but the summary does not help redesign the assignment’s focus on narrator/character perspectives and irony."
+      },
+      {
+        "source": "Look Again — 3 Social Media",
+        "score": 0,
+        "misleading": false,
+        "rationale": "Social media breaks and well-being have no meaningful connection to redesigning this Austen literary-analysis assignment."
+      },
+      {
+        "source": "Look Again — 5.Creativity",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Creativity through disrupting habituation is generally educational, but it offers no concrete strategy for helping students analyze unresolved judgments in the novel."
+      },
+      {
+        "source": "Look Again — 6. Lying",
+        "score": 0,
+        "misleading": false,
+        "rationale": "Habituation to lying is not relevant to redesigning a passage-based essay on ridicule, irony, and narrative perspective."
+      },
+      {
+        "source": "Look Again — Introduction",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The concept of noticing what has become familiar is only weakly transferable to rereading passages, but the summary gives no concrete assignment redesign."
+      },
+      {
+        "source": "Reset — Chapter 1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Going and seeing the work could help a teacher observe where students struggle in drafting, but it is a generic improvement method rather than an on-target literary essay redesign."
+      },
+      {
+        "source": "Reset — Chapter 3",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Identifying bright spots could help a teacher examine successful student drafts or discussion moves, but the source is general organizational improvement, not specific to this assignment."
+      },
+      {
+        "source": "Reset — Chapter 4",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Finding constraints could loosely help identify bottlenecks such as evidence selection or revision time, but the operations examples do not directly inform the Austen analysis task."
+      },
+      {
+        "source": "Reset — Chapter 5",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Systems mapping may help redesign the weeklong draft-and-revision process, but the application is generic and not tied to irony, perspective, or literary argument."
+      },
+      {
+        "source": "Rest — Chapter 2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Clarifying the 'goal of the goal' could help align the essay with interpretive tension rather than plot summary, but it remains a broad improvement principle rather than a concrete redesign."
+      },
+      {
+        "source": "The Quiet Reinvention of Assessment",
+        "score": 2,
+        "misleading": false,
+        "rationale": "This gives concrete assessment redesign options—oral examination, persona-based simulation, process documentation, and continuous assessment—that could be applied to test students’ reasoning about narrator versus character judgments and their revision process."
+      },
+      {
+        "source": "The Tacit Dimension",
+        "score": 0,
+        "misleading": false,
+        "rationale": "Tacit knowledge is philosophically tangential; the summary does not provide a useful concrete change for teaching or assessing Austen’s irony and narrative perspective."
+      }
+    ],
+    "neuroscience-ethics-case": [
+      {
+        "source": "DeeperLearning.4.1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "General endorsement of rigorous, student-centered IB-style learning, but it does not name a concrete change for a Belmont ethics case presentation beyond broad rigor and interdisciplinarity."
+      },
+      {
+        "source": "DeeperLearning.4.2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Offers broad ideas about inclusive, student-centered culture and high support/high expectations, but no specific redesign move for analyzing research ethics cases or presentations."
+      },
+      {
+        "source": "DeeperLearning.6.1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Choice, community, and interdependence from extracurricular theater are weakly transferable to group presentation structure, but the summary gives no ethics-analysis-specific redesign."
+      },
+      {
+        "source": "DeeperLearning.6.2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Theater-based apprenticeship and collaboration could inform clearer group roles, rehearsal, and peer coaching for presentations, but it remains a general model rather than a concrete Belmont-case redesign."
+      },
+      {
+        "source": "DeeperLearning.7.1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Emphasizes cognitive challenge, engagement, and participation, which supports making the task more inquiry-oriented, but the connection to specific ethics-case evidence or safeguards is not concrete."
+      },
+      {
+        "source": "DeeperLearning.7.2",
+        "score": 2,
+        "misleading": false,
+        "rationale": "Inquiry-based learning and student autonomy can translate into having groups investigate evidence and build arguments rather than fill slide categories, but the source is still general and not tailored to ethics cases."
+      },
+      {
+        "source": "DeeperLearning.8.1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Provides only broad system-level advocacy for mastery, identity, creativity, and powerful learning environments; no clear concrete revision follows for this assignment."
+      },
+      {
+        "source": "DeeperLearning.8.2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Inquiry, equity, and community engagement are generally relevant, especially to Justice and public trust, but the summary does not supply a specific redesign mechanism for the case analysis."
+      },
+      {
+        "source": "DeeperLearning.Intro",
+        "score": 1,
+        "misleading": false,
+        "rationale": "General deeper-learning framing supports student-centered work but does not provide a concrete change to the Belmont principles analysis, safeguards, or Q&A."
+      },
+      {
+        "source": "How to Turn a Doc into a Super — Powered AI Tutor",
+        "score": 2,
+        "misleading": false,
+        "rationale": "A document-based AI tutor built from the Belmont Report, case packets, and rubric could concretely support groups with accurate coaching and practice Q&A during preparation."
+      },
+      {
+        "source": "Inside the Box — Chapter 1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The Closed World idea could weakly help students design prevention strategies using resources already present in a research system, but the connection is indirect and not ethics-specific."
+      },
+      {
+        "source": "Inside the Box — Chapter 2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Subtraction could be used as a creativity prompt, such as removing a flawed study element to imagine safeguards, but this is only a weakly transferable innovation technique."
+      },
+      {
+        "source": "Inside the Box — Chapter 3",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Division could inspire breaking a study into stages or components to locate ethical failures, but the source is about product innovation and gives no direct assignment redesign."
+      },
+      {
+        "source": "Look Again — 10. Progress",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Habituation to low expectations and progress is only tangentially related; it does not suggest a clear change to the ethics case presentation."
+      },
+      {
+        "source": "Look Again — 11. Discrimination",
+        "score": 2,
+        "misleading": false,
+        "rationale": "Habituation to discrimination connects concretely to the Justice principle: the assignment could add a bias/normalization check asking how familiar practices made inequitable treatment seem acceptable."
+      },
+      {
+        "source": "Look Again — 3 Social Media",
+        "score": 0,
+        "misleading": false,
+        "rationale": "Social media breaks and well-being have no clear connection to redesigning a historical research ethics case analysis, except possibly the Dataverse case in a very tangential way."
+      },
+      {
+        "source": "Look Again — 5.Creativity",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Creativity through disrupting routines might help students brainstorm prevention strategies, but it is a general creativity idea with no direct Belmont or case-analysis application."
+      },
+      {
+        "source": "Look Again — 6. Lying",
+        "score": 2,
+        "misleading": false,
+        "rationale": "Habituation to lying gives a concrete ethical lens for cases: students could analyze how small deceptions or omissions escalated into larger Respect for Persons or Beneficence violations."
+      },
+      {
+        "source": "Look Again — Introduction",
+        "score": 1,
+        "misleading": false,
+        "rationale": "General habituation could support a prompt about why researchers or institutions overlooked harms, but the summary is broad and only weakly transferable to assignment redesign."
+      },
+      {
+        "source": "Reset — Chapter 1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "“Go and see the work” could inform redesigning the teacher’s preparation support by observing group work to identify confusion, but it does not directly change the ethics analysis task."
+      },
+      {
+        "source": "Reset — Chapter 3",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Bright spots could help the teacher identify strong student examples or effective group practices to model, but this is a general improvement method, not a concrete ethics-presentation redesign."
+      },
+      {
+        "source": "Reset — Chapter 4",
+        "score": 2,
+        "misleading": false,
+        "rationale": "Constraint analysis can concretely improve the assignment process by identifying bottlenecks such as source evaluation, Belmont evidence selection, or uneven group participation and designing supports around them."
+      },
+      {
+        "source": "Reset — Chapter 5",
+        "score": 2,
+        "misleading": false,
+        "rationale": "System mapping is clearly useful for the prevention-strategy component: students could map the research ethics system from recruitment to review to debriefing and identify leverage points for safeguards."
+      },
+      {
+        "source": "Rest — Chapter 2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "“Goal of the goal” could help align slide requirements with the deeper aim of defensible ethical reasoning rather than superficial presentation completion, but it remains a general design principle."
+      },
+      {
+        "source": "The Quiet Reinvention of Assessment",
+        "score": 3,
+        "misleading": false,
+        "rationale": "Directly supplies assessment redesign ideas for this presentation assignment: oral defenses, persona-based ethics simulations, process documentation, and continuous assessment of group reasoning and individual accountability."
+      },
+      {
+        "source": "The Tacit Dimension",
+        "score": 0,
+        "misleading": false,
+        "rationale": "Tacit knowledge is philosophically relevant to learning but the summary gives no concrete way to redesign the Belmont ethics case analysis or group presentation."
+      }
+    ],
+    "soil-texture-cer": [
+      {
+        "source": "DeeperLearning.4.1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "General discussion of IB rigor, critical thinking, and interdisciplinary learning could loosely support making the soil lab more rigorous, but it does not offer a concrete redesign move for this lab or CER."
+      },
+      {
+        "source": "DeeperLearning.4.2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Inclusive, student-centered IB practices are broadly educational, but the summary gives no specific change to the soil texture calculations, water-holding investigation, or CER prompt."
+      },
+      {
+        "source": "DeeperLearning.6.1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Choice, community, and interdependence from extracurricular learning are only weakly transferable to a soil lab group activity; no clear concrete assignment change follows."
+      },
+      {
+        "source": "DeeperLearning.6.2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Theater-based apprenticeship and collaboration may loosely suggest more peer roles or collaborative mastery, but it is tangential to redesigning a high school environmental science lab analysis."
+      },
+      {
+        "source": "DeeperLearning.7.1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Cognitive challenge, engagement, and participation are relevant general teaching principles, but the summary does not identify a specific modification to the lab, data analysis, or CER task."
+      },
+      {
+        "source": "DeeperLearning.7.2",
+        "score": 2,
+        "misleading": false,
+        "rationale": "Inquiry-based science teaching and student autonomy connect clearly to this lab: students could help design the water-holding test, choose soil samples, or propose improved methods before writing the CER."
+      },
+      {
+        "source": "DeeperLearning.8.1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The call for mastery, identity, creativity, and powerful learning environments is broadly relevant but too system-level to yield a concrete redesign of this specific post-lab assignment."
+      },
+      {
+        "source": "DeeperLearning.8.2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Inquiry, equity, and community engagement are broadly aligned with deeper science learning, but the summary remains too general to specify a concrete soil-lab redesign."
+      },
+      {
+        "source": "DeeperLearning.Intro",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The source supports a general shift toward student-centered deeper learning, but it does not provide a specific application to soil texture, water availability, drought prediction, or CER writing."
+      },
+      {
+        "source": "How to Turn a Doc into a Super — Powered AI Tutor",
+        "score": 2,
+        "misleading": false,
+        "rationale": "A document-based AI tutor could directly support this assignment by coaching students through texture-triangle classification, water-holding calculations, and CER reasoning using the official lab materials."
+      },
+      {
+        "source": "Inside the Box — Chapter 1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The 'Closed World' idea could weakly inform asking students to improve the investigation using only available classroom materials, but the connection to the soil lab is indirect."
+      },
+      {
+        "source": "Inside the Box — Chapter 2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The subtraction technique is a general innovation strategy; it does not clearly translate into a useful change to the soil analysis or CER beyond a vague idea of simplifying components."
+      },
+      {
+        "source": "Inside the Box — Chapter 3",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The division technique is a general creativity method and offers no clear concrete improvement to the soil texture lab, water-holding analysis, or drought application task."
+      },
+      {
+        "source": "Look Again — 10. Progress",
+        "score": 0,
+        "misleading": false,
+        "rationale": "Habituation, expectations, and societal progress do not provide a useful connection to redesigning this soil lab or CER assessment."
+      },
+      {
+        "source": "Look Again — 11. Discrimination",
+        "score": 0,
+        "misleading": false,
+        "rationale": "The focus on habituation to discrimination has no meaningful connection to soil texture, water-holding capacity, experimental design critique, or CER writing."
+      },
+      {
+        "source": "Look Again — 3 Social Media",
+        "score": 0,
+        "misleading": false,
+        "rationale": "Social media breaks and well-being are unrelated to the environmental science lab task and do not suggest a useful redesign."
+      },
+      {
+        "source": "Look Again — 5.Creativity",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The source is only weakly useful: overcoming habituation to boost creativity could loosely support having students rethink the experimental design, but it gives no soil-specific or assessment-specific change."
+      },
+      {
+        "source": "Look Again — 6. Lying",
+        "score": 0,
+        "misleading": false,
+        "rationale": "Habituation to lying and moral behavior do not contribute to redesigning the soil lab analysis or CER explanation."
+      },
+      {
+        "source": "Look Again — Introduction",
+        "score": 0,
+        "misleading": false,
+        "rationale": "General habituation and renewed appreciation do not provide a useful redesign idea for the soil texture and water availability assignment."
+      },
+      {
+        "source": "Reset — Chapter 1",
+        "score": 2,
+        "misleading": false,
+        "rationale": "Going and seeing the work is clearly useful for redesign: the teacher could observe students during the lab and calculation period to identify where they struggle with data collection, the texture pyramid, or CER reasoning."
+      },
+      {
+        "source": "Reset — Chapter 3",
+        "score": 2,
+        "misleading": false,
+        "rationale": "Identifying bright spots could help redesign this assignment by examining students or groups who produce strong CERs or accurate texture classifications and then building those practices into supports for others."
+      },
+      {
+        "source": "Reset — Chapter 4",
+        "score": 2,
+        "misleading": false,
+        "rationale": "The constraints approach can be applied concretely by identifying the bottleneck in the lab sequence, such as unclear measurements, texture-pyramid use, or connecting data to pore space and capillary action."
+      },
+      {
+        "source": "Reset — Chapter 5",
+        "score": 2,
+        "misleading": false,
+        "rationale": "Mapping the system is useful for redesigning the whole lab-to-CER flow, showing where calculations, evidence selection, drought application, and design critique connect or break down."
+      },
+      {
+        "source": "Rest — Chapter 2",
+        "score": 2,
+        "misleading": false,
+        "rationale": "The 'goal of the goal' idea is clearly useful: it would help refocus the assignment from completing calculations to explaining and predicting how soil texture affects water availability and plant productivity."
+      },
+      {
+        "source": "The Quiet Reinvention of Assessment",
+        "score": 3,
+        "misleading": false,
+        "rationale": "This directly suggests strong assessment redesign options for the CER post-lab, such as an oral defense of the drought prediction, a farmer/resource-manager simulation, process documentation, or staged feedback on reasoning."
+      },
+      {
+        "source": "The Tacit Dimension",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Tacit knowledge is only weakly transferable; it might remind the teacher to help students articulate implicit lab observations, but it does not suggest a clear concrete redesign."
+      }
+    ],
+    "lactase-enzyme-cer": [
+      {
+        "source": "DeeperLearning.4.1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Broadly supports rigorous, student-centered assessment, but the summary gives no concrete enzyme-simulation or CER redesign move beyond general high expectations and critical thinking."
+      },
+      {
+        "source": "DeeperLearning.4.2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Inclusive, student-centered IB practices are generally relevant, but no specific change is identifiable for varying pH/temperature, graphing glucose data, or presenting CER findings."
+      },
+      {
+        "source": "DeeperLearning.6.1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Choice, community, and interdependence could weakly transfer to adding collaboration or audience roles, but the theater focus does not provide a clear concrete redesign for this biology investigation."
+      },
+      {
+        "source": "DeeperLearning.6.2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Apprenticeship and collaboration from theater are only loosely transferable to group lab work or presentations; the summary does not suggest a specific biology/data-analysis change."
+      },
+      {
+        "source": "DeeperLearning.7.1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Cognitive challenge, engagement, and participation are relevant design principles, but the summary is too general to yield a concrete modification to the lactase simulation task."
+      },
+      {
+        "source": "DeeperLearning.7.2",
+        "score": 2,
+        "misleading": false,
+        "rationale": "Directly relevant to a high school science task: inquiry-based learning, student autonomy, and scientific methods could support redesigning the simulation so students make more decisions about controls, variables, trials, and interpretation."
+      },
+      {
+        "source": "DeeperLearning.8.1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Mastery, identity, creativity, and powerful learning environments are broadly relevant, but the system-level focus gives no specific redesign idea for the enzyme investigation."
+      },
+      {
+        "source": "DeeperLearning.8.2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Inquiry-based instruction and equity are relevant in principle, but the summary remains broad and school-level; it does not specify how to change the pH/temperature simulation, CER, graphs, or slides."
+      },
+      {
+        "source": "DeeperLearning.Intro",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The call for engaging, student-centered deeper learning is generally aligned with the assignment, but it offers no concrete redesign beyond broad orientation."
+      },
+      {
+        "source": "How to Turn a Doc into a Super — Powered AI Tutor",
+        "score": 2,
+        "misleading": false,
+        "rationale": "Provides a concrete support idea: turn the simulation directions, CER rubric, and enzyme background into an AI tutor that can coach students on controls, graph interpretation, and evidence-based reasoning without giving answers."
+      },
+      {
+        "source": "Inside the Box — Chapter 1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The Closed World/SIT idea could weakly prompt redesigning within existing simulation constraints, but it is a general creativity framework with no clear enzyme-lab application in the summary."
+      },
+      {
+        "source": "Inside the Box — Chapter 2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Subtraction could weakly inspire removing an assignment component, such as reducing slide requirements or simplifying data collection, but the summary is about product innovation and offers no clear biology-task improvement."
+      },
+      {
+        "source": "Inside the Box — Chapter 3",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Division could weakly inspire separating the task into investigation, graphing, CER, and presentation checkpoints, but the source is only tangentially about product/service innovation."
+      },
+      {
+        "source": "Look Again — 10. Progress",
+        "score": 0,
+        "misleading": false,
+        "rationale": "The discussion of habituation, expectations, and progress has no concrete connection to designing an enzyme simulation, data analysis, CER, or presentation."
+      },
+      {
+        "source": "Look Again — 11. Discrimination",
+        "score": 0,
+        "misleading": false,
+        "rationale": "Awareness of habituated discrimination is important generally, but the summary offers no useful contribution to redesigning this specific biology investigation."
+      },
+      {
+        "source": "Look Again — 3 Social Media",
+        "score": 0,
+        "misleading": false,
+        "rationale": "Social media breaks and well-being do not connect to the lactase simulation, quantitative evidence, enzyme biology, or presentation design."
+      },
+      {
+        "source": "Look Again — 5.Creativity",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The idea that small changes in routine can boost creativity could weakly encourage varying presentation format or asking students to reconsider assumptions, but it does not provide a concrete science-task redesign."
+      },
+      {
+        "source": "Look Again — 6. Lying",
+        "score": 0,
+        "misleading": false,
+        "rationale": "Habituation to lying and dishonesty has no clear connection to redesigning the enzyme simulation assignment, unless one stretches it to academic integrity, which is not central here."
+      },
+      {
+        "source": "Look Again — Introduction",
+        "score": 0,
+        "misleading": false,
+        "rationale": "General habituation and well-being concepts do not offer a concrete way to improve the investigation, data analysis, CER, or slides."
+      },
+      {
+        "source": "Reset — Chapter 1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Useful as a redesign process: observing students while they run the simulation could reveal where they are passive, confused about controls, or weak in graph/CER reasoning, but it does not itself give a specific task change."
+      },
+      {
+        "source": "Reset — Chapter 3",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Identifying bright spots could help the teacher examine strong student graphs or CERs and build supports from them, but this is a general improvement strategy rather than a concrete assignment redesign."
+      },
+      {
+        "source": "Reset — Chapter 4",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Constraint analysis could help find bottlenecks such as too little time for graphing or confusion over constants, but the summary is operational and only indirectly applicable."
+      },
+      {
+        "source": "Reset — Chapter 5",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Mapping the workflow could help locate leverage points across simulation, data recording, graphing, CER, and slides, but the source offers a general change method rather than a biology-specific redesign."
+      },
+      {
+        "source": "Rest — Chapter 2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Clarifying the 'goal of the goal' could help align the slide deck and data collection with the real learning goal—controlled investigation and enzyme reasoning—but it remains a broad alignment principle."
+      },
+      {
+        "source": "The Quiet Reinvention of Assessment",
+        "score": 3,
+        "misleading": false,
+        "rationale": "Directly supplies assessment redesign ideas for this assignment: add oral questioning during/after presentations, require process documentation of variable control and trial decisions, or use continuous checkpoints to assess graphing and CER reasoning more validly."
+      },
+      {
+        "source": "The Tacit Dimension",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Tacit knowledge could weakly remind the teacher to model implicit lab-analysis skills, such as noticing graph patterns or choosing controls, but the philosophical summary gives no concrete redesign."
+      }
+    ],
+    "infinite-monkey-program": [
+      {
+        "source": "DeeperLearning.4.1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "General support for rigorous, student-centered deeper learning could justify keeping probability reasoning and reflection, but it offers no concrete change specific to the Java simulation lab."
+      },
+      {
+        "source": "DeeperLearning.4.2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Inclusive support and high expectations are broadly relevant to a multi-period coding lab, but the summary does not identify a concrete redesign for input validation, loops, randomness, or feasibility reasoning."
+      },
+      {
+        "source": "DeeperLearning.6.1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Choice, community, and interdependence could weakly suggest adding collaboration or student-selected extensions, but the theater focus is only tangential to this programming assignment."
+      },
+      {
+        "source": "DeeperLearning.6.2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Apprenticeship and collaboration could loosely inform pair programming or peer review, but the source gives no specific guidance for redesigning the probability simulation task."
+      },
+      {
+        "source": "DeeperLearning.7.1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The emphasis on cognitive challenge, engagement, and participation fits the lab’s deeper reasoning goals, but it remains general pedagogical framing rather than a concrete assignment modification."
+      },
+      {
+        "source": "DeeperLearning.7.2",
+        "score": 2,
+        "misleading": false,
+        "rationale": "Inquiry-based learning, student autonomy, and scientific methods connect clearly to this lab: students could form hypotheses about expected attempts, run trials with different string lengths/character sets, and analyze outcomes before comparing blind search and hill climbing."
+      },
+      {
+        "source": "DeeperLearning.8.1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The source advocates broad deeper-learning transformation, but the summary is system-level and does not translate into a specific redesign of the Java simulation lab."
+      },
+      {
+        "source": "DeeperLearning.8.2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Inquiry and equity are generally relevant, but the summary is too broad to yield a concrete change to the algorithmic, probability, or assessment components of the assignment."
+      },
+      {
+        "source": "DeeperLearning.Intro",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Student-centered deeper learning is compatible with the assignment’s goals, but the source provides only broad educational framing and no specific redesign idea."
+      },
+      {
+        "source": "How to Turn a Doc into a Super — Powered AI Tutor",
+        "score": 2,
+        "misleading": false,
+        "rationale": "A document-based AI tutor could be concretely applied by turning the lab handout, rubric, and Java examples into a support tool that gives hints on loops, overflow, ASCII ranges, and debugging without simply giving the solution."
+      },
+      {
+        "source": "Inside the Box — Chapter 1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The Closed World idea could weakly encourage students to solve within given Java/data-type constraints rather than importing unrelated tools, but the source is about innovation generally and offers no direct lab redesign."
+      },
+      {
+        "source": "Inside the Box — Chapter 2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Subtraction as a creativity technique is only weakly transferable; one might remove scaffolds or outputs to focus attention, but no clear change follows for this exact coding task."
+      },
+      {
+        "source": "Inside the Box — Chapter 3",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Division could loosely support breaking the program into modules such as validation, random generation, matching, and counter handling, but the source is about product innovation rather than programming pedagogy, so the connection is weak."
+      },
+      {
+        "source": "Look Again — 10. Progress",
+        "score": 0,
+        "misleading": false,
+        "rationale": "The discussion of habituation, expectations, and progress has no clear connection to redesigning a Java probability simulation assignment."
+      },
+      {
+        "source": "Look Again — 11. Discrimination",
+        "score": 0,
+        "misleading": false,
+        "rationale": "The source addresses habituation to discrimination and bias awareness, which does not provide a useful redesign idea for this coding/probability lab."
+      },
+      {
+        "source": "Look Again — 3 Social Media",
+        "score": 0,
+        "misleading": false,
+        "rationale": "Advice about breaks from social media and well-being does not connect to the assignment’s programming, probability, validation, or assessment demands."
+      },
+      {
+        "source": "Look Again — 5.Creativity",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The creativity-through-disruption theme could weakly support asking students to try alternative algorithms or environments, but it does not give a concrete redesign specific to the infinite monkey simulation."
+      },
+      {
+        "source": "Look Again — 6. Lying",
+        "score": 0,
+        "misleading": false,
+        "rationale": "Habituation to lying and moral behavior do not meaningfully inform redesign of this Java simulation lab, aside from very general academic-integrity concerns not present in the assignment."
+      },
+      {
+        "source": "Look Again — Introduction",
+        "score": 0,
+        "misleading": false,
+        "rationale": "The general concept of habituation and noticing overlooked issues has no clear concrete application to the programming assignment redesign."
+      },
+      {
+        "source": "Reset — Chapter 1",
+        "score": 2,
+        "misleading": false,
+        "rationale": "The idea of 'going and seeing the work' can be directly applied by observing students as they attempt the lab to identify real bottlenecks, such as misunderstanding printable ASCII, loop termination, or overflow checks, before redesigning supports."
+      },
+      {
+        "source": "Reset — Chapter 3",
+        "score": 2,
+        "misleading": false,
+        "rationale": "Identifying bright spots could help redesign the lab by examining what successful students do—testing smaller inputs, isolating methods, reasoning about limits—and turning those practices into prompts or exemplars."
+      },
+      {
+        "source": "Reset — Chapter 4",
+        "score": 2,
+        "misleading": false,
+        "rationale": "The constraints lens is useful for this assignment because the lab itself involves computational and data-type constraints; redesign could explicitly surface bottlenecks such as search-space explosion, long overflow, and random-character range errors."
+      },
+      {
+        "source": "Reset — Chapter 5",
+        "score": 2,
+        "misleading": false,
+        "rationale": "Mapping systems can be applied to the student workflow for the lab—input validation, generation, comparison, counting, output, and reflection—to find where scaffolds, checkpoints, or diagnostics are needed."
+      },
+      {
+        "source": "Rest — Chapter 2",
+        "score": 2,
+        "misleading": false,
+        "rationale": "Clarifying the 'goal of the goal' is useful here: the redesign could ensure students are assessed not just on producing a running program, but on understanding probability, infeasibility, loop safety, and data-type limits."
+      },
+      {
+        "source": "The Quiet Reinvention of Assessment",
+        "score": 2,
+        "misleading": false,
+        "rationale": "The assessment ideas are clearly applicable: require process documentation, oral code explanations, incremental checkpoints, or simulation-analysis reflections to better measure students’ algorithmic reasoning and authorship in the coding lab."
+      },
+      {
+        "source": "The Tacit Dimension",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Tacit knowledge is broadly relevant to programming skill, but the summary only weakly suggests possible code walkthroughs or think-alouds and gives no concrete redesign for this assignment."
+      }
+    ],
+    "tic-tac-toe-java": [
+      {
+        "source": "DeeperLearning.4.1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "General discussion of IB rigor, critical thinking, and student-centered instruction, but no concrete connection to redesigning a Java Tic-Tac-Toe programming project beyond broad aspirations."
+      },
+      {
+        "source": "DeeperLearning.4.2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Broad model of inclusive, high-expectation, student-centered schooling; it does not suggest a specific change to the Tic-Tac-Toe methods/arrays/game-loop assignment."
+      },
+      {
+        "source": "DeeperLearning.6.1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Choice, community, and interdependence could weakly inspire collaborative playtesting or student choice in extensions, but the theater focus gives no clear programming-project redesign move."
+      },
+      {
+        "source": "DeeperLearning.6.2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Apprenticeship, collaboration, mastery, and creativity could loosely support pair programming or code critique, but the source is about theater and offers no concrete Tic-Tac-Toe-specific redesign."
+      },
+      {
+        "source": "DeeperLearning.7.1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Emphasis on cognitive challenge, engagement, and participation is generally relevant to teaching, but the summary gives no specific way to alter the Java project requirements, scaffolds, or assessment."
+      },
+      {
+        "source": "DeeperLearning.7.2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Inquiry-based learning and student autonomy could suggest letting students investigate strategies or test cases, but the science-class focus makes the connection to this programming project indirect."
+      },
+      {
+        "source": "DeeperLearning.8.1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "System-level call for mastery, identity, creativity, and powerful learning environments is too broad to yield a concrete redesign of this specific assignment."
+      },
+      {
+        "source": "DeeperLearning.8.2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Inquiry, equity, and community engagement are broadly educational themes, but no concrete application to Tic-Tac-Toe decomposition, arrays, validation, or game-state design is evident."
+      },
+      {
+        "source": "DeeperLearning.Intro",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The deeper-learning framing could generally encourage more student-centered programming work, but it does not provide an actionable redesign idea for the Tic-Tac-Toe project."
+      },
+      {
+        "source": "How to Turn a Doc into a Super — Powered AI Tutor",
+        "score": 2,
+        "misleading": false,
+        "rationale": "Directly useful for redesigning support: the assignment document, starter specs, and rubric could be turned into an AI tutor that answers questions, prompts debugging, and keeps students aligned with required methods without giving away code."
+      },
+      {
+        "source": "Inside the Box — Chapter 1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The closed-world/SIT idea could weakly support asking students to improve the game using only existing Java constructs and required methods, but the source is about innovation generally rather than programming pedagogy."
+      },
+      {
+        "source": "Inside the Box — Chapter 2",
+        "score": 0,
+        "misleading": false,
+        "rationale": "Subtraction as an innovation technique has little clear value for this assignment; removing components from a required programming project would not obviously improve learning about decomposition, arrays, and validation."
+      },
+      {
+        "source": "Inside the Box — Chapter 3",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Division has a partial conceptual connection to decomposition: students could analyze the game as separable responsibilities such as display, validation, winner checking, and game modes. Still, it is an innovation framework rather than a programming-teaching source."
+      },
+      {
+        "source": "Look Again — 10. Progress",
+        "score": 0,
+        "misleading": false,
+        "rationale": "Discussion of habituation, expectations, and progress has no clear connection to redesigning a Java Tic-Tac-Toe assignment."
+      },
+      {
+        "source": "Look Again — 11. Discrimination",
+        "score": 0,
+        "misleading": false,
+        "rationale": "Awareness of habituated discrimination is important generally, but the summary offers no concrete redesign idea for this programming project."
+      },
+      {
+        "source": "Look Again — 3 Social Media",
+        "score": 0,
+        "misleading": false,
+        "rationale": "Social media breaks and well-being do not meaningfully inform the Tic-Tac-Toe programming assignment design."
+      },
+      {
+        "source": "Look Again — 5.Creativity",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The idea that small changes in routine can boost creativity could loosely inspire varying constraints or extensions, but no clear concrete change to the Java project follows from the summary."
+      },
+      {
+        "source": "Look Again — 6. Lying",
+        "score": 0,
+        "misleading": false,
+        "rationale": "Habituation to lying and moral behavior has no useful connection to redesigning the Tic-Tac-Toe programming project, unless one stretched it to academic honesty, which is not part of the assignment summary."
+      },
+      {
+        "source": "Look Again — Introduction",
+        "score": 0,
+        "misleading": false,
+        "rationale": "General concept of habituation and noticing overlooked issues does not provide a concrete way to improve the programming task, scaffolding, or assessment."
+      },
+      {
+        "source": "Reset — Chapter 1",
+        "score": 2,
+        "misleading": false,
+        "rationale": "The practice of observing actual student work could help redesign this project by watching where students get stuck in decomposition, array indexing, or validation before revising scaffolds. It is a useful redesign-process idea, though not specific to Tic-Tac-Toe."
+      },
+      {
+        "source": "Reset — Chapter 3",
+        "score": 2,
+        "misleading": false,
+        "rationale": "Identifying bright spots could guide redesign by examining students who successfully structure methods or debug validation and then turning those practices into exemplars or checkpoints. Useful but indirect."
+      },
+      {
+        "source": "Reset — Chapter 4",
+        "score": 2,
+        "misleading": false,
+        "rationale": "Constraint analysis could help identify the bottleneck in the project—such as winner-checking logic, global state misuse, or unclear method contracts—and redesign supports around it. Useful as a redesign method, not a programming-specific source."
+      },
+      {
+        "source": "Reset — Chapter 5",
+        "score": 2,
+        "misleading": false,
+        "rationale": "Mapping the system could help sequence the multi-period project, identify dependencies among menu, board state, validation, and winner checking, and place checkpoints at leverage points. Useful but still general change-management guidance."
+      },
+      {
+        "source": "Rest — Chapter 2",
+        "score": 2,
+        "misleading": false,
+        "rationale": "Focusing on the 'goal of the goal' could concretely refocus the assignment and rubric on decomposition and reliable state changes rather than merely producing a playable game. Useful for aligning requirements and assessment."
+      },
+      {
+        "source": "The Quiet Reinvention of Assessment",
+        "score": 2,
+        "misleading": false,
+        "rationale": "Very useful for assessment redesign: process documentation, continuous assessment, oral code walkthroughs, or persona-based debugging simulations could better measure whether students understand method decomposition, arrays, validation, and state changes rather than just submitting working code."
+      },
+      {
+        "source": "The Tacit Dimension",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Tacit knowledge could weakly support adding code walkthroughs or reflection so students articulate debugging and design decisions, but the summary is philosophical and not concretely tied to this programming assignment."
+      }
+    ],
+    "algebra-exp-log-test": [
+      {
+        "source": "DeeperLearning.4.1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "It broadly supports rigorous, critical-thinking-oriented assessment, but gives no concrete change for a one-period Algebra II exponential/logarithm test beyond general calls for deeper learning."
+      },
+      {
+        "source": "DeeperLearning.4.2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The inclusive, student-centered IB model is generally relevant to course design, but the summary does not identify a specific redesign move for this closed-book procedural/conceptual test."
+      },
+      {
+        "source": "DeeperLearning.6.1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Choice, community, and interdependence from theater are only tangentially transferable; they do not suggest a clear concrete change for an independent timed math test."
+      },
+      {
+        "source": "DeeperLearning.6.2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Apprenticeship, collaboration, identity, and creativity from theater may inspire broader pedagogy, but they do not map clearly onto redesigning this particular Algebra II test."
+      },
+      {
+        "source": "DeeperLearning.7.1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Cognitive challenge, engagement, and participation are relevant general teaching aims, but the summary lacks a concrete assessment redesign for inverse, exponential, and logarithmic functions."
+      },
+      {
+        "source": "DeeperLearning.7.2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Inquiry-based learning and autonomy in math/science could weakly inspire adding more nonroutine modeling or explanation items, but the summary is about instruction rather than a timed closed-book assessment."
+      },
+      {
+        "source": "DeeperLearning.8.1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "It advocates systemwide deeper learning through mastery, identity, and creativity, but offers no specific adjustment to the format or item design of this Algebra II test."
+      },
+      {
+        "source": "DeeperLearning.8.2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The focus on inquiry, equity, and community engagement is educationally relevant but too broad to yield a concrete redesign of this specific independent test."
+      },
+      {
+        "source": "DeeperLearning.Intro",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The general shift from traditional methods to deeper, student-centered learning is only weakly transferable; no specific change to the exponential/logarithmic assessment follows from the summary."
+      },
+      {
+        "source": "How to Turn a Doc into a Super — Powered AI Tutor",
+        "score": 1,
+        "misleading": false,
+        "rationale": "An AI tutor built from official materials could support practice or review for this unit, but it does not directly redesign the closed-book test itself."
+      },
+      {
+        "source": "Inside the Box — Chapter 1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The Closed World idea could weakly help a designer rethink the test within existing constraints, but the source is about product innovation and gives no math-assessment-specific move."
+      },
+      {
+        "source": "Inside the Box — Chapter 2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The Subtraction technique is a general innovation method; although one might remove or simplify parts of an assessment, the summary provides no clear redesign for this exact test."
+      },
+      {
+        "source": "Inside the Box — Chapter 3",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Division could weakly suggest breaking the test into sections or reordering components, but the summary is product-design oriented and not clearly tied to Algebra II assessment."
+      },
+      {
+        "source": "Look Again — 10. Progress",
+        "score": 0,
+        "misleading": false,
+        "rationale": "The discussion of expectations, habituation, and progress has no concrete connection to redesigning an exponential/logarithmic functions test."
+      },
+      {
+        "source": "Look Again — 11. Discrimination",
+        "score": 0,
+        "misleading": false,
+        "rationale": "Awareness of habituated discrimination is important generally, but the summary gives no identifiable application to the content, format, or scoring of this math test."
+      },
+      {
+        "source": "Look Again — 3 Social Media",
+        "score": 0,
+        "misleading": false,
+        "rationale": "Social media breaks and well-being have no useful connection to redesigning this closed-book Algebra II assessment."
+      },
+      {
+        "source": "Look Again — 5.Creativity",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The idea that small routine changes can boost creativity is only weakly transferable; it does not supply a concrete change to the test’s exponential/logarithmic tasks."
+      },
+      {
+        "source": "Look Again — 6. Lying",
+        "score": 0,
+        "misleading": false,
+        "rationale": "Habituation to lying might relate very broadly to academic honesty, but it does not offer a useful redesign idea for the assessment itself."
+      },
+      {
+        "source": "Look Again — Introduction",
+        "score": 0,
+        "misleading": false,
+        "rationale": "The general concept of overcoming habituation to notice overlooked issues is too broad to guide a concrete redesign of this math test."
+      },
+      {
+        "source": "Reset — Chapter 1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Going and seeing the work could help a teacher observe how students actually experience the test or analyze their work, but it is a general improvement process rather than a concrete item or format redesign."
+      },
+      {
+        "source": "Reset — Chapter 3",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Identifying bright spots could inform analysis of successful student solution strategies, but the summary gives only a general organizational method, not a direct test redesign."
+      },
+      {
+        "source": "Reset — Chapter 4",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The constraints idea could help examine limits such as timing, no-calculator rules, or graphing demands, but the source is about operational improvement and offers no assessment-specific redesign."
+      },
+      {
+        "source": "Reset — Chapter 5",
+        "score": 1,
+        "misleading": false,
+        "rationale": "System mapping could help situate the test within instruction, practice, and feedback, but the connection is procedural and indirect rather than a concrete change to the assignment."
+      },
+      {
+        "source": "Rest — Chapter 2",
+        "score": 2,
+        "misleading": false,
+        "rationale": "Clarifying the 'goal of the goal' is clearly applicable: it could prompt aligning the test with procedural fluency and conceptual understanding rather than merely exact-answer production."
+      },
+      {
+        "source": "The Quiet Reinvention of Assessment",
+        "score": 3,
+        "misleading": false,
+        "rationale": "It directly supplies concrete assessment redesign options—oral examinations, process documentation, simulations, and continuous assessment—that could be adapted to evaluate students’ reasoning with exponentials and logarithms more validly."
+      },
+      {
+        "source": "The Tacit Dimension",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Tacit knowledge is broadly relevant to understanding mathematical skill, but the summary does not specify a concrete way to redesign this test beyond a vague reminder that not all understanding is easily articulated."
+      }
+    ],
+    "algebra-trig-quiz": [
+      {
+        "source": "DeeperLearning.4.1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "General discussion of IB deeper learning and rigorous assessments, but it does not give a concrete change for a short Algebra II procedural trigonometry graphing/solving quiz."
+      },
+      {
+        "source": "DeeperLearning.4.2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Student-centered IB culture is broadly educational, but no specific redesign idea follows for assessing amplitude, period, midline, graphs, or trig-equation solutions on a timed quiz."
+      },
+      {
+        "source": "DeeperLearning.6.1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Theater-based choice, community, and interdependence are tangential to an individual procedural math quiz; there is no clear concrete quiz redesign."
+      },
+      {
+        "source": "DeeperLearning.6.2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Apprenticeship and collaboration in theater offer only a weakly transferable learning model and do not directly suggest how to redesign this independent trig-skills quiz."
+      },
+      {
+        "source": "DeeperLearning.7.1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Its focus on cognitive challenge, engagement, and participation in core classes is generally relevant, but the summary gives no concrete assessment move for this specific trigonometry quiz."
+      },
+      {
+        "source": "DeeperLearning.7.2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Inquiry-based learning and student autonomy could inspire broader trig investigations, but the connection to a short independent procedural quiz is indirect and not concrete."
+      },
+      {
+        "source": "DeeperLearning.8.1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "System-level deeper learning transformation is too broad for redesigning one timed Algebra II quiz; it offers no specific change to the graphing or solving tasks."
+      },
+      {
+        "source": "DeeperLearning.8.2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Equity, inquiry, and community engagement are broad school-design ideas; the summary does not identify a concrete revision for this procedural assessment."
+      },
+      {
+        "source": "DeeperLearning.Intro",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The deeper-learning overview is generally educational but does not translate into a clear redesign of a short quiz on sinusoidal transformations and trig equations."
+      },
+      {
+        "source": "How to Turn a Doc into a Super — Powered AI Tutor",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Creating an AI tutor from official materials could support practice or remediation for these trig skills, but it is more about tutoring than redesigning the quiz itself."
+      },
+      {
+        "source": "Inside the Box — Chapter 1",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The closed-world innovation idea could loosely help rethink the quiz within existing constraints, but it gives no math- or assessment-specific redesign."
+      },
+      {
+        "source": "Inside the Box — Chapter 2",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The subtraction technique might loosely suggest removing a quiz component or scaffold, but the product-innovation examples do not clearly apply to this trig assessment."
+      },
+      {
+        "source": "Inside the Box — Chapter 3",
+        "score": 1,
+        "misleading": false,
+        "rationale": "The division technique could weakly suggest splitting graphing and equation-solving components, but the source is not assessment-focused and offers no targeted trig-quiz idea."
+      },
+      {
+        "source": "Look Again — 10. Progress",
+        "score": 0,
+        "misleading": false,
+        "rationale": "Habituation, expectations, and progress do not provide a useful concrete contribution to redesigning a timed Algebra II trigonometry quiz."
+      },
+      {
+        "source": "Look Again — 11. Discrimination",
+        "score": 0,
+        "misleading": false,
+        "rationale": "Awareness of discrimination is important generally, but the summary does not connect to the procedural content, scoring, or format of this trig quiz."
+      },
+      {
+        "source": "Look Again — 3 Social Media",
+        "score": 0,
+        "misleading": false,
+        "rationale": "Advice about social media breaks and well-being has no clear application to redesigning the graphing and solving tasks in this quiz."
+      },
+      {
+        "source": "Look Again — 5.Creativity",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Ideas about overcoming habituation to boost creativity are only weakly transferable; they do not yield a clear procedural trig-quiz redesign."
+      },
+      {
+        "source": "Look Again — 6. Lying",
+        "score": 0,
+        "misleading": false,
+        "rationale": "Habituation to lying may relate broadly to honesty, but it does not help redesign the quiz’s trigonometric graphing or equation-solving assessment tasks."
+      },
+      {
+        "source": "Look Again — Introduction",
+        "score": 0,
+        "misleading": false,
+        "rationale": "The general concept of habituation and noticing overlooked issues does not supply a concrete change for this Algebra II quiz."
+      },
+      {
+        "source": "Reset — Chapter 1",
+        "score": 2,
+        "misleading": false,
+        "rationale": "“Go and see the work” gives a usable redesign process: observe students taking or reviewing the quiz to find where timing, graphing, or equation-solving breaks down before revising it."
+      },
+      {
+        "source": "Reset — Chapter 3",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Identifying bright spots could help analyze which students or item formats work well on this quiz, but it is a general improvement method rather than a concrete trig-assessment redesign."
+      },
+      {
+        "source": "Reset — Chapter 4",
+        "score": 2,
+        "misleading": false,
+        "rationale": "The constraints idea applies concretely to a short timed quiz: identify whether time, graph setup, unit-circle recall, or notation is the bottleneck and redesign around that constraint."
+      },
+      {
+        "source": "Reset — Chapter 5",
+        "score": 1,
+        "misleading": false,
+        "rationale": "System mapping could help examine prerequisites and where the quiz fits in instruction, but it gives only a general process, not a specific redesign for these trig tasks."
+      },
+      {
+        "source": "Rest — Chapter 2",
+        "score": 2,
+        "misleading": false,
+        "rationale": "Clarifying the “goal of the goal” is useful here: it can guide whether the quiz should measure procedural accuracy, speed, conceptual reasoning, or transfer, and adjust timing/item format accordingly."
+      },
+      {
+        "source": "The Quiet Reinvention of Assessment",
+        "score": 2,
+        "misleading": false,
+        "rationale": "This is directly about assessment redesign and offers identifiable alternatives—oral checks, process documentation, simulations, or continuous assessment—that could be adapted to graphing sinusoidal functions and solving trig equations."
+      },
+      {
+        "source": "The Tacit Dimension",
+        "score": 1,
+        "misleading": false,
+        "rationale": "Tacit knowledge is broadly relevant to skill learning, but the summary does not indicate a concrete way to revise this timed trigonometry quiz."
+      }
+    ]
+  }
+}

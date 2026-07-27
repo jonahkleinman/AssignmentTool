@@ -50,6 +50,16 @@ function booleanArgument(name: string, fallback: boolean): boolean {
   throw new Error(`--${name} must be true or false.`);
 }
 
+function selectIntakes<T extends { id: string }>(intakes: T[]): T[] {
+  const raw = argument("intakes");
+  if (!raw) return intakes;
+  const requested = new Set(raw.split(",").map((value) => value.trim()).filter(Boolean));
+  const selected = intakes.filter((intake) => requested.delete(intake.id));
+  if (requested.size) throw new Error(`Unknown intake ids: ${[...requested].join(", ")}.`);
+  if (!selected.length) throw new Error("--intakes did not select any intakes.");
+  return selected;
+}
+
 function isQueryVariant(value: string): value is QueryVariant {
   return value === "structured" || value === "markdown-reparse";
 }
@@ -162,12 +172,13 @@ async function main(): Promise<void> {
   if (!process.env.OPENAI_API_KEY) throw new Error("OPENAI_API_KEY is not set.");
   const index = loadKnowledgeIndex();
   if (!index) throw new Error("knowledge/index.json is missing or invalid.");
-  const intakes = parseIntakes(JSON.parse(readFileSync(INTAKES_PATH, "utf8")));
+  const allIntakes = parseIntakes(JSON.parse(readFileSync(INTAKES_PATH, "utf8")));
+  const intakes = selectIntakes(allIntakes);
   const sources = parseSourceCatalog(JSON.parse(readFileSync(SOURCES_PATH, "utf8")));
   const labelsPath = resolve(ROOT, argument("labels") ?? DEFAULT_LABELS_PATH);
   if (!existsSync(labelsPath)) throw new Error(`Labels file not found: ${labelsPath}`);
   const parsedLabels = parseLabelsFile(JSON.parse(readFileSync(labelsPath, "utf8")));
-  const labels = reconcileLabels(parsedLabels, parsedLabels.labeler, index.builtAt, intakes, sources);
+  const labels = reconcileLabels(parsedLabels, parsedLabels.labeler, index.builtAt, allIntakes, sources);
   if (parsedLabels.corpusBuiltAt !== index.builtAt) {
     console.warn(
       `Warning: labels were made against ${parsedLabels.corpusBuiltAt}; index is ${index.builtAt}.`,

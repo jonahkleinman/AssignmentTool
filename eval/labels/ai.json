@@ -1,0 +1,1067 @@
+{
+  "labeler": "ai",
+  "labeledAt": "2026-07-27T23:37:00.284Z",
+  "corpusBuiltAt": "2026-06-22T23:30:24.574Z",
+  "labels": {
+    "austen-friendship": {
+      "DeeperLearning.4.1": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.4.2": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.6.1": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.6.2": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.7.1": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.7.2": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.8.1": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.8.2": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.Intro": {
+        "score": 1,
+        "misleading": false
+      },
+      "How to Turn a Doc into a Super — Powered AI Tutor": {
+        "score": 2,
+        "misleading": false
+      },
+      "Inside the Box — Chapter 1": {
+        "score": 2,
+        "misleading": false
+      },
+      "Inside the Box — Chapter 2": {
+        "score": 1,
+        "misleading": false
+      },
+      "Inside the Box — Chapter 3": {
+        "score": 1,
+        "misleading": false
+      },
+      "Look Again — 10. Progress": {
+        "score": 0,
+        "misleading": false
+      },
+      "Look Again — 11. Discrimination": {
+        "score": 0,
+        "misleading": false
+      },
+      "Look Again — 3 Social Media": {
+        "score": 0,
+        "misleading": false
+      },
+      "Look Again — 5.Creativity": {
+        "score": 1,
+        "misleading": false
+      },
+      "Look Again — 6. Lying": {
+        "score": 0,
+        "misleading": false
+      },
+      "Look Again — Introduction": {
+        "score": 1,
+        "misleading": false
+      },
+      "Reset — Chapter 1": {
+        "score": 2,
+        "misleading": false
+      },
+      "Reset — Chapter 3": {
+        "score": 2,
+        "misleading": false
+      },
+      "Reset — Chapter 4": {
+        "score": 2,
+        "misleading": false
+      },
+      "Reset — Chapter 5": {
+        "score": 2,
+        "misleading": false
+      },
+      "Rest — Chapter 2": {
+        "score": 2,
+        "misleading": false
+      },
+      "The Quiet Reinvention of Assessment": {
+        "score": 2,
+        "misleading": false
+      },
+      "The Tacit Dimension": {
+        "score": 1,
+        "misleading": false
+      }
+    },
+    "austen-letters-form": {
+      "DeeperLearning.4.1": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.4.2": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.6.1": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.6.2": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.7.1": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.7.2": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.8.1": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.8.2": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.Intro": {
+        "score": 1,
+        "misleading": false
+      },
+      "How to Turn a Doc into a Super — Powered AI Tutor": {
+        "score": 2,
+        "misleading": false
+      },
+      "Inside the Box — Chapter 1": {
+        "score": 1,
+        "misleading": false
+      },
+      "Inside the Box — Chapter 2": {
+        "score": 1,
+        "misleading": false
+      },
+      "Inside the Box — Chapter 3": {
+        "score": 1,
+        "misleading": false
+      },
+      "Look Again — 10. Progress": {
+        "score": 0,
+        "misleading": false
+      },
+      "Look Again — 11. Discrimination": {
+        "score": 0,
+        "misleading": false
+      },
+      "Look Again — 3 Social Media": {
+        "score": 0,
+        "misleading": false
+      },
+      "Look Again — 5.Creativity": {
+        "score": 1,
+        "misleading": false
+      },
+      "Look Again — 6. Lying": {
+        "score": 0,
+        "misleading": false
+      },
+      "Look Again — Introduction": {
+        "score": 1,
+        "misleading": false
+      },
+      "Reset — Chapter 1": {
+        "score": 1,
+        "misleading": false
+      },
+      "Reset — Chapter 3": {
+        "score": 1,
+        "misleading": false
+      },
+      "Reset — Chapter 4": {
+        "score": 1,
+        "misleading": false
+      },
+      "Reset — Chapter 5": {
+        "score": 1,
+        "misleading": false
+      },
+      "Rest — Chapter 2": {
+        "score": 2,
+        "misleading": false
+      },
+      "The Quiet Reinvention of Assessment": {
+        "score": 2,
+        "misleading": false
+      },
+      "The Tacit Dimension": {
+        "score": 1,
+        "misleading": false
+      }
+    },
+    "austen-irony-perspective": {
+      "DeeperLearning.4.1": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.4.2": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.6.1": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.6.2": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.7.1": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.7.2": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.8.1": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.8.2": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.Intro": {
+        "score": 1,
+        "misleading": false
+      },
+      "How to Turn a Doc into a Super — Powered AI Tutor": {
+        "score": 2,
+        "misleading": false
+      },
+      "Inside the Box — Chapter 1": {
+        "score": 1,
+        "misleading": false
+      },
+      "Inside the Box — Chapter 2": {
+        "score": 1,
+        "misleading": false
+      },
+      "Inside the Box — Chapter 3": {
+        "score": 1,
+        "misleading": false
+      },
+      "Look Again — 10. Progress": {
+        "score": 1,
+        "misleading": false
+      },
+      "Look Again — 11. Discrimination": {
+        "score": 1,
+        "misleading": false
+      },
+      "Look Again — 3 Social Media": {
+        "score": 0,
+        "misleading": false
+      },
+      "Look Again — 5.Creativity": {
+        "score": 1,
+        "misleading": false
+      },
+      "Look Again — 6. Lying": {
+        "score": 0,
+        "misleading": false
+      },
+      "Look Again — Introduction": {
+        "score": 1,
+        "misleading": false
+      },
+      "Reset — Chapter 1": {
+        "score": 1,
+        "misleading": false
+      },
+      "Reset — Chapter 3": {
+        "score": 1,
+        "misleading": false
+      },
+      "Reset — Chapter 4": {
+        "score": 1,
+        "misleading": false
+      },
+      "Reset — Chapter 5": {
+        "score": 1,
+        "misleading": false
+      },
+      "Rest — Chapter 2": {
+        "score": 1,
+        "misleading": false
+      },
+      "The Quiet Reinvention of Assessment": {
+        "score": 2,
+        "misleading": false
+      },
+      "The Tacit Dimension": {
+        "score": 0,
+        "misleading": false
+      }
+    },
+    "neuroscience-ethics-case": {
+      "DeeperLearning.4.1": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.4.2": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.6.1": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.6.2": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.7.1": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.7.2": {
+        "score": 2,
+        "misleading": false
+      },
+      "DeeperLearning.8.1": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.8.2": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.Intro": {
+        "score": 1,
+        "misleading": false
+      },
+      "How to Turn a Doc into a Super — Powered AI Tutor": {
+        "score": 2,
+        "misleading": false
+      },
+      "Inside the Box — Chapter 1": {
+        "score": 1,
+        "misleading": false
+      },
+      "Inside the Box — Chapter 2": {
+        "score": 1,
+        "misleading": false
+      },
+      "Inside the Box — Chapter 3": {
+        "score": 1,
+        "misleading": false
+      },
+      "Look Again — 10. Progress": {
+        "score": 1,
+        "misleading": false
+      },
+      "Look Again — 11. Discrimination": {
+        "score": 2,
+        "misleading": false
+      },
+      "Look Again — 3 Social Media": {
+        "score": 0,
+        "misleading": false
+      },
+      "Look Again — 5.Creativity": {
+        "score": 1,
+        "misleading": false
+      },
+      "Look Again — 6. Lying": {
+        "score": 2,
+        "misleading": false
+      },
+      "Look Again — Introduction": {
+        "score": 1,
+        "misleading": false
+      },
+      "Reset — Chapter 1": {
+        "score": 1,
+        "misleading": false
+      },
+      "Reset — Chapter 3": {
+        "score": 1,
+        "misleading": false
+      },
+      "Reset — Chapter 4": {
+        "score": 2,
+        "misleading": false
+      },
+      "Reset — Chapter 5": {
+        "score": 2,
+        "misleading": false
+      },
+      "Rest — Chapter 2": {
+        "score": 1,
+        "misleading": false
+      },
+      "The Quiet Reinvention of Assessment": {
+        "score": 3,
+        "misleading": false
+      },
+      "The Tacit Dimension": {
+        "score": 0,
+        "misleading": false
+      }
+    },
+    "soil-texture-cer": {
+      "DeeperLearning.4.1": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.4.2": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.6.1": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.6.2": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.7.1": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.7.2": {
+        "score": 2,
+        "misleading": false
+      },
+      "DeeperLearning.8.1": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.8.2": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.Intro": {
+        "score": 1,
+        "misleading": false
+      },
+      "How to Turn a Doc into a Super — Powered AI Tutor": {
+        "score": 2,
+        "misleading": false
+      },
+      "Inside the Box — Chapter 1": {
+        "score": 1,
+        "misleading": false
+      },
+      "Inside the Box — Chapter 2": {
+        "score": 1,
+        "misleading": false
+      },
+      "Inside the Box — Chapter 3": {
+        "score": 1,
+        "misleading": false
+      },
+      "Look Again — 10. Progress": {
+        "score": 0,
+        "misleading": false
+      },
+      "Look Again — 11. Discrimination": {
+        "score": 0,
+        "misleading": false
+      },
+      "Look Again — 3 Social Media": {
+        "score": 0,
+        "misleading": false
+      },
+      "Look Again — 5.Creativity": {
+        "score": 1,
+        "misleading": false
+      },
+      "Look Again — 6. Lying": {
+        "score": 0,
+        "misleading": false
+      },
+      "Look Again — Introduction": {
+        "score": 0,
+        "misleading": false
+      },
+      "Reset — Chapter 1": {
+        "score": 2,
+        "misleading": false
+      },
+      "Reset — Chapter 3": {
+        "score": 2,
+        "misleading": false
+      },
+      "Reset — Chapter 4": {
+        "score": 2,
+        "misleading": false
+      },
+      "Reset — Chapter 5": {
+        "score": 2,
+        "misleading": false
+      },
+      "Rest — Chapter 2": {
+        "score": 2,
+        "misleading": false
+      },
+      "The Quiet Reinvention of Assessment": {
+        "score": 3,
+        "misleading": false
+      },
+      "The Tacit Dimension": {
+        "score": 1,
+        "misleading": false
+      }
+    },
+    "lactase-enzyme-cer": {
+      "DeeperLearning.4.1": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.4.2": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.6.1": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.6.2": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.7.1": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.7.2": {
+        "score": 2,
+        "misleading": false
+      },
+      "DeeperLearning.8.1": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.8.2": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.Intro": {
+        "score": 1,
+        "misleading": false
+      },
+      "How to Turn a Doc into a Super — Powered AI Tutor": {
+        "score": 2,
+        "misleading": false
+      },
+      "Inside the Box — Chapter 1": {
+        "score": 1,
+        "misleading": false
+      },
+      "Inside the Box — Chapter 2": {
+        "score": 1,
+        "misleading": false
+      },
+      "Inside the Box — Chapter 3": {
+        "score": 1,
+        "misleading": false
+      },
+      "Look Again — 10. Progress": {
+        "score": 0,
+        "misleading": false
+      },
+      "Look Again — 11. Discrimination": {
+        "score": 0,
+        "misleading": false
+      },
+      "Look Again — 3 Social Media": {
+        "score": 0,
+        "misleading": false
+      },
+      "Look Again — 5.Creativity": {
+        "score": 1,
+        "misleading": false
+      },
+      "Look Again — 6. Lying": {
+        "score": 0,
+        "misleading": false
+      },
+      "Look Again — Introduction": {
+        "score": 0,
+        "misleading": false
+      },
+      "Reset — Chapter 1": {
+        "score": 1,
+        "misleading": false
+      },
+      "Reset — Chapter 3": {
+        "score": 1,
+        "misleading": false
+      },
+      "Reset — Chapter 4": {
+        "score": 1,
+        "misleading": false
+      },
+      "Reset — Chapter 5": {
+        "score": 1,
+        "misleading": false
+      },
+      "Rest — Chapter 2": {
+        "score": 1,
+        "misleading": false
+      },
+      "The Quiet Reinvention of Assessment": {
+        "score": 3,
+        "misleading": false
+      },
+      "The Tacit Dimension": {
+        "score": 1,
+        "misleading": false
+      }
+    },
+    "infinite-monkey-program": {
+      "DeeperLearning.4.1": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.4.2": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.6.1": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.6.2": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.7.1": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.7.2": {
+        "score": 2,
+        "misleading": false
+      },
+      "DeeperLearning.8.1": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.8.2": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.Intro": {
+        "score": 1,
+        "misleading": false
+      },
+      "How to Turn a Doc into a Super — Powered AI Tutor": {
+        "score": 2,
+        "misleading": false
+      },
+      "Inside the Box — Chapter 1": {
+        "score": 1,
+        "misleading": false
+      },
+      "Inside the Box — Chapter 2": {
+        "score": 1,
+        "misleading": false
+      },
+      "Inside the Box — Chapter 3": {
+        "score": 1,
+        "misleading": false
+      },
+      "Look Again — 10. Progress": {
+        "score": 0,
+        "misleading": false
+      },
+      "Look Again — 11. Discrimination": {
+        "score": 0,
+        "misleading": false
+      },
+      "Look Again — 3 Social Media": {
+        "score": 0,
+        "misleading": false
+      },
+      "Look Again — 5.Creativity": {
+        "score": 1,
+        "misleading": false
+      },
+      "Look Again — 6. Lying": {
+        "score": 0,
+        "misleading": false
+      },
+      "Look Again — Introduction": {
+        "score": 0,
+        "misleading": false
+      },
+      "Reset — Chapter 1": {
+        "score": 2,
+        "misleading": false
+      },
+      "Reset — Chapter 3": {
+        "score": 2,
+        "misleading": false
+      },
+      "Reset — Chapter 4": {
+        "score": 2,
+        "misleading": false
+      },
+      "Reset — Chapter 5": {
+        "score": 2,
+        "misleading": false
+      },
+      "Rest — Chapter 2": {
+        "score": 2,
+        "misleading": false
+      },
+      "The Quiet Reinvention of Assessment": {
+        "score": 2,
+        "misleading": false
+      },
+      "The Tacit Dimension": {
+        "score": 1,
+        "misleading": false
+      }
+    },
+    "tic-tac-toe-java": {
+      "DeeperLearning.4.1": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.4.2": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.6.1": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.6.2": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.7.1": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.7.2": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.8.1": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.8.2": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.Intro": {
+        "score": 1,
+        "misleading": false
+      },
+      "How to Turn a Doc into a Super — Powered AI Tutor": {
+        "score": 2,
+        "misleading": false
+      },
+      "Inside the Box — Chapter 1": {
+        "score": 1,
+        "misleading": false
+      },
+      "Inside the Box — Chapter 2": {
+        "score": 0,
+        "misleading": false
+      },
+      "Inside the Box — Chapter 3": {
+        "score": 1,
+        "misleading": false
+      },
+      "Look Again — 10. Progress": {
+        "score": 0,
+        "misleading": false
+      },
+      "Look Again — 11. Discrimination": {
+        "score": 0,
+        "misleading": false
+      },
+      "Look Again — 3 Social Media": {
+        "score": 0,
+        "misleading": false
+      },
+      "Look Again — 5.Creativity": {
+        "score": 1,
+        "misleading": false
+      },
+      "Look Again — 6. Lying": {
+        "score": 0,
+        "misleading": false
+      },
+      "Look Again — Introduction": {
+        "score": 0,
+        "misleading": false
+      },
+      "Reset — Chapter 1": {
+        "score": 2,
+        "misleading": false
+      },
+      "Reset — Chapter 3": {
+        "score": 2,
+        "misleading": false
+      },
+      "Reset — Chapter 4": {
+        "score": 2,
+        "misleading": false
+      },
+      "Reset — Chapter 5": {
+        "score": 2,
+        "misleading": false
+      },
+      "Rest — Chapter 2": {
+        "score": 2,
+        "misleading": false
+      },
+      "The Quiet Reinvention of Assessment": {
+        "score": 2,
+        "misleading": false
+      },
+      "The Tacit Dimension": {
+        "score": 1,
+        "misleading": false
+      }
+    },
+    "algebra-exp-log-test": {
+      "DeeperLearning.4.1": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.4.2": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.6.1": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.6.2": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.7.1": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.7.2": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.8.1": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.8.2": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.Intro": {
+        "score": 1,
+        "misleading": false
+      },
+      "How to Turn a Doc into a Super — Powered AI Tutor": {
+        "score": 1,
+        "misleading": false
+      },
+      "Inside the Box — Chapter 1": {
+        "score": 1,
+        "misleading": false
+      },
+      "Inside the Box — Chapter 2": {
+        "score": 1,
+        "misleading": false
+      },
+      "Inside the Box — Chapter 3": {
+        "score": 1,
+        "misleading": false
+      },
+      "Look Again — 10. Progress": {
+        "score": 0,
+        "misleading": false
+      },
+      "Look Again — 11. Discrimination": {
+        "score": 0,
+        "misleading": false
+      },
+      "Look Again — 3 Social Media": {
+        "score": 0,
+        "misleading": false
+      },
+      "Look Again — 5.Creativity": {
+        "score": 1,
+        "misleading": false
+      },
+      "Look Again — 6. Lying": {
+        "score": 0,
+        "misleading": false
+      },
+      "Look Again — Introduction": {
+        "score": 0,
+        "misleading": false
+      },
+      "Reset — Chapter 1": {
+        "score": 1,
+        "misleading": false
+      },
+      "Reset — Chapter 3": {
+        "score": 1,
+        "misleading": false
+      },
+      "Reset — Chapter 4": {
+        "score": 1,
+        "misleading": false
+      },
+      "Reset — Chapter 5": {
+        "score": 1,
+        "misleading": false
+      },
+      "Rest — Chapter 2": {
+        "score": 2,
+        "misleading": false
+      },
+      "The Quiet Reinvention of Assessment": {
+        "score": 3,
+        "misleading": false
+      },
+      "The Tacit Dimension": {
+        "score": 1,
+        "misleading": false
+      }
+    },
+    "algebra-trig-quiz": {
+      "DeeperLearning.4.1": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.4.2": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.6.1": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.6.2": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.7.1": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.7.2": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.8.1": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.8.2": {
+        "score": 1,
+        "misleading": false
+      },
+      "DeeperLearning.Intro": {
+        "score": 1,
+        "misleading": false
+      },
+      "How to Turn a Doc into a Super — Powered AI Tutor": {
+        "score": 1,
+        "misleading": false
+      },
+      "Inside the Box — Chapter 1": {
+        "score": 1,
+        "misleading": false
+      },
+      "Inside the Box — Chapter 2": {
+        "score": 1,
+        "misleading": false
+      },
+      "Inside the Box — Chapter 3": {
+        "score": 1,
+        "misleading": false
+      },
+      "Look Again — 10. Progress": {
+        "score": 0,
+        "misleading": false
+      },
+      "Look Again — 11. Discrimination": {
+        "score": 0,
+        "misleading": false
+      },
+      "Look Again — 3 Social Media": {
+        "score": 0,
+        "misleading": false
+      },
+      "Look Again — 5.Creativity": {
+        "score": 1,
+        "misleading": false
+      },
+      "Look Again — 6. Lying": {
+        "score": 0,
+        "misleading": false
+      },
+      "Look Again — Introduction": {
+        "score": 0,
+        "misleading": false
+      },
+      "Reset — Chapter 1": {
+        "score": 2,
+        "misleading": false
+      },
+      "Reset — Chapter 3": {
+        "score": 1,
+        "misleading": false
+      },
+      "Reset — Chapter 4": {
+        "score": 2,
+        "misleading": false
+      },
+      "Reset — Chapter 5": {
+        "score": 1,
+        "misleading": false
+      },
+      "Rest — Chapter 2": {
+        "score": 2,
+        "misleading": false
+      },
+      "The Quiet Reinvention of Assessment": {
+        "score": 2,
+        "misleading": false
+      },
+      "The Tacit Dimension": {
+        "score": 1,
+        "misleading": false
+      }
+    }
+  }
+}

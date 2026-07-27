@@ -12,6 +12,8 @@
     "lint": "eslint",
     "build:knowledge": "tsx scripts/build-knowledge.ts",
     "build:source-catalog": "tsx scripts/build-source-catalog.ts",
+    "eval:ai-labels": "tsx scripts/ai-label-eval.ts",
+    "eval:export-labels": "tsx scripts/export-eval-labels.ts",
     "eval:retrieval": "tsx scripts/eval-retrieval.ts",
     "eval:agreement": "tsx scripts/eval-agreement.ts"
   },

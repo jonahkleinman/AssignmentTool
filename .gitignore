@@ -46,3 +46,8 @@ next-env.d.ts
 # knowledge base — copyrighted source material + local build artifacts stay off git
 /knowledge/source/
 /.cache/
+
+# exported human eval labels stay local; the synthetic and AI baselines are reproducible artifacts
+/eval/labels/*.json
+!/eval/labels/toy.json
+!/eval/labels/ai.json

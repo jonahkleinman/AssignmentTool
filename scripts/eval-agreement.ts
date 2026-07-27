@@ -25,6 +25,16 @@ function percent(value: number): string {
   return `${(value * 100).toFixed(1)}%`;
 }
 
+function selectIntakes<T extends { id: string }>(intakes: T[]): T[] {
+  const raw = argument("intakes");
+  if (!raw) return intakes;
+  const requested = new Set(raw.split(",").map((value) => value.trim()).filter(Boolean));
+  const selected = intakes.filter((intake) => requested.delete(intake.id));
+  if (requested.size) throw new Error(`Unknown intake ids: ${[...requested].join(", ")}.`);
+  if (!selected.length) throw new Error("--intakes did not select any intakes.");
+  return selected;
+}
+
 function main(): void {
   const firstPath = argument("a");
   const secondPath = argument("b");
@@ -33,9 +43,10 @@ function main(): void {
   }
   const index = loadKnowledgeIndex();
   if (!index) throw new Error("knowledge/index.json is missing or invalid.");
-  const intakes = parseIntakes(
+  const allIntakes = parseIntakes(
     JSON.parse(readFileSync(join(ROOT, "eval", "intakes.json"), "utf8")),
   );
+  const intakes = selectIntakes(allIntakes);
   const sources = parseSourceCatalog(
     JSON.parse(readFileSync(join(ROOT, "eval", "sources.json"), "utf8")),
   );
@@ -49,8 +60,8 @@ function main(): void {
     (intake) => intake.id in firstRaw.labels && intake.id in secondRaw.labels,
   );
   if (overlap.length === 0) throw new Error("The label files have no overlapping intakes.");
-  const first = reconcileLabels(firstRaw, firstRaw.labeler, index.builtAt, intakes, sources);
-  const second = reconcileLabels(secondRaw, secondRaw.labeler, index.builtAt, intakes, sources);
+  const first = reconcileLabels(firstRaw, firstRaw.labeler, index.builtAt, allIntakes, sources);
+  const second = reconcileLabels(secondRaw, secondRaw.labeler, index.builtAt, allIntakes, sources);
   for (const file of [firstRaw, secondRaw]) {
     if (file.corpusBuiltAt !== index.builtAt) {
       console.warn(
