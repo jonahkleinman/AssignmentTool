@@ -1,6 +1,6 @@
 # Retrieval evaluation data
 
-- `intakes.json` contains the ten assignment cases used for labeling and retrieval tests.
+- `intakes.json` contains the fifteen assignment cases used for labeling and retrieval tests.
 - `sources.json` is generated from `knowledge/index.json` with `npm run build:source-catalog`.
 - `labels/<labeler>.json` contains human source-level relevance judgments.
 - `results/` contains timestamped retrieval runs from `npm run eval:retrieval`.

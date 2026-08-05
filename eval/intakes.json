@@ -98,5 +98,55 @@
     "time": "One short timed quiz",
     "sourceDoc": "For three trigonometric functions, find amplitude, period, and midline and graph at least two full periods. Then solve four sine, cosine, and secant equations over specified degree or radian intervals.",
     "expectedProfile": "off-corpus"
+  },
+  {
+    "id": "spanish-10-literary-writing",
+    "grade": "Spanish 10A",
+    "assessment": "Escritura analítica o creativa en clase",
+    "parts": "El alumnado elige una de cuatro consignas sobre El laberinto del fauno y ‘La peste del insomnio’. Escribe una respuesta organizada de al menos 250 palabras, incorpora cuatro conectores y usa naturalmente un mínimo de cuatro oraciones con subjuntivo. Las opciones incluyen continuación imaginativa, análisis ideológico y comparaciones sobre imaginación o masculinidad.",
+    "goal": "Interpretar y comparar textos culturales con evidencia específica mientras se demuestra control idiomático de conectores, organización y voz subjuntiva en español.",
+    "time": "Una sesión de escritura en clase; la duración exacta no está indicada",
+    "sourceDoc": "Elige uno de cuatro temas y escribe una respuesta clara y organizada de un mínimo de 250 palabras. Incluye al menos cuatro conectores y cuatro oraciones que incorporen el subjuntivo de manera natural. Puedes imaginar cómo Macondo vuelve a la normalidad, analizar las ideologías opuestas en El laberinto del fauno, comparar la función de la imaginación en las dos obras o comparar las figuras masculinas centrales y lo que revelan sobre la masculinidad.",
+    "expectedProfile": "mixed"
+  },
+  {
+    "id": "spanish-10-art-analysis",
+    "grade": "Spanish 10A",
+    "assessment": "Descripción e interpretación escrita de una obra de arte",
+    "parts": "Después de observar tres obras en silencio, el alumnado elige una y escribe dos párrafos. El primero describe detalladamente personajes, objetos, acción, colores y efecto en el espectador. El segundo sigue un camino creativo, hablando desde la perspectiva de un personaje, o un camino analítico, defendiendo una interpretación con evidencia visual.",
+    "goal": "Usar español descriptivo y analítico para convertir observaciones visuales precisas en una interpretación o perspectiva creativa sustentada por detalles de la obra.",
+    "time": "Tres minutos de observación y aproximadamente 45 minutos de escritura en clase",
+    "sourceDoc": "Observa tres obras de arte durante un minuto cada una y elige una. Escribe dos párrafos separados. Primero, describe con detalle lo que ves: personajes, objetos, acción, gama de colores, sensación y elementos llamativos. Después elige un camino: habla desde dentro de la obra dando voz a un personaje, o interpreta la obra desde fuera y apoya cada afirmación con un aspecto visual específico.",
+    "expectedProfile": "mixed"
+  },
+  {
+    "id": "spanish-11-migration-synthesis",
+    "grade": "Spanish 11",
+    "assessment": "Síntesis y reflexión sobre migración",
+    "parts": "El alumnado integra un artículo del New York Times con otras lecturas y conversaciones de la unidad para responder seis preguntas sobre la escala y situación legal de la migración reciente, sus causas, la asimilación histórica, efectos positivos y negativos y posibles cambios de política.",
+    "goal": "Sintetizar datos, perspectivas históricas y argumentos de múltiples fuentes para explicar y evaluar la migración contemporánea en español.",
+    "time": "Actividad de conclusión o repaso; la duración exacta no está indicada",
+    "sourceDoc": "Considera el artículo ‘Recent Immigration Surge Has Been Largest in US History’ junto con los otros artículos y conversaciones de la unidad. Responde: ¿cuántas personas han inmigrado a EE. UU. en los últimos cuatro años y con qué situación legal?, ¿por qué hay tantos migrantes?, ¿cómo se compara la asimilación actual con la inmigración europea de finales del siglo XIX y comienzos del XX?, ¿cuáles son los efectos positivos y negativos?, y ¿qué cambios políticos pueden ocurrir con la nueva presidencia?",
+    "expectedProfile": "mixed"
+  },
+  {
+    "id": "spanish-9-oral-vocabulary",
+    "grade": "Spanish 9A",
+    "assessment": "Conversación oral colaborativa de vocabulario",
+    "parts": "En grupos de tres, el alumnado elige entre una conversación sobre horarios y pasatiempos personales o una entrevista actuada con personas famosas. El grupo prepara y sostiene una conversación interactiva, incorpora todas las palabras de vocabulario asignadas, distribuye la participación y graba el resultado para el profesor.",
+    "goal": "Usar vocabulario de horarios y pasatiempos con fluidez, creatividad, escucha y respuesta espontánea dentro de una conversación sostenida en español.",
+    "time": "10 minutos de preparación y 10 minutos de conversación grabada",
+    "sourceDoc": "En grupos de tres, elige un tema y prepara una conversación informal. Tema 1: compara la vida diaria, los fines de semana, el placer y la obligación. Tema 2: representa a personas famosas en una entrevista o pódcast sobre horarios y pasatiempos. Incorpora todas las palabras recibidas, haz que cada persona participe activamente durante diez minutos y graba la conversación para enviarla al profesor.",
+    "expectedProfile": "mixed"
+  },
+  {
+    "id": "spanish-9-command-scenarios",
+    "grade": "Spanish 9A",
+    "assessment": "Respuestas situacionales con mandatos y registro",
+    "parts": "El alumnado formula respuestas apropiadas para nueve situaciones cotidianas: pedir en una cafetería, dar instrucciones en casa, negociar una fecha con un profesor, aconsejar a un amigo enfermo, animar a un equipo, pedir silencio, orientar a un conductor, resolver una molestia en el metro y aconsejar a un paciente.",
+    "goal": "Elegir y producir mandatos, peticiones y consejos idiomáticos adecuados a la relación social, el contexto y el nivel de cortesía de cada situación.",
+    "time": "Actividad breve de práctica en clase; la duración exacta no está indicada",
+    "sourceDoc": "Para cada situación, decide qué le dices a la otra persona. Las situaciones incluyen pedir una bebida y comida en un café; pedir a una hermana que limpie la cocina; hablar con un profesor cuando coinciden varias pruebas; aconsejar a un amigo resfriado; animar a un equipo que pierde; pedir silencio a estudiantes en la biblioteca; orientar a un conductor de Uber; pedir a una pasajera que baje el volumen del teléfono; y aconsejar a un paciente hipocondríaco.",
+    "expectedProfile": "mixed"
   }
 ]

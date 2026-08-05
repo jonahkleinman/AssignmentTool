@@ -28,7 +28,7 @@ Key code:
 
 ## 2. What we are building (scope)
 
-1. A **labeled evaluation set**: ~8–10 representative assignment intakes, plus human relevance labels for each.
+1. A **labeled evaluation set**: 15 representative assignment intakes, plus human relevance labels for each.
 2. A **retrieval eval harness**: runs intakes through retrieval and computes Recall@k, Precision@k, MRR, nDCG.
 3. A **labeling UI**: an internal page where a human scores each source document's relevance to each intake.
 4. An **inter-annotator agreement** check between two labelers.
@@ -123,6 +123,11 @@ Already gathered and extracted (scanned ones OCR'd on-device via `scripts/ocr.sw
 | Tic-Tac-Toe | Java program (methods, arrays) | mixed |
 | Algebra II Exp/Log Test | Solve/evaluate, no calculator | **off-corpus (negative control)** |
 | Trig Quiz | Graph & solve trig equations | **off-corpus (negative control)** |
+| Spanish 10 literature writing | In-class analytical/creative writing with language constraints | mixed |
+| Spanish 10 visual-art analysis | Observation + descriptive and creative/analytical writing | mixed |
+| Spanish 11 migration synthesis | Multi-source factual, historical, and policy synthesis | mixed |
+| Spanish 9 oral vocabulary assessment | Prepared collaborative conversation + recording | mixed |
+| Spanish 9 command scenarios | Context-sensitive commands, requests, and advice | mixed |
 
 ---
 
