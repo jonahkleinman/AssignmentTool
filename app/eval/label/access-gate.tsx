@@ -3,7 +3,17 @@
 import { FormEvent, useState } from "react";
 import { useRouter } from "next/navigation";
 
-export function EvalAccessGate({ configured, labeler }: { configured: boolean; labeler: string }) {
+export function EvalAccessGate({
+  configured,
+  labeler,
+  title = "Retrieval relevance labeling",
+  description = "This workspace records expert judgments about which background sources can genuinely help redesign each assignment. Scores remain hidden from the retrieval system until labeling is complete.",
+}: {
+  configured: boolean;
+  labeler: string;
+  title?: string;
+  description?: string;
+}) {
   const router = useRouter();
   const [code, setCode] = useState("");
   const [error, setError] = useState<string | null>(null);
@@ -37,12 +47,10 @@ export function EvalAccessGate({ configured, labeler }: { configured: boolean; l
             Private review desk
           </p>
           <h1 className="mt-5 max-w-xl font-display text-4xl font-semibold leading-[0.98] tracking-[-0.04em] text-ink sm:text-5xl">
-            Retrieval relevance labeling
+            {title}
           </h1>
           <p className="mt-6 max-w-lg text-base leading-relaxed text-ink-soft">
-            This workspace records expert judgments about which background sources can genuinely
-            help redesign each assignment. Scores remain hidden from the retrieval system until
-            labeling is complete.
+            {description}
           </p>
           <div className="mt-8 inline-flex rounded-full border border-line-bright px-3 py-1.5 font-mono text-[0.65rem] uppercase tracking-[0.14em] text-ink-faint">
             Labeler · {labeler}

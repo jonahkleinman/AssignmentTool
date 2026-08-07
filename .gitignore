@@ -51,3 +51,7 @@ next-env.d.ts
 /eval/labels/*.json
 !/eval/labels/toy.json
 !/eval/labels/ai.json
+
+# blind output-evaluation answer keys and reveal exports stay private
+/eval/output-runs/
+/eval/output-exports/

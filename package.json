@@ -15,7 +15,9 @@
     "eval:ai-labels": "tsx scripts/ai-label-eval.ts",
     "eval:export-labels": "tsx scripts/export-eval-labels.ts",
     "eval:retrieval": "tsx scripts/eval-retrieval.ts",
-    "eval:agreement": "tsx scripts/eval-agreement.ts"
+    "eval:agreement": "tsx scripts/eval-agreement.ts",
+    "eval:output-generate": "tsx scripts/generate-rag-output-eval.ts",
+    "eval:output-export": "tsx scripts/export-rag-output-eval.ts"
   },
   "dependencies": {
     "@google-cloud/firestore": "^8.7.0",

@@ -3,7 +3,12 @@ import type { ChatCompletionMessageParam } from "openai/resources/chat/completio
 
 import { SYSTEM_PROMPT } from "@/lib/prompt";
 import { reasoningModel } from "@/lib/model";
-import { buildFocusedKnowledgeQuery, formatKnowledgeBlock, retrieve } from "@/lib/knowledge";
+import {
+  buildFocusedKnowledgeQuery,
+  formatKnowledgeBlock,
+  retrieve,
+  type RetrievedPassage,
+} from "@/lib/knowledge";
 
 export const runtime = "nodejs";
 
@@ -46,6 +51,21 @@ function normalizeMessages(value: unknown): ClientMessage[] | null {
 function errorMessage(error: unknown): string {
   if (error instanceof Error && error.message) return error.message;
   return "The studio could not stream a redesign right now.";
+}
+
+function logRetrievedPassages(passages: RetrievedPassage[]): void {
+  if (passages.length === 0) {
+    console.info("[redesign] no knowledge passages retrieved");
+    return;
+  }
+  console.info(
+    "[redesign] retrieved knowledge passages",
+    passages.map((passage) => ({
+      source: passage.source,
+      page: passage.page,
+      score: Number(passage.score.toFixed(3)),
+    })),
+  );
 }
 
 function extractInlineField(text: string, label: string): string {
@@ -120,6 +140,7 @@ export async function POST(request: Request): Promise<Response> {
   try {
     const query = buildRedesignKnowledgeQuery(clientMessages);
     const passages = await retrieve(client, query, 5, request.signal);
+    logRetrievedPassages(passages);
     knowledgeBlock = formatKnowledgeBlock(passages);
   } catch {
     // Retrieval is best-effort; fall back to prompt-only on any failure.

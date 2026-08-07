@@ -45,7 +45,7 @@ export const fileLabelsStorage: LabelsStorage = {
 
 let firestore: Firestore | undefined;
 
-function getFirestore(): Firestore {
+export function getEvalFirestore(): Firestore {
   if (firestore) return firestore;
   const encoded = process.env.FIREBASE_SERVICE_ACCOUNT_BASE64?.trim();
   if (encoded) {
@@ -74,7 +74,7 @@ function getFirestore(): Firestore {
 
 export const firestoreLabelsStorage: LabelsStorage = {
   async loadLabels(labeler) {
-    const snapshot = await getFirestore()
+    const snapshot = await getEvalFirestore()
       .collection(process.env.FIREBASE_LABELS_COLLECTION ?? "ragEvalLabels")
       .doc(normalizeLabeler(labeler, ""))
       .get();
@@ -83,7 +83,7 @@ export const firestoreLabelsStorage: LabelsStorage = {
 
   async saveLabels(file) {
     const validated = parseLabelsFile(file);
-    await getFirestore()
+    await getEvalFirestore()
       .collection(process.env.FIREBASE_LABELS_COLLECTION ?? "ragEvalLabels")
       .doc(validated.labeler)
       .set(validated);
